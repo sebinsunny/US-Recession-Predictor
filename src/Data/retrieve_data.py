@@ -67,10 +67,10 @@ class Response:
         most_recent_day = datetime.strptime(str(yahoo_df['Date'][0])[:10],
                                             '%Y-%m-%d').day
         if most_recent_day != 1:
-            yahoo_df = yahoo_df[0:]
+            yahoo_df = yahoo_df[1:]
             yahoo_df.reset_index(inplace=True)
             yahoo_df.drop('index', axis=1, inplace=True)
-        # extracting all dates in the dataframe adding these into the dates array
+        # extracting all dates in the dataframe adding these into the dates
         self.dates.extend([str(yahoo_df['Date'][index])[:10]
                            for index in range(0, len(yahoo_df))])
         # extracting all Adj close in yahoo finance
@@ -93,9 +93,22 @@ class Dataset:
                                 '3_Month_T-Bill_Rate': 'TB3MS',
                                 'IPI': 'INDPRO'}
         self.yahoo_series_ids = {'S&P_500_Index': '^GSPC'}
+        self.primary_output = {}
 
     def get_yahoo_data(self):
-        for series_id in self.yahoo_series_ids.keys():
-            stock_data = yahoo_data(self.yahoo_series_ids[series_id]).get_yahoo_quote()[::-1]
+        import time
+        for series_name in self.yahoo_series_ids.keys():
+            res = Response()
+            id = self.yahoo_series_ids[series_name]
+            print(f"geting data for {series_name} {id}")
+            try:
+                res.yahoo_response(id)
+            except requests.HTTPError:
+                delay = 5
+                print('\t --CONNECTION ERROR--',
+                      '\n\t Sleeping for {} seconds.'.format(delay))
+                time.sleep(delay)
 
-        return stock_data
+            self.primary_output[series_name] = res
+        print('Finished getting data from Yahoo Finance!')
+        return self.primary_output
