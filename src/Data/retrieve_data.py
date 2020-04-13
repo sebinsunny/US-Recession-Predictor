@@ -101,7 +101,8 @@ class Dataset:
                                 '10Y_Treasury_Rate': 'GS10',
                                 '5Y_Treasury_Rate': 'GS5',
                                 '3_Month_T-Bill_Rate': 'TB3MS',
-                                'IPI': 'INDPRO'}
+                                'IPI': 'INDPRO',
+                                'House_price_index':'CSUSHPISA'}
         self.yahoo_series_ids = {'S&P_500_Index': '^GSPC'}
         self.primary_output = {}
 
@@ -109,6 +110,7 @@ class Dataset:
         import time
         for series_name in self.yahoo_series_ids.keys():
             res = Response()
+
             id = self.yahoo_series_ids[series_name]
             print(f"geting data for {series_name} {id}")
             try:
@@ -132,6 +134,7 @@ class Dataset:
         print('\nGetting data from FRED API as of {}...'.format(most_recent_date))
         for series_name in self.fred_series_ids.keys():
             res = Response()
+
             id = self.fred_series_ids[series_name]
             params = {'series_id': id,
                       'api_key': self.api_key,
@@ -149,4 +152,5 @@ class Dataset:
                 time.sleep(delay)
 
             self.primary_output[series_name] = res
-        return res
+        return self.primary_output
+
