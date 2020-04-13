@@ -47,6 +47,7 @@ class Response:
     """
     Response from the yahoo and fred API data
     """
+    url = 'https://api.stlouisfed.org/fred/series/observations'
 
     def __init__(self):
         self.dates = []
@@ -58,12 +59,21 @@ class Response:
         :param params:
         :return:
         """
+        params = dict(params)
+        fred_response = requests.get(url=self.url, params=params)
+        fred_json_res = json.loads(fred_response.text)['observations']
+        for observation in fred_json_res:
+            self.dates.append(str(observation['date']))
+            self.values.append(float(observation['value']))
 
     def yahoo_response(self, id):
         id = str(id)
+        # reverse the dataset
         yahoo_df = yahoo_data(id).get_yahoo_quote()[::-1]
+        # reseting the dataframe index
         yahoo_df.reset_index(inplace=True)
         yahoo_df.drop('index', axis=1, inplace=True)
+        # checking the most recent date
         most_recent_day = datetime.strptime(str(yahoo_df['Date'][0])[:10],
                                             '%Y-%m-%d').day
         if most_recent_day != 1:
@@ -80,9 +90,9 @@ class Response:
 
 class Dataset:
     """
-    Contains the series id to fetech data from yahoo finance and fred API
+    Contains the series id to fetch data from yahoo finance and fred API
     """
-
+    api_key = 'f8e0e7a07dd220164976147cee128f16'
     def __init__(self):
         self.fred_series_ids = {'Non-farm_Payrolls': 'PAYEMS',
                                 'Civilian_Unemployment_Rate': 'UNRATE',
@@ -112,3 +122,31 @@ class Dataset:
             self.primary_output[series_name] = res
         print('Finished getting data from Yahoo Finance!')
         return self.primary_output
+
+    def get_fred_data(self):
+        import time
+        now = datetime.now()
+        month = now.strftime('%m')
+        year = now.year
+        most_recent_date = f'{year}-{month}-01'
+        print('\nGetting data from FRED API as of {}...'.format(most_recent_date))
+        for series_name in self.fred_series_ids.keys():
+            res = Response()
+            id = self.fred_series_ids[series_name]
+            params = {'series_id': id,
+                      'api_key': self.api_key,
+                      'file_type': 'json',
+                      'sort_order': 'desc',
+                      'realtime_start': most_recent_date,
+                      'realtime_end': most_recent_date}
+            print(f"geting data for {series_name} {id}")
+            try:
+                res.fred_response(params)
+            except requests.HTTPError:
+                delay = 5
+                print('\t --CONNECTION ERROR--',
+                      '\n\t Sleeping for {} seconds.'.format(delay))
+                time.sleep(delay)
+
+            self.primary_output[series_name] = res
+        return res
