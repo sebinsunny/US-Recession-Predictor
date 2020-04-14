@@ -61,10 +61,19 @@ class Response:
         """
         params = dict(params)
         fred_response = requests.get(url=self.url, params=params)
+
         fred_json_res = json.loads(fred_response.text)['observations']
-        for observation in fred_json_res:
-            self.dates.append(str(observation['date']))
-            self.values.append(float(observation['value']))
+        if (params['series_id'] == 'CSUSHPISA'):
+            for observation in fred_json_res:
+                if (observation['value'] != '.'):
+                    self.dates.append(datetime.strptime(str(observation['date']), '%Y-%m-%d'))
+                    self.values.append(float(observation['value']))
+
+
+        else:
+            for observation in fred_json_res:
+                self.dates.append(datetime.strptime(str(observation['date']), '%Y-%m-%d'))
+                self.values.append(float(observation['value']))
 
     def yahoo_response(self, id):
         id = str(id)
@@ -93,6 +102,7 @@ class Dataset:
     Contains the series id to fetch data from yahoo finance and fred API
     """
     api_key = 'f8e0e7a07dd220164976147cee128f16'
+    common_dates = []
     def __init__(self):
         self.fred_series_ids = {'Non-farm_Payrolls': 'PAYEMS',
                                 'Civilian_Unemployment_Rate': 'UNRATE',
@@ -102,9 +112,11 @@ class Dataset:
                                 '5Y_Treasury_Rate': 'GS5',
                                 '3_Month_T-Bill_Rate': 'TB3MS',
                                 'IPI': 'INDPRO',
-                                'House_price_index':'CSUSHPISA'}
+                                'House_price_index': 'CSUSHPISA'}
         self.yahoo_series_ids = {'S&P_500_Index': '^GSPC'}
         self.primary_output = {}
+        self.shortest_name_length = 1000000
+        self.shortest_series_name = ''
 
     def get_yahoo_data(self):
         import time
@@ -128,9 +140,9 @@ class Dataset:
     def get_fred_data(self):
         import time
         now = datetime.now()
-        month = now.strftime('%m')
+        month = int(now.strftime('%m')) - 2
         year = now.year
-        most_recent_date = f'{year}-{month}-01'
+        most_recent_date = '2020-04-13'  # f'{year}-0{month}-01'
         print('\nGetting data from FRED API as of {}...'.format(most_recent_date))
         for series_name in self.fred_series_ids.keys():
             res = Response()
@@ -152,5 +164,38 @@ class Dataset:
                 time.sleep(delay)
 
             self.primary_output[series_name] = res
-        return self.primary_output
+        self.sort_data()
+        print('Finished getting data from Fred API')
 
+    def get_common_dates(self):
+        for i in self.fred_series_ids:
+            self.common_dates.append(self.primary_output[i].dates)
+
+    def sort_data(self):
+        """
+        function is used to sort the primary output
+        """
+        from functools import reduce
+        date = []
+        fred_data = {}
+        t = []
+        for i in self.fred_series_ids:
+            if (i != 'House_price_index'):
+                self.
+            else:
+                date.append(self.primary_output[i].dates)
+
+        common_dates = reduce(set.intersection, map(set, date))
+        common_dates_two = reduce(set.intersection, map(set, t))
+        common_dates = list(common_dates)
+        count = 0
+        values = []
+        for i in self.primary_output['IPI'].dates:
+            for j in common_dates:
+                if (i == j):
+                    values.append(self.primary_output['IPI'].values[count])
+                    count = +1
+
+        print(len(values))
+
+        print("dd")
