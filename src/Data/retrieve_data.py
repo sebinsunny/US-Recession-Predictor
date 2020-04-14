@@ -205,7 +205,11 @@ class Dataset:
 
     #
     def combine_data(self):
-        self.df_with_all = self.fetch_data_one('House_price_index')
-        self.df_without_all = self.fetch_data_one('all')
+        self.df_without_all = self.fetch_data_one('House_price_index')
+        self.df_without_all.to_csv("Data/Datasets/raw_data_with_all.csv")
+        self.df_with_all = self.fetch_data_one('all')
+        self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv")
+
+    def calculation(self):
 
         print("")
