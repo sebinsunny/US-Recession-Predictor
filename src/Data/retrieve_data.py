@@ -171,31 +171,42 @@ class Dataset:
         for i in self.fred_series_ids:
             self.common_dates.append(self.primary_output[i].dates)
 
-    def sort_data(self):
-        """
-        function is used to sort the primary output
-        """
-        from functools import reduce
-        date = []
-        fred_data = {}
-        t = []
+    def get_dates(self,seriesid):
+        mindate=[]
+        maxdate=[]
         for i in self.fred_series_ids:
-            if (i != 'House_price_index'):
-                self.
-            else:
-                date.append(self.primary_output[i].dates)
+            if i == seriesid:
+                continue
+            mindate.append(min(self.primary_output[i].dates))
+            maxdate.append(max(self.primary_output[i].dates))
 
-        common_dates = reduce(set.intersection, map(set, date))
-        common_dates_two = reduce(set.intersection, map(set, t))
-        common_dates = list(common_dates)
-        count = 0
-        values = []
-        for i in self.primary_output['IPI'].dates:
-            for j in common_dates:
-                if (i == j):
-                    values.append(self.primary_output['IPI'].values[count])
-                    count = +1
+        self.start_date = max(mindate)
+        self.end_date = min(maxdate)
 
-        print(len(values))
+    def fetch_data(self,startdate,enddate,seriesid):
+        df = pd.DataFrame()
+        for series_name in list(self.fred_series_ids):
+            a = []
+            k = 0
+            if series_name == seriesid:
+                continue
+            for j in list(self.primary_output[series_name].dates):
+                if ((j >= self.start_date) and (j <= self.end_date)):
+                    a.append(self.primary_output[series_name].values[k])
+                k = k + 1
+            df[series_name]=a
+        return df
 
-        print("dd")
+
+
+    def sort_data(self):
+        self.get_dates('House_price_index')
+        df_house_price = self.fetch_data(self.start_date,self.end_date,"House_price_index")
+        self.get_dates('allfields')
+        df_all = self.fetch_data(self.start_date, self.end_date, "all")
+
+
+
+
+
+
