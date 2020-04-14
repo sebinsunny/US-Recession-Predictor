@@ -117,6 +117,8 @@ class Dataset:
         self.primary_output = {}
         self.shortest_name_length = 1000000
         self.shortest_series_name = ''
+        self.df_without_all = pd.DataFrame()
+        self.df_with_all = pd.DataFrame()
 
     def get_yahoo_data(self):
         import time
@@ -164,16 +166,20 @@ class Dataset:
                 time.sleep(delay)
 
             self.primary_output[series_name] = res
-        self.sort_data()
+        self.combine_data()
+
         print('Finished getting data from Fred API')
 
-    def get_common_dates(self):
-        for i in self.fred_series_ids:
-            self.common_dates.append(self.primary_output[i].dates)
+    def max_date(self):
+        a = []
+        for j in list(self.primary_output['Non-farm_Payrolls'].dates):
+            if ((j >= self.start_date) and (j <= self.end_date)):
+                a.append(j)
+        return a
 
-    def get_dates(self,seriesid):
-        mindate=[]
-        maxdate=[]
+    def fetch_data_one(self, seriesid):
+        mindate = []
+        maxdate = []
         for i in self.fred_series_ids:
             if i == seriesid:
                 continue
@@ -182,31 +188,24 @@ class Dataset:
 
         self.start_date = max(mindate)
         self.end_date = min(maxdate)
-
-    def fetch_data(self,startdate,enddate,seriesid):
         df = pd.DataFrame()
+        df['Date'] = self.max_date()
         for series_name in list(self.fred_series_ids):
             a = []
             k = 0
+
             if series_name == seriesid:
                 continue
             for j in list(self.primary_output[series_name].dates):
                 if ((j >= self.start_date) and (j <= self.end_date)):
                     a.append(self.primary_output[series_name].values[k])
                 k = k + 1
-            df[series_name]=a
+            df[series_name] = a
         return df
 
+    #
+    def combine_data(self):
+        self.df_with_all = self.fetch_data_one('House_price_index')
+        self.df_without_all = self.fetch_data_one('all')
 
-
-    def sort_data(self):
-        self.get_dates('House_price_index')
-        df_house_price = self.fetch_data(self.start_date,self.end_date,"House_price_index")
-        self.get_dates('allfields')
-        df_all = self.fetch_data(self.start_date, self.end_date, "all")
-
-
-
-
-
-
+        print("")
