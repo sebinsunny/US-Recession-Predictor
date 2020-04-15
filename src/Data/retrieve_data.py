@@ -225,3 +225,5 @@ class Dataprocessing:
             annualised_data = (df[seriesid][i]/df[seriesid][i+3])**(12/(month))
         return annualised_data
 
+
+df.append(Dataprocessing.annualise_data(df,'Non-farm_Payrolls',3))
