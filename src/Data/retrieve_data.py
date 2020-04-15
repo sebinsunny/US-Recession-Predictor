@@ -211,5 +211,17 @@ class Dataset:
         self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv")
 
     def calculation(self):
+        self.df_without_all=pd.read_csv("Data/Datasets/raw_data_with_all.csv")
 
-        print("")
+
+
+
+
+#Process data
+class Dataprocessing:
+    def annualise_data(df,seriesid,month):
+        annualised_data = []
+        for i in range(0,len(df) -12):
+            annualised_data = (df[seriesid][i]/df[seriesid][i+3])**(12/(month))
+        return annualised_data
+
