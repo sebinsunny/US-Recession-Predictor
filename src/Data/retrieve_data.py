@@ -211,7 +211,16 @@ class Dataset:
         self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv")
 
     def calculation(self):
-        self.df_without_all=pd.read_csv("Data/Datasets/raw_data_with_all.csv")
+        df_recession=pd.read_csv("Data/Datasets/raw_data_with_all.csv")
+        fieldstobe_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+
+        # annualisation
+        for i in fieldstobe_annaulised:
+            fieldname = i + '3_mo_annualised'
+            df_recession[fieldname] = Dataprocessing.annualise_data(df_recession, i, 3)
+            fieldname = i + '12_mo_annualised'
+            df_recession[fieldname] = Dataprocessing.annualise_data(df_recession, i, 12)
+
 
 
 
@@ -219,6 +228,8 @@ class Dataset:
 
 #Process data
 class Dataprocessing:
+    fieldstobe_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+
     def annualise_data(df,seriesid,month):
         annualised_data = []
         for i in range(0,len(df) -12):
@@ -226,4 +237,3 @@ class Dataprocessing:
         return annualised_data
 
 
-df.append(Dataprocessing.annualise_data(df,'Non-farm_Payrolls',3))
