@@ -90,8 +90,7 @@ class Response:
             yahoo_df.reset_index(inplace=True)
             yahoo_df.drop('index', axis=1, inplace=True)
         # extracting all dates in the dataframe adding these into the dates
-        self.dates.extend([str(yahoo_df['Date'][index])[:10]
-                           for index in range(0, len(yahoo_df))])
+        self.dates.extend(yahoo_df['Date'])
         # extracting all Adj close in yahoo finance
         self.values.extend([float(yahoo_df['Adj Close'][index])
                             for index in range(0, len(yahoo_df))])
@@ -149,6 +148,7 @@ class Dataset:
         for series_name in self.fred_series_ids.keys():
             res = Response()
 
+
             id = self.fred_series_ids[series_name]
             params = {'series_id': id,
                       'api_key': self.api_key,
@@ -166,7 +166,7 @@ class Dataset:
                 time.sleep(delay)
 
             self.primary_output[series_name] = res
-        self.combine_data()
+
 
         print('Finished getting data from Fred API')
 
@@ -180,7 +180,8 @@ class Dataset:
     def fetch_data_one(self, seriesid):
         mindate = []
         maxdate = []
-        for i in self.fred_series_ids:
+        fred_series_ids = dict(self.fred_series_ids, **self.yahoo_series_ids)
+        for i in fred_series_ids:
             if i == seriesid:
                 continue
             mindate.append(min(self.primary_output[i].dates))
@@ -190,7 +191,7 @@ class Dataset:
         self.end_date = min(maxdate)
         df = pd.DataFrame()
         df['Date'] = self.max_date()
-        for series_name in list(self.fred_series_ids):
+        for series_name in list(fred_series_ids):
             a = []
             k = 0
 
@@ -205,35 +206,32 @@ class Dataset:
 
     #
     def combine_data(self):
+        self.get_yahoo_data()
+        self.get_fred_data()
         self.df_without_all = self.fetch_data_one('House_price_index')
-        self.df_without_all.to_csv("Data/Datasets/raw_data_with_all.csv")
+        self.df_without_all.to_csv("Data/Datasets/raw_data_with_all.csv", index=False)
         self.df_with_all = self.fetch_data_one('all')
-        self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv")
+        self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv", index=False)
 
     def calculation(self):
-        df_recession=pd.read_csv("Data/Datasets/raw_data_with_all.csv")
-        fieldstobe_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+
+        df_recession = pd.read_csv("Data/Datasets/raw_data_with_all.csv")
+        fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+        df_processed_data = df_recession.truncate(after=len(df_recession) - 13)
 
         # annualisation
-        for i in fieldstobe_annaulised:
-            fieldname = i + '3_mo_annualised'
-            df_recession[fieldname] = Dataprocessing.annualise_data(df_recession, i, 3)
-            fieldname = i + '12_mo_annualised'
-            df_recession[fieldname] = Dataprocessing.annualise_data(df_recession, i, 12)
-
-
-
-
+        for i in fields_to_be_annaulised:
+            fieldname = i + '_3_mo_annualised'
+            df_processed_data[fieldname] = Dataprocessing.annualise_data(df_recession, i, 3)
+            fieldname = i + '_12_mo_annualised'
+            df_processed_data[fieldname] = Dataprocessing.annualise_data(df_recession, i, 12)
+        df_processed_data.to_csv('Data/Processed/finaldata.csv')
 
 
 #Process data
 class Dataprocessing:
-    fieldstobe_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
-
     def annualise_data(df,seriesid,month):
         annualised_data = []
-        for i in range(0,len(df) -12):
-            annualised_data = (df[seriesid][i]/df[seriesid][i+3])**(12/(month))
+        for i in range(0, len(df) - 12):
+            annualised_data.append((df[seriesid][i] / df[seriesid][i + 3]) ** (12 / (month)))
         return annualised_data
-
-
