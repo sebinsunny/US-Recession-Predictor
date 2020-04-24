@@ -75,6 +75,7 @@ class Response:
                 self.dates.append(datetime.strptime(str(observation['date']), '%Y-%m-%d'))
                 self.values.append(float(observation['value']))
 
+
     def yahoo_response(self, id):
         id = str(id)
         # reverse the dataset
@@ -212,26 +213,43 @@ class Dataset:
         self.df_without_all.to_csv("Data/Datasets/raw_data_with_all.csv", index=False)
         self.df_with_all = self.fetch_data_one('all')
         self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv", index=False)
+        return self.primary_output
 
     def calculation(self):
-
         df_recession = pd.read_csv("Data/Datasets/raw_data_with_all.csv")
-        fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+        fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
+        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI']
+
         df_processed_data = df_recession.truncate(after=len(df_recession) - 13)
+        final = pd.DataFrame()
 
         # annualisation
         for i in fields_to_be_annaulised:
             fieldname = i + '_3_mo_annualised'
             df_processed_data[fieldname] = Dataprocessing.annualise_data(df_recession, i, 3)
-            fieldname = i + '_12_mo_annualised'
-            df_processed_data[fieldname] = Dataprocessing.annualise_data(df_recession, i, 12)
-        df_processed_data.to_csv('Data/Processed/finaldata.csv')
+
+        # percentage_change
+        for i in fields_to_per_chg:
+            fieldname = i + '_3_month_pchg'
+
+            df_processed_data[fieldname] = Dataprocessing.percentage_chg(df_recession, i, 3)
+            fieldname = i + '_12_month_pchg'
+            df_processed_data[fieldname] = Dataprocessing.percentage_chg(df_recession, i, 12)
+        df_processed_data = df_processed_data.drop(['Civilian_Unemployment_Rate_3_month_pchg'], axis=1)
+        df_processed_data.to_csv('Data/Processed/finaldata.csv', index=False)
+        return df_processed_data
 
 
 #Process data
 class Dataprocessing:
-    def annualise_data(df,seriesid,month):
+    def annualise_data(df, seriesid, month):
         annualised_data = []
         for i in range(0, len(df) - 12):
             annualised_data.append((df[seriesid][i] / df[seriesid][i + 3]) ** (12 / (month)))
         return annualised_data
+
+    def percentage_chg(df, seriesid, month):
+        per_chg = []
+        for i in range(0, len(df) - 12):
+            per_chg.append((df[seriesid][i] / df[seriesid][i + month]) - 1)
+        return per_chg
