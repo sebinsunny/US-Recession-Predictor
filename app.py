@@ -3,7 +3,7 @@ import src.Data.retrieve_data as sk
 import src.Analysis.graph_api as gp
 from flask import Flask
 from flask_cors import CORS
-
+from flask import request
 app = Flask(__name__)
 CORS(app)
 
@@ -33,16 +33,17 @@ def feature_selection():
     return "success"
 
 
-@app.route('/graph')
+@app.route('/graph', methods=['GET'])
 def get_graph_data():
     try:
-        data = gp.feature_graph().graph_api_data()
-        print(data)
+        id = request.args.get("id")
+        data = gp.feature_graph().graph_api_data(id)
+        return data
+
 
 
     except:
-        print("error")
-    return data
+        return ("error")
 
 
 if __name__ == '__main__':

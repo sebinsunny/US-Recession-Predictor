@@ -22,7 +22,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>Datrics Data Science & Analytics HTML Template</title>
+    <title>Data Collection</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -126,11 +126,9 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
-                        <h4>Project Description</h4>
-                        <p style="color: #0b0b0b; font-size: 1.3em">Synergistically syndicate frictionless architectures
-                            via global e-services. Assertively
-                            pontificate adaptive e-tailers rather than cross-unit results. Assertively engineer top-line
-                            portals through one-to-one growth strategies. Efficiently.</p>
+                        <h4>10Y_Treasury_Rate</h4>
+                        <canvas id="one" height="50" width="100"></canvas>
+                        <p style="color: #0b0b0b; font-size: 1.3em"></p>
                     </div>
                 </div>
             </div>
@@ -150,10 +148,7 @@
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
                         <h4>Project Description</h4>
-                        <p style="color: #0b0b0b; font-size: 1.3em">Synergistically syndicate frictionless architectures
-                            via global e-services. Assertively
-                            pontificate adaptive e-tailers rather than cross-unit results. Assertively engineer top-line
-                            portals through one-to-one growth strategies. Efficiently.</p>
+                        <p style="color: #0b0b0b; font-size: 1.3em"></p>
                     </div>
                 </div>
             </div>
@@ -176,10 +171,7 @@
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
                         <h4>Project Description</h4>
-                        <p style="color: #0b0b0b; font-size: 1.3em">Synergistically syndicate frictionless architectures
-                            via global e-services. Assertively
-                            pontificate adaptive e-tailers rather than cross-unit results. Assertively engineer top-line
-                            portals through one-to-one growth strategies. Efficiently.</p>
+                        <p style="color: #0b0b0b; font-size: 1.3em">.</p>
                     </div>
                 </div>
             </div>
@@ -309,7 +301,28 @@
 <script src="../js/jquery.countdown.min.js"></script>
 <!--custom js-->
 <script src="../js/scripts.js"></script>
+<script src="../js/graph.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://cdn.rawgit.com/chartjs/chartjs-plugin-annotation/master/chartjs-plugin-annotation.min.js"></script>
 </body>
 
+<script>
+    fetch("data.json")
+        .then(data => data.json())
+        .then((text) => {
+
+            for (i in text['10Y_Treasury_Rate'][0]) {
+                arr.push(moment(text['10Y_Treasury_Rate'][0][i], 'YYYY-MM-DD').toDate());
+
+                f(arr, annotations, text, '10Y_Treasury_Rate', 'one')
+            }
+        }).catch(function (error) {
+        console.log('request failed', error)
+    });
+
+
+</script>
+>
 
 </html>
