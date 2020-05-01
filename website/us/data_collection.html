@@ -82,7 +82,6 @@
                 <ul class="navbar-nav ml-auto menu">
                     <li><a href="index.html"> Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
                     <li><a href="#" class="dropdown-toggle">Project</a>
                         <ul class="sub-menu">
                             <li><a href="https://companyandngo.xyz/melbourne.html">Melbourne House Price Calculator</a>
@@ -101,7 +100,7 @@
 <!--header section end-->
 
 <!--body content wrap start-->
-<div class="main">
+<div class="main" id="app">
 
     <!--header section start-->
     <section
@@ -127,8 +126,17 @@
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
                         <h4>10Y_Treasury_Rate</h4>
-                        <canvas id="one" height="50" width="100"></canvas>
-                        <p style="color: #0b0b0b; font-size: 1.3em"></p>
+                        <div class="alert alert-info" v-show="loading">
+                            Loading...
+                        </div>
+                        <div v-show="chart != null">
+                            <canvas id="myChart"></canvas>
+
+                        </div>
+                        <div>{{ graph }} </div>
+                        <h1></h1>
+
+
                     </div>
                 </div>
             </div>
@@ -301,28 +309,19 @@
 <script src="../js/jquery.countdown.min.js"></script>
 <!--custom js-->
 <script src="../js/scripts.js"></script>
-<script src="../js/graph.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script src="https://cdn.rawgit.com/chartjs/chartjs-plugin-annotation/master/chartjs-plugin-annotation.min.js"></script>
+<script src="../js/chartjs-plugin-annotation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="../js/graph.js"></script>
 </body>
 
 <script>
-    fetch("data.json")
-        .then(data => data.json())
-        .then((text) => {
-
-            for (i in text['10Y_Treasury_Rate'][0]) {
-                arr.push(moment(text['10Y_Treasury_Rate'][0][i], 'YYYY-MM-DD').toDate());
-
-                f(arr, annotations, text, '10Y_Treasury_Rate', 'one')
-            }
-        }).catch(function (error) {
-        console.log('request failed', error)
-    });
 
 
 </script>
->
+
 
 </html>

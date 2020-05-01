@@ -1,13 +1,32 @@
 import src.Data.retrieve_data as sk
 import src.features.build_features_and_labels as feature
 import json
+#
+# # d = sk.Dataset().calculation()
+# fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
+# fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
+# for i, j in zip(fields_to_be_annaulised, fields_to_per_chg):
+#     print(i, j)
+# import src.Analysis.graph_api as gp
+#
+# data = gp.feature_graph().graph_api_data()
+# print(data)
+import requests
+import json
+import pandas as pd
 
-# d = sk.Dataset().calculation()
-fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
-fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
-for i, j in zip(fields_to_be_annaulised, fields_to_per_chg):
-    print(i, j)
-import src.Analysis.graph_api as gp
+dates = []
+values = []
+r = requests.get(
+    'https://api.stlouisfed.org/fred/series/observations?series_id=AUSRECD&api_key=f8e0e7a07dd220164976147cee128f16&file_type=json&frequency=m')
+r = json.loads(r.text)['observations']
+for observation in r:
+    if (observation['value'] != '.'):
+        dates.append(str(observation['date']))
+        values.append(float(observation['value']))
 
-data = gp.feature_graph().graph_api_data()
-print(data)
+df = pd.DataFrame()
+df['Date'] = dates
+df['values'] = values
+
+df.to_csv("Recession.csv", index=False)

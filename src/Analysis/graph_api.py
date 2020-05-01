@@ -1,5 +1,6 @@
 import re
 from io import StringIO
+import src.Data.retrieve_data as yh
 import json
 from datetime import datetime, timedelta
 import requests
@@ -20,7 +21,8 @@ class feature_graph:
                                 '5Y_Treasury_Rate': 'GS5',
                                 '3_Month_Bill_Rate': 'TB3MS',
                                 'IPI': 'INDPRO',
-                                'House_price_index': 'CSUSHPISA'}
+                                'House_price_index': 'CSUSHPISA',
+                                'Recession': 'AUSRECD'}
         self.yahoo_series_ids = {'S&P_500': '^GSPC'}
 
         self.primary_output = {}
@@ -65,3 +67,6 @@ class feature_graph:
         self.primary_output[name] = [dates, values]
         print("success")
         return self.primary_output
+
+    def yahoo_data(self, id):
+        data = yh.yahoo_data(id).get_yahoo_quote()

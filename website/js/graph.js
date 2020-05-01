@@ -75,45 +75,52 @@ var app = new Vue({
         chart: null,
         loading: false
     },
+    methods: {
+        gets: function (name) {
+            {
+                this.loading = true
+                axios.get("http://localhost:5000/graph", {
+                    params: {
+                        id: 'Fed_Funds'
+                    }
+                }).then(response => {
+                        res = response.data
+                        var ctx = document.getElementById('myChart');
+                        var dates = res["Fed_Funds"][0].map(list => {
+                            return moment(list, 'YYYY-MM-DD').toDate()
+                        });
+                        var value = res["Fed_Funds"][1]
+                        var annotations = recession_data.map((date, index) => {
+                            return {
+                                type: 'box',
+                                xScaleID: 'x-axis-0',
+                                yScaleID: 'y-axis-0',
+                                xMin: date.start_date,
+                                xMax: date.end_date,
+                                yMin: 0,
+                                yMax: Math.max.apply(Math, value),
+                                backgroundColor: 'rgba(101, 33, 171, 0.5)',
+                                borderColor: 'rgb(101, 33, 171)',
+                                borderWidth: 1,
+
+
+                            }
+
+                        });
+                        this.chart = new Chart(ctx, f(dates, annotations, value));
+                    }
+                ).catch(error => {
+                    console.log(error);
+                    this.errored = true;
+                }).finally(() => {
+                    this.loading = false
+                })
+            }
+        }
+    },
     computed: {
-        get() {
-            this.loading = true
-            axios.get("http://localhost:5000/graph", {
-                params: {
-                    id: 'Fed_Funds'
-                }
-            }).then(response => {
-                    res = response.data
-                    var ctx = document.getElementById('myChart');
-                    var dates = res["Fed_Funds"][0].map(list => {
-                        return moment(list, 'YYYY-MM-DD').toDate()
-                    });
-                    var value = res["Fed_Funds"][1]
-                    var annotations = recession_data.map((date, index) => {
-                        return {
-                            type: 'box',
-                            xScaleID: 'x-axis-0',
-                            yScaleID: 'y-axis-0',
-                            xMin: date.start_date,
-                            xMax: date.end_date,
-                            yMin: 0,
-                            yMax: Math.max.apply(Math, value),
-                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
-                            borderColor: 'rgb(101, 33, 171)',
-                            borderWidth: 1,
-
-
-                        }
-
-                    });
-                    this.chart = new Chart(ctx, f(dates, annotations, value));
-                }
-            ).catch(error => {
-                console.log(error);
-                this.errored = true;
-            }).finally(() => {
-                this.loading = false
-            })
+        graph() {
+            this.gets('Fed_Funds')
         }
     }
 });
