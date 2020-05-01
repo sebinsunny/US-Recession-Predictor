@@ -73,33 +73,33 @@ var app = new Vue({
     el: '#app',
     data: {
         chart: null,
-        loading: false
+        loading: false,
     },
     methods: {
-        gets: function (name) {
+        gets: function (name, label, element) {
             {
                 this.loading = true
                 axios.get("http://localhost:5000/graph", {
                     params: {
-                        id: 'Fed_Funds'
+                        id: name
                     }
                 }).then(response => {
-                        res = response.data
-                        var ctx = document.getElementById('myChart');
-                        var dates = res["Fed_Funds"][0].map(list => {
-                            return moment(list, 'YYYY-MM-DD').toDate()
-                        });
-                        var value = res["Fed_Funds"][1]
-                        var annotations = recession_data.map((date, index) => {
-                            return {
-                                type: 'box',
-                                xScaleID: 'x-axis-0',
-                                yScaleID: 'y-axis-0',
-                                xMin: date.start_date,
-                                xMax: date.end_date,
-                                yMin: 0,
-                                yMax: Math.max.apply(Math, value),
-                                backgroundColor: 'rgba(101, 33, 171, 0.5)',
+                    res = response.data
+                    var ctx = document.getElementById(element);
+                    var dates = res[name][0].map(list => {
+                        return moment(list, 'YYYY-MM-DD').toDate()
+                    });
+                    var value = res[name][1]
+                    var annotations = recession_data.map((date, index) => {
+                        return {
+                            type: 'box',
+                            xScaleID: 'x-axis-0',
+                            yScaleID: 'y-axis-0',
+                            xMin: date.start_date,
+                            xMax: date.end_date,
+                            yMin: 0,
+                            yMax: Math.max.apply(Math, value),
+                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
                                 borderColor: 'rgb(101, 33, 171)',
                                 borderWidth: 1,
 
@@ -107,7 +107,7 @@ var app = new Vue({
                             }
 
                         });
-                        this.chart = new Chart(ctx, f(dates, annotations, value));
+                    this.chart = new Chart(ctx, f(dates, annotations, value, label));
                     }
                 ).catch(error => {
                     console.log(error);
@@ -120,19 +120,23 @@ var app = new Vue({
     },
     computed: {
         graph() {
-            this.gets('Fed_Funds')
+            this.gets('Fed_Funds', 'Effective Fed Funds', 'myChart')
+        },
+        consumer() {
+            this.gets('Consumer_Price_Index', 'Consumer Price Index', 'con')
         }
+
     }
 });
 
-function f(arr, annotation, value) {
+function f(arr, annotation, value, label) {
     var color = Chart.helpers.color;
     var config = {
         type: 'line',
         data: {
             labels: arr,
             datasets: [{
-                label: 'Effect Fed Funds Rates',
+                label: label,
                 backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
                 borderColor: window.chartColors.blue,
                 borderWidth: 1,
@@ -142,7 +146,7 @@ function f(arr, annotation, value) {
         },
         options: {
             title: {
-                text: 'Effect Fed Funds Rates'
+                text: label
             },
             scales: {
                 xAxes: [{
@@ -160,7 +164,7 @@ function f(arr, annotation, value) {
                 yAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'Effect Fed Funds Rates'
+                        labelString: label
                     }
                 }]
             },

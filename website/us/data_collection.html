@@ -91,7 +91,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+
                 </ul>
             </div>
         </div>
@@ -125,7 +125,7 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
-                        <h4>10Y_Treasury_Rate</h4>
+                        <h4>Effective Fund Rate</h4>
                         <div class="alert alert-info" v-show="loading">
                             Loading...
                         </div>
@@ -134,7 +134,13 @@
 
                         </div>
                         <div>{{ graph }} </div>
-                        <h1></h1>
+                        <p>Shaded region is Recession Period</p>
+                        <h5 v-show="chart!=null">
+                            The effective federal funds rate is the interest rate banks charge each other for overnight
+                            loans to meet their reserve requirements. Also known as the federal funds rate. The federal
+                            funds market consists of domestic unsecured borrowings in U.S. dollars by depository
+                            institutions from other depository institutions and certain other entities, primarily
+                            government-sponsored enterprises.</h5>
 
 
                     </div>
@@ -155,12 +161,28 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
-                        <h4>Project Description</h4>
-                        <p style="color: #0b0b0b; font-size: 1.3em"></p>
+                        <h4>Consumer Price Index</h4>
+                        <div class="alert alert-info" v-show="loading">
+                            Loading...
+                        </div>
+                        <div v-show="chart != null">
+                            <canvas id="con"></canvas>
+
+                        </div>
+                        <div>{{ consumer }} </div>
+                        <p>Shaded region is Recession Period</p>
+                        <h5 v-show="chart!=null">
+                            The Consumer Price Index for All Urban Consumers: All Items is a measure of the average
+                            monthly change in the price for goods and services paid by urban consumers between any two
+                            time periods. It can also represent the buying habits of urban consumers. This particular
+                            index includes roughly 88 percent of the total population, accounting for wage earners,
+                            clerical workers, technical workers, self-employed, short-term workers, unemployed,
+                            retirees, and those not in the labor force.
+                            <h5>
+
+
                     </div>
                 </div>
-            </div>
-        </div>
     </section>
 
     <!--project details section end-->

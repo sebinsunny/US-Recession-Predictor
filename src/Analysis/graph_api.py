@@ -32,7 +32,7 @@ class feature_graph:
         now = datetime.now()
         month = int(now.strftime('%m'))
         year = now.year
-        day = now.day - 1
+        day = now.day
         most_recent_date = f'{year}-0{month}-{day}'
         print('\nGetting data from FRED API as of {}...'.format(most_recent_date))
         id = self.fred_series_ids[name]
@@ -40,9 +40,8 @@ class feature_graph:
                   'api_key': self.api_key,
                   'file_type': 'json',
                   'sort_order': 'desc',
-                  'realtime_start': most_recent_date,
-                  'realtime_end': most_recent_date}
-        print(f"geting data for name")
+                  'frequency': 'm'}
+        print(f"geting data for {name}")
         try:
             fred_response = requests.get(url=self.url, params=params)
             dates = []

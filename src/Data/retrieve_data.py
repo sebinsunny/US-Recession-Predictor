@@ -236,12 +236,12 @@ class Dataset:
 
         # print(df_correl.corr())
 
-    # Add recession labels to the dataset
-     def recession_label_add(self):
-         create_recessionlabel()
-         create_recession_6mo_12mo_24mo_label()
+    # # Add recession labels to the dataset
+    # def recession_label_add(self):
+    #     # create_recessionlabel()
+    #     # create_recession_6mo_12mo_24mo_label()
 
-    #Function to create recession label
+    # Function to create recession label
     def create_recessionlabel(self):
 
         US_recessions = {'1': {'Start': '1957-08-01', 'End': '1958-04-01'},
