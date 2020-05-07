@@ -76,7 +76,7 @@ var app = new Vue({
         loading: false,
     },
     methods: {
-        gets: function (name, label, element) {
+        gets: function (name, label, element, type) {
             {
                 this.loading = true
                 axios.get("http://localhost:5000/graph", {
@@ -84,22 +84,22 @@ var app = new Vue({
                         id: name
                     }
                 }).then(response => {
-                    res = response.data
-                    var ctx = document.getElementById(element);
-                    var dates = res[name][0].map(list => {
-                        return moment(list, 'YYYY-MM-DD').toDate()
-                    });
-                    var value = res[name][1]
-                    var annotations = recession_data.map((date, index) => {
-                        return {
-                            type: 'box',
-                            xScaleID: 'x-axis-0',
-                            yScaleID: 'y-axis-0',
-                            xMin: date.start_date,
-                            xMax: date.end_date,
-                            yMin: 0,
-                            yMax: Math.max.apply(Math, value),
-                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
+                        res = response.data
+                        var ctx = document.getElementById(element);
+                        var dates = res[name][0].map(list => {
+                            return moment(list, 'YYYY-MM-DD').toDate()
+                        });
+                        var value = res[name][1]
+                        var annotations = recession_data.map((date, index) => {
+                            return {
+                                type: 'box',
+                                xScaleID: 'x-axis-0',
+                                yScaleID: 'y-axis-0',
+                                xMin: date.start_date,
+                                xMax: date.end_date,
+                                yMin: 0,
+                                yMax: Math.max.apply(Math, value),
+                                backgroundColor: 'rgba(101, 33, 171, 0.5)',
                                 borderColor: 'rgb(101, 33, 171)',
                                 borderWidth: 1,
 
@@ -107,7 +107,7 @@ var app = new Vue({
                             }
 
                         });
-                    this.chart = new Chart(ctx, f(dates, annotations, value, label));
+                        this.chart = new Chart(ctx, f(dates, annotations, value, label));
                     }
                 ).catch(error => {
                     console.log(error);
@@ -124,7 +124,39 @@ var app = new Vue({
         },
         consumer() {
             this.gets('Consumer_Price_Index', 'Consumer Price Index', 'con')
-        }
+        },
+
+        treasury() {
+            this.gets('10Y_Treasury_Rate', '10-Year Treasury Constant Maturity', 'te')
+        },
+
+        five_year() {
+            this.gets('5Y_Treasury_Rate', '5-Year Treasury Constant Maturity', 'five')
+        },
+
+        month_bill() {
+
+            this.gets('3_Month_Bill_Rate', '3-Month Treasury Constant Maturity', 'mont')
+        },
+
+        spread() {
+
+            this.gets('spread', '(10-Year Treasury Constant Maturity - 3-Month Treasury Constant Maturity)%', 'spd')
+        },
+        product() {
+
+            this.gets('IPI', 'Industrial Production Index', 'pd')
+        },
+        house() {
+            this.gets('House_price_index', 'Home Price Index', 'id')
+        },
+        yahoo() {
+            this.gets('yahoo', 'S&P 500 Index', 'yahoo')
+        },
+        spread_year() {
+            this.gets('twoyear', '(10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity)%', 'id')
+        },
+
 
     }
 });
