@@ -77,7 +77,6 @@ class Response:
                 self.dates.append(datetime.strptime(str(observation['date']), '%Y-%m-%d'))
                 self.values.append(float(observation['value']))
 
-
     def yahoo_response(self, id):
         id = str(id)
         # reverse the dataset
@@ -105,6 +104,7 @@ class Dataset:
     """
     api_key = 'f8e0e7a07dd220164976147cee128f16'
     common_dates = []
+
     def __init__(self):
         self.fred_series_ids = {'Non-farm_Payrolls': 'PAYEMS',
                                 'Civilian_Unemployment_Rate': 'UNRATE',
@@ -151,7 +151,6 @@ class Dataset:
         for series_name in self.fred_series_ids.keys():
             res = Response()
 
-
             id = self.fred_series_ids[series_name]
             params = {'series_id': id,
                       'api_key': self.api_key,
@@ -169,7 +168,6 @@ class Dataset:
                 time.sleep(delay)
 
             self.primary_output[series_name] = res
-
 
         print('Finished getting data from Fred API')
 
@@ -219,79 +217,22 @@ class Dataset:
 
     def get_correlation(self):
         df_correl = pd.read_csv("Data/Processed/finaldata.csv")
-        df_correl = df_correl.drop('Date',1)
+        df_correl = df_correl.drop('Date', 1)
         fig, ax = plt.subplots()
         sns.heatmap(df_correl.corr(method='pearson'), annot=True, fmt='.1f',
                     cmap=plt.get_cmap('coolwarm'), cbar=False, ax=ax)
         ax.set_yticklabels(ax.get_yticklabels(), rotation="horizontal")
         plt.savefig('result.png', bbox_inches='tight', pad_inches=0.0)
 
-        #
-        # corr = df_correl.corr()
-        # print(corr)
-        # corr.style.background_gradient(cmap='coolwarm')
-        #
-        # plt.matshow(corr)
-        # plt.show()
-
-        # print(df_correl.corr())
-
-    # # Add recession labels to the dataset
-    # def recession_label_add(self):
-    #     # create_recessionlabel()
-    #     # create_recession_6mo_12mo_24mo_label()
-
-    # Function to create recession label
-    def create_recessionlabel(self):
-
-        US_recessions = {'1': {'Start': '1957-08-01', 'End': '1958-04-01'},
-                         '2': {'Start': '1960-04-01', 'End': '1961-02-01'},
-                         '3': {'Start': '1969-12-01', 'End': '1970-11-01'},
-                         '4': {'Start': '1973-11-01', 'End': '1975-03-01'},
-                         '5': {'Start': '1980-01-01', 'End': '1980-07-01'},
-                         '6': {'Start': '1981-07-01', 'End': '1982-11-01'},
-                         '7': {'Start': '1990-07-01', 'End': '1991-03-01'},
-                         '8': {'Start': '2001-03-01', 'End': '2001-11-01'},
-                         '9': {'Start': '2007-12-01', 'End': '2009-06-01'}}
-        #Add column 'recession'to indicate recession for the year '1'for recession happened and '0' otherwise
-        row_no = len(self.final_df_output)
-        self.final_df_output['Recession'] = [0] * row_no
-
-        for recession in US_recessions:
-            end_condition = (US_recessions[recession]['End']
-                             >= self.final_df_output['Dates'])
-            start_condition = (self.final_df_output['Dates']
-                               >= US_recessions[recession]['Begin'])
-            self.final_df_output.loc[end_condition & start_condition, 'Recession'] = 1
-
-    #Function to create recession label for recession in 6 months , 12 months and 24 months
-    def create_recession_6mo_12mo_24mo_label(self):
-        #create columns for recession in 6moths, 12 months and 24 months
-        row_no = len(self.final_df_output)
-        self.final_df_output['Recession_in_6mo'] = [0] * row_no
-        self.final_df_output['Recession_in_12mo'] = [0] * row_no
-        self.final_df_output['Recession_in_24mo'] = [0] * row_no
-
-        #If recession label is 1, add 1 to Recession_in_6mo,Recession_in_12mo,Recession_in_24mo
-
-        for index in range(0, len(self.final_df_output)):
-            if self.final_df_output['Recession'][index] == 1:
-                self.final_df_output.loc[min(index + 6, len(self.final_df_output) - 1),
-                                         'Recession_in_6mo'] = 1
-                self.final_df_output.loc[min(index + 12, len(self.final_df_output) - 1),
-                                         'Recession_in_12mo'] = 1
-                self.final_df_output.loc[min(index + 24, len(self.final_df_output) - 1),
-                                         'Recession_in_24mo'] = 1
-
-
     def calculation(self):
-        #self.combine_data()
+        # self.combine_data()
         df_recession = pd.read_csv("Data/Datasets/raw_data_with_all.csv")
         fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
-        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI']
+        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI',
+                             '10Y_Treasury_Rate']
 
         df_processed_data = df_recession.truncate(after=len(df_recession) - 13)
-        final = pd.DataFrame()
+
 
         # annualisation
         for i in fields_to_be_annaulised:
@@ -306,11 +247,12 @@ class Dataset:
             fieldname = i + '_12_month_pchg'
             df_processed_data[fieldname] = Dataprocessing.percentage_chg(df_recession, i, 12)
         df_processed_data = df_processed_data.drop(['Civilian_Unemployment_Rate_3_month_pchg'], axis=1)
+        df_processed_data['']
         df_processed_data.to_csv('Data/Processed/finaldata.csv', index=False)
         return df_processed_data
 
 
-#Process data
+# Process data
 class Dataprocessing:
     def annualise_data(df, seriesid, month):
         annualised_data = []
