@@ -4,6 +4,8 @@ import json
 from datetime import datetime, timedelta
 import requests
 import pandas as pd
+from pandas.plotting import scatter_matrix
+import matplotlib.pyplot as plt
 
 
 class feature_graph:
@@ -65,3 +67,10 @@ class feature_graph:
         self.primary_output[name] = [dates, values]
         print("success")
         return self.primary_output
+
+#Class for data visualisation
+class field_scatterplot:
+    from scipy.misc import imsave
+    df = pd.read_csv("Data/final_features.csv")
+    g= scatter_matrix(df,figsize=(50,50))
+    plt.savefig(r"figure_1.png")

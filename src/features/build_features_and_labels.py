@@ -5,60 +5,55 @@ import pandas as pd
 
 
 class FinalizeDataset:
-    """
-    final data
-    """
+    final_df_output = pd.read_csv("Data/Processed/finaldata.csv")
 
-    def __init(self):
-        self.secondary_df_output = pd.DataFrame()
-        self.final_df_output = pd.DataFrame()
+    def threevstwelvemonth_change(self,threemo, twelvemo):
+        df = pd.DataFrame()
+        df["diff"] = self.final_df_outpu[threemo, twelvemo]
+        return df
 
-    def generate_features(self):
+    # create comparison features that compares payrolls, s&p,ipi for 3 vs 12 months
+    def create_comparison_features(self):
+        self.final_df_output['Payrolls_3mo_vs_12mo'] = self.threevstwelvemonth_change('Non-farm_Payrolls_3_mo_annualised','Non-farm_Payrolls_12_month_pchg')
+        self.final_df_output['S&P_500_3mo_vs_12mo'] = self.threevstwelvemonth_change('S&P_500_Index_3_month_pchg','S&P_500_Index_12_month_pchg')
+        self.final_df_output['IPI_3mo_vs_12mo'] = self.threevstewlvemonth_change('IPI_3_month_pchg','IPI_12_month_pchg')
+        self.final_df_output['CPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('CPI_All_Items_3_mo_annualised','CPI_All_Items_12_month_pchg')
 
-        payrolls_3_mo_vs_12mo = (self.secondary_df_output['farm_Payrolls_3_mo_annualised']
-                                 - self.secondary_df_output['Non-farm_Payrolls_3_month_pchg'])
-        CPI_3_mo_vs_12mo = (self.secondary_df_output['CPI_All_Items_3_mo_annualised']
-                            - self.secondary_df_output['CPI_All_Items_12_mo_annualised'])
-        SP500_3_mo_vs_12mo = (self.secondary_df_output['S&P_500_Index_3_mo_annualised']
-                              - self.secondary_df_output['S&P_500_Index_12_mo_annualised'])
-        IPI_3_mo_vs_12mo = (self.secondary_df_output['IPI_3_mo_annualised']
-                            - self.secondary_df_output['IPI_12_mo_annualised'])
 
-        self.final_df_output['Payrolls_3_mo_vs_12mo'] = payrolls_3_mo_vs_12mo
-        self.final_df_output['CPI_3_mo_vs_12mo'] = CPI_3_mo_vs_12mo
-        self.final_df_output['S&P_500_3_mo_vs_12mo'] = SP500_3_mo_vs_12mo
-        self.final_df_output['IPI_3_mo_vs_12mo'] = IPI_3_mo_vs_12mo
 
-    def data_label_output(self):
-        """
-        Labels the various outputs.
-        """
-        # https://www.nber.org/cycles.html
-        us_recessions = {'1': {'Begin': '1957-08-01', 'End': '1958-04-01'},
-                         '2': {'Begin': '1960-04-01', 'End': '1961-02-01'},
-                         '3': {'Begin': '1969-12-01', 'End': '1970-11-01'},
-                         '4': {'Begin': '1973-11-01', 'End': '1975-03-01'},
-                         '5': {'Begin': '1980-01-01', 'End': '1980-07-01'},
-                         '6': {'Begin': '1981-07-01', 'End': '1982-11-01'},
-                         '7': {'Begin': '1990-07-01', 'End': '1991-03-01'},
-                         '8': {'Begin': '2001-03-01', 'End': '2001-11-01'},
-                         '9': {'Begin': '2007-12-01', 'End': '2009-06-01'}}
+    # Function to create recession label
+    def create_recessionlabel(self):
 
-        observation_count = len(self.final_df_output)
-        self.final_df_output['Recession'] = [0] * observation_count
-        self.final_df_output['Recession_in_6mo'] = [0] * observation_count
-        self.final_df_output['Recession_in_12mo'] = [0] * observation_count
-        self.final_df_output['Recession_in_24mo'] = [0] * observation_count
-        self.final_df_output['Recession_within_6mo'] = [0] * observation_count
-        self.final_df_output['Recession_within_12mo'] = [0] * observation_count
-        self.final_df_output['Recession_within_24mo'] = [0] * observation_count
+        US_recessions = {'1': {'Start': '1957-08-01', 'End': '1958-04-01'},
+                         '2': {'Start': '1960-04-01', 'End': '1961-02-01'},
+                         '3': {'Start': '1969-12-01', 'End': '1970-11-01'},
+                         '4': {'Start': '1973-11-01', 'End': '1975-03-01'},
+                         '5': {'Start': '1980-01-01', 'End': '1980-07-01'},
+                         '6': {'Start': '1981-07-01', 'End': '1982-11-01'},
+                         '7': {'Start': '1990-07-01', 'End': '1991-03-01'},
+                         '8': {'Start': '2001-03-01', 'End': '2001-11-01'},
+                         '9': {'Start': '2007-12-01', 'End': '2009-06-01'}}
+        # Add column 'recession'to indicate recession for the year '1'for recession happened and '0' otherwise
+        row_no = len(self.final_df_output)
+        self.final_df_output['Recession'] = [0] * row_no
 
-        for recession in us_recessions:
-            end_condition = (us_recessions[recession]['End']
+        for recession in US_recessions:
+            end_condition = (US_recessions[recession]['End']
                              >= self.final_df_output['Date'])
-            begin_condition = (self.final_df_output['Date']
-                               >= us_recessions[recession]['Begin'])
-            self.final_df_output.loc[end_condition & begin_condition, 'Recession'] = 1
+            start_condition = (self.final_df_output['Date']
+                               >= US_recessions[recession]['Start'])
+            self.final_df_output.loc[end_condition & start_condition, 'Recession'] = 1
+
+        # Function to create recession label for recession in 6 months , 12 months and 24 months
+
+    def create_recession_6mo_12mo_24mo_label(self):
+        # create columns for recession in 6moths, 12 months and 24 months
+        row_no = len(self.final_df_output)
+        self.final_df_output['Recession_in_6mo'] = [0] * row_no
+        self.final_df_output['Recession_in_12mo'] = [0] * row_no
+        self.final_df_output['Recession_in_24mo'] = [0] * row_no
+
+        # If recession label is 1, add 1 to Recession_in_6mo,Recession_in_12mo,Recession_in_24mo
 
         for index in range(0, len(self.final_df_output)):
             if self.final_df_output['Recession'][index] == 1:
@@ -68,38 +63,13 @@ class FinalizeDataset:
                                          'Recession_in_12mo'] = 1
                 self.final_df_output.loc[min(index + 24, len(self.final_df_output) - 1),
                                          'Recession_in_24mo'] = 1
-                self.final_df_output.loc[index: min(index + 6, len(self.final_df_output) - 1),
-                'Recession_within_6mo'] = 1
-                self.final_df_output.loc[index: min(index + 12, len(self.final_df_output) - 1),
-                'Recession_within_12mo'] = 1
-                self.final_df_output.loc[index: min(index + 24, len(self.final_df_output) - 1),
-                'Recession_within_24mo'] = 1
-
     def create_final_dataset(self):
         """
         Creates and saves the final dataset.
         """
         print('\nCreating final dataset...')
-        self.secondary_df_output = pd.read_csv("Data/Processed/finaldata.csv")
-        self.secondary_df_output.sort_index(inplace=True)
-        self.final_df_output = self.secondary_df_output
-        self.generate_features()
-        self.data_label_output()
-        new_cols = ['Dates', 'Recession', 'Recession_in_6_month',
-                    'Recession_in_12_month', 'Recession_in_24_month',
-                    'Recession_within_6_month', 'Recession_within_12mo',
-                    'Recession_within_24mo', 'Payrolls_3mo_pct_chg_annualized',
-                    'Payrolls_12mo_pct_chg', 'Payrolls_3mo_vs_12mo',
-                    'Unemployment_Rate', 'Unemployment_Rate_12mo_chg',
-                    'Real_Fed_Funds_Rate', 'Real_Fed_Funds_Rate_12mo_chg',
-                    'CPI_3mo_pct_chg_annualized', 'CPI_12mo_pct_chg',
-                    'CPI_3mo_vs_12mo', '10Y_Treasury_Rate_12mo_chg',
-                    '3M_Treasury_Rate_12mo_chg', '3M_10Y_Treasury_Spread',
-                    '3M_10Y_Treasury_Spread_12mo_chg',
-                    '5Y_10Y_Treasury_Spread', 'S&P_500_3mo_chg',
-                    'S&P_500_12mo_chg', 'S&P_500_3mo_vs_12mo',
-                    'IPI_3mo_pct_chg_annualized', 'IPI_12mo_pct_chg',
-                    'IPI_3mo_vs_12mo']
-        self.final_df_output = self.final_df_output[new_cols]
+
+        self.create_recessionlabel()
+        self.create_recession_6mo_12mo_24mo_label()
         print('Finished creating final dataset!')
-        self.final_df_output.to_csv("Data/final_features.csv")
+        self.final_df_output.to_csv("Data/final_features.csv",index=False)
