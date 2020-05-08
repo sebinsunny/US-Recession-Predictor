@@ -27,7 +27,8 @@ class feature_graph:
                                 'House_price_index': 'CSUSHPISA',
                                 'Recession': 'AUSRECD',
                                 'yahoo': '^GSPC',
-                                'twoyear': 'T10Y2Y'}
+                                'twoyear': 'T10Y2Y',
+                                'new':'key'}
         self.primary_output = {}
 
     def graph_api_data(self, name):
