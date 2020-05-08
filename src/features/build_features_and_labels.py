@@ -9,15 +9,16 @@ class FinalizeDataset:
 
     def threevstwelvemonth_change(self,threemo, twelvemo):
         df = pd.DataFrame()
-        df["diff"] = self.final_df_outpu[threemo, twelvemo]
+        df["diff"] = self.final_df_output[threemo] - self.final_df_output[twelvemo]
         return df
 
     # create comparison features that compares payrolls, s&p,ipi for 3 vs 12 months
     def create_comparison_features(self):
         self.final_df_output['Payrolls_3mo_vs_12mo'] = self.threevstwelvemonth_change('Non-farm_Payrolls_3_mo_annualised','Non-farm_Payrolls_12_month_pchg')
         self.final_df_output['S&P_500_3mo_vs_12mo'] = self.threevstwelvemonth_change('S&P_500_Index_3_month_pchg','S&P_500_Index_12_month_pchg')
-        self.final_df_output['IPI_3mo_vs_12mo'] = self.threevstewlvemonth_change('IPI_3_month_pchg','IPI_12_month_pchg')
+        self.final_df_output['IPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('IPI_3_month_pchg','IPI_12_month_pchg')
         self.final_df_output['CPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('CPI_All_Items_3_mo_annualised','CPI_All_Items_12_month_pchg')
+        self.final_df_output.to_csv("Data/final_features_comparisonfields.csv", index=False)
 
 
 
@@ -38,14 +39,11 @@ class FinalizeDataset:
         self.final_df_output['Recession'] = [0] * row_no
 
         for recession in US_recessions:
-            end_condition = (US_recessions[recession]['End']
-                             >= self.final_df_output['Date'])
-            start_condition = (self.final_df_output['Date']
-                               >= US_recessions[recession]['Start'])
+            end_condition = (US_recessions[recession]['End'] >= self.final_df_output['Date'])
+            start_condition = (self.final_df_output['Date']  >= US_recessions[recession]['Start'])
             self.final_df_output.loc[end_condition & start_condition, 'Recession'] = 1
 
-        # Function to create recession label for recession in 6 months , 12 months and 24 months
-
+     # Function to create recession label for recession in 6 months , 12 months and 24 months
     def create_recession_6mo_12mo_24mo_label(self):
         # create columns for recession in 6moths, 12 months and 24 months
         row_no = len(self.final_df_output)
@@ -57,19 +55,14 @@ class FinalizeDataset:
 
         for index in range(0, len(self.final_df_output)):
             if self.final_df_output['Recession'][index] == 1:
-                self.final_df_output.loc[min(index + 6, len(self.final_df_output) - 1),
-                                         'Recession_in_6mo'] = 1
-                self.final_df_output.loc[min(index + 12, len(self.final_df_output) - 1),
-                                         'Recession_in_12mo'] = 1
-                self.final_df_output.loc[min(index + 24, len(self.final_df_output) - 1),
-                                         'Recession_in_24mo'] = 1
-    def create_final_dataset(self):
-        """
-        Creates and saves the final dataset.
-        """
-        print('\nCreating final dataset...')
+                self.final_df_output.loc[min(index + 6, len(self.final_df_output) - 1),'Recession_in_6mo'] = 1
+                self.final_df_output.loc[min(index + 12, len(self.final_df_output) - 1),'Recession_in_12mo'] = 1
+                self.final_df_output.loc[min(index + 24, len(self.final_df_output) - 1),'Recession_in_24mo'] = 1
 
+
+    def create_final_dataset(self):
+        self.create_comparison_features()
         self.create_recessionlabel()
         self.create_recession_6mo_12mo_24mo_label()
-        print('Finished creating final dataset!')
+        print('Dataset with all labels added')
         self.final_df_output.to_csv("Data/final_features.csv",index=False)
