@@ -47,4 +47,4 @@ def get_graph_data():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

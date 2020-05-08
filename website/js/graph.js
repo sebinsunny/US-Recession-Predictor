@@ -73,59 +73,102 @@ var app = new Vue({
     el: '#app',
     data: {
         chart: null,
-        loading: false
+        loading: false,
+    },
+    methods: {
+        gets: function (name, label, element, type) {
+            {
+                this.loading = true
+                axios.get("http://localhost:5000/graph", {
+                    params: {
+                        id: name
+                    }
+                }).then(response => {
+                        res = response.data
+                        var ctx = document.getElementById(element);
+                        var dates = res[name][0].map(list => {
+                            return moment(list, 'YYYY-MM-DD').toDate()
+                        });
+                        var value = res[name][1]
+                        var annotations = recession_data.map((date, index) => {
+                            return {
+                                type: 'box',
+                                xScaleID: 'x-axis-0',
+                                yScaleID: 'y-axis-0',
+                                xMin: date.start_date,
+                                xMax: date.end_date,
+                                yMin: 0,
+                                yMax: Math.max.apply(Math, value),
+                                backgroundColor: 'rgba(101, 33, 171, 0.5)',
+                                borderColor: 'rgb(101, 33, 171)',
+                                borderWidth: 1,
+
+
+                            }
+
+                        });
+                        this.chart = new Chart(ctx, f(dates, annotations, value, label));
+                    }
+                ).catch(error => {
+                    console.log(error);
+                    this.errored = true;
+                }).finally(() => {
+                    this.loading = false
+                })
+            }
+        }
     },
     computed: {
-        get() {
-            this.loading = true
-            axios.get("http://localhost:5000/graph", {
-                params: {
-                    id: 'Fed_Funds'
-                }
-            }).then(response => {
-                    res = response.data
-                    var ctx = document.getElementById('myChart');
-                    var dates = res["Fed_Funds"][0].map(list => {
-                        return moment(list, 'YYYY-MM-DD').toDate()
-                    });
-                    var value = res["Fed_Funds"][1]
-                    var annotations = recession_data.map((date, index) => {
-                        return {
-                            type: 'box',
-                            xScaleID: 'x-axis-0',
-                            yScaleID: 'y-axis-0',
-                            xMin: date.start_date,
-                            xMax: date.end_date,
-                            yMin: 0,
-                            yMax: Math.max.apply(Math, value),
-                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
-                            borderColor: 'rgb(101, 33, 171)',
-                            borderWidth: 1,
+        graph() {
+            this.gets('Fed_Funds', 'Effective Fed Funds', 'myChart')
+        },
+        consumer() {
+            this.gets('Consumer_Price_Index', 'Consumer Price Index', 'con')
+        },
+
+        treasury() {
+            this.gets('10Y_Treasury_Rate', '10-Year Treasury Constant Maturity', 'te')
+        },
+
+        five_year() {
+            this.gets('5Y_Treasury_Rate', '5-Year Treasury Constant Maturity', 'five')
+        },
+
+        month_bill() {
+
+            this.gets('3_Month_Bill_Rate', '3-Month Treasury Constant Maturity', 'mont')
+        },
+
+        spread() {
+
+            this.gets('spread', '(10-Year Treasury Constant Maturity - 3-Month Treasury Constant Maturity)%', 'spd')
+        },
+        product() {
+
+            this.gets('IPI', 'Industrial Production Index', 'pd')
+        },
+        house() {
+            this.gets('House_price_index', 'Home Price Index', 'id')
+        },
+        yahoo() {
+            this.gets('yahoo', 'S&P 500 Index', 'yahoo')
+        },
+        spread_year() {
+            this.gets('twoyear', '(10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity)%', 'id')
+        },
 
 
-                        }
-
-                    });
-                    this.chart = new Chart(ctx, f(dates, annotations, value));
-                }
-            ).catch(error => {
-                console.log(error);
-                this.errored = true;
-            }).finally(() => {
-                this.loading = false
-            })
-        }
     }
 });
 
-function f(arr, annotation, value) {
+function f(arr, annotation, value, label) {
     var color = Chart.helpers.color;
     var config = {
         type: 'line',
         data: {
             labels: arr,
             datasets: [{
-                label: 'Effect Fed Funds Rates',
+                label: label,
                 backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
                 borderColor: window.chartColors.blue,
                 borderWidth: 1,
@@ -135,7 +178,7 @@ function f(arr, annotation, value) {
         },
         options: {
             title: {
-                text: 'Effect Fed Funds Rates'
+                text: label
             },
             scales: {
                 xAxes: [{
@@ -153,7 +196,7 @@ function f(arr, annotation, value) {
                 yAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'Effect Fed Funds Rates'
+                        labelString: label
                     }
                 }]
             },
