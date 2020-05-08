@@ -8,7 +8,7 @@
     <!-- SEO Meta description -->
     <meta name="description"
           content="companyandngo">
-    <meta name="author" content="ThemeTags">
+    <meta name="author" content="Sebin Sunny">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content=""/> <!-- website name -->
@@ -81,7 +81,7 @@
     <!--start navbar-->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="https://companyandngo.xyz">
                 <img src="../img/log.png" alt="logo" class="img-fluid" style="height: 50px"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -90,7 +90,7 @@
             </button>
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu">
-                    <li><a href="https://companyandngo.xyz/index.html"> Home</a></li>
+                    <li><a href="https://companyandngo.xyz"> Home</a></li>
                     <li><a href="https://companyandngo.xyz/about-us.html">About Us</a></li>
                     <li><a href="#" class="dropdown-toggle">Project</a>
                         <ul class="sub-menu">
@@ -120,7 +120,7 @@
 
     <section class="project-details-section">
         <div class="container">
-            <h4 align="center">COVID-19 Financial Data Tracking</h4>
+
             <div class="row justify-content-between">
                 <div class="col-md-12 col-lg-8">
                     <div class="img-wrap mb-md-4 mb-lg-0">
@@ -132,15 +132,16 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="project-details-content text-justify">
-                        <h4>S&P 500 Index</h4>
-                        <div class="alert alert-info" v-show="loading">
-                            Loading...
-                        </div>
-                        <div v-show="chart != null">
-                            <canvas id="yahoo"></canvas>
+                        <br><br>
+                        <h6 align="center">COVID-19 Financial Data Tracking</h7>
+                            <div class="alert alert-info" v-show="loading">
+                                Loading...
+                            </div>
+                            <div v-show="chart != null">
+                                <canvas id="yahoo"></canvas>
 
-                        </div>
-                        <div>{{ yahoo }} </div>
+                            </div>
+                            <div>{{ yahoo }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
                             The S&P 500, or simply the S&P, is a stock market index that measures the stock performance
