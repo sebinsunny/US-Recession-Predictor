@@ -79,7 +79,7 @@ var app = new Vue({
         gets: function (name, label, element, type) {
             {
                 this.loading = true
-                axios.get("http://companyandngo.xyz:5000/", {
+                axios.get("http://companyandngo.xyz:5000/graph", {
                     params: {
                         id: name
                     }
