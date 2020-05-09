@@ -210,13 +210,13 @@ class Dataset:
         self.get_yahoo_data()
         self.get_fred_data()
         self.df_without_all = self.fetch_data_one('House_price_index')
-        self.df_without_all.to_csv("Data/Datasets/raw_data_with_all.csv", index=False)
+        self.df_without_all.to_csv("Data/Datasets/final_raw_data_model_one.csv", index=False)
         self.df_with_all = self.fetch_data_one('all')
-        self.df_with_all.to_csv("Data/Datasets/raw_data_with_house_price.csv", index=False)
+        self.df_with_all.to_csv("Data/Datasets/final_raw_data_model_two.csv", index=False)
         return self.primary_output
 
     def get_correlation(self):
-        df_correl = pd.read_csv("Data/Processed/finaldata.csv")
+        df_correl = pd.read_csv("Data/Raw_Data/final_raw_data_model_one.csv")
         df_correl = df_correl.drop('Date', 1)
         fig, ax = plt.subplots()
         sns.heatmap(df_correl.corr(method='pearson'), annot=True, fmt='.1f',
@@ -226,13 +226,11 @@ class Dataset:
 
     def calculation(self):
         # self.combine_data()
-        df_recession = pd.read_csv("Data/Datasets/raw_data_with_all.csv")
+        df_recession = pd.read_csv("Data/Datasets/final_raw_data_model_one.csv")
         fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
-        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI',
-                             '10Y_Treasury_Rate']
-
+        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI']
+        fields_to_12m_chg = ['Effective_Fed_Funds', '10Y_Treasury_Rate']
         df_processed_data = df_recession.truncate(after=len(df_recession) - 13)
-
 
         # annualisation
         for i in fields_to_be_annaulised:
@@ -246,9 +244,14 @@ class Dataset:
             df_processed_data[fieldname] = Dataprocessing.percentage_chg(df_recession, i, 3)
             fieldname = i + '_12_month_pchg'
             df_processed_data[fieldname] = Dataprocessing.percentage_chg(df_recession, i, 12)
+        for i in fields_to_12m_chg:
+            fieldname = i + '_12_chg'
+            df_processed_data[fieldname] = Dataprocessing.twelve(df_recession, i)
+
         df_processed_data = df_processed_data.drop(['Civilian_Unemployment_Rate_3_month_pchg'], axis=1)
-        df_processed_data['']
-        df_processed_data.to_csv('Data/Processed/finaldata.csv', index=False)
+        df_processed_data['3M_10Y_Treasury_Spread'] = (
+                    df_processed_data['10Y_Treasury_Rate'] - (df_processed_data['3_Month_T-Bill_Rate']))
+        df_processed_data.to_csv('Data/Raw_Data/final_raw_data.csv', index=False)
         return df_processed_data
 
 
@@ -264,4 +267,10 @@ class Dataprocessing:
         per_chg = []
         for i in range(0, len(df) - 12):
             per_chg.append((df[seriesid][i] / df[seriesid][i + month]) - 1)
+        return per_chg
+
+    def twelve(df, seriesid):
+        per_chg = []
+        for i in range(0, len(df) - 12):
+            per_chg.append((df[seriesid][i] / df[seriesid][i + 12]))
         return per_chg

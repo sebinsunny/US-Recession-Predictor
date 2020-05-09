@@ -5,7 +5,7 @@ import pandas as pd
 
 
 class FinalizeDataset:
-    final_df_output = pd.read_csv("Data/Processed/finaldata.csv")
+    final_df_output = pd.read_csv("Data/Raw_Data/final_raw_data.csv")
 
     def threevstwelvemonth_change(self,threemo, twelvemo):
         df = pd.DataFrame()
@@ -18,7 +18,7 @@ class FinalizeDataset:
         self.final_df_output['S&P_500_3mo_vs_12mo'] = self.threevstwelvemonth_change('S&P_500_Index_3_month_pchg','S&P_500_Index_12_month_pchg')
         self.final_df_output['IPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('IPI_3_month_pchg','IPI_12_month_pchg')
         self.final_df_output['CPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('CPI_All_Items_3_mo_annualised','CPI_All_Items_12_month_pchg')
-        self.final_df_output.to_csv("Data/final_features_comparisonfields.csv", index=False)
+        self.final_df_output.to_csv("Data/Raw_Data/final_features_comparisonfields.csv", index=False)
 
 
 
