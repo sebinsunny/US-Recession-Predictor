@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[2]:
 
 
 #importing necessary libraries
@@ -30,4 +30,5 @@ ax1.set_ylim([500,7500]) #setting up a limmit on first axis
 ax1.set_title("Australian Securities Exchange All Ordinaries monthly adjusted close index vs Recession")
 ax1.set_ylabel('ASX All Ordinaries monthly adjusted close index')
 ax2.set_ylabel('Recession')
+plt.axis('off')
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[4]:
 
 
 #importing necessary libraries
@@ -30,4 +30,5 @@ ax1.set_ylim([2,12]) #setting up a limmit on first axis
 ax1.set_title("Unemployment rate of Australia vs Recession")
 ax1.set_ylabel('Unemployment rate of Australia')
 ax2.set_ylabel('Recession')
+plt.axis('off')
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
+# In[25]:
 
 
 #importing necessary libraries
@@ -29,5 +29,11 @@ ax1.set_ylim([-6,6]) #setting up a limmit on first axis
 #giving meaningful names to the chart and both axises 
 ax1.set_title("Australia's 3 months and 10 years treasury rate spread vs Recession")
 ax1.set_ylabel('3 months and 10 years treasury rate spread')
-ax2.set_ylabel('Recession')
+plt.axis('off')
+
+
+# In[ ]:
+
+
+
 
