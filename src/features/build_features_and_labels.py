@@ -15,7 +15,6 @@ class FinalizeDataset:
     # create comparison features that compares payrolls, s&p,ipi for 3 vs 12 months
     def create_comparison_features(self):
         self.final_df_output['Payrolls_3mo_vs_12mo'] = self.threevstwelvemonth_change('Non-farm_Payrolls_3_mo_annualised','Non-farm_Payrolls_12_month_pchg')
-        self.final_df_output['S&P_500_3mo_vs_12mo'] = self.threevstwelvemonth_change('S&P_500_Index_3_month_pchg','S&P_500_Index_12_month_pchg')
         self.final_df_output['IPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('IPI_3_month_pchg','IPI_12_month_pchg')
         self.final_df_output['CPI_3mo_vs_12mo'] = self.threevstwelvemonth_change('CPI_All_Items_3_mo_annualised','CPI_All_Items_12_month_pchg')
         self.final_df_output.to_csv("Data/Raw_Data/final_features_comparisonfields.csv", index=False)

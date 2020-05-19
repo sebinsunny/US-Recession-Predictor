@@ -151,7 +151,7 @@ var app = new Vue({
             this.gets('House_price_index', 'Home Price Index', 'id')
         },
         yahoo() {
-            this.gets('yahoo', 'S&P 500 Index', 'yahoo')
+            this.gets('yahoo', 'Closing Price($)', 'yahoo')
         },
         spread_year() {
             this.gets('twoyear', '(10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity)%', 'id')
@@ -179,6 +179,9 @@ function f(arr, annotation, value, label) {
         options: {
             title: {
                 text: label
+            },
+            legend: {
+                display: false
             },
             scales: {
                 xAxes: [{

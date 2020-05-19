@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/getData')
+@app.route('/getdata')
 def get_data():
     res = {}
     try:

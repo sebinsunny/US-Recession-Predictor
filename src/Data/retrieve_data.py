@@ -227,9 +227,9 @@ class Dataset:
     def calculation(self):
         # self.combine_data()
         df_recession = pd.read_csv("Data/Datasets/final_raw_data_model_one.csv")
-        fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI', 'S&P_500_Index']
-        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'S&P_500_Index', 'IPI']
-        fields_to_12m_chg = ['Effective_Fed_Funds', '10Y_Treasury_Rate']
+        fields_to_be_annaulised = ['Non-farm_Payrolls', 'CPI_All_Items', 'IPI']
+        fields_to_per_chg = ['Non-farm_Payrolls', 'Civilian_Unemployment_Rate', 'CPI_All_Items', 'IPI']
+        fields_to_12m_chg = ['Effective_Fed_Funds', '10Y_Treasury_Rate', 'S&P_500_Index']
         df_processed_data = df_recession.truncate(after=len(df_recession) - 13)
 
         # annualisation

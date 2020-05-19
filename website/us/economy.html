@@ -131,17 +131,17 @@
             <!--project details row start-->
             <div class="row mt-5">
                 <div class="col-md-12">
-                    <div class="project-details-content text-justify">
+                    <div class="project-details-content">
                         <br><br>
-                        <h6 align="center">COVID-19 Financial Data Tracking</h7>
-                            <div class="alert alert-info" v-show="loading">
-                                Loading...
-                            </div>
-                            <div v-show="chart != null">
-                                <canvas id="yahoo"></canvas>
+                        <h7 align="center">COVID-19 Financial Data Tracking</h7>
+                        <div class="alert alert-info" v-show="loading">
+                            Loading...
+                        </div>
+                        <div v-show="chart != null">
+                            <canvas id="yahoo"></canvas>
 
-                            </div>
-                            <div>{{ yahoo }} </div>
+                        </div>
+                        <div>{{ yahoo }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
                             The S&P 500, or simply the S&P, is a stock market index that measures the stock performance

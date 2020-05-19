@@ -1,6 +1,5 @@
 import src.Data.retrieve_data as sk
-import src.features.build_features_and_labels as feature
-import json
+from src.features import build_features_and_labels as feature
 
 # sk.Dataset().combine_data()
 # sk.Dataset().calculation()
