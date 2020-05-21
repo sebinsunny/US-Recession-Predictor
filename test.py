@@ -4,10 +4,10 @@ import src.Models.svm as svm
 
 # sk.Dataset().combine_data()
 # sk.Dataset().calculation()
-feature.FinalizeDataset().create_final_dataset()
+# feature.FinalizeDataset().create_final_dataset()
 
 # data = gp.feature_graph().graph_api_data()
 # print(data)
 
-# data = svm.svm_prediction().svm_model_prediction()
-# print("data")
+data = svm.svm_prediction().svm_model_prediction()
+print("data")

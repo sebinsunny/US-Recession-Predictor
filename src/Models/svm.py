@@ -18,18 +18,19 @@ import os
 class svm_prediction:
 
     def __init__(self):
+        self.path = os.path.dirname(__file__)
         self.features = ['Date', 'Payrolls_3mo_vs_12mo', 'Effective_Fed_Funds_12_chg', 'CPI_All_Items_3_mo_annualised',
                          '10Y_Treasury_Rate_12_chg', '3M_10Y_Treasury_Spread', 'S&P_500_Index_12_chg',
                          'Recession_in_6mo',
                          'Recession_in_12mo', 'Recession_in_24mo']
-        self.df = pd.read_csv('/Users/sebin/Desktop/companyandngo/Data/final_features.csv')[::-1]
+        self.df = pd.read_csv("Data/final_features.csv")[::-1]
         self.recession_data = self.df[self.features]
         self.file = ['Recession_in_6mo', 'Recession_in_12mo']
         self.recession = {'Date': self.recession_data['Date'].tolist()}
-        self.path = os.path.dirname(__file__)
+
 
     def svm_model_prediction(self):
         for i in self.file:
-            svmc = pickle.load(open(i + '.sv', 'rb'))
+            svmc = pickle.load(open(self.path + '/' + i + '.sv', 'rb'))
             self.recession[i + '_probability'] = svmc.predict_proba(self.recession_data.iloc[:, 1:6])[:, 1].tolist()
         return self.recession
