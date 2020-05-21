@@ -8,13 +8,14 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+
+# get_ipython().run_line_magic('matplotlib', 'inline')
 # setting up our figure size
 plt.rcParams['figure.figsize']=(20,10) 
  # using a theme for better visualization
 plt.style.use('fivethirtyeight')
 # Read the AU Dataset
-AU_Final = pd.read_csv('AU Final.csv') 
+AU_Final = pd.read_csv('/Users/sebin/Desktop/companyandngo/Data/Datasets/AUFinal.csv')
 #setting date column to datetime
 AU_Final.Date = pd.to_datetime(AU_Final.Date) 
 #setting date column as index
@@ -31,4 +32,4 @@ ax1.set_title("Unemployment rate of Australia vs Recession")
 ax1.set_ylabel('Unemployment rate of Australia')
 ax2.set_ylabel('Recession')
 plt.axis('off')
-
+plt.show()

@@ -8,13 +8,12 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
-# setting up our figure size
+
 plt.rcParams['figure.figsize']=(20,10) 
  # using a theme for better visualization
 plt.style.use('fivethirtyeight')
 # Read the AU Dataset
-AU_Final = pd.read_csv('C:/Users/chack/Documents/companyandngo/Data/Datasets/AU Final.csv')
+AU_Final = pd.read_csv('/Users/sebin/Desktop/companyandngo/Data/Datasets/AUFinal.csv')
 
 
 # In[5]:
@@ -46,13 +45,11 @@ def draw_linechart(i):
 
 import matplotlib.animation as animation
 from IPython.display import HTML
-fig, ax1 = plt.subplots(figsize=(20, 10))
-animator = animation.FuncAnimation(fig, draw_linechart, frames=range(0,425,25))
-HTML(animator.to_jshtml()) 
 
+fig, ax1 = plt.subplots(figsize=(20, 10))
+animator = animation.FuncAnimation(fig, draw_linechart, frames=range(0, 425, 25))
+# HTML(animator.to_jshtml())
+writer = animation.ImageMagickFileWriter()
+animator.save('au_unemployment.gif', writer=writer)
 
 # In[ ]:
-
-
-
-
