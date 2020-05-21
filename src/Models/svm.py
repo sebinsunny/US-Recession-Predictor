@@ -30,6 +30,6 @@ class svm_prediction:
 
     def svm_model_prediction(self):
         for i in self.file:
-            svmc = pickle.load(open(self.path + '/' + i + '.sv', 'rb'))
+            svmc = pickle.load(open(i + '.sv', 'rb'))
             self.recession[i + '_probability'] = svmc.predict_proba(self.recession_data.iloc[:, 1:6])[:, 1].tolist()
         return self.recession
