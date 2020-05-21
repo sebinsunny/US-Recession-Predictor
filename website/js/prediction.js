@@ -79,17 +79,17 @@ var app = new Vue({
         gets: function (element) {
             {
                 this.loading = true
-                axios.get("http://127.0.0.1:5000/svm").then(response => {
-                        res = response.data
-                        var ctx = document.getElementById(element);
-                        var dates = res.Date.map(list => {
-                            return moment(list, 'YYYY-MM-DD').toDate()
-                        });
-                        var recession_in_12 = res.Recession_in_12mo_probability
-                        var recession_in_6 = res.Recession_in_6mo_probability
-                        var annotations = recession_data.map((date, index) => {
-                            return {
-                                type: 'box',
+                axios.get("https://api.companyandngo.xyz/svm").then(response => {
+                    res = response.data
+                    var ctx = document.getElementById(element);
+                    var dates = res.Date.map(list => {
+                        return moment(list, 'YYYY-MM-DD').toDate()
+                    });
+                    var recession_in_12 = res.Recession_in_12mo_probability
+                    var recession_in_6 = res.Recession_in_6mo_probability
+                    var annotations = recession_data.map((date, index) => {
+                        return {
+                            type: 'box',
                                 xScaleID: 'x-axis-0',
                                 yScaleID: 'y-axis-0',
                                 xMin: date.start_date,
