@@ -1,6 +1,7 @@
 from flask import Flask
 import src.Data.retrieve_data as sk
 import src.Analysis.graph_api as gp
+import src.Models.svm as svm
 from flask import Flask
 from flask_cors import CORS
 from flask import request
@@ -46,5 +47,17 @@ def get_graph_data():
         return ("error")
 
 
+@app.route('/svm', methods=['GET'])
+def get_svm():
+    try:
+        data = svm.svm_prediction().svm_model_prediction()
+        return data
+
+
+
+    except:
+        return ("error")
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host=('0.0.0.0'), debug=True)

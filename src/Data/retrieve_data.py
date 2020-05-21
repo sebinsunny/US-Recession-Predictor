@@ -144,10 +144,6 @@ class Dataset:
     def get_fred_data(self):
         import time
         now = datetime.now()
-        month = int(now.strftime('%m')) - 2
-        year = now.year
-        most_recent_date = '2020-04-13'  # f'{year}-0{month}-01'
-        print('\nGetting data from FRED API as of {}...'.format(most_recent_date))
         for series_name in self.fred_series_ids.keys():
             res = Response()
 
@@ -156,8 +152,7 @@ class Dataset:
                       'api_key': self.api_key,
                       'file_type': 'json',
                       'sort_order': 'desc',
-                      'realtime_start': most_recent_date,
-                      'realtime_end': most_recent_date}
+                      'frequency': 'm'}
             print(f"geting data for {series_name} {id}")
             try:
                 res.fred_response(params)
