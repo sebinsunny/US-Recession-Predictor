@@ -52,11 +52,8 @@ def get_svm():
     try:
         data = svm.svm_prediction().svm_model_prediction()
         return data
-
-
-
-    except:
-        return ("error")
+    except Exception as e:
+        return (e)
 
 
 if __name__ == '__main__':
