@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[11]:
 
 
 #importing necessary libraries
@@ -23,15 +23,15 @@ get_ipython().system('{sys.executable} -m pip install yellowbrick')
 from yellowbrick.classifier import ROCAUC
 
 
-# In[2]:
+# In[20]:
 
 
 # loading the cleaned and finalized dataset for US Recession Prediction
-df_us =pd.read_csv('final_features.csv')
+df_us =pd.read_csv('final_features.csv', skiprows=range(1, 25))#taking data until 24 months back of our latest date
 df_us
 
 
-# In[3]:
+# In[21]:
 
 
 #setting up our input and output
@@ -41,7 +41,7 @@ Y = df_us["Recession_in_24mo"]
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[4]:
+# In[22]:
 
 
 #fitting a logistic regression model on our train dataset
@@ -51,7 +51,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[5]:
+# In[23]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -60,25 +60,33 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[6]:
+# In[24]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[9]:
+# In[25]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[8]:
+# In[26]:
 
 
 #Logistic Regression ROC curve
 LR_rocauc = ROCAUC(LR,size=(1080,720))
 LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
+
+
+# In[27]:
+
+
+predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
+
+predicted_probs
 
