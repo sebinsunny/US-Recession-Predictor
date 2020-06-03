@@ -157,26 +157,3 @@ R_search_results = R_search.fit(X_train,Y_train)
 print("Best accuracy: %f gained by using this set of parameters%s" % (R_search_results.best_score_, R_search_results.best_params_))
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-recession_probabilities.to_csv('F:\companyandngo\Prediction models.csv',index=False)
-
-
-# In[40]:
-
-
-import pickle
-pickle.dump(best_model_6mo, open('C:/Users/chack/Documents/companyandngo/xgb_6mo.xg', 'wb'))
-pickle.dump(best_model_12mo, open('C:/Users/chack/Documents/companyandngo/xgb_12mo.xg', 'wb'))
-
