@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[311]:
+# In[3]:
 
 
 import pandas as pd
@@ -18,16 +18,16 @@ import matplotlib.pyplot as plt
 import pickle
 
 
-# In[273]:
+# In[28]:
 
 
 path = "C:/Users/61487/Desktop/CompanyNGO/companyandngo/Data/"
 All_data = pd.read_csv(path + 'final_features.csv')
-US_Dataset = pd.read_csv(path + 'final_features.csv',skiprows=range(1, 6))
+US_Dataset = pd.read_csv(path + 'final_features.csv',skiprows=range(1,17))
 US_Dataset.head()
 
 
-# In[277]:
+# In[29]:
 
 
 #declaring variables for features
@@ -54,7 +54,7 @@ Features = ['Date', 'Payrolls_3mo_vs_12mo', 'Effective_Fed_Funds_12_chg', 'CPI_A
 recession_dataset  = US_Dataset[Features]
 
 
-# In[260]:
+# In[6]:
 
 
 
@@ -67,7 +67,7 @@ Model_gb = GaussianNB()
 #Model_gb.fit(Features,Recession_12months)
 
 
-# In[299]:
+# In[30]:
 
 
 
@@ -81,7 +81,7 @@ Prediction_for_6months = Model_gb.predict(X_test)
 Prediction_for_6months 
 
 
-# In[307]:
+# In[8]:
 
 
 
@@ -95,7 +95,7 @@ recession_predicted_6mo
 recession_predicted_6mo.to_csv('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Naives_6mo.csv',index=False)
 
 
-# In[309]:
+# In[31]:
 
 
 #prediction for recession 12 months
@@ -113,12 +113,12 @@ recession_predicted_12
 recession_predicted_12.to_csv('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Naives_12mo.csv',index=False)
 
 
-# In[310]:
+# In[35]:
 
 
 
 #prediction for recession 2 years
-X_train, X_test, y_train, y_test = train_test_split(recession_dataset.iloc[:,1:5],Recession_24months, test_size=0.30,random_state=350)
+X_train, X_test, y_train, y_test = train_test_split(recession_dataset.iloc[:,1:6],Recession_24months, test_size=0.30,random_state=350)
 Model_gb.fit(X_train, y_train)
 Prediction_for_24months= Model_gb.predict(X_test)
 print(Prediction_for_24months)
@@ -132,22 +132,33 @@ recession_predicted_24
 recession_predicted_24.to_csv('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Naives_24mo.csv',index=False)
 
 
-# In[319]:
+# In[36]:
 
 
 
 recession_probabilities = pd.concat([date,recession_predicted_6mo,recession_predicted_12,recession_predicted_24 ],axis =1)
 recession_probabilities.columns = ['Date','Recession probability in 6 months','Recession probability in 12 months','Recession probability in 24 months']
 recession_probabilities.head(20)
+
+
+# In[37]:
+
+
 y_axis = ['Recession probability in 6 months','Recession probability in 12 months','Recession probability in 24 months']
 
 recession_probabilities.plot('Date', y_axis,figsize =(20,4))
 
 
-# In[312]:
+# In[38]:
 
 
-pickle.dump(recession_predicted_6, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Recession_in_6mo.nb', 'wb'))
-pickle.dump(recession_predicted_12, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Recession_in_12mo.nb', 'wb'))
-pickle.dump(recession_predicted_24, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/Prediction models/Naive_Bayes/Recession_in_24mo.nb', 'wb'))
+pickle.dump(recession_predicted_6, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/src/Models/Recession_in_6mo.nb', 'wb'))
+pickle.dump(recession_predicted_12, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/src/Models/Recession_in_12mo.nb', 'wb'))
+pickle.dump(recession_predicted_24, open('C:/Users/61487/Desktop/CompanyNGO/companyandngo/src/Models/Recession_in_24mo.nb', 'wb'))
+
+
+# In[ ]:
+
+
+
 
