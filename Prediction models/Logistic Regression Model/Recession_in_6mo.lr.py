@@ -21,9 +21,11 @@ import matplotlib.pyplot as plt
 import sys
 get_ipython().system('{sys.executable} -m pip install yellowbrick')
 from yellowbrick.classifier import ROCAUC
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import RandomizedSearchCV
 
 
-# In[37]:
+# In[2]:
 
 
 # loading the cleaned and finalized dataset for US Recession Prediction
@@ -31,7 +33,7 @@ df_us =pd.read_csv('final_features.csv', skiprows=range(1, 6))#taking data until
 df_us
 
 
-# In[38]:
+# In[3]:
 
 
 #setting up our input and output
@@ -58,12 +60,6 @@ print(lr.summary())
 LR = LogisticRegression(penalty='l2')
 LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
-
-
-# In[41]:
-
-
-LR
 
 
 # In[42]:
@@ -97,8 +93,53 @@ predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
 predicted_probs
 
 
-# In[18]:
+# In[76]:
 
 
+#Fine Tuning
 
+# implementing a Logistic Regression model with random hyperparameters
+LR = LogisticRegression(penalty='l1',dual=False,max_iter=110, solver='liblinear')
+LR.fit(X_train,Y_train)
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=110, multi_class='ovr', n_jobs=1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+
+# In[77]:
+
+
+#setting the parameters
+dual=[True,False]
+max_iter=[100,110,120,130,140]
+C = [1.0,1.5,2.0,2.5,3.0,3.5,4.0]
+param_grid = dict(dual=dual,max_iter=max_iter,C=C)
+
+
+# In[83]:
+
+
+#implementing a Grid search on our defined hyperparameters
+LR = LogisticRegression(penalty='l2')
+G_search = GridSearchCV(estimator=lr, param_grid=param_grid, cv = 3, n_jobs=-1)
+import time
+
+starting_time = time.time()
+G_search_results = G_search.fit(X_train,Y_train)
+# Summarizing the  results
+print("Best accuracy: %f gained by using this set of parameters%s" % (G_search_results.best_score_, G_search_results.best_params_))
+print("time of execution: " + str((time.time() - starting_time)) + ' ms')
+
+
+# In[79]:
+
+
+#implementing a Random search on our defined hyperparameters
+R_search = RandomizedSearchCV(estimator=lr, param_distributions=param_grid, cv = 3, n_jobs=-1)
+starting_time = time.time()
+R_search_results = R_search.fit(X_train,Y_train)
+# Summarizing the  results
+print("Best accuracy: %f gained by using this set of parameters%s" % (R_search_results.best_score_, R_search_results.best_params_))
+print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
