@@ -53,7 +53,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[106]:
+# In[122]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -62,21 +62,21 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[107]:
+# In[123]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[108]:
+# In[124]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[109]:
+# In[125]:
 
 
 #Logistic Regression ROC curve
@@ -85,12 +85,26 @@ LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
 
 
-# In[110]:
+# In[146]:
 
 
 predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
 
+predicted_probs.columns = ['Recession probability in 6 months']
 predicted_probs
+
+
+# In[147]:
+
+
+predicted_probs.to_csv('F:\companyandngo\Prediction models\Logistic Regression Model/lr_model_6mo.csv',index=False)
+
+
+# In[148]:
+
+
+import pickle
+pickle.dump(LR, open('F:\companyandngo\Prediction models\Logistic Regression Model/Recession_in_6mo.lr', 'wb'))
 
 
 # In[111]:
@@ -142,4 +156,27 @@ R_search_results = R_search.fit(X_train,Y_train)
 # Summarizing the  results
 print("Best accuracy: %f gained by using this set of parameters%s" % (R_search_results.best_score_, R_search_results.best_params_))
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+recession_probabilities.to_csv('F:\companyandngo\Prediction models.csv',index=False)
+
+
+# In[40]:
+
+
+import pickle
+pickle.dump(best_model_6mo, open('C:/Users/chack/Documents/companyandngo/xgb_6mo.xg', 'wb'))
+pickle.dump(best_model_12mo, open('C:/Users/chack/Documents/companyandngo/xgb_12mo.xg', 'wb'))
 

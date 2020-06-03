@@ -25,7 +25,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 
 
-# In[2]:
+# In[24]:
 
 
 # loading the cleaned and finalized dataset for US Recession Prediction
@@ -33,7 +33,7 @@ df_us =pd.read_csv('final_features.csv', skiprows=range(1, 25))#taking data unti
 df_us
 
 
-# In[3]:
+# In[25]:
 
 
 #setting up our input and output
@@ -43,7 +43,7 @@ Y = df_us["Recession_in_24mo"]
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[22]:
+# In[26]:
 
 
 #fitting a logistic regression model on our train dataset
@@ -53,7 +53,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[23]:
+# In[27]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -62,21 +62,21 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[24]:
+# In[28]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[25]:
+# In[29]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[26]:
+# In[30]:
 
 
 #Logistic Regression ROC curve
@@ -85,12 +85,25 @@ LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
 
 
-# In[27]:
+# In[45]:
 
 
 predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
-
+predicted_probs.columns = ['Recession probability in 24 months']
 predicted_probs
+
+
+# In[46]:
+
+
+predicted_probs.to_csv('F:\companyandngo\Prediction models\Logistic Regression Model/lr_model_24mo.csv',index=False)
+
+
+# In[47]:
+
+
+import pickle
+pickle.dump(LR, open('F:\companyandngo\Prediction models\Logistic Regression Model/Recession_in_24mo.lr', 'wb'))
 
 
 # In[17]:
