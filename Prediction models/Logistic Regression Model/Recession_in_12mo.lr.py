@@ -33,17 +33,18 @@ df_us =pd.read_csv('final_features.csv', skiprows=range(1, 13))#taking data unti
 df_us
 
 
-# In[32]:
+# In[58]:
 
 
 #setting up our input and output
-X = df_us[["Civilian_Unemployment_Rate","3M_10Y_Treasury_Spread"]]
+X = df_us[["Civilian_Unemployment_Rate",'Payrolls_3mo_vs_12mo', 'Effective_Fed_Funds_12_chg', 'CPI_All_Items_3_mo_annualised',
+            '10Y_Treasury_Rate_12_chg', 'S&P_500_Index_12_chg']]
 Y = df_us["Recession_in_12mo"]
 # train, test split on variables we are considering for recession prediction
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[33]:
+# In[59]:
 
 
 #fitting a logistic regression model on our train dataset
@@ -53,7 +54,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[34]:
+# In[60]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -62,21 +63,21 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[35]:
+# In[61]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[36]:
+# In[62]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[37]:
+# In[63]:
 
 
 #Logistic Regression ROC curve
@@ -85,7 +86,7 @@ LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
 
 
-# In[55]:
+# In[64]:
 
 
 predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
@@ -93,20 +94,20 @@ predicted_probs.columns = ['Recession probability in 12 months']
 predicted_probs
 
 
-# In[56]:
+# In[65]:
 
 
 predicted_probs.to_csv('F:\companyandngo\Prediction models\Logistic Regression Model/lr_model_12mo.csv',index=False)
 
 
-# In[57]:
+# In[66]:
 
 
 import pickle
 pickle.dump(LR, open('F:\companyandngo\Prediction models\Logistic Regression Model/Recession_in_12mo.lr', 'wb'))
 
 
-# In[22]:
+# In[67]:
 
 
 #Fine Tuning
@@ -120,7 +121,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
           verbose=0, warm_start=False)
 
 
-# In[23]:
+# In[68]:
 
 
 #setting the parameters
@@ -130,7 +131,7 @@ C = [1.0,1.5,2.0,2.5]
 param_grid = dict(dual=dual,max_iter=max_iter,C=C)
 
 
-# In[28]:
+# In[69]:
 
 
 #implementing a Grid search on our defined hyperparameters
@@ -145,7 +146,7 @@ print("Best accuracy: %f gained by using this set of parameters%s" % (G_search_r
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
 
-# In[29]:
+# In[70]:
 
 
 #implementing a Random search on our defined hyperparameters
