@@ -130,19 +130,14 @@ recession_probabilities
 # In[37]:
 
 
-recession_probabilities.to_csv('C:/Users/chack/Documents/companyandngo/XGB_model1.csv',index=False)
-
+recession_probabilities.to_csv('C:/Users/chack/Documents/companyandngo/XGB_model1.csv', index=False)
 
 # In[40]:
 
 
 import pickle
-pickle.dump(best_model_6mo, open('C:/Users/chack/Documents/companyandngo/xgb_6mo.xg', 'wb'))
-pickle.dump(best_model_12mo, open('C:/Users/chack/Documents/companyandngo/xgb_12mo.xg', 'wb'))
 
+pickle.dump(best_model_6mo, open('C:/Users/chack/Documents/companyandngo/Recession_in_6mo.xg', 'wb'))
+pickle.dump(best_model_12mo, open('C:/Users/chack/Documents/companyandngo/Recession_in_12mo.xg', 'wb'))
 
 # In[ ]:
-
-
-
-

@@ -20,7 +20,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>Data Collection</title>
+    <title>Melbourne house price visualization</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -58,6 +58,10 @@
             color: white;
         }
 
+        p {
+            color: black;
+            font-size: 1.2em;
+        }
 
     </style>
 
@@ -245,6 +249,78 @@
     </div>
 </section>
 
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph4" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        In the graph above, we evaluated the number of house sales in Melbourne from 2016-2020. From the
+                        results shown in the graph above, we can conclude that the number of house sales in June 2018 is
+                        at a
+                        maximum of around 5000. From 2016 to 2018, house sales increased despite a small decrease in
+                        December 2019. House prices fell to the smallest number in 2020 relative to all previous years
+                        up to
+                        2016.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph5" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        The main aim of the graph above is to display the variation in prices of homes in Melbourne from
+                        2016-
+                        2020. In 2016 to 17 house prices the median house price is raised, but there is a persistent
+                        drop in the
+                        median price in 2017 to 2020. In August 2017, the average house prices were at a high of about
+                        900
+                        thousand. The median house price fell to the lowest point in 2020 relative to the previous
+                        year’s up to
+                        2016.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <!--body content wrap end-->
 
 <!--footer section start-->
@@ -320,6 +396,7 @@
 <!--custom js-->
 <script src="../js/scripts.js"></script>
 
+
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
@@ -327,6 +404,13 @@
 <script src="../js/chartjs-plugin-annotation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 <script src="../js/tableau.js"></script>
+<script>
+    initViz('graph1', 'https://public.tableau.com/views/FinalVisualisation_15899601798510/Dashboard5')
+    initViz('graph2', 'https://public.tableau.com/shared/GQ69JMJ9H?:display_count=y&:origin=viz_share_link')
+    initViz('graph3', 'https://public.tableau.com/views/houseprice_15911559588360/Dashboard1?:display_count=y&:origin=viz_share_link')
+    initViz('graph4', 'https://public.tableau.com/views/Timevisualisationformelbourne/Dashboard2?:display_count=y&:origin=viz_share_link')
+    initViz('graph5', 'https://public.tableau.com/views/Timevisualisationformelbourne/Dashboard1?:display_count=y&:origin=viz_share_link')
+</script>
 
 </body>
 </html>

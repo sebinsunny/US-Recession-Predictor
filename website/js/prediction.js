@@ -76,10 +76,11 @@ var app = new Vue({
         loading: false,
     },
     methods: {
-        gets: function (element) {
+        gets: function (element, model) {
             {
                 this.loading = true
-                axios.get("https://api.companyandngo.xyz/svm").then(response => {
+                url = 'http://localhost:5000/xg'
+                axios.get(url).then(response => {
                     res = response.data
                     var ctx = document.getElementById(element);
                     var dates = res.Date.map(list => {
@@ -117,7 +118,10 @@ var app = new Vue({
     },
     computed: {
         graph() {
-            this.gets('svm')
+            this.gets('svm', 'svm')
+        },
+        xg() {
+            this.gets('xg', 'xg')
         },
 
 

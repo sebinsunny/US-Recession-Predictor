@@ -64,4 +64,5 @@ class FinalizeDataset:
         self.create_recessionlabel()
         self.create_recession_6mo_12mo_24mo_label()
         print('Dataset with all labels added')
-        self.final_df_output.to_csv("Data/final_features.csv",index=False)
+        self.final_df_output.to_csv("Data/final_features.csv", index=False)
+        self.final_df_output.to_csv("website/recession_data.csv", index=False)
