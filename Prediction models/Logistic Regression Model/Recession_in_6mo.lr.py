@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[102]:
 
 
 #importing necessary libraries
@@ -25,7 +25,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 
 
-# In[2]:
+# In[103]:
 
 
 # loading the cleaned and finalized dataset for US Recession Prediction
@@ -33,7 +33,7 @@ df_us =pd.read_csv('final_features.csv', skiprows=range(1, 6))#taking data until
 df_us
 
 
-# In[3]:
+# In[104]:
 
 
 #setting up our input and output
@@ -43,7 +43,7 @@ Y = df_us["Recession_in_6mo"]
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[39]:
+# In[105]:
 
 
 #fitting a logistic regression model on our train dataset
@@ -53,7 +53,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[40]:
+# In[106]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -62,21 +62,21 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[42]:
+# In[107]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[43]:
+# In[108]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[44]:
+# In[109]:
 
 
 #Logistic Regression ROC curve
@@ -85,7 +85,7 @@ LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
 
 
-# In[45]:
+# In[110]:
 
 
 predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
@@ -93,7 +93,7 @@ predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
 predicted_probs
 
 
-# In[76]:
+# In[111]:
 
 
 #Fine Tuning
@@ -107,7 +107,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
           verbose=0, warm_start=False)
 
 
-# In[77]:
+# In[112]:
 
 
 #setting the parameters
@@ -117,12 +117,12 @@ C = [1.0,1.5,2.0,2.5,3.0,3.5,4.0]
 param_grid = dict(dual=dual,max_iter=max_iter,C=C)
 
 
-# In[83]:
+# In[114]:
 
 
 #implementing a Grid search on our defined hyperparameters
 LR = LogisticRegression(penalty='l2')
-G_search = GridSearchCV(estimator=lr, param_grid=param_grid, cv = 3, n_jobs=-1)
+G_search = GridSearchCV(estimator=LR, param_grid=param_grid, cv = 3, n_jobs=-1)
 import time
 
 starting_time = time.time()
@@ -132,11 +132,11 @@ print("Best accuracy: %f gained by using this set of parameters%s" % (G_search_r
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
 
-# In[79]:
+# In[115]:
 
 
 #implementing a Random search on our defined hyperparameters
-R_search = RandomizedSearchCV(estimator=lr, param_distributions=param_grid, cv = 3, n_jobs=-1)
+R_search = RandomizedSearchCV(estimator=LR, param_distributions=param_grid, cv = 3, n_jobs=-1)
 starting_time = time.time()
 R_search_results = R_search.fit(X_train,Y_train)
 # Summarizing the  results

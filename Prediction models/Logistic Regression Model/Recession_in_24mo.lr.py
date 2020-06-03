@@ -117,12 +117,12 @@ C = [1.0,1.5,2.0,2.5]
 param_grid = dict(dual=dual,max_iter=max_iter,C=C)
 
 
-# In[19]:
+# In[21]:
 
 
 #implementing a Grid search on our defined hyperparameters
 LR = LogisticRegression(penalty='l2')
-G_search = GridSearchCV(estimator=lr, param_grid=param_grid, cv = 3, n_jobs=-1)
+G_search = GridSearchCV(estimator=LR, param_grid=param_grid, cv = 3, n_jobs=-1)
 import time
 
 starting_time = time.time()
@@ -132,11 +132,11 @@ print("Best accuracy: %f gained by using this set of parameters%s" % (G_search_r
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
 
-# In[20]:
+# In[22]:
 
 
 #implementing a Random search on our defined hyperparameters
-R_search = RandomizedSearchCV(estimator=lr, param_distributions=param_grid, cv = 3, n_jobs=-1)
+R_search = RandomizedSearchCV(estimator=LR, param_distributions=param_grid, cv = 3, n_jobs=-1)
 starting_time = time.time()
 R_search_results = R_search.fit(X_train,Y_train)
 # Summarizing the  results
