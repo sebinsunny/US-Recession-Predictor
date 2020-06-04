@@ -184,7 +184,27 @@
                 <div class="col-md-12">
                     <div class="project-details-content">
                         <br><br>
-                        <h3>Data Selection</h3>
+                        <h3>Model Selection</h3>
+
+
+                             <div class="text-center">
+  <img src="../graph/j.png" style="height: 500px;width: 70%">
+</div>
+                        <p><strong>Step 1:</strong> Data split and Adaptive Synthetic Method to perform minority class oversampling
+</p>
+
+               <div class="text-center">
+  <img src="../graph/c.png" style="height: 700px;width: 70%">
+</div>
+ <p><strong>Step 2:</strong> Determine ideal hyper parameters for each model for recession to maximize ROC_ AUC curve  to evaluate each model and identify best model to be used
+</p>
+
+          <div class="text-center">
+  <img src="../graph/b.png" style="height: 200px;width: 80%">
+</div>
+ <p><strong>Step 3:</strong> Selecting the best model based on ROC validation score so Logistic regression to predict recession probabilities
+</p>
+
 
 
                     </div>
@@ -224,7 +244,7 @@
                                 </td>
                                 <td>{colsample_bytree: 0.9, gamma: 0.0, max_depth: 8, reg_alpha: 0.005}</td>
                                 <td>0.960555</td>
-                                <td>0.436709</td>
+                                <td>0.426709</td>
                             </tr>
                             <tr>
 
@@ -238,7 +258,7 @@
                                 <td>Logistic Regression</td>
                                 <td>{C: 1000.0, penalty: l2}</td>
                                 <td>0.880414</td>
-                                <td>0.420584</td>
+                                <td>0.430584</td>
                             </tr>
                             <tr>
 
@@ -291,7 +311,7 @@
                                 </td>
                                 <td>{colsample_bytree: 0.9, gamma: 0.2, max_depth: 9, reg_alpha: 0}</td>
                                 <td>0.953282</td>
-                                <td>0.617096</td>
+                                <td>0.607096</td>
                             </tr>
                             <tr>
 
@@ -305,7 +325,7 @@
                                 <td>Logistic Regression</td>
                                 <td>{C: 1000.0, penalty: l2}</td>
                                 <td>0.844857</td>
-                                <td>0.609935</td>
+                                <td>0.619935</td>
                             </tr>
                             <tr>
 
