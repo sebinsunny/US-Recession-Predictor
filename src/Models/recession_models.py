@@ -49,3 +49,13 @@ class recession_models:
             self.price['melbourne_price']=np.round(svmc.predict(house_price).tolist(),2).tolist()
 
         return self.price
+
+    def sydney_house(self, market,population,school,hospital,distance,room):
+        for i in self.file:
+            path = f'{self.path}/sydney_house_price.rf'
+            svmc = pickle.load(open(path, 'rb'))
+            house_price = pd.DataFrame({'bedroom_count':[room] , 'Population':[population] , 'Distance from CBD': [distance], 'Hospital':[hospital] , 'School':[school] , 'Super Market':[market]},dtype='int32')
+            svmc.predict(house_price)
+            self.price['sydney_price']=np.round(svmc.predict(house_price).tolist(),2).tolist()
+
+        return self.price

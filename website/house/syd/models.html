@@ -1,10 +1,294 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta description -->
+    <meta name="description"
+          content="companyandngo">
+    <meta name="author" content="Sebin Sunny">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content=""/> <!-- website name -->
+    <meta property="og:site" content=""/> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""/> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article"/>
+
+    <!--title-->
+    <title>Machine learning Model</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap"
+          rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <!--Themify icon css-->
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <!--Fontawesome icon css-->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!--animated css-->
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <!--ytplayer css-->
+    <link rel="stylesheet" href="../css/jquery.mb.YTPlayer.min.css">
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <style>
+        h4 {
+            text-align: center;
+        }
+
+        .menu li a {
+            color: white;
+        }
+
+        p {
+            color: black;
+            font-size: 1.3em;
+            text-align: justify;
+        }
+
+        table.minimalistBlack {
+            border: 3px solid #000000;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        table.minimalistBlack td, table.minimalistBlack th {
+            border: 3px solid #000000;
+            padding: 5px 4px;
+        }
+
+        table.minimalistBlack tbody td {
+            font-size: 1em;
+            color: black;
+        }
+
+        table.minimalistBlack thead {
+            background: #CFCFCF;
+            background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            border-bottom: 3px solid #000000;
+        }
+
+        table.minimalistBlack thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+        }
+
+        table.minimalistBlack tfoot {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            border-top: 3px solid #000000;
+        }
+
+        table.minimalistBlack tfoot td {
+            font-size: 14px;
+        }
+
+    </style>
+
 </head>
 <body>
 
+<!--loader start-->
+<div id="preloader">
+    <div class="loader1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<!--loader end-->
+
+<!--header section start-->
+<header class="header">
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="https://companyandngo.xyz">
+                <img src="../img/log.png" alt="logo" class="img-fluid" style="height: 50px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu">
+                    <li><a href="https://companyandngo.xyz"> Home</a></li>
+                    <li><a href="https://companyandngo.xyz/about-us.html">About Us</a></li>
+                    <li><a href="#" class="dropdown-toggle">Project</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://companyandngo.xyz/melbourne.html">Melbourne House Price Calculator</a>
+
+                            </li>
+                            <li><a href="https://companyandngo.xyz/sydney.html">Sydney House Price Calculator</a></li>
+                            <li><a href="https://companyandngo.xyz/us_recession.html">US Recession Prediction</a></li>
+                            <li><a href="https://companyandngo.xyz/au_recession.html">Australia Recession Prediction</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--header section end-->
+
+<!--body content wrap start-->
+<div class="main" id="app">
+
+    <!--header section start-->
+
+    <!--header section end-->
+
+    <!--project details section start-->
+
+    <section class="project-details-section">
+        <div class="container">
+
+            <div class="row justify-content-between">
+                <div class="col-md-12 col-lg-8">
+                    <div class="img-wrap mb-md-4 mb-lg-0">
+
+                    </div>
+                </div>
+            </div>
+            <!--project details row start-->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="project-details-content">
+                        <br><br>
+                        <h4>Accuracy of Machine learning Models on Melbourne House Price Data</h4><br>
+                        <div class="text-center">
+                            <img src="../graph/ss.png" style="height: 500px;width: 70%">
+                        </div>
+                        </br>
+                        <p>Datasets for Sydney and Melbourne were used in predicting prices by applying machine learning
+                            models. Linear regression, XGBoost and Randomforest Classifier was used in modelling and
+                            prediction. Random Forest and XGBoost produced better results with higher accuracy and low
+                            error compared to linear regression. Random Forest with higher accuracy was further used in
+                            prediction purpose. Comparison of Accuracy for each models on Melbourne and Sydney datasets
+                            is depicted below.
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+<!--body content wrap end-->
+
+<!--footer section start-->
+<footer class="footer-section">
+    <!--footer top start-->
+    <!--footer top end-->
+
+    <!--footer copyright start-->
+    <div class="footer-bottom gray-light-bg py-2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-5 col-lg-5">
+                    <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                        rights reserved by
+                        <a href="https://companyandngo.xyz" target="_blank">companyandngo.xyz</a></p>
+                </div>
+                <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+                    <div class="social-nav text-right">
+                        <ul class="list-unstyled social-list mb-0">
+                            <li class="list-inline-item tooltip-hover">
+                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                <div class="tooltip-item">Facebook</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-twitter"></span></a>
+                                <div class="tooltip-item">Twitter</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-linkedin"></span></a>
+                                <div class="tooltip-item">Linkedin</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-dribbble"></span></a>
+                                <div class="tooltip-item">Dribbble</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer copyright end-->
+</footer>
+<!--footer section end-->
+
+
+<!--bottom to top button start-->
+<button class="scroll-top scroll-to-target" data-target="html">
+    <span class="ti-angle-up"></span>
+</button>
+<!--bottom to top button end-->
+
+<!--jQuery-->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<!--Popper js-->
+<script src="../js/popper.min.js"></script>
+<!--Bootstrap js-->
+<script src="../js/bootstrap.min.js"></script>
+<!--Magnific popup js-->
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<!--jquery easing js-->
+<script src="../js/jquery.easing.min.js"></script>
+<!--jquery ytplayer js-->
+<script src="../js/jquery.mb.YTPlayer.min.js"></script>
+<!--Isotope filter js-->
+<script src="../js/mixitup.min.js"></script>
+<!--wow js-->
+<script src="../js/wow.min.js"></script>
+<!--owl carousel js-->
+<script src="../js/owl.carousel.min.js"></script>
+<!--countdown js-->
+<script src="../js/jquery.countdown.min.js"></script>
+<!--custom js-->
+<script src="../js/scripts.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="../js/chartjs-plugin-annotation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="../js/prediction.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script type='text/javascript' src='../js/csv.js'></script>
+
+
+
 </body>
-</html>
+ </html>

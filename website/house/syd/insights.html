@@ -1,10 +1,265 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta description -->
+    <meta name="description"
+          content="companyandngo">
+    <meta name="author" content="Sebin Sunny">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content=""/> <!-- website name -->
+    <meta property="og:site" content=""/> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""/> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article"/>
+
+    <!--title-->
+    <title>House Price Calculator</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap"
+          rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <!--Themify icon css-->
+    <link rel="stylesheet" href="../../css/themify-icons.css">
+    <!--Fontawesome icon css-->
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <!--animated css-->
+    <link rel="stylesheet" href="../../css/animate.min.css">
+    <!--ytplayer css-->
+    <link rel="stylesheet" href="../../css/jquery.mb.YTPlayer.min.css">
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+
+    <style>
+
+        label{
+            color:black;
+            font-size: 1em;
+        }
+        h4 {
+            text-align: center;
+        }
+
+        .menu li a {
+            color: white;
+        }
+
+        p {
+            color: black;
+            font-size: 1.4em;
+             text-align: justify;
+        }
+
+        table.minimalistBlack {
+            border: 3px solid #000000;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        table.minimalistBlack td, table.minimalistBlack th {
+            border: 3px solid #000000;
+            padding: 5px 4px;
+        }
+
+        table.minimalistBlack tbody td {
+            font-size: 1em;
+            color: black;
+        }
+
+        table.minimalistBlack thead {
+            background: #CFCFCF;
+            background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            border-bottom: 3px solid #000000;
+        }
+
+        table.minimalistBlack thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+        }
+
+        table.minimalistBlack tfoot {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            border-top: 3px solid #000000;
+        }
+
+        table.minimalistBlack tfoot td {
+            font-size: 14px;
+        }
+
+    </style>
+
 </head>
 <body>
+
+<!--loader start-->
+<div id="preloader">
+    <div class="loader1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<!--loader end-->
+
+<!--header section start-->
+<header class="header">
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="https://companyandngo.xyz">
+                <img src="../../img/log.png" alt="logo" class="img-fluid" style="height: 50px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu">
+                    <li><a href="https://companyandngo.xyz"> Home</a></li>
+                    <li><a href="https://companyandngo.xyz/about-us.html">About Us</a></li>
+                    <li><a href="#" class="dropdown-toggle">Project</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://companyandngo.xyz/melbourne.html">Melbourne House Price Calculator</a>
+
+                            </li>
+                            <li><a href="https://companyandngo.xyz/sydney.html">Sydney House Price Calculator</a></li>
+                            <li><a href="https://companyandngo.xyz/us_recession.html">US Recession Prediction</a></li>
+                            <li><a href="https://companyandngo.xyz/au_recession.html">Australia Recession Prediction</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--header section end-->
+
+<!--body content wrap start-->
+<div class="main" id="app">
+
+    <!--header section start-->
+
+    <!--header section end-->
+
+    <!--project details section start-->
+
+    <br class="project-details-section">
+        <br><br><br><br><br><br>
+        <div class="container">
+
+ <div>
+     <h3>Sydney House Price Calculator</h3>
+<p>Calculate the house prices in a suburb based on the facilities available such as number of schools, hospitals, supermarket etc</p>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Select Suburbs</label>
+    <select v-model="selected" class="form-control" >
+  <option v-for="i in sy" v-bind:value="i.value">
+    {{ i.value }}
+  </option>
+</select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Number of Rooms</label>
+    <input type="text" name="rooms" class="form-control" ref="name">
+  </div>
+<div class="text-center"><button name="SubmitForm" class="btn btn-primary" type="submit"  v-on:click="sydney">Predict</button></div>
+
+</div>
+
+   <div class="col-md-6 col-lg-12 dot-bg-shape dot-bg-3">
+
+                        <div class="card single-promo-card single-promo-hover text-center shadow-sm" v-if="price!=null">
+
+
+                            <h5 class="card-body py-5 ">Expected House Price in {{selected}} A$: {{ price }}</h5>
+
+                        </div>
+
+                </div>
+
+
+
+        </div>
+    </section>
+
+</div>
+<!--body content wrap end-->
+
+<!--footer section start-->
+
+<!--footer section end-->
+
+
+<!--bottom to top button start-->
+<button class="scroll-top scroll-to-target" data-target="html">
+    <span class="ti-angle-up"></span>
+</button>
+<!--bottom to top button end-->
+
+<!--jQuery-->
+<script src="../..//js/jquery-3.4.1.min.js"></script>
+<!--Popper js-->
+<script src="../../js/popper.min.js"></script>
+<!--Bootstrap js-->
+<script src="../../js/bootstrap.min.js"></script>
+<!--Magnific popup js-->
+<script src="../../js/jquery.magnific-popup.min.js"></script>
+<!--jquery easing js-->
+<script src="../../js/jquery.easing.min.js"></script>
+<!--jquery ytplayer js-->
+<script src="../../js/jquery.mb.YTPlayer.min.js"></script>
+<!--Isotope filter js-->
+<script src="../../js/mixitup.min.js"></script>
+<!--wow js-->
+<script src="../../js/wow.min.js"></script>
+<!--owl carousel js-->
+<script src="../../js/owl.carousel.min.js"></script>
+<!--countdown js-->
+<script src="../../js/jquery.countdown.min.js"></script>
+<!--custom js-->
+<script src="../../js/scripts.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="../js/chartjs-plugin-annotation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script type='text/javascript' src='../../js/cal.js'></script>
+
+
+
+
 
 </body>
 </html>

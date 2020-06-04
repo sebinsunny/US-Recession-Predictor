@@ -36,6 +36,20 @@ def houseprice():
     except Exception as e:
         return (e)
 
+@app.route('/sydney')
+def sydney():
+    try:
+        market = request.args.get("m")
+        population = request.args.get("pop")
+        school = request.args.get("sch")
+        hospital = request.args.get("hosp")
+        distance = request.args.get("dist")
+        room = request.args.get("ro")
+        price=m.recession_models().sydney_house(market,population,school,hospital,distance,room)
+        return price
+    except Exception as e:
+        return (e)
+
 
 @app.route('/graph', methods=['GET'])
 def get_graph_data():
