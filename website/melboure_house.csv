@@ -1,0 +1,500 @@
+,SUBURB,ADDRESS,bedroom_count,Type,dwelling_type,sold_price,Method,agency_name,Date Sold,postcode,Population,Distance from CBD,Hospital,School,Super Market,latitude,longitude
+1,ABBOTSFORD,"6/431 Great North Road, Abbotsford",2,u,Apartment / Unit / Flat,735000.0,Auction,PRB Real Estate,14/05/2018,2046,5377,7.4,0,1,0,-33.8543167,151.12965400000002
+2,ALEXANDRIA,"64/57 Ralph Street, Alexandria",2,u,Apartment / Unit / Flat,785000.0,Private Treaty,The Agency Eastern Suburbs,14/05/2018,2015,8264,3.5,0,3,0,-33.9193153,151.1979
+3,ALEXANDRIA,"64/57 Ralph Street, Alexandria",2,u,Apartment / Unit / Flat,785000.0,Private Treaty,The Agency Eastern Suburbs,14/05/2018,2015,8264,3.5,0,3,0,-33.9193153,151.1979
+4,ASHFIELD,"208/425 Liverpool Road, Ashfield",2,u,Apartment / Unit / Flat,795000.0,Private Treaty,McGrath Leichhardt,14/05/2018,2131,23839,7.9,0,6,0,-33.887859999999996,151.11811799999998
+5,BEACON HILL,"56 Brooker Avenue, Beacon Hill",3,h,House,1200000.0,Private Treaty,One Agency Hazlett & Poole,14/05/2018,2100,7456,13.7,0,1,0,-33.7475357,151.25499
+6,BELLEVUE HILL,"56 Cranbrook Road, Bellevue Hill",5,h,House,6575000.0,Auction,Sydney Sotheby's International Realty,14/05/2018,2023,10719,5.3,0,8,0,-33.876872999999996,151.253937
+7,BELLEVUE HILL,"7 Vivian  Street, Bellevue Hill",6,h,House,6200000.0,others,Phillips Pantzer Donnelley,14/05/2018,2023,10719,5.3,0,8,0,-33.881896999999995,151.256531
+8,BELROSE,"54 Yarrabin  Street, Belrose",3,h,House,1480000.0,Private Treaty,Parnell Partners Estate Agents ,14/05/2018,2085,8775,14.2,0,6,0,-33.736412,151.2114
+9,BEROWRA,"89 Bambil Road, Berowra",5,h,House,1450000.0,Private Treaty,McGrath Berowra,14/05/2018,2081,4722,27.6,0,2,0,-33.6337357,151.141983
+10,BLACKTOWN,"6/2 Bruce Street, Blacktown",2,u,Apartment / Unit / Flat,435000.0,Private Treaty,Starr Partners Blacktown,14/05/2018,2148,47172,29.6,1,20,0,-33.7701263,150.916061
+11,BLACKTOWN,"Unit 46/5 Tenby St, Blacktown",3,t,Townhouse,540000.0,Private Treaty,Andrew Merton Real Estate,14/05/2018,2148,47172,29.6,1,20,0,-33.79036,150.910233
+12,BONDI BEACH,"20/178 Campbell Parade, Bondi Beach",3,u,Apartment / Unit / Flat,4300000.0,others,Sydney Sotheby's International Realty,14/05/2018,2026,11653,6.8,0,3,0,-33.889686600000005,151.275055
+13,BONDI BEACH,"9/352 Bondi Road, Bondi Beach",2,u,Apartment / Unit / Flat,1380000.0,others,Phillips Pantzer Donnelley,14/05/2018,2026,11653,6.8,0,3,0,-33.89526,151.2722
+14,BONDI JUNCTION,"40 Kenilworth Street, Bondi Junction",5,h,House,2800000.0,Auction,Sydney Sotheby's International Realty,14/05/2018,2022,9440,4.7,0,2,0,-33.8908844,151.258453
+15,CAMBRIDGE GARDENS,Cambridge Gardens,4,h,House,710000.0,Private Treaty,Response Real Estate Penrith,14/05/2018,2747,2017,47.2,0,0,3,-33.738,150.721
+16,CAMBRIDGE PARK,"72 College Street, Cambridge Park",2,h,House,627500.0,Private Treaty,PRDnationwide Penrith,14/05/2018,2747,6727,46.3,0,3,0,-33.7505379,150.722
+17,CAMPERDOWN,"23 Marmion Street, Camperdown",3,h,House,1555000.0,Auction,Ray White Riverwood,14/05/2018,2050,10342,3.6,1,2,0,-33.892807,151.173508
+18,CASTLE COVE,"17 Neerim Road, Castle Cove",7,h,House,15050000.0,Private Treaty,Shead Property ,14/05/2018,2069,2557,9.2,0,1,0,-33.7811623,151.2106
+19,CENTENNIAL PARK,"15/121-125 Cook Road, Centennial Park",2,u,Apartment / Unit / Flat,1065000.0,Auction,Ray White at The Entertainment Quarter,14/05/2018,2021,2373,3.8,0,0,0,-33.89512,151.229126
+20,COOGEE,"7/155-159 Dolphin Street, Coogee",1,u,Apartment / Unit / Flat,1070000.0,Private Treaty,N G Farah Pty Ltd,14/05/2018,2034,15215,7.4,0,2,0,-33.918746899999995,151.257828
+21,CROYDON PARK,"12/1 Fabos Place, Croydon Park",1,u,Apartment / Unit / Flat,445000.0,Private Treaty,Rich & Oliva,14/05/2018,2133,11014,9.6,0,2,0,-33.89609,151.11201499999999
+22,DARLING POINT,"9/38 Darling Point Road, Darling Point",3,h,Villa,2670000.0,Auction,Ray White Double Bay,14/05/2018,2027,4192,2.8,0,0,0,-33.8731,151.23735
+23,DEE WHY,"32/34-36 The Crescent, Dee Why",2,u,Apartment / Unit / Flat,750000.0,Private Treaty,LJ Hooker Dee Why,14/05/2018,2099,21518,14.6,0,4,0,-33.7565727,151.29155
+24,EDENSOR PARK,"84 Boomerang Road, Edensor Park",3,h,House,850000.0,Private Treaty,Century 21 Bossley Park,14/05/2018,2176,9772,30.7,0,2,0,-33.881324799999994,150.886078
+25,EDGECLIFF,"52/365a Edgecliff Road, Edgecliff",2,u,Apartment / Unit / Flat,855000.0,Auction,BresicWhitney Darlinghurst,14/05/2018,2027,2580,2.9,0,1,2,-33.87940220000001,151.2389
+26,ELIZABETH BAY,"15 Greenknowe Avenue, Elizabeth Bay",3,t,Townhouse,3400000.0,Private Treaty,Ray White Elizabeth Bay,14/05/2018,2011,5215,1.9,0,0,0,-33.8718529,151.226822
+27,ELIZABETH BAY,"15 Greenknowe Avenue, Elizabeth Bay",3,t,Townhouse,3400000.0,Private Treaty,Ray White Elizabeth Bay,14/05/2018,2011,5215,1.9,0,0,0,-33.8718529,151.226822
+28,ERSKINEVILLE,"10307/177-219 Mitchell Road, Erskineville",1,u,Apartment / Unit / Flat,655000.0,Private Treaty,Park Properties,14/05/2018,2043,8014,4.2,0,2,0,-33.9065971,151.186127
+29,ERSKINEVILLE,"16305/177-219 Mitchell Road, Erskineville",2,u,Apartment / Unit / Flat,970000.0,Private Treaty,Park Properties,14/05/2018,2043,8014,4.2,0,2,0,-33.9065971,151.186127
+30,ERSKINEVILLE,"10307/177-219 Mitchell Road, Erskineville",1,u,Apartment / Unit / Flat,655000.0,Private Treaty,Park Properties,14/05/2018,2043,8014,4.2,0,2,0,-33.9065971,151.186127
+31,ERSKINEVILLE,"16305/177-219 Mitchell Road, Erskineville",2,u,Apartment / Unit / Flat,970000.0,Private Treaty,Park Properties,14/05/2018,2043,8014,4.2,0,2,0,-33.9065971,151.186127
+32,FAIRLIGHT,"4/30 Rosedale Avenue, Fairlight",2,u,Apartment / Unit / Flat,957000.0,Private Treaty,Clarke & Humel Property,14/05/2018,2094,5841,9.8,0,0,0,-33.79620739999999,151.2703
+33,FRESHWATER,"60 Wyadra Avenue, Freshwater",4,h,House,2510000.0,Auction,Belle Property - Manly,14/05/2018,2096,8862,15.0,0,4,0,-33.772884399999995,151.28291299999998
+34,GLADESVILLE,"103/161 Victoria Road, Gladesville",1,u,Apartment / Unit / Flat,640000.0,Private Treaty,BresicWhitney Hunters Hill,14/05/2018,2111,11826,8.1,0,6,0,-33.834070000000004,151.12799099999998
+35,GLADESVILLE,"3/2 Harvard Street, Gladesville",2,u,Apartment / Unit / Flat,640000.0,Private Treaty,Ray White Gladesville & Ryde,14/05/2018,2111,11826,8.1,0,6,0,-33.8285446,151.12825
+36,GLADESVILLE,"103/161 Victoria Road, Gladesville",1,u,Apartment / Unit / Flat,640000.0,Private Treaty,BresicWhitney Hunters Hill,14/05/2018,2111,11826,8.1,0,6,0,-33.834070000000004,151.12799099999998
+37,GLADESVILLE,"3/2 Harvard Street, Gladesville",2,u,Apartment / Unit / Flat,640000.0,Private Treaty,Ray White Gladesville & Ryde,14/05/2018,2111,11826,8.1,0,6,0,-33.8285446,151.12825
+38,GLEBE,"9/1 Charlton Way, Glebe",2,u,Apartment / Unit / Flat,760000.0,Private Treaty,Laing+Simmons Glebe,14/05/2018,2037,11534,2.3,0,4,0,-33.8753929,151.184341
+39,GLEBE,"9/1 Charlton Way, Glebe",2,u,Apartment / Unit / Flat,760000.0,Private Treaty,Laing+Simmons Glebe,14/05/2018,2037,11534,2.3,0,4,0,-33.8753929,151.184341
+40,GLENDENNING,"25 Dublin Street, Glendenning",3,h,House,615000.0,Private Treaty,Property Inside Out,14/05/2018,2761,5125,35.5,0,2,0,-33.741690000000006,150.85974099999999
+41,GLENMORE PARK,"23 Woodi Close, Glenmore Park",3,h,House,629000.0,Private Treaty,PRDnationwide Penrith,14/05/2018,2745,23002,54.6,0,7,0,-33.7876625,150.677078
+42,GLENWOOD,"3 Crestview Drive, Glenwood",4,h,House,1339500.0,Private Treaty,Response Real Estate Glenwood,14/05/2018,2768,16128,29.9,0,5,0,-33.7460938,150.947327
+43,GORDON,"21 Vale Street, Gordon",3,h,House,1580000.0,others,Century 21 Northside,14/05/2018,2072,7666,13.4,0,3,0,-33.7559624,151.145447
+44,HILLSDALE,"6/10 Templeman Crescent, Hillsdale",2,u,Apartment / Unit / Flat,555000.0,Private Treaty,Mint360property | Sales & Auctions,14/05/2018,2036,5505,9.8,0,0,0,-33.94922639999999,151.22753899999998
+45,KINGS PARK,"22 Marcus Street, Kings Park",3,h,House,688000.0,Private Treaty,Norwes Property,14/05/2018,2148,3453,31.0,0,0,0,-33.7403336,150.903076
+46,KINGSWOOD,"10/61-62 Park Avenue, Kingswood",2,u,Apartment / Unit / Flat,340000.0,Private Treaty,Response Real Estate Penrith,14/05/2018,2747,9301,46.5,1,5,0,-33.7582855,150.723984
+47,LEICHHARDT,"29 North Street, Leichhardt",3,h,House,1350000.0,Auction,BresicWhitney Glebe,14/05/2018,2040,14622,5.0,0,6,0,-33.87881470000001,151.153412
+48,LEICHHARDT,"79 Francis Street, Leichhardt",2,h,House,1100000.0,others,Hudson McHugh,14/05/2018,2040,14622,5.0,0,6,0,-33.87677,151.15458700000002
+49,LEICHHARDT,"29 North Street, Leichhardt",3,h,House,1350000.0,Auction,BresicWhitney Glebe,14/05/2018,2040,14622,5.0,0,6,0,-33.87881470000001,151.153412
+50,LEICHHARDT,"79 Francis Street, Leichhardt",2,h,House,1100000.0,others,Hudson McHugh,14/05/2018,2040,14622,5.0,0,6,0,-33.87677,151.15458700000002
+51,MAROUBRA,"69 Haig, Maroubra",3,h,House,1730000.0,Private Treaty,Zimmermann Agency,14/05/2018,2035,30686,9.4,0,7,0,-33.9439735,151.245667
+52,MARSFIELD,"7/9 Busaco  Road, Marsfield",2,h,Villa,770000.0,Private Treaty,Lynk Realty,14/05/2018,2122,13295,13.9,0,1,0,-33.764,151.113571
+53,MARSFIELD,"7/9 Busaco  Road, Marsfield",2,h,Villa,770000.0,Private Treaty,Lynk Realty,14/05/2018,2122,13295,13.9,0,1,0,-33.764,151.113571
+54,MASCOT,"37/24-28 John Street, Mascot",2,u,Apartment / Unit / Flat,830000.0,Private Treaty,MyPlace Estate Agents,14/05/2018,2020,14771,7.2,0,4,0,-33.923362700000006,151.18786599999999
+55,MATRAVILLE,"B23/495-503 Bunnerong  Road, Matraville",1,u,Apartment / Unit / Flat,685000.0,Private Treaty,Belle Property Newtown,14/05/2018,2036,9804,10.3,0,3,0,-33.9575729,151.231415
+56,MOUNT COLAH,"5/54 Telopea Street, Mount Colah",3,t,Townhouse,953000.0,Private Treaty,Belle Property Hornsby,14/05/2018,2079,7096,23.4,0,1,0,-33.6688232,151.11978100000002
+57,NEWPORT,"5/377 Barrenjoey Road, Newport",2,u,Apartment / Unit / Flat,980000.0,Auction,LJ Hooker Newport,14/05/2018,2106,9303,24.9,0,1,0,-33.653915399999995,151.321472
+58,NEWPORT,"38 Nullaburra Road, Newport",5,h,House,2000000.0,Private Treaty,Wiseberry Mona Vale,14/05/2018,2106,9303,24.9,0,1,0,-33.65233610000001,151.316666
+59,NORTH BALGOWLAH,"8 Wonga Street, North Balgowlah",4,h,House,2400000.0,Auction,Raine & Horne Forestville - Frenchs Forest,14/05/2018,2093,3664,9.8,0,1,0,-33.78412,151.24942
+60,PENRITH,"11 Orana Avenue, Penrith",3,h,House,610000.0,Private Treaty,Dukes Estate Agents Penrith,14/05/2018,2750,13295,49.2,1,7,0,-33.74437,150.712219
+61,POTTS POINT,"40/20 Macleay Street, Potts Point",2,u,Apartment / Unit / Flat,1200000.0,Private Treaty,Richardson & Wrench Elizabeth Bay / Potts Point,14/05/2018,2011,9425,1.7,0,2,0,-33.869479999999996,151.22583
+62,POTTS POINT,"40/20 Macleay Street, Potts Point",2,u,Apartment / Unit / Flat,1200000.0,Private Treaty,Richardson & Wrench Elizabeth Bay / Potts Point,14/05/2018,2011,9425,1.7,0,2,0,-33.869479999999996,151.22583
+63,PYRMONT,"606/1-9 Pyrmont Bridge Road, Pyrmont",3,u,Apartment / Unit / Flat,1450000.0,Private Treaty,Kho & Lee Property Group,14/05/2018,2009,12813,1.3,0,0,0,-33.8702,151.19718899999998
+64,PYRMONT,"606/1-9 Pyrmont Bridge Road, Pyrmont",3,u,Apartment / Unit / Flat,1450000.0,Private Treaty,Kho & Lee Property Group,14/05/2018,2009,12813,1.3,0,0,0,-33.8702,151.19718899999998
+65,PYRMONT,"606/1-9 Pyrmont Bridge Road, Pyrmont",3,u,Apartment / Unit / Flat,1450000.0,Private Treaty,Kho & Lee Property Group,14/05/2018,2009,12813,1.3,0,0,0,-33.8702,151.19718899999998
+66,QUAKERS HILL,"3/35 Douglas Road, Quakers Hill",4,h,House,672000.0,Private Treaty,Australian Real Estate Quakers Hill,14/05/2018,2763,27075,33.8,0,8,0,-33.72858,150.88188200000002
+67,RANDWICK,"8/1 Dutruc  Street, Randwick",4,h,House,2200000.0,others,Phillips Pantzer Donnelley,14/05/2018,2031,29990,6.0,3,13,0,-33.9098473,151.245331
+68,RYDE,"15 Eileen Street, Ryde",4,h,House,1585000.0,Private Treaty,Snowden Parkes Real Estate ,14/05/2018,2112,26501,11.2,1,9,0,-33.805687,151.112946
+69,RYDE,"15 Eileen Street, Ryde",4,h,House,1585000.0,Private Treaty,Snowden Parkes Real Estate ,14/05/2018,2112,26501,11.2,1,9,0,-33.805687,151.112946
+70,SCOTLAND ISLAND,"28 Richard Rd, Scotland Island",3,h,House,665000.0,Private Treaty,PMC Hill Real Estate,14/05/2018,2105,579,26.2,0,0,0,-33.641983,151.29071000000002
+71,ST IVES,"9 Kitchener Street, St Ives",4,h,House,2250000.0,Private Treaty,Chadwick Real Estate Turramurra,14/05/2018,2075,17301,15.8,0,10,0,-33.7130852,151.175751
+72,SURRY HILLS,"313/174-186 Goulburn Street, Surry Hills",1,u,Apartment / Unit / Flat,800000.0,Private Treaty,Ray White City South,14/05/2018,2010,16416,2.5,0,7,0,-33.8789253,151.212784
+73,SURRY HILLS,"313/174-186 Goulburn Street, Surry Hills",1,u,Apartment / Unit / Flat,800000.0,Private Treaty,Ray White City South,14/05/2018,2010,16416,2.5,0,7,0,-33.8789253,151.212784
+74,TELOPEA,"23 & 23A Felton Street, Telopea",5,h,House,2880000.0,Private Treaty,First National West Ryde,14/05/2018,2117,5432,16.9,0,1,0,-33.79061,151.02200000000002
+75,THORNLEIGH,"9 Morris Avenue, Thornleigh",5,h,House,1900000.0,Auction,Ray White Pennant Hills,14/05/2018,2120,8467,19.1,0,2,0,-33.7266464,151.071762
+76,THORNLEIGH,"9 Morris Avenue, Thornleigh",5,h,House,1900000.0,Auction,Ray White Pennant Hills,14/05/2018,2120,8467,19.1,0,2,0,-33.7266464,151.071762
+77,VAUCLUSE,"6/15-17 Captain Pipers Road, Vaucluse",2,u,Apartment / Unit / Flat,1010000.0,Auction, McGrath Double Bay ,14/05/2018,2030,9333,6.6,0,1,0,-33.8634949,151.27742
+78,WAHROONGA,"5 Sutherland Avenue, Wahroonga",6,h,House,2960000.0,Private Treaty,McGrath Wahroonga,14/05/2018,2076,17364,18.7,1,13,0,-33.7192345,151.121826
+79,WAITARA,"102/36 Romsey Street, Waitara",2,u,Apartment / Unit / Flat,670000.0,Private Treaty,McGrath Hornsby,14/05/2018,2077,5939,19.9,0,2,0,-33.7063675,151.103943
+80,WARRIEWOOD,"28 Honeyeater Grove, Warriewood",3,t,Townhouse,1450000.0,Private Treaty,Raine & Horne Mona Vale,14/05/2018,2102,7499,20.6,0,0,0,-33.6877174,151.2917
+81,WARRIEWOOD,"4/239 Macpherson Street, Warriewood",3,t,Townhouse,1120000.0,Private Treaty,Stone Real Estate Mona Vale,14/05/2018,2102,7499,20.6,0,0,0,-33.681667299999994,151.28743
+82,WARRIEWOOD,"258/18 Boondah Road, Warriewood",1,u,Apartment / Unit / Flat,720000.0,Private Treaty,Stone Real Estate Mona Vale,14/05/2018,2102,7499,20.6,0,0,0,-33.6909676,151.295853
+83,WHALAN,"16 Aitape Cres, Whalan",4,h,House,515000.0,Private Treaty,Ray White Mt Druitt,14/05/2018,2770,5975,38.6,0,0,0,-33.75575,150.802948
+84,ZETLAND,"103/2 Victoria Park Parade, Zetland",1,u,Apartment / Unit / Flat,660000.0,Private Treaty,Morton Green Square,14/05/2018,2017,10072,4.8,0,0,0,-33.9042625,151.21176100000002
+85,ZETLAND,"329/20 Gadigal  Avenue, Zetland",3,u,Apartment / Unit / Flat,1255000.0,Private Treaty,Focus Estate Agents,14/05/2018,2017,10072,4.8,0,0,0,-33.9043159,151.213165
+86,ACACIA GARDENS,"46 Somersby Circuit, Acacia Gardens",3,t,Townhouse,700000.0,Private Treaty,LJ Hooker Stanhope Gardens,15/05/2018,2763,3799,31.7,0,1,0,-33.73342,150.919144
+87,ALEXANDRIA,"209 Belmont, Alexandria",3,h,House,1500000.0,Private Treaty,Ee Real Estate,15/05/2018,2015,8264,3.5,0,3,0,-33.90328220000001,151.191833
+88,ARNCLIFFE,"48 Wollongong Road, Arncliffe",2,h,House,950000.0,others,Prestige Property Group Realty,15/05/2018,2205,10590,9.5,0,6,0,-33.9352264,151.14523300000002
+89,BALGOWLAH,"2A/24 Lower Beach Street, Balgowlah",4,t,Townhouse,1850000.0,Private Treaty,McGrath Manly,15/05/2018,2093,7963,9.6,0,4,0,-33.7985039,151.2603
+90,BALGOWLAH,"2A/24 Lower Beach Street, Balgowlah",4,t,Townhouse,1850000.0,Private Treaty,McGrath Manly,15/05/2018,2093,7963,9.6,0,4,0,-33.7985039,151.2603
+91,BALMAIN EAST,"4/123A Darling Street, Balmain East",5,h,House,3700000.0,others,Belle Property Balmain,15/05/2018,2041,1937,1.8,0,1,0,-33.8574867,151.189941
+92,BALMAIN EAST,"4/123A Darling Street, Balmain East",5,h,House,3700000.0,others,Belle Property Balmain,15/05/2018,2041,1937,1.8,0,1,0,-33.8574867,151.189941
+93,BANKSTOWN,"79 Sir Joseph Banks Street, Bankstown",5,h,House,1490000.0,Private Treaty,Century 21 Project Specialists,15/05/2018,2200,32116,16.9,1,13,0,-33.908721899999996,151.04007
+94,BIDWILL,"11 Tapp Pl, Bidwill",3,h,House,485000.0,Private Treaty,First National Mount Druitt Real Estate,15/05/2018,2770,4280,38.6,0,2,0,-33.7314,150.813873
+95,BIRCHGROVE,"2/35 Church Street, Birchgrove",2,t,Townhouse,1155000.0,Auction,Coopers Agency,15/05/2018,2041,3302,2.9,0,0,0,-33.8550148,151.1816
+96,BIRCHGROVE,"2/35 Church Street, Birchgrove",2,t,Townhouse,1155000.0,Auction,Coopers Agency,15/05/2018,2041,3302,2.9,0,0,0,-33.8550148,151.1816
+97,BLACKTOWN,"12/14 Filey St, Blacktown",3,t,Townhouse,655000.0,Private Treaty,HAUS PROPERTIES GROUP Quakers Hill/Harris Park,15/05/2018,2148,47172,29.6,1,20,0,-33.79071,150.9071
+98,BOTANY,"6/30 Stephen Road, Botany",2,u,Apartment / Unit / Flat,855000.0,Auction,McGrath Coogee,15/05/2018,2019,10822,8.7,0,4,0,-33.949073799999994,151.208755
+99,BROOKLYN,"116 Brooklyn Rd, Brooklyn",4,h,House,895000.0,Private Treaty,Hawkesbury River Real Estate,15/05/2018,2083,727,35.5,0,1,0,-33.5476532,151.216461
+100,CHATSWOOD,"49/1C Kooringa Road, Chatswood",2,u,Apartment / Unit / Flat,897000.0,Private Treaty,Forsyth Real Estate,15/05/2018,2067,24914,8.2,0,6,0,-33.7944527,151.194473
+101,CHIPPENDALE,"003/8  Central Park Avenue, Chippendale",2,u,Apartment / Unit / Flat,1335000.0,Private Treaty,Sky Property Group,15/05/2018,2008,8615,2.2,0,1,0,-33.884859999999996,151.20071399999998
+102,CHIPPENDALE,"003/8  Central Park Avenue, Chippendale",2,u,Apartment / Unit / Flat,1335000.0,Private Treaty,Sky Property Group,15/05/2018,2008,8615,2.2,0,1,0,-33.884859999999996,151.20071399999998
+103,CHIPPENDALE,"003/8  Central Park Avenue, Chippendale",2,u,Apartment / Unit / Flat,1335000.0,Private Treaty,Sky Property Group,15/05/2018,2008,8615,2.2,0,1,0,-33.884859999999996,151.20071399999998
+104,COOGEE,"6/7 Hendy Avenue, Coogee",2,u,Apartment / Unit / Flat,850000.0,others,Ray White Randwick & Bondi Junction,15/05/2018,2034,15215,7.4,0,2,0,-33.926223799999995,151.24856599999998
+105,COOGEE,"12/106 Mount Street, Coogee",4,u,Apartment / Unit / Flat,1722000.0,Auction,Belle Property Bondi Junction,15/05/2018,2034,15215,7.4,0,2,0,-33.9230156,151.251068
+106,COOGEE,"12/119-121 Carrington Road, Coogee",2,u,Apartment / Unit / Flat,860000.0,others,DiJones Real Estate Eastern Suburbs,15/05/2018,2034,15215,7.4,0,2,0,-33.912262,151.24993899999998
+107,CREMORNE,"6/5 Harrison Street, Cremorne",2,u,Apartment / Unit / Flat,935000.0,Private Treaty,Raine & Horne Neutral Bay,15/05/2018,2090,11221,4.8,0,1,0,-33.8335953,151.2232
+108,CROMER,"163 Fisher Road North, Cromer",4,h,House,1370000.0,others, Upstate ,15/05/2018,2099,7594,15.6,0,2,0,-33.742290000000004,151.283508
+109,DARLINGHURST,"2/27 Barcom Avenue (access via Womerah Lane), Darlinghurst",2,u,Apartment / Unit / Flat,1435000.0,Auction,BresicWhitney Darlinghurst,15/05/2018,2010,11317,1.8,1,3,0,-33.877834299999996,151.225647
+110,DARLINGHURST,"2/27 Barcom Avenue (access via Womerah Lane), Darlinghurst",2,u,Apartment / Unit / Flat,1435000.0,Auction,BresicWhitney Darlinghurst,15/05/2018,2010,11317,1.8,1,3,0,-33.877834299999996,151.225647
+111,EASTWOOD,"6/58 Doomben Ave, Eastwood",2,u,Apartment / Unit / Flat,690000.0,others,Angelland Realty,15/05/2018,2122,17870,14.5,2,8,0,-33.78839489999999,151.083191
+112,EASTWOOD,"6/58 Doomben Ave, Eastwood",2,u,Apartment / Unit / Flat,690000.0,others,Angelland Realty,15/05/2018,2122,17870,14.5,2,8,0,-33.78839489999999,151.083191
+113,EPPING,"59 Chester Street, Epping",5,h,House,2290000.0,Auction,McGrath Epping,15/05/2018,2121,23691,15.6,0,8,0,-33.768840000000004,151.09051499999998
+114,EPPING,"59 Chester Street, Epping",5,h,House,2290000.0,Auction,McGrath Epping,15/05/2018,2121,23691,15.6,0,8,0,-33.768840000000004,151.09051499999998
+115,FAIRLIGHT,"3/125 Sydney  Road, Fairlight",3,u,Apartment / Unit / Flat,1300000.0,Private Treaty,Red Property,15/05/2018,2094,5841,9.8,0,0,0,-33.79619,151.2787
+116,FIVE DOCK,"9 Henry Street, Five Dock",4,h,House,1450000.0,Private Treaty,Horwood Nolan,15/05/2018,2046,9359,7.1,0,4,0,-33.8665047,151.128555
+117,FIVE DOCK,"7/239 Great North Road, Five Dock",1,u,Apartment / Unit / Flat,698800.0,Private Treaty,Roger Mickhail Property,15/05/2018,2046,9359,7.1,0,4,0,-33.86452,151.1299
+118,FIVE DOCK,"9 Henry Street, Five Dock",4,h,House,1450000.0,Private Treaty,Horwood Nolan,15/05/2018,2046,9359,7.1,0,4,0,-33.8665047,151.128555
+119,FIVE DOCK,"7/239 Great North Road, Five Dock",1,u,Apartment / Unit / Flat,698800.0,Private Treaty,Roger Mickhail Property,15/05/2018,2046,9359,7.1,0,4,0,-33.86452,151.1299
+120,FOREST LODGE,"311/19 Minogue Crescent, Forest Lodge",2,u,Apartment / Unit / Flat,1106000.0,Private Treaty,McGrath Leichhardt,15/05/2018,2037,4583,2.9,0,2,0,-33.879982,151.179321
+121,FOREST LODGE,"311/19 Minogue Crescent, Forest Lodge",2,u,Apartment / Unit / Flat,1106000.0,Private Treaty,McGrath Leichhardt,15/05/2018,2037,4583,2.9,0,2,0,-33.879982,151.179321
+122,FRENCHS FOREST,"19 Adams Street, Frenchs Forest",5,h,House,1950000.0,Private Treaty,Ratcliff Mathews Real Estate,15/05/2018,2086,13476,13.0,1,5,0,-33.74626,151.224335
+123,FRESHWATER,"20/4 Greenwood Place, Freshwater",2,u,Apartment / Unit / Flat,850000.0,Private Treaty,McGrath Manly,15/05/2018,2096,8862,15.0,0,4,0,-33.775974299999994,151.28717
+124,GLENMORE PARK,"11 Coolabah Crescent, Glenmore Park",4,h,House,790000.0,Private Treaty,Glenmore Park Realty,15/05/2018,2745,23002,54.6,0,7,0,-33.793014500000005,150.688736
+125,GLENWOOD,"5 Pinnacle Way, Glenwood",4,h,House,1165000.0,Private Treaty,Harcourts Hills Living,15/05/2018,2768,16128,29.9,0,5,0,-33.7345047,150.93544
+126,HORNSBY,"23/1-5 Linda Street, Hornsby",3,u,Apartment / Unit / Flat,835000.0,Private Treaty,Ray White Hornsby,15/05/2018,2077,22167,20.6,1,6,0,-33.700244899999994,151.103592
+127,JORDAN SPRINGS,"5 Governor Street, Jordan Springs",3,h,House,680000.0,Private Treaty,Jim Aitken + Partners Jordan Springs,15/05/2018,2747,5160,58.4,0,1,0,-33.72578,150.724274
+128,KENSINGTON,"21 Doncaster Avenue, Kensington",3,h,House,1700000.0,others,Belle Property Bondi Junction,15/05/2018,2033,15002,4.9,0,3,0,-33.90612410000001,151.225784
+129,KILLARA,"20/29 Lorne Avenue, Killara",3,u,Apartment / Unit / Flat,1705000.0,others,Belle Property Lindfield,15/05/2018,2071,10576,12.0,0,3,0,-33.76486,151.158524
+130,LITTLE BAY,"309/1-5 Solarch Avenue, Little Bay",2,u,Apartment / Unit / Flat,960000.0,Auction,N G Farah Pty Ltd,15/05/2018,2036,4477,13.1,0,0,0,-33.97656,151.243851
+131,MALABAR,"30 McGowen Avenue, Malabar",4,h,House,1900000.0,Private Treaty,South Eastern Realty,15/05/2018,2036,5423,11.5,0,3,0,-33.9678726,151.249191
+132,MEADOWBANK,"12/37 Meadow Crescent, Meadowbank",2,u,Apartment / Unit / Flat,613000.0,Private Treaty,Jackson Rowe,15/05/2018,2114,4408,12.2,0,2,0,-33.8183937,151.08667
+133,MEADOWBANK,"12/37 Meadow Crescent, Meadowbank",2,u,Apartment / Unit / Flat,613000.0,Private Treaty,Jackson Rowe,15/05/2018,2114,4408,12.2,0,2,0,-33.8183937,151.08667
+134,MOSMAN,"8/8 Earl Street, Mosman",3,u,Apartment / Unit / Flat,2550000.0,Auction,Di Jones Lower North Shore Mosman,15/05/2018,2088,28476,5.4,0,9,0,-33.8238525,151.237152
+135,NEWTOWN,"B211/32-72 Alice Street, Newtown",2,u,Apartment / Unit / Flat,830000.0,Private Treaty,Raine & Horne Newtown,15/05/2018,2042,15025,4.1,0,6,0,-33.903957399999996,151.17752099999998
+136,NORTH RYDE,"352 Pittwater Road, North Ryde",2,h,House,1190000.0,Private Treaty,Belle Property Hunters Hill,15/05/2018,2113,10857,10.9,0,6,0,-33.802997600000005,151.13725300000002
+137,NORTH RYDE,"352 Pittwater Road, North Ryde",2,h,House,1190000.0,Private Treaty,Belle Property Hunters Hill,15/05/2018,2113,10857,10.9,0,6,0,-33.802997600000005,151.13725300000002
+138,PADDINGTON,"37/204-232 Jersey Road, Paddington",2,u,Apartment / Unit / Flat,835000.0,Private Treaty,Richardson & Wrench Double Bay,15/05/2018,2021,12909,2.7,0,4,0,-33.88503,151.237091
+139,PADDINGTON,"150 Hargrave Street, Paddington",4,h,House,6800000.0,others,The Agency Eastern Suburbs,15/05/2018,2021,12909,2.7,0,4,0,-33.885040000000004,151.235443
+140,POTTS POINT,"66/12 Wylde Street, Potts Point",1,u,Apartment / Unit / Flat,810000.0,Auction,Richardson & Wrench Elizabeth Bay / Potts Point,15/05/2018,2011,9425,1.7,0,2,0,-33.866642,151.225143
+141,POTTS POINT,"66/12 Wylde Street, Potts Point",1,u,Apartment / Unit / Flat,810000.0,Auction,Richardson & Wrench Elizabeth Bay / Potts Point,15/05/2018,2011,9425,1.7,0,2,0,-33.866642,151.225143
+142,PUTNEY,"5 Payten Street, Putney",5,h,House,2465000.0,Private Treaty,Ray White Gladesville & Ryde,15/05/2018,2112,4104,9.9,0,0,0,-33.82269,151.105759
+143,PUTNEY,"5 Payten Street, Putney",5,h,House,2465000.0,Private Treaty,Ray White Gladesville & Ryde,15/05/2018,2112,4104,9.9,0,0,0,-33.82269,151.105759
+144,ROSE BAY,"1/37 The Avenue, Rose Bay",2,u,Apartment / Unit / Flat,1100000.0,Auction,Belle Property Bondi Junction,15/05/2018,2029,10051,5.7,0,6,0,-33.87828,151.273422
+145,ROSE BAY,"2/675 New South Head Road, Rose Bay",3,u,Apartment / Unit / Flat,5050000.0,Auction,BradfieldCleary,15/05/2018,2029,10051,5.7,0,6,0,-33.8728752,151.262878
+146,RUSHCUTTERS BAY,"Level 1, 8/68 Bayswater Road, Rushcutters Bay",1,u,Apartment / Unit / Flat,395000.0,Private Treaty,Carrington Group,15/05/2018,2011,2547,2.2,0,0,0,-33.8759651,151.226746
+147,RUSHCUTTERS BAY,"Level 1, 8/68 Bayswater Road, Rushcutters Bay",1,u,Apartment / Unit / Flat,395000.0,Private Treaty,Carrington Group,15/05/2018,2011,2547,2.2,0,0,0,-33.8759651,151.226746
+148,SEVEN HILLS,"33 James Street, Seven Hills",3,h,House,800000.0,Private Treaty,Harcourts Hills Living,15/05/2018,2147,19326,27.2,0,10,0,-33.780822799999996,150.922943
+149,SEVEN HILLS,"6 Judith Avenue, Seven Hills",3,h,House,680000.0,Private Treaty,LJ Hooker Seven Hills,15/05/2018,2147,19326,27.2,0,10,0,-33.7806473,150.925934
+150,ST IVES,"2 Alkira Road, St Ives",4,h,House,1958000.0,Auction,Richardson & Wrench St Ives,15/05/2018,2075,17301,15.8,0,10,0,-33.7365646,151.163208
+151,STANMORE,"63 Corunna Road, Stanmore",3,h,House,1600000.0,Private Treaty,Cobden & Hayson Annandale,15/05/2018,2048,7940,5.1,0,4,0,-33.88901,151.168945
+152,SURRY HILLS,"21 Samuel Street, Surry Hills",2,h,House,1400000.0,Private Treaty,BresicWhitney Darlinghurst,15/05/2018,2010,16416,2.5,0,7,0,-33.880866999999995,151.212036
+153,SURRY HILLS,"21 Samuel Street, Surry Hills",2,h,House,1400000.0,Private Treaty,BresicWhitney Darlinghurst,15/05/2018,2010,16416,2.5,0,7,0,-33.880866999999995,151.212036
+154,TOONGABBIE,"11/503-507 Wentworth Avenue, Toongabbie",3,u,Apartment / Unit / Flat,580000.0,Private Treaty,AB Property Consultants,15/05/2018,2146,14333,25.2,0,4,0,-33.786243400000004,150.9522
+155,VAUCLUSE,"18 Dalley Avenue, Vaucluse",4,h,House,7180000.0,others,Raine & Horne Double Bay,15/05/2018,2030,9333,6.6,0,1,0,-33.86224,151.27293400000002
+156,WARRIEWOOD,"7 Baree Place, Warriewood",3,h,House,1490000.0,Private Treaty, Upstate ,15/05/2018,2102,7499,20.6,0,0,0,-33.68544,151.300644
+157,WEST RYDE,"11 Clarke Street, West Ryde",3,h,House,1465000.0,Private Treaty,Snowden Parkes Real Estate ,15/05/2018,2114,13397,12.8,0,0,0,-33.8068352,151.09906
+158,WEST RYDE,"11 Clarke Street, West Ryde",3,h,House,1465000.0,Private Treaty,Snowden Parkes Real Estate ,15/05/2018,2114,13397,12.8,0,0,0,-33.8068352,151.09906
+159,WOOLLAHRA,"12 Spicer Street, Woollahra",2,h,House,1865000.0,Auction,BradfieldCleary,15/05/2018,2025,7407,3.6,0,0,0,-33.8876953,151.237564
+160,WOOLLAHRA,"27/96 Wallis Street, Woollahra",1,u,Apartment / Unit / Flat,450000.0,Private Treaty,Phillips Pantzer Donnelley,15/05/2018,2025,7407,3.6,0,0,0,-33.88949,151.240677
+161,WOOLWICH,"6 Collingwood  Street, Woolwich",6,h,House,7875000.0,Private Treaty,Christie's International Real Estate,15/05/2018,2110,816,4.5,0,0,0,-33.83935,151.170517
+162,WOOLWICH,"6 Collingwood  Street, Woolwich",6,h,House,7875000.0,Private Treaty,Christie's International Real Estate,15/05/2018,2110,816,4.5,0,0,0,-33.83935,151.170517
+163,AIRDS,"2 Elizabeth Way, Airds",3,h,House,460000.0,Auction,Harcourts The Property People,16/05/2018,2560,2927,42.4,0,1,0,-34.084007299999996,150.8342
+164,ALLAMBIE HEIGHTS,"2/23 Kentwell Road, Allambie Heights",2,h,House,985000.0,Private Treaty,Belle Property Seaforth,16/05/2018,2100,7006,12.0,0,3,0,-33.7764435,151.26387
+165,ALLAMBIE HEIGHTS,"2/23 Kentwell Road, Allambie Heights",2,h,House,985000.0,Private Treaty,Belle Property Seaforth,16/05/2018,2100,7006,12.0,0,3,0,-33.7764435,151.26387
+166,ASHFIELD,"65a Milton  Street, Ashfield",2,h,Semi-Detached,875000.0,Private Treaty,Richard Matthews Real Estate,16/05/2018,2131,23839,7.9,0,6,0,-33.8903732,151.116928
+167,ASHFIELD,"11/8 Tintern Road, Ashfield",2,u,Apartment / Unit / Flat,745000.0,others,LJ Hooker Ashfield,16/05/2018,2131,23839,7.9,0,6,0,-33.8920746,151.131226
+168,AVALON BEACH,"167 Avalon Parade, Avalon Beach",5,h,House,2850000.0,Auction,LJ Hooker Avalon,16/05/2018,2107,9908,28.1,0,4,0,-33.6308479,151.319183
+169,AVALON BEACH,"167 Avalon Parade, Avalon Beach",5,h,House,2850000.0,Auction,LJ Hooker Avalon,16/05/2018,2107,9908,28.1,0,4,0,-33.6308479,151.319183
+170,BALGOWLAH,"3 Whittle Avenue, Balgowlah",4,h,House,1675000.0,Private Treaty,McGrath Manly,16/05/2018,2093,7963,9.6,0,4,0,-33.797184,151.252792
+171,BALGOWLAH,"3 Whittle Avenue, Balgowlah",4,h,House,1675000.0,Private Treaty,McGrath Manly,16/05/2018,2093,7963,9.6,0,4,0,-33.797184,151.252792
+172,BANKSTOWN,"10/9-11 Carmen Street, Bankstown",2,u,Apartment / Unit / Flat,450500.0,Private Treaty,Prestige Professionals,16/05/2018,2200,32116,16.9,1,13,0,-33.911453200000004,151.028656
+173,BEACON HILL,"20 Kokoda Crescent, Beacon Hill",3,h,House,1230000.0,Auction,Clarke & Humel Property,16/05/2018,2100,7456,13.7,0,1,0,-33.7576523,151.253967
+174,BEECROFT,"7/76 Beecroft Road, Beecroft",2,u,Apartment / Unit / Flat,655000.0,Private Treaty,Ray White Beecroft ,16/05/2018,2119,9395,18.6,0,2,0,-33.7499847,151.064255
+175,BEECROFT,"7/76 Beecroft Road, Beecroft",2,u,Apartment / Unit / Flat,655000.0,Private Treaty,Ray White Beecroft ,16/05/2018,2119,9395,18.6,0,2,0,-33.7499847,151.064255
+176,BELLEVUE HILL,"1-3 Trahlee Road, Bellevue Hill",5,h,House,5350000.0,Auction,Phillips Pantzer Donnelley,16/05/2018,2023,10719,5.3,0,8,0,-33.8765831,151.248917
+177,BELROSE,"42 Windrush Avenue, Belrose",4,h,House,1525000.0,Auction,L J Hooker Forest,16/05/2018,2085,8775,14.2,0,6,0,-33.7285271,151.211319
+178,BIRCHGROVE,"2A Spring Street, Birchgrove",2,h,House,1900000.0,Private Treaty, Ray White Balmain,16/05/2018,2041,3302,2.9,0,0,0,-33.854009999999995,151.180984
+179,BIRCHGROVE,"2A Spring Street, Birchgrove",2,h,House,1900000.0,Private Treaty, Ray White Balmain,16/05/2018,2041,3302,2.9,0,0,0,-33.854009999999995,151.180984
+180,BLACKETT,"6 Murphy Place, Blackett",3,h,House,490000.0,Private Treaty,Nidus Group - Rooty Hill,16/05/2018,2770,3446,39.3,0,2,0,-33.74112,150.814285
+181,BLACKTOWN,"5/130 Main Street, Blacktown",2,u,Apartment / Unit / Flat,550000.0,Private Treaty,Better Buildings Realty,16/05/2018,2148,47172,29.6,1,20,0,-33.7718239,150.911148
+182,BLACKTOWN,"Villa 4/15 Moren St, Blacktown",3,h,Villa,630000.0,Private Treaty,Andrew Merton Real Estate,16/05/2018,2148,47172,29.6,1,20,0,-33.78722379999999,150.90481599999998
+183,BLACKTOWN,"3212 Fairwater Boulevard, Blacktown",3,t,Townhouse,750000.0,Private Treaty,Frasers Property NSW,16/05/2018,2148,47172,29.6,1,20,0,-33.7598419,150.902557
+184,BONDI,"1 Moore Street, Bondi",4,h,House,2550000.0,others,Phillips Pantzer Donnelley,16/05/2018,2026,10049,5.9,0,4,0,-33.891063700000004,151.265137
+185,BREAKFAST POINT,"402/17 Woodlands Avenue, Breakfast Point",2,u,Apartment / Unit / Flat,1145000.0,Private Treaty,Breakfast Point Realty,16/05/2018,2137,4190,9.6,0,0,0,-33.83987,151.10794099999998
+186,CHATSWOOD,"2207/438 Victoria Avenue, Chatswood",1,u,Apartment / Unit / Flat,830000.0,Private Treaty,88 INTERNATIONAL Pty Ltd,16/05/2018,2067,24914,8.2,0,6,0,-33.7972946,151.18066399999998
+187,CHIPPENDALE,"29/52 Regent Street, Chippendale",1,u,Apartment / Unit / Flat,750000.0,Private Treaty,LJ Hooker Newtown,16/05/2018,2008,8615,2.2,0,1,0,-33.8871155,151.202
+188,CHIPPENDALE,"29/52 Regent Street, Chippendale",1,u,Apartment / Unit / Flat,750000.0,Private Treaty,LJ Hooker Newtown,16/05/2018,2008,8615,2.2,0,1,0,-33.8871155,151.202
+189,CHIPPENDALE,"29/52 Regent Street, Chippendale",1,u,Apartment / Unit / Flat,750000.0,Private Treaty,LJ Hooker Newtown,16/05/2018,2008,8615,2.2,0,1,0,-33.8871155,151.202
+190,CHISWICK,"9/8 Bortfield Drive, Chiswick",2,u,Apartment / Unit / Flat,870000.0,Private Treaty,Warwick Williams Real Estate,16/05/2018,2046,2930,6.8,0,0,0,-33.8467255,151.140961
+191,CHISWICK,"9/8 Bortfield Drive, Chiswick",2,u,Apartment / Unit / Flat,870000.0,Private Treaty,Warwick Williams Real Estate,16/05/2018,2046,2930,6.8,0,0,0,-33.8467255,151.140961
+192,CRANEBROOK,"7 Bellatrix Street, Cranebrook",3,h,House,565000.0,Private Treaty,Response Real Estate Penrith,16/05/2018,2749,15763,49.0,0,6,0,-33.70674,150.716949
+193,CROMER,"14/62 Lynwood Avenue, Cromer",2,u,Apartment / Unit / Flat,844000.0,Private Treaty, Upstate ,16/05/2018,2099,7594,15.6,0,2,0,-33.74429,151.285278
+194,DARLINGHURST,"1301/184 Forbes Street, Darlinghurst",2,u,Apartment / Unit / Flat,2375000.0,Auction,BresicWhitney Darlinghurst,16/05/2018,2010,11317,1.8,1,3,0,-33.875827799999996,151.219345
+195,DARLINGHURST,"26 Burton Street, Darlinghurst",3,h,Terrace,1435000.0,Private Treaty,Oxford Agency,16/05/2018,2010,11317,1.8,1,3,0,-33.878190000000004,151.214874
+196,DARLINGHURST,"118/6-14 Oxford Street, Darlinghurst",1,u,Apartment / Unit / Flat,725000.0,others,Bognar Estate Agents,16/05/2018,2010,11317,1.8,1,3,0,-33.877285,151.213287
+197,DARLINGHURST,"1301/184 Forbes Street, Darlinghurst",2,u,Apartment / Unit / Flat,2375000.0,Auction,BresicWhitney Darlinghurst,16/05/2018,2010,11317,1.8,1,3,0,-33.875827799999996,151.219345
+198,DARLINGHURST,"26 Burton Street, Darlinghurst",3,h,Terrace,1435000.0,Private Treaty,Oxford Agency,16/05/2018,2010,11317,1.8,1,3,0,-33.878190000000004,151.214874
+199,DARLINGHURST,"118/6-14 Oxford Street, Darlinghurst",1,u,Apartment / Unit / Flat,725000.0,others,Bognar Estate Agents,16/05/2018,2010,11317,1.8,1,3,0,-33.877285,151.213287
+200,DEE WHY,"18/82 Pacific Parade, Dee Why",2,u,Apartment / Unit / Flat,722000.0,Private Treaty,Cunninghams Real Estate,16/05/2018,2099,21518,14.6,0,4,0,-33.754993400000004,151.29101599999998
+201,DEE WHY,"83 Quirk Street, Dee Why",4,h,House,2325000.0,Auction,McGrath Manly,16/05/2018,2099,21518,14.6,0,4,0,-33.7589836,151.290146
+202,DOONSIDE,"171 DOUGLAS ROAD, Doonside",5,h,House,835000.0,Private Treaty,Raine & Horne Baulkham Hills/Eastwood,16/05/2018,2767,13452,33.2,0,6,0,-33.77968,150.873474
+203,DRUMMOYNE,"18 Gears Avenue, Drummoyne",4,h,House,2470000.0,Private Treaty,Ray White Drummoyne,16/05/2018,2047,11950,5.2,0,2,0,-33.8549652,151.145157
+204,DRUMMOYNE,"18 Gears Avenue, Drummoyne",4,h,House,2470000.0,Private Treaty,Ray White Drummoyne,16/05/2018,2047,11950,5.2,0,2,0,-33.8549652,151.145157
+205,DULWICH HILL,"43/115-117 Constitution Road, Dulwich Hill",2,u,Apartment / Unit / Flat,840000.0,Private Treaty,Raine & Horne Marrickville,16/05/2018,2203,13710,7.2,0,4,0,-33.9030075,151.138779
+206,DULWICH HILL,"22/30-34 Cobar Street, Dulwich Hill",2,u,Apartment / Unit / Flat,735000.0,Private Treaty,MGM MARTIN,16/05/2018,2203,13710,7.2,0,4,0,-33.904109999999996,151.13092
+207,DUNDAS,"1/327 Kissing Point Road, Dundas",3,t,Townhouse,795000.0,Private Treaty,McGrath Epping,16/05/2018,2117,4735,16.8,1,2,0,-33.80150220000001,151.0569
+208,EAST KILLARA,"75 Barrie Street, East Killara",4,h,House,2150000.0,Private Treaty,McConnell Bourn - North Shore,16/05/2018,2071,2974,13.1,0,0,0,-33.7576523,151.186234
+209,EASTWOOD,"1/31 Railway Parade, Eastwood",1,u,Apartment / Unit / Flat,550000.0,Private Treaty,Better Realty,16/05/2018,2122,17870,14.5,2,8,0,-33.78988,151.083054
+210,EASTWOOD,"1/31 Railway Parade, Eastwood",1,u,Apartment / Unit / Flat,550000.0,Private Treaty,Better Realty,16/05/2018,2122,17870,14.5,2,8,0,-33.78988,151.083054
+211,ELIZABETH BAY,"11/94 Elizabeth Bay Road, Elizabeth Bay",2,u,Apartment / Unit / Flat,900000.0,Auction,Laing Real Estate,16/05/2018,2011,5215,1.9,0,0,0,-33.87172,151.22981299999998
+212,ELIZABETH BAY,"11/94 Elizabeth Bay Road, Elizabeth Bay",2,u,Apartment / Unit / Flat,900000.0,Auction,Laing Real Estate,16/05/2018,2011,5215,1.9,0,0,0,-33.87172,151.22981299999998
+213,EPPING,"203/1-5A Cliff  Road, Epping",1,u,Apartment / Unit / Flat,640000.0,Private Treaty,Stone Real Estate Beecroft,16/05/2018,2121,23691,15.6,0,8,0,-33.7707329,151.078339
+214,EPPING,"6/8-10 Angus Avenue, Epping",2,h,Villa,950000.0,Private Treaty,Cale Property Agents,16/05/2018,2121,23691,15.6,0,8,0,-33.775459999999995,151.066849
+215,EPPING,"27/9 Crandon Road, Epping",2,u,Apartment / Unit / Flat,845000.0,Private Treaty,McGrath Epping,16/05/2018,2121,23691,15.6,0,8,0,-33.772346500000005,151.08758500000002
+216,EPPING,"203/1-5A Cliff  Road, Epping",1,u,Apartment / Unit / Flat,640000.0,Private Treaty,Stone Real Estate Beecroft,16/05/2018,2121,23691,15.6,0,8,0,-33.7707329,151.078339
+217,EPPING,"27/9 Crandon Road, Epping",2,u,Apartment / Unit / Flat,845000.0,Private Treaty,McGrath Epping,16/05/2018,2121,23691,15.6,0,8,0,-33.772346500000005,151.08758500000002
+218,EPPING,"6/8-10 Angus Avenue, Epping",2,h,Villa,950000.0,Private Treaty,Cale Property Agents,16/05/2018,2121,23691,15.6,0,8,0,-33.775459999999995,151.066849
+219,FRENCHS FOREST,"4 Marcus Place, Frenchs Forest",4,h,House,1340000.0,Private Treaty,Stone Real Estate Seaforth,16/05/2018,2086,13476,13.0,1,5,0,-33.7459869,151.214233
+220,FRENCHS FOREST,"57 Peacock Parade, Frenchs Forest",4,h,House,1700000.0,others,Stone Real Estate Forest,16/05/2018,2086,13476,13.0,1,5,0,-33.7410164,151.206818
+221,FRESHWATER,"45 McDonald Street, Freshwater",3,h,House,1740000.0,Private Treaty,Schwarz Real Estate,16/05/2018,2096,8862,15.0,0,4,0,-33.77258,151.2763
+222,GLADESVILLE,"38 Western Crescent, Gladesville",4,h,House,2075000.0,others,Belle Property Hunters Hill,16/05/2018,2111,11826,8.1,0,6,0,-33.8289948,151.12355
+223,GLADESVILLE,"38 Western Crescent, Gladesville",4,h,House,2075000.0,others,Belle Property Hunters Hill,16/05/2018,2111,11826,8.1,0,6,0,-33.8289948,151.12355
+224,GLEBE,"12/81-83 ST Johns Road, Glebe",1,u,Apartment / Unit / Flat,665000.0,Private Treaty, Wiseberry Enmore,16/05/2018,2037,11534,2.3,0,4,0,-33.88135,151.186
+225,GLEBE,"48/75a Ross Street, Glebe",1,u,Apartment / Unit / Flat,810000.0,Auction,BresicWhitney Glebe,16/05/2018,2037,11534,2.3,0,4,0,-33.8801842,151.181824
+226,GLEBE,"12/81-83 St Johns Road, Glebe",1,u,Apartment / Unit / Flat,665000.0,Private Treaty,Oxbridge,16/05/2018,2037,11534,2.3,0,4,0,-33.88135,151.186
+227,GLEBE,"12/81-83 ST Johns Road, Glebe",1,u,Apartment / Unit / Flat,665000.0,Private Treaty, Wiseberry Enmore,16/05/2018,2037,11534,2.3,0,4,0,-33.88135,151.186
+228,GLEBE,"48/75a Ross Street, Glebe",1,u,Apartment / Unit / Flat,810000.0,Auction,BresicWhitney Glebe,16/05/2018,2037,11534,2.3,0,4,0,-33.8801842,151.181824
+229,GLENMORE PARK,"55 Harwood Circuit, Glenmore Park",3,h,House,680000.0,Private Treaty,Jim Aitken & Partners Glenmore Park,16/05/2018,2745,23002,54.6,0,7,0,-33.7767334,150.669632
+230,HABERFIELD,"278 Hawthorne Parade, Haberfield",4,h,House,3200000.0,Auction,McGrath Leichhardt,16/05/2018,2045,6453,6.5,0,3,0,-33.8736,151.1491
+231,HABERFIELD,"278 Hawthorne Parade, Haberfield",4,h,House,3200000.0,Auction,McGrath Leichhardt,16/05/2018,2045,6453,6.5,0,3,0,-33.8736,151.1491
+232,HORNSBY,"66/14 Pound  Road, Hornsby",2,u,Apartment / Unit / Flat,702500.0,Auction,DiJones Real Estate North Shore,16/05/2018,2077,22167,20.6,1,6,0,-33.70666,151.0981
+233,HUNTERS HILL,"4 Augustine Street, Hunters Hill",3,h,House,1805000.0,Auction,McGrath Hunters Hill,16/05/2018,2110,9529,6.3,0,5,0,-33.831474299999996,151.134247
+234,HUNTERS HILL,"4 Augustine Street, Hunters Hill",3,h,House,1805000.0,Auction,McGrath Hunters Hill,16/05/2018,2110,9529,6.3,0,5,0,-33.831474299999996,151.134247
+235,HUNTLEYS COVE,"12/28 Mortimer Lewis Drive, Huntleys Cove",2,u,Apartment / Unit / Flat,1110000.0,Private Treaty,Belle Property Hunters Hill,16/05/2018,2111,748,6.5,0,0,0,-33.83917,151.13914499999998
+236,HUNTLEYS COVE,"12/28 Mortimer Lewis Drive, Huntleys Cove",2,u,Apartment / Unit / Flat,1110000.0,Private Treaty,Belle Property Hunters Hill,16/05/2018,2111,748,6.5,0,0,0,-33.83917,151.13914499999998
+237,LITTLE BAY,"106/1 Pavilion Drive, Little Bay",2,u,Apartment / Unit / Flat,1330000.0,others,PRDnationwide Perez Real Estate,16/05/2018,2036,4477,13.1,0,0,0,-33.9791565,151.247818
+238,LITTLE BAY,"106/1-3 Jenner Street, Little Bay",1,u,Apartment / Unit / Flat,1050000.0,Private Treaty,N G Farah Pty Ltd,16/05/2018,2036,4477,13.1,0,0,0,-33.9787369,151.2451
+239,MAROUBRA,"51 Storey Street, Maroubra",2,h,House,1420000.0,others,Century 21 Eastern Beaches Maroubra,16/05/2018,2035,30686,9.4,0,7,0,-33.93612,151.233429
+240,MAROUBRA,"99 Paine Street, Maroubra",4,h,House,1800000.0,Auction,LJ Hooker Brighton-Le-Sands/ Sans Souci ,16/05/2018,2035,30686,9.4,0,7,0,-33.9430351,151.2351
+241,MILLERS POINT,"5-7 High  Street, Millers Point",12,Block of Units,Block of Units,5605000.0,Auction,McGrath Millers Point,16/05/2018,2000,1485,1.0,0,0,0,-33.8612251,151.203217
+242,MILLERS POINT,"5-7 High  Street, Millers Point",12,Block of Units,Block of Units,5605000.0,Auction,McGrath Millers Point,16/05/2018,2000,1485,1.0,0,0,0,-33.8612251,151.203217
+243,MILLERS POINT,"5-7 High  Street, Millers Point",12,Block of Units,Block of Units,5605000.0,Auction,McGrath Millers Point,16/05/2018,2000,1485,1.0,0,0,0,-33.8612251,151.203217
+244,MILLERS POINT,"5-7 High  Street, Millers Point",12,Block of Units,Block of Units,5605000.0,Auction,McGrath Millers Point,16/05/2018,2000,1485,1.0,0,0,0,-33.8612251,151.203217
+245,MILLERS POINT,"5-7 High  Street, Millers Point",12,Block of Units,Block of Units,5605000.0,Auction,McGrath Millers Point,16/05/2018,2000,1485,1.0,0,0,0,-33.8612251,151.203217
+246,NAREMBURN,"16/2A Palmer Street, Naremburn",3,u,Apartment / Unit / Flat,1400000.0,Auction,Di Jones Lower North Shore,16/05/2018,2065,5887,5.6,0,1,0,-33.8195839,151.2052
+247,NEUTRAL BAY,"7/76 Merlin Street, Neutral Bay",2,u,Apartment / Unit / Flat,1246900.0,Private Treaty,Di Jones Lower North Shore,16/05/2018,2089,10483,4.2,0,2,0,-33.8283844,151.215256
+248,PADDINGTON,"348 South Dowling Street, Paddington",2,h,House,1250000.0,Private Treaty,BresicWhitney Darlinghurst,16/05/2018,2021,12909,2.7,0,4,0,-33.884113299999996,151.21861299999998
+249,PADDINGTON,"22 Cambridge  Street, Paddington",3,h,House,3100000.0,others,Phillips Pantzer Donnelley,16/05/2018,2021,12909,2.7,0,4,0,-33.88102,151.23053000000002
+250,PADDINGTON,"75 Windsor Street, Paddington",2,h,House,2305000.0,Auction,DiJones Real Estate Eastern Suburbs,16/05/2018,2021,12909,2.7,0,4,0,-33.8854141,151.233566
+251,PAGEWOOD,"39/15 Begonia Street, Pagewood",3,t,Townhouse,1290000.0,Auction,Harcourts Byrnes Marsh Shaw,16/05/2018,2035,3802,8.3,0,1,0,-33.94059,151.206482
+252,PENRITH,"21 Hillcrest Avenue, Penrith",3,h,House,535000.0,Private Treaty,Response Real Estate Penrith,16/05/2018,2750,13295,49.2,1,7,0,-33.743866,150.706741
+253,PENRITH,"132/37 Mulgoa Road, Penrith",2,u,Apartment / Unit / Flat,269000.0,Private Treaty,Jim Aitken & Partners Penrith,16/05/2018,2750,13295,49.2,1,7,0,-33.7543,150.68606599999998
+254,PETERSHAM,"101/1 Phillip Street, Petersham",1,u,Studio,425000.0,Private Treaty,Belle Property Annandale,16/05/2018,2049,8115,5.9,0,4,0,-33.888073,151.1609
+255,POINT PIPER,"6/8 Wentworth Street, Point Piper",3,u,Apartment / Unit / Flat,4400000.0,Private Treaty,Ray White Double Bay,16/05/2018,2027,1418,4.2,0,0,0,-33.866905200000005,151.250946
+256,PYMBLE,"8 Narelle Avenue, Pymble",5,h,House,2755000.0,Auction,Chadwick Real Estate Turramurra,16/05/2018,2073,11056,15.0,0,5,0,-33.746967299999994,151.15126
+257,ROSE BAY,"4 Chaleyer Street, Rose Bay",4,h,House,2900000.0,Auction,Ray White Double Bay,16/05/2018,2029,10051,5.7,0,6,0,-33.876724200000005,151.272125
+258,ROSEVILLE,"26/2-14 Pacific Highway (rear of the block), Roseville",2,u,Apartment / Unit / Flat,880000.0,Private Treaty,LY Century Property Services,16/05/2018,2069,10085,9.6,0,2,0,-33.78723,151.178375
+259,RUSHCUTTERS BAY,"302/72 Bayswater Road, Rushcutters Bay",1,u,Apartment / Unit / Flat,1150000.0,others,Phillips Pantzer Donnelley,16/05/2018,2011,2547,2.2,0,0,0,-33.876059999999995,151.227051
+260,RUSHCUTTERS BAY,"302/72 Bayswater Road, Rushcutters Bay",1,u,Apartment / Unit / Flat,1150000.0,others,Phillips Pantzer Donnelley,16/05/2018,2011,2547,2.2,0,0,0,-33.876059999999995,151.227051
+261,RYDALMERE,"46 Primrose Avenue, Rydalmere",2,h,House,1050000.0,Private Treaty,Professionals Ermington,16/05/2018,2116,6640,16.4,0,2,0,-33.818077100000004,151.050171
+262,RYDE,"B5001/16 Constitution Road, Ryde",1,u,Apartment / Unit / Flat,615000.0,Private Treaty,Ray White Rhodes,16/05/2018,2112,26501,11.2,1,9,0,-33.8188744,151.095444
+263,RYDE,"277 Quarry Road, Ryde",3,h,House,1170800.0,Private Treaty,Snowden Parkes Real Estate ,16/05/2018,2112,26501,11.2,1,9,0,-33.7968674,151.10433999999998
+264,RYDE,"9/5 Isabel Street, Ryde",2,u,Apartment / Unit / Flat,596000.0,Private Treaty,PropertyCircle,16/05/2018,2112,26501,11.2,1,9,0,-33.80953,151.107834
+265,RYDE,"B5001/16 Constitution Road, Ryde",1,u,Apartment / Unit / Flat,615000.0,Private Treaty,Ray White Rhodes,16/05/2018,2112,26501,11.2,1,9,0,-33.8188744,151.095444
+266,RYDE,"277 Quarry Road, Ryde",3,h,House,1170800.0,Private Treaty,Snowden Parkes Real Estate ,16/05/2018,2112,26501,11.2,1,9,0,-33.7968674,151.10433999999998
+267,RYDE,"9/5 Isabel Street, Ryde",2,u,Apartment / Unit / Flat,596000.0,Private Treaty,PropertyCircle,16/05/2018,2112,26501,11.2,1,9,0,-33.80953,151.107834
+268,ST IVES,"6 Warrimoo Avenue, St Ives",5,h,House,2320000.0,Private Treaty,Ray White Upper North Shore,16/05/2018,2075,17301,15.8,0,10,0,-33.723938000000004,151.151184
+269,STANMORE,"80 Albany Road, Stanmore",2,h,House,1700000.0,Private Treaty,Cobden & Hayson Annandale,16/05/2018,2048,7940,5.1,0,4,0,-33.89046,151.166977
+270,SURRY HILLS,"302/1 Poplar Street, Surry Hills",1,u,Studio,527000.0,Private Treaty,Oz Combined Realty,16/05/2018,2010,16416,2.5,0,7,0,-33.8783875,151.212524
+271,SURRY HILLS,"302/1 Poplar Street, Surry Hills",1,u,Studio,527000.0,Private Treaty,Oz Combined Realty,16/05/2018,2010,16416,2.5,0,7,0,-33.8783875,151.212524
+272,TELOPEA,"36 Leamington Road, Telopea",6,h,House,1315000.0,Private Treaty,Richardson & Wrench Ryde City,16/05/2018,2117,5432,16.9,0,1,0,-33.797123,151.039017
+273,WARRIEWOOD,"44/30 Macpherson Street, Warriewood",3,t,Townhouse,1050000.0,Private Treaty,LJ Hooker Narrabeen,16/05/2018,2102,7499,20.6,0,0,0,-33.6828461,151.288681
+274,WEST PYMBLE,"34 Todman Avenue, West Pymble",4,h,House,1800000.0,Private Treaty,LJ Hooker Turramurra|Pymble,16/05/2018,2073,5299,14.0,0,0,0,-33.7583427,151.125549
+275,WEST RYDE,"605/15 Chatham Road, West Ryde",2,u,Apartment / Unit / Flat,830000.0,Private Treaty,Daly & Bernar,16/05/2018,2114,13397,12.8,0,0,0,-33.8056068,151.0879
+276,WEST RYDE,"605/15 Chatham Road, West Ryde",2,u,Apartment / Unit / Flat,830000.0,Private Treaty,Daly & Bernar,16/05/2018,2114,13397,12.8,0,0,0,-33.8056068,151.0879
+277,ALEXANDRIA,"10/11-17 Wyndham Street, Alexandria",1,u,Apartment / Unit / Flat,710000.0,others,Raine & Horne Newtown,17/05/2018,2015,8264,3.5,0,3,0,-33.895607,151.197708
+278,ALEXANDRIA,"10/11-17 Wyndham Street, Alexandria",1,u,Apartment / Unit / Flat,710000.0,others,Raine & Horne Newtown,17/05/2018,2015,8264,3.5,0,3,0,-33.895607,151.197708
+279,ASHFIELD,"8/17 Loftus Street, Ashfield",1,u,Apartment / Unit / Flat,455000.0,Private Treaty,LJ Hooker Ashfield,17/05/2018,2131,23839,7.9,0,6,0,-33.88319,151.132629
+280,AVALON BEACH,"2/17-19 Old Barrenjoey Road, Avalon Beach",2,u,Apartment / Unit / Flat,777500.0,Private Treaty,Belle Property Avalon,17/05/2018,2107,9908,28.1,0,4,0,-33.63787,151.328033
+281,AVALON BEACH,"2/17-19 Old Barrenjoey Road, Avalon Beach",2,u,Apartment / Unit / Flat,777500.0,Private Treaty,Belle Property Avalon,17/05/2018,2107,9908,28.1,0,4,0,-33.63787,151.328033
+282,BALGOWLAH,"59 Wanganella Street, Balgowlah",3,h,House,1850000.0,Private Treaty,Cunninghams Real Estate,17/05/2018,2093,7963,9.6,0,4,0,-33.7955475,151.257446
+283,BALGOWLAH,"147 A Balgowlah Road, Balgowlah",3,h,House,1669000.0,Auction,LJ Hooker Balgowlah,17/05/2018,2093,7963,9.6,0,4,0,-33.7909737,151.268875
+284,BALGOWLAH,"59 Wanganella Street, Balgowlah",3,h,House,1850000.0,Private Treaty,Cunninghams Real Estate,17/05/2018,2093,7963,9.6,0,4,0,-33.7955475,151.257446
+285,BLACKTOWN,"7 Burdett Crescent, Blacktown",3,h,House,705000.0,Auction,Starr Partners Blacktown,17/05/2018,2148,47172,29.6,1,20,0,-33.769546500000004,150.89119
+286,BONDI,"62 Edward Street, Bondi",4,h,House,3200000.0,others,Phillips Pantzer Donnelley,17/05/2018,2026,10049,5.9,0,4,0,-33.8912468,151.265747
+287,BONDI,"10/26 Ocean Street North, Bondi",2,u,Apartment / Unit / Flat,1400000.0,Auction,Ray White Double Bay,17/05/2018,2026,10049,5.9,0,4,0,-33.89202,151.263168
+288,BONDI,"2/38 Flood  Street, Bondi",2,u,Apartment / Unit / Flat,885000.0,Private Treaty,Belle Property Bondi Junction,17/05/2018,2026,10049,5.9,0,4,0,-33.8919334,151.259354
+289,BONDI BEACH,"16/65-75 Brighton Boulevard, Bondi Beach",2,u,Apartment / Unit / Flat,1609000.0,Auction,Raine & Horne Double Bay,17/05/2018,2026,11653,6.8,0,3,0,-33.888767200000004,151.280762
+290,BONDI JUNCTION,"2/6 Council Street, Bondi Junction",2,u,Apartment / Unit / Flat,1225000.0,Private Treaty, McGrath Double Bay ,17/05/2018,2022,9440,4.7,0,2,0,-33.8936539,151.255447
+291,BONDI JUNCTION,"2/6 Council  Street, Bondi Junction",3,u,Apartment / Unit / Flat,1225000.0,Auction,Laing+Simmons Bondi Junction,17/05/2018,2022,9440,4.7,0,2,0,-33.8936539,151.255447
+292,BOTANY,"31/90 Bay Street, Botany",2,u,Apartment / Unit / Flat,880000.0,Private Treaty,Ellison Zulian Property,17/05/2018,2019,10822,8.7,0,4,0,-33.94138,151.204956
+293,BOTANY,"21/125 Banksia Street, Botany",2,u,Apartment / Unit / Flat,757500.0,Private Treaty,Century 21 Eastern Beaches Maroubra,17/05/2018,2019,10822,8.7,0,4,0,-33.94365,151.2066
+294,CAMPERDOWN,"6/21-25 Kingston  Road, Camperdown",3,u,Apartment / Unit / Flat,925000.0,Private Treaty,Cobden & Hayson ,17/05/2018,2050,10342,3.6,1,2,0,-33.892433200000006,151.17211899999998
+295,CAMPERDOWN,"8 Gibbens Street, Camperdown",2,h,House,1185000.0,Auction,Hudson McHugh,17/05/2018,2050,10342,3.6,1,2,0,-33.89027,151.176941
+296,CAMPERDOWN,"6/21-25 Kingston  Road, Camperdown",3,u,Apartment / Unit / Flat,925000.0,Private Treaty,Cobden & Hayson ,17/05/2018,2050,10342,3.6,1,2,0,-33.892433200000006,151.17211899999998
+297,CAMPERDOWN,"8 Gibbens Street, Camperdown",2,h,House,1185000.0,Auction,Hudson McHugh,17/05/2018,2050,10342,3.6,1,2,0,-33.89027,151.176941
+298,CENTENNIAL PARK,"1/19 Poate Road, Centennial Park",3,u,Apartment / Unit / Flat,1315000.0,Private Treaty,Phillips Pantzer Donnelley,17/05/2018,2021,2373,3.8,0,0,0,-33.890514399999994,151.229523
+299,CHATSWOOD,"3/1 Day Street, Chatswood",1,u,Apartment / Unit / Flat,1038000.0,Private Treaty,Loyal Property Chatswood,17/05/2018,2067,24914,8.2,0,6,0,-33.793853799999994,151.181122
+300,CHATSWOOD WEST,"2 Louise Avenue, Chatswood West",4,h,House,1745000.0,Private Treaty,Nexus Property,17/05/2018,2067,1500,8.7,0,0,0,-33.7960243,151.160187
+301,CHIPPENDALE,"11/9-15 Blackfriars Street, Chippendale",2,u,Apartment / Unit / Flat,1250000.0,Auction,BresicWhitney Darlinghurst,17/05/2018,2008,8615,2.2,0,1,0,-33.8858223,151.198151
+302,CHIPPENDALE,"11/9-15 Blackfriars Street, Chippendale",2,u,Apartment / Unit / Flat,1250000.0,Auction,BresicWhitney Darlinghurst,17/05/2018,2008,8615,2.2,0,1,0,-33.8858223,151.198151
+303,CHIPPENDALE,"11/9-15 Blackfriars Street, Chippendale",2,u,Apartment / Unit / Flat,1250000.0,Auction,BresicWhitney Darlinghurst,17/05/2018,2008,8615,2.2,0,1,0,-33.8858223,151.198151
+304,COLLAROY,"8/18-22 Fielding Street, Collaroy",2,u,Apartment / Unit / Flat,912000.0,Auction,Cunninghams Real Estate,17/05/2018,2097,7867,16.6,0,1,0,-33.731052399999996,151.299133
+305,COLLAROY,"75 Cumberland Avenue, Collaroy",4,h,House,2900000.0,Private Treaty,Clarke & Humel Property,17/05/2018,2097,7867,16.6,0,1,0,-33.74391,151.3009
+306,COLLAROY,"12/1A Ramsay Street, Collaroy",2,u,Apartment / Unit / Flat,1142000.0,Auction, Upstate ,17/05/2018,2097,7867,16.6,0,1,0,-33.72699,151.29895
+307,COLLAROY PLATEAU,"59 Aubreen Street, Collaroy Plateau",4,h,House,2400000.0,Private Treaty,Belle Property Dee Why,17/05/2018,2097,4767,24.8,0,3,0,-33.72834,151.2934
+308,CONCORD,"3 Curtin Place, Concord",4,h,House,1750000.0,Private Treaty,Devine Real Estate Concord,17/05/2018,2137,14534,9.6,1,4,0,-33.8564568,151.096954
+309,CROMER,"140B Fisher Road North, Cromer",3,h,House,1299000.0,Auction, Upstate ,17/05/2018,2099,7594,15.6,0,2,0,-33.743763,151.2841
+310,CROMER,"25 Carawa Road, Cromer",5,h,House,1540000.0,others,Belle Property Dee Why,17/05/2018,2099,7594,15.6,0,2,0,-33.7406654,151.279068
+311,DEE WHY,"11/2 Monash  Parade, Dee Why",1,u,Apartment / Unit / Flat,1060000.0,others,Rowe Partners Real Estate,17/05/2018,2099,21518,14.6,0,4,0,-33.75541,151.298447
+312,DEE WHY,"7/15 Lismore Avenue, Dee Why",1,u,Apartment / Unit / Flat,540000.0,Private Treaty, Upstate ,17/05/2018,2099,21518,14.6,0,4,0,-33.74677,151.288208
+313,DEE WHY,"11/13-15 Francis  Street, Dee Why",2,u,Apartment / Unit / Flat,765000.0,Private Treaty,First National Real Estate Dee Why,17/05/2018,2099,21518,14.6,0,4,0,-33.7522659,151.28421
+314,DOVER HEIGHTS,"32 Myuna Road, Dover Heights",4,h,House,4100000.0,others,Sydney Sotheby's International Realty,17/05/2018,2030,3802,6.8,0,2,0,-33.870459999999994,151.283432
+315,DUNDAS,"35/32 Station Street, Dundas",2,u,Apartment / Unit / Flat,570000.0,Private Treaty,McGrath Ryde,17/05/2018,2117,4735,16.8,1,2,0,-33.803813899999994,151.033875
+316,DUNDAS VALLEY,"74 Evans Road, Dundas Valley",5,u,Duplex,1130000.0,Private Treaty,Maison Bridge Property,17/05/2018,2117,5411,16.1,0,2,0,-33.790009999999995,151.051651
+317,DUNDAS VALLEY,"74 Evans Road, Dundas Valley",5,u,Duplex,1130000.0,Private Treaty,Maison Bridge Property,17/05/2018,2117,5411,16.1,0,2,0,-33.790009999999995,151.051651
+318,EDGECLIFF,"100 Cameron Street, Edgecliff",3,h,House,2850000.0,others,BradfieldCleary,17/05/2018,2027,2580,2.9,0,1,2,-33.88163,151.236877
+319,GLADESVILLE,"4/27-29 Morrison Road, Gladesville",2,u,Apartment / Unit / Flat,755000.0,Private Treaty,Ray White Gladesville & Ryde,17/05/2018,2111,11826,8.1,0,6,0,-33.83263779999999,151.123734
+320,GLADESVILLE,"25 Warner Street, Gladesville",3,h,House,1650000.0,Private Treaty,Cobden & Hayson Drummoyne,17/05/2018,2111,11826,8.1,0,6,0,-33.8241425,151.117722
+321,GLADESVILLE,"4/27-29 Morrison Road, Gladesville",2,u,Apartment / Unit / Flat,755000.0,Private Treaty,Ray White Gladesville & Ryde,17/05/2018,2111,11826,8.1,0,6,0,-33.83263779999999,151.123734
+322,GLADESVILLE,"25 Warner Street, Gladesville",3,h,House,1650000.0,Private Treaty,Cobden & Hayson Drummoyne,17/05/2018,2111,11826,8.1,0,6,0,-33.8241425,151.117722
+323,GLENDENNING,"2 Joadja Crescent, Glendenning",4,h,House,715000.0,Private Treaty,Harcourts The Property People,17/05/2018,2761,5125,35.5,0,2,0,-33.7447662,150.855408
+324,HAYMARKET,"3164/65 Tumbalong Boulevard, Haymarket",2,u,Apartment / Unit / Flat,1750000.0,Private Treaty,Obsidian Property Pty Ltd,17/05/2018,2000,7354,1.6,0,0,0,-33.87795,151.201828
+325,HAYMARKET,"3164/65 Tumbalong Boulevard, Haymarket",2,u,Apartment / Unit / Flat,1750000.0,Private Treaty,Obsidian Property Pty Ltd,17/05/2018,2000,7354,1.6,0,0,0,-33.87795,151.201828
+326,HAYMARKET,"3164/65 Tumbalong Boulevard, Haymarket",2,u,Apartment / Unit / Flat,1750000.0,Private Treaty,Obsidian Property Pty Ltd,17/05/2018,2000,7354,1.6,0,0,0,-33.87795,151.201828
+327,HOMEBUSH WEST,"24/40-42 Henley  Road, Homebush West",4,u,Apartment / Unit / Flat,807000.0,Private Treaty,Belle Property Strathfield,17/05/2018,2140,8609,12.7,0,2,0,-33.8686676,151.068756
+328,HORNSBY,"27 Carrington Road, Hornsby",3,h,House,1120080.0,Private Treaty,Ray White Hornsby,17/05/2018,2077,22167,20.6,1,6,0,-33.690834,151.094879
+329,HUNTERS HILL,"6 Nemba Street, Hunters Hill",3,h,House,2000000.0,Auction,BresicWhitney Hunters Hill,17/05/2018,2110,9529,6.3,0,5,0,-33.83265,151.146652
+330,HUNTERS HILL,"6 Nemba Street, Hunters Hill",3,h,House,2000000.0,Auction,BresicWhitney Hunters Hill,17/05/2018,2110,9529,6.3,0,5,0,-33.83265,151.146652
+331,LEWISHAM,"913/20 Hudson Street, Lewisham",2,u,Apartment / Unit / Flat,1000000.0,Auction,Hudson McHugh,17/05/2018,2049,3165,6.6,0,4,0,-33.8932838,151.144409
+332,LEWISHAM,"913/20 Hudson Street, Lewisham",2,u,Apartment / Unit / Flat,1000000.0,Auction,Hudson McHugh,17/05/2018,2049,3165,6.6,0,4,0,-33.8932838,151.144409
+333,LILYFIELD,"22 Frazer Street, Lilyfield",2,h,House,1350000.0,Auction,McGrath Leichhardt,17/05/2018,2040,7617,3.9,0,1,0,-33.87165,151.153076
+334,LINDFIELD,"33/6-8 Drovers  Way, Lindfield",2,u,Apartment / Unit / Flat,865000.0,Auction,Savills,17/05/2018,2070,9794,10.7,0,7,0,-33.7787,151.167786
+335,MACQUARIE PARK,"3/41-43 Fontenoy Road, Macquarie Park",2,u,Apartment / Unit / Flat,675000.0,Private Treaty,Ray White Epping SYD,17/05/2018,2113,8142,11.8,0,0,0,-33.7766151,151.129028
+336,MACQUARIE PARK,"3/41-43 Fontenoy Road, Macquarie Park",2,u,Apartment / Unit / Flat,675000.0,Private Treaty,Ray White Epping SYD,17/05/2018,2113,8142,11.8,0,0,0,-33.7766151,151.129028
+337,MANLY VALE,"11/12 Fairway  Close, Manly Vale",2,u,Apartment / Unit / Flat,775000.0,Private Treaty,Cunninghams Real Estate,17/05/2018,2093,6167,10.8,0,3,0,-33.78608,151.274048
+338,MATRAVILLE,"23 Combles Parade, Matraville",4,t,Townhouse,1150000.0,Private Treaty,McGrath Maroubra,17/05/2018,2036,9804,10.3,0,3,0,-33.955364200000005,151.238647
+339,MILLERS POINT,"41 Windmill Street, Millers Point",3,h,House,2175000.0,Auction, McGrath Double Bay ,17/05/2018,2000,1485,1.0,0,0,0,-33.857826200000005,151.2047
+340,MILLERS POINT,"41 Windmill Street, Millers Point",3,h,House,2175000.0,Auction, McGrath Double Bay ,17/05/2018,2000,1485,1.0,0,0,0,-33.857826200000005,151.2047
+341,MILLERS POINT,"41 Windmill Street, Millers Point",3,h,House,2175000.0,Auction, McGrath Double Bay ,17/05/2018,2000,1485,1.0,0,0,0,-33.857826200000005,151.2047
+342,MULGOA,"1292 Mulgoa Road, Mulgoa",6,h,House,975000.0,Auction,Bespoke Realty Group,17/05/2018,2745,1898,48.5,0,3,0,-33.8452644,150.65274
+343,NEWTOWN,"1/85 Chelmsford Street, Newtown",2,u,Apartment / Unit / Flat,855000.0,Auction,Ray White Newtown,17/05/2018,2042,15025,4.1,0,6,0,-33.896217299999996,151.17569
+344,NORMANHURST,"60 Denman Parade, Normanhurst",3,h,House,1650000.0,Auction,Soames Real Estate Northern Districts,17/05/2018,2076,5290,19.2,0,3,0,-33.721305799999996,151.097824
+345,NORTH BONDI,"112 Murriverie Road, North Bondi",3,h,House,2545000.0,Auction,Raine & Horne Double Bay,17/05/2018,2026,9167,7.0,0,2,0,-33.882290000000005,151.280212
+346,NORTH EPPING,"7 Harper Street, North Epping",3,h,House,1133000.0,others,Ray White Epping SYD,17/05/2018,2121,4526,16.3,0,1,0,-33.7630234,151.0948
+347,NORTH EPPING,"7 Harper Street, North Epping",3,h,House,1133000.0,others,Ray White Epping SYD,17/05/2018,2121,4526,16.3,0,1,0,-33.7630234,151.0948
+348,NORTH RYDE,"21 Cutler Parade, North Ryde",4,h,House,1420000.0,Private Treaty,"First National Real Estate Hunters Hill, Gladesville & Ryde",17/05/2018,2113,10857,10.9,0,6,0,-33.7986031,151.130417
+349,NORTH RYDE,"21 Cutler Parade, North Ryde",4,h,House,1420000.0,Private Treaty,"First National Real Estate Hunters Hill, Gladesville & Ryde",17/05/2018,2113,10857,10.9,0,6,0,-33.7986031,151.130417
+350,PADDINGTON,"25/13-15 Oxford Street, Paddington",1,u,Apartment / Unit / Flat,845000.0,Private Treaty,Phillips Pantzer Donnelley,17/05/2018,2021,12909,2.7,0,4,0,-33.8822746,151.219681
+351,PALM BEACH,"32 Ralston Road, Palm Beach",4,h,House,2100000.0,Private Treaty,LJ Hooker Avalon,17/05/2018,2108,1589,31.1,0,0,0,-33.6039238,151.324356
+352,POTTS POINT,"2/116-118 Victoria Street, Potts Point",1,u,Apartment / Unit / Flat,1475000.0,Auction,Ray White Elizabeth Bay,17/05/2018,2011,9425,1.7,0,2,0,-33.871482799999995,151.223145
+353,POTTS POINT,"2/116-118 Victoria Street, Potts Point",1,u,Apartment / Unit / Flat,1475000.0,Auction,Ray White Elizabeth Bay,17/05/2018,2011,9425,1.7,0,2,0,-33.871482799999995,151.223145
+354,QUEENSCLIFF,"3 Greycliffe Street, Queenscliff",5,h,House,4375000.0,Auction,Clarke & Humel Property,17/05/2018,2096,3377,11.8,0,0,0,-33.7852364,151.288773
+355,QUEENSCLIFF,"6/109 Queenscliff Road, Queenscliff",2,u,Apartment / Unit / Flat,850000.0,Auction, Upstate ,17/05/2018,2096,3377,11.8,0,0,0,-33.7821541,151.28414899999999
+356,REDFERN,"15 Renwick Street, Redfern",2,h,Terrace,1070000.0,Auction,BresicWhitney Darlinghurst,17/05/2018,2016,13213,2.9,0,3,0,-33.8899269,151.20211799999998
+357,REDFERN,"81 Telopea Street, Redfern",2,h,House,1200000.0,Private Treaty,BresicWhitney Darlinghurst,17/05/2018,2016,13213,2.9,0,3,0,-33.8944321,151.21078500000002
+358,RIVERVIEW,"120 Riverview Street, Riverview",3,h,House,1760000.0,Auction,Forsyth Real Estate,17/05/2018,2066,3354,6.4,0,0,0,-33.819694500000004,151.1571
+359,ROSEVILLE,"7 Archbold Road, Roseville",4,h,House,2270000.0,Private Treaty,Belle Property Lane Cove,17/05/2018,2069,10085,9.6,0,2,0,-33.7835922,151.189346
+360,RYDALMERE,"6A/414-420 Victoria Road, Rydalmere",4,t,Townhouse,815000.0,Private Treaty,Maison Bridge Property,17/05/2018,2116,6640,16.4,0,2,0,-33.812259999999995,151.043564
+361,RYDE,"25/335-337 Blaxland Road, Ryde",2,u,Apartment / Unit / Flat,592000.0,Private Treaty,Tracy Yap Realty,17/05/2018,2112,26501,11.2,1,9,0,-33.803490000000004,151.103027
+362,RYDE,"25/335-337 Blaxland Road, Ryde",2,u,Apartment / Unit / Flat,592000.0,Private Treaty,Tracy Yap Realty,17/05/2018,2112,26501,11.2,1,9,0,-33.803490000000004,151.103027
+363,SEAFORTH,"17 Jenner  Street, Seaforth",6,h,House,4200000.0,others,Belle Property Seaforth,17/05/2018,2092,7137,8.8,0,1,0,-33.7972,151.239426
+364,SEAFORTH,"27 MacMillan Street, Seaforth",5,h,House,2965000.0,Auction,Cunninghams Real Estate,17/05/2018,2092,7137,8.8,0,1,0,-33.794185600000006,151.247879
+365,ST CLAIR,"12 Illawarra Drive, St Clair",4,h,House,700000.0,Private Treaty,QWest Property Group,17/05/2018,2759,19895,39.3,0,6,0,-33.8067474,150.787262
+366,ST IVES,"16 Yarralumla Avenue, St Ives",3,h,House,1325000.0,Private Treaty,Belle Property Pymble | Wahroonga,17/05/2018,2075,17301,15.8,0,10,0,-33.702774,151.163467
+367,TELOPEA,"35 Evans Road, Telopea",6,h,House,1293998.0,Private Treaty,Maison Bridge Property,17/05/2018,2117,5432,16.9,0,1,0,-33.7933426,151.04808
+368,WARRIEWOOD,"92 Alameda Way, Warriewood",5,h,House,1665000.0,Auction, Upstate ,17/05/2018,2102,7499,20.6,0,0,0,-33.68065,151.29492199999999
+369,WARRIEWOOD,"26a Lakeview Parade, Warriewood",5,h,House,1800000.0,others, Upstate ,17/05/2018,2102,7499,20.6,0,0,0,-33.6901436,151.304047
+370,WATERLOO,"939/2-4 Lachlan Street, Waterloo",2,u,Apartment / Unit / Flat,860000.0,Private Treaty,Beere Property,17/05/2018,2017,14621,3.7,0,0,0,-33.899879999999996,151.212036
+371,ZETLAND,"40/2 Hutchinson Walk, Zetland",2,u,Apartment / Unit / Flat,910000.0,Private Treaty,MGM MARTIN,17/05/2018,2017,10072,4.8,0,0,0,-33.9066963,151.21133400000002
+372,ALEXANDRIA,"309 Belmont Street, Alexandria",2,h,House,1150000.0,others,Raine & Horne Newtown,18/05/2018,2015,8264,3.5,0,3,0,-33.9053841,151.189865
+373,ALEXANDRIA,"311-313 Belmont Street, Alexandria",1,h,House,2350000.0,others,Raine & Horne Newtown,18/05/2018,2015,8264,3.5,0,3,0,-33.9054375,151.1898
+374,ALEXANDRIA,"309 Belmont Street, Alexandria",2,h,House,1150000.0,others,Raine & Horne Newtown,18/05/2018,2015,8264,3.5,0,3,0,-33.9053841,151.189865
+375,ALEXANDRIA,"311-313 Belmont Street, Alexandria",1,h,House,2350000.0,others,Raine & Horne Newtown,18/05/2018,2015,8264,3.5,0,3,0,-33.9054375,151.1898
+376,ASHFIELD,"17/32 Alt Street, Ashfield",2,u,Apartment / Unit / Flat,660000.0,others,LJ Hooker Ashfield,18/05/2018,2131,23839,7.9,0,6,0,-33.884544399999996,151.123215
+377,BALGOWLAH,"473 Sydney Road, Balgowlah",6,Block of Units,Block of Units,2750000.0,Private Treaty,Sweetnams Real Estate,18/05/2018,2093,7963,9.6,0,4,0,-33.794712100000005,151.257431
+378,BALGOWLAH,"473 Sydney Road, Balgowlah",6,Block of Units,Block of Units,2750000.0,Private Treaty,Sweetnams Real Estate,18/05/2018,2093,7963,9.6,0,4,0,-33.794712100000005,151.257431
+379,BALMAIN,"151 Darling Street, Balmain",3,h,House,1760000.0,Private Treaty,Belle Property Balmain,18/05/2018,2041,10447,2.9,1,4,0,-33.8579941,151.187759
+380,BALMAIN,"14 Hampton Street, Balmain",2,h,House,1560000.0,Private Treaty, Ray White Balmain,18/05/2018,2041,10447,2.9,1,4,0,-33.8552971,151.174164
+381,BALMAIN,"151 Darling Street, Balmain",3,h,House,1760000.0,Private Treaty,Belle Property Balmain,18/05/2018,2041,10447,2.9,1,4,0,-33.8579941,151.187759
+382,BALMAIN,"14 Hampton Street, Balmain",2,h,House,1560000.0,Private Treaty, Ray White Balmain,18/05/2018,2041,10447,2.9,1,4,0,-33.8552971,151.174164
+383,BELLEVUE HILL,"5/230-234 Old South Head Road, Bellevue Hill",2,u,Apartment / Unit / Flat,1723000.0,Private Treaty,Phillips Pantzer Donnelley,18/05/2018,2023,10719,5.3,0,8,0,-33.8875732,151.26448100000002
+384,BELROSE,"29 Forest Glen Crescent, Belrose",3,h,House,1531800.0,others,Ray White Group,18/05/2018,2085,8775,14.2,0,6,0,-33.7369537,151.217529
+385,BEROWRA,"15 Waratah Road, Berowra",5,h,House,1486000.0,Private Treaty,McGrath Berowra,18/05/2018,2081,4722,27.6,0,2,0,-33.6271248,151.1461
+386,BEROWRA HEIGHTS,"21 Wymah Crescent, Berowra Heights",3,h,House,1120000.0,Private Treaty,McGrath Berowra,18/05/2018,2082,5262,29.2,0,3,0,-33.6130066,151.13069199999998
+387,BLACKTOWN,"27/14-18 Fourth Avenue, Blacktown",2,u,Apartment / Unit / Flat,418000.0,Private Treaty,Ray White Blacktown City,18/05/2018,2148,47172,29.6,1,20,0,-33.76464,150.910767
+388,BONDI,"39 Park Parade, Bondi",4,h,House,2300000.0,others,Phillips Pantzer Donnelley,18/05/2018,2026,10049,5.9,0,4,0,-33.896217299999996,151.25946000000002
+389,BOSSLEY PARK,"3 Rayford Close, Bossley Park",5,h,House,1055000.0,Private Treaty,Ray White Fairfield,18/05/2018,2176,14580,29.8,0,4,0,-33.86072,150.88403300000002
+390,BOTANY,"2/12 Edward Street, Botany",2,u,Apartment / Unit / Flat,680000.0,Private Treaty,LJ Hooker Green Square | Waterloo,18/05/2018,2019,10822,8.7,0,4,0,-33.9449158,151.1983
+391,CAMBRIDGE PARK,"59 College Street, Cambridge Park",3,h,House,710000.0,Private Treaty,Jim Aitken & Partners Penrith,18/05/2018,2747,6727,46.3,0,3,0,-33.749534600000004,150.7214
+392,CARLINGFORD,"79/2-8 James Street, Carlingford",2,u,Apartment / Unit / Flat,670000.0,Private Treaty,Element Realty Carlingford,18/05/2018,2118,24394,17.4,0,7,0,-33.7819939,151.045471
+393,CARLINGFORD,"27 Mobbs Lane, Carlingford",3,h,House,1100000.0,Auction,McGrath Ryde,18/05/2018,2118,24394,17.4,0,7,0,-33.78522,151.06395
+394,CARLINGFORD,"79/2-8 James Street, Carlingford",2,u,Apartment / Unit / Flat,670000.0,Private Treaty,Element Realty Carlingford,18/05/2018,2118,24394,17.4,0,7,0,-33.7819939,151.045471
+395,CARLINGFORD,"27 Mobbs Lane, Carlingford",3,h,House,1100000.0,Auction,McGrath Ryde,18/05/2018,2118,24394,17.4,0,7,0,-33.78522,151.06395
+396,CASTLECRAG,"79 Sunnyside Crescent, Castlecrag",2,h,House,2750000.0,others,Richardson & Wrench Northbridge,18/05/2018,2068,2943,7.2,0,2,0,-33.80022,151.216141
+397,CHATSWOOD,"11 Lone Pine Avenue, Chatswood",3,h,House,2180000.0,others,Tracy Yap Realty North Shore,18/05/2018,2067,24914,8.2,0,6,0,-33.801753999999995,151.17562900000001
+398,CHURCH POINT,"2121 Pittwater Road, Church Point",4,h,House,4200000.0,Private Treaty,LJ Hooker Mona Vale,18/05/2018,2105,997,25.7,0,0,0,-33.650772100000005,151.2872
+399,COLLAROY,"2/8 Park Street, Collaroy",2,u,Apartment / Unit / Flat,870000.0,Private Treaty,CJ Hills Real Estate ,18/05/2018,2097,7867,16.6,0,1,0,-33.725956,151.295242
+400,COLLAROY,"13/15 Jenkins Street, Collaroy",2,u,Apartment / Unit / Flat,745000.0,Private Treaty,McGrath Collaroy,18/05/2018,2097,7867,16.6,0,1,0,-33.7291222,151.298126
+401,CROMER,"106 Toronto Avenue, Cromer",3,h,House,1165000.0,Private Treaty,Ray White Freshwater,18/05/2018,2099,7594,15.6,0,2,0,-33.731,151.269974
+402,CROWS NEST,"98 Falcon St, Crows Nest",2,h,House,1290000.0,Private Treaty,Northside Realtors,18/05/2018,2065,4796,4.6,0,4,0,-33.8281174,151.205
+403,CROWS NEST,"51/Ernest Street, Crows Nest",3,h,House,2650000.0,Auction,McGrath Crows Nest,18/05/2018,2065,4796,4.6,0,4,0,-33.8264275,151.20597800000002
+404,DEE WHY,"2102/2-10 Mooramba Road, Dee Why",2,u,Apartment / Unit / Flat,785000.0,Private Treaty,Laing+Simmons Dee Why ,18/05/2018,2099,21518,14.6,0,4,0,-33.755832700000006,151.28183
+405,DRUMMOYNE,"6 Byrne Avenue, Drummoyne",2,h,House,1427000.0,Private Treaty,Belle Property Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.856292700000004,151.145462
+406,DRUMMOYNE,"38 Moore Street, Drummoyne",4,h,House,2410000.0,Private Treaty,Cobden & Hayson Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.8527756,151.14617900000002
+407,DRUMMOYNE,"7/55 Wrights  Road, Drummoyne",2,t,Townhouse,1100000.0,Private Treaty,Cobden & Hayson Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.84428,151.151764
+408,DRUMMOYNE,"4/361 Victoria Place, Drummoyne",3,u,Apartment / Unit / Flat,920000.0,Private Treaty,Horwood Nolan,18/05/2018,2047,11950,5.2,0,2,0,-33.84436420000001,151.144913
+409,DRUMMOYNE,"6 Byrne Avenue, Drummoyne",2,h,House,1427000.0,Private Treaty,Belle Property Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.856292700000004,151.145462
+410,DRUMMOYNE,"38 Moore Street, Drummoyne",4,h,House,2410000.0,Private Treaty,Cobden & Hayson Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.8527756,151.14617900000002
+411,DRUMMOYNE,"7/55 Wrights  Road, Drummoyne",2,t,Townhouse,1100000.0,Private Treaty,Cobden & Hayson Drummoyne,18/05/2018,2047,11950,5.2,0,2,0,-33.84428,151.151764
+412,EASTWOOD,"8/15-19 Ethel Street, Eastwood",2,u,Apartment / Unit / Flat,650000.0,Private Treaty,Anthony Trees First National,18/05/2018,2122,17870,14.5,2,8,0,-33.7900963,151.084579
+413,EASTWOOD,"8/15-19 Ethel Street, Eastwood",2,u,Apartment / Unit / Flat,650000.0,Private Treaty,Anthony Trees First National,18/05/2018,2122,17870,14.5,2,8,0,-33.7900963,151.084579
+414,EMU PLAINS,"69 Pyramid Street, Emu Plains",3,h,House,666000.0,Private Treaty,Dukes Estate Agents Penrith,18/05/2018,2750,8415,57.6,0,7,0,-33.749725299999994,150.654938
+415,ERSKINEVILLE,"16 Malcolm Street, Erskineville",4,h,House,1480000.0,Private Treaty,Ray White Surry Hills | Alexandria | Glebe | Erskineville,18/05/2018,2043,8014,4.2,0,2,0,-33.900898,151.186752
+416,ERSKINEVILLE,"32 Septimus Street, Erskineville",2,h,House,1005000.0,Private Treaty,Ray White Surry Hills | Alexandria | Glebe | Erskineville,18/05/2018,2043,8014,4.2,0,2,0,-33.89832,151.1833
+417,ERSKINEVILLE,"7506/177-219 Mitchell Road, Erskineville",3,u,Apartment / Unit / Flat,1225000.0,Private Treaty,BresicWhitney Glebe,18/05/2018,2043,8014,4.2,0,2,0,-33.9065971,151.186127
+418,ERSKINEVILLE,"16 Malcolm Street, Erskineville",4,h,House,1480000.0,Private Treaty,Ray White Surry Hills | Alexandria | Glebe | Erskineville,18/05/2018,2043,8014,4.2,0,2,0,-33.900898,151.186752
+419,ERSKINEVILLE,"32 Septimus Street, Erskineville",2,h,House,1005000.0,Private Treaty,Ray White Surry Hills | Alexandria | Glebe | Erskineville,18/05/2018,2043,8014,4.2,0,2,0,-33.89832,151.1833
+420,FAIRLIGHT,"7 La Perouse Street, Fairlight",2,h,House,2500000.0,Private Treaty,Cunninghams Real Estate,18/05/2018,2094,5841,9.8,0,0,0,-33.794309999999996,151.27005
+421,FRENCHS FOREST,"89A Prince Charles Road, Frenchs Forest",3,h,House,1340000.0,Private Treaty,Century 21 Seiwa,18/05/2018,2086,13476,13.0,1,5,0,-33.7420578,151.220047
+422,FRENCHS FOREST,"5 Nyorie Place, Frenchs Forest",5,h,House,1462200.0,Private Treaty,Ray White Group,18/05/2018,2086,13476,13.0,1,5,0,-33.74494,151.21868899999998
+423,FRENCHS FOREST,"3 Noorong Avenue, Frenchs Forest",5,h,House,1930000.0,others,Ray White Group,18/05/2018,2086,13476,13.0,1,5,0,-33.7421951,151.2318
+424,GLENMORE PARK,"59 Monarch Circuit, Glenmore Park",4,h,House,927500.0,Private Treaty,Glenmore Park Realty,18/05/2018,2745,23002,54.6,0,7,0,-33.796890000000005,150.678543
+425,GLENMORE PARK,"5 Hassall Way, Glenmore Park",3,h,House,791500.0,Private Treaty,Glenmore Park Realty,18/05/2018,2745,23002,54.6,0,7,0,-33.8048172,150.681366
+426,GLENWOOD,"25 Boonderoo Avenue, Glenwood",4,h,House,1100000.0,Private Treaty,Harcourts Hills Living,18/05/2018,2768,16128,29.9,0,5,0,-33.7401047,150.935379
+427,HABERFIELD,"41 Northcote Street, Haberfield",4,h,House,2200000.0,Private Treaty,Callagher Estate Agents,18/05/2018,2045,6453,6.5,0,3,0,-33.874797799999996,151.13295
+428,HABERFIELD,"41 Northcote Street, Haberfield",4,h,House,2200000.0,Private Treaty,Callagher Estate Agents,18/05/2018,2045,6453,6.5,0,3,0,-33.874797799999996,151.13295
+429,HORNSBY,"25 Galston Road, Hornsby",3,h,House,1020000.0,Private Treaty,Soames Real Estate Upper North Shore,18/05/2018,2077,22167,20.6,1,6,0,-33.6884842,151.097061
+430,HUNTERS HILL,"36 Auburn Street, Hunters Hill",4,h,House,2000000.0,Auction,Belle Property Hunters Hill,18/05/2018,2110,9529,6.3,0,5,0,-33.8291779,151.131531
+431,KINGSFORD,"8/44-46 Houston Road, Kingsford",2,u,Apartment / Unit / Flat,740000.0,Private Treaty,Primus Property,18/05/2018,2032,15484,6.7,0,1,0,-33.9219,151.225784
+432,LANE COVE,"4/2 Taylors  Drive, Lane Cove",3,u,Apartment / Unit / Flat,1150000.0,Private Treaty,Belle Property Lane Cove,18/05/2018,2066,10815,6.8,0,7,0,-33.802673299999995,151.1471
+433,LINDFIELD,"35/234 Pacific Highway, Lindfield",3,u,Apartment / Unit / Flat,1090000.0,others,Stone Real Estate Lindfield,18/05/2018,2070,9794,10.7,0,7,0,-33.780097999999995,151.1688
+434,MANLY,"13/36 Osborne Road, Manly",3,u,Apartment / Unit / Flat,2025000.0,Private Treaty,Etch Real Estate,18/05/2018,2095,15863,10.8,1,7,0,-33.804829999999995,151.288422
+435,MANLY VALE,"53 Kenneth Road, Manly Vale",4,h,House,1830000.0,Auction,Raine & Horne Manly,18/05/2018,2093,6167,10.8,0,3,0,-33.785990000000005,151.261246
+436,MAROUBRA,"8 Donovan Avenue, Maroubra",4,h,House,2550000.0,others,Laing+Simmons Double Bay,18/05/2018,2035,30686,9.4,0,7,0,-33.94514470000001,151.228134
+437,MARSFIELD,"94/188-190 Balaclava Road, Marsfield",2,u,Apartment / Unit / Flat,773000.0,others,Ray White North Ryde | Macquarie Park,18/05/2018,2122,13295,13.9,0,1,0,-33.7774467,151.1065
+438,MARSFIELD,"17/19 Taranto Road, Marsfield",2,t,Townhouse,742500.0,Private Treaty,NNW Property,18/05/2018,2122,13295,13.9,0,1,0,-33.7662659,151.108826
+439,MARSFIELD,"94/188-190 Balaclava Road, Marsfield",2,u,Apartment / Unit / Flat,773000.0,others,Ray White North Ryde | Macquarie Park,18/05/2018,2122,13295,13.9,0,1,0,-33.7774467,151.1065
+440,MARSFIELD,"17/19 Taranto Road, Marsfield",2,t,Townhouse,742500.0,Private Treaty,NNW Property,18/05/2018,2122,13295,13.9,0,1,0,-33.7662659,151.108826
+441,MOSMAN,"10/73 Spit Road, Mosman",2,u,Apartment / Unit / Flat,1100000.0,Private Treaty,Latham Cusack Property,18/05/2018,2088,28476,5.4,0,9,0,-33.82139,151.24414099999998
+442,MOSMAN,"12B Prince Street, Mosman",3,h,House,2550000.0,Auction,Di Jones Lower North Shore Mosman,18/05/2018,2088,28476,5.4,0,9,0,-33.827197999999996,151.236511
+443,MOSMAN,"77 Hale Road, Mosman",3,h,House,2450000.0,others,Richardson & Wrench North Sydney,18/05/2018,2088,28476,5.4,0,9,0,-33.8215523,151.234283
+444,NARRABEEN,"2/211 Ocean Street, Narrabeen",3,u,Apartment / Unit / Flat,2725000.0,Private Treaty,Chedid Property,18/05/2018,2101,8212,17.6,0,2,0,-33.705806700000004,151.304047
+445,NEUTRAL BAY,"6/341 Alfred Street, Neutral Bay",1,u,Apartment / Unit / Flat,535000.0,others,Mosman First National,18/05/2018,2089,10483,4.2,0,2,0,-33.8369026,151.212021
+446,NEWPORT,"3/35 Gladstone Street, Newport",2,u,Apartment / Unit / Flat,812000.0,Private Treaty,Wiseberry Mona Vale,18/05/2018,2106,9303,24.9,0,1,0,-33.6586151,151.314072
+447,NEWTOWN,"11 Albert Street, Newtown",2,h,House,1250000.0,Private Treaty,Ray White Surry Hills | Alexandria | Glebe | Erskineville,18/05/2018,2042,15025,4.1,0,6,0,-33.8957443,151.17363
+448,NEWTOWN,"71 Bedford Street, Newtown",1,h,House,860000.0,Private Treaty,Raine & Horne Newtown,18/05/2018,2042,15025,4.1,0,6,0,-33.8968277,151.175034
+449,NORMANHURST,"35A Nepean Avenue, Normanhurst",3,h,House,1100000.0,Private Treaty,Ray White Pennant Hills,18/05/2018,2076,5290,19.2,0,3,0,-33.72782,151.094742
+450,NORTH BALGOWLAH,"58 Woodbine Street, North Balgowlah",4,h,House,1900000.0,others,Rowe Partners Real Estate,18/05/2018,2093,3664,9.8,0,1,0,-33.7856941,151.248886
+451,NORTH CURL CURL,"5 Blackwood  Road, North Curl Curl",4,h,House,1770000.0,others,Cunninghams Real Estate,18/05/2018,2099,4113,14.3,0,2,0,-33.7632027,151.29446399999998
+452,NORTH CURL CURL,"6/64 Pitt Road, North Curl Curl",1,u,Apartment / Unit / Flat,725000.0,Auction, Upstate ,18/05/2018,2099,4113,14.3,0,2,0,-33.762336700000006,151.295166
+453,NORTH MANLY,"96 William Street, North Manly",3,h,House,1635000.0,Private Treaty,Clarke & Humel Property,18/05/2018,2100,3089,11.7,0,0,0,-33.76967,151.27681
+454,NORTH MANLY,"10 Robert Avenue, North Manly",6,h,House,2190000.0,others,Rowe Partners Real Estate,18/05/2018,2100,3089,11.7,0,0,0,-33.76905,151.26951599999998
+455,NORTH RYDE,"10A Ruse Street, North Ryde",4,u,Duplex,1375000.0,Private Treaty,Ray White North Ryde | Macquarie Park,18/05/2018,2113,10857,10.9,0,6,0,-33.789134999999995,151.11175500000002
+456,NORTH RYDE,"10A Ruse Street, North Ryde",4,u,Duplex,1375000.0,Private Treaty,Ray White North Ryde | Macquarie Park,18/05/2018,2113,10857,10.9,0,6,0,-33.789134999999995,151.11175500000002
+457,NORTHBRIDGE,"4 Dalmeny Road, Northbridge",5,h,House,4800000.0,Private Treaty,Richardson & Wrench Northbridge,18/05/2018,2063,6348,6.3,0,3,0,-33.807537100000005,151.22808799999999
+458,PARKLEA,"79 Sentry Drive, Parklea",6,h,House,1190000.0,Private Treaty,LJ Hooker Stanhope Gardens,18/05/2018,2768,3471,30.4,0,0,0,-33.72484,150.918076
+459,PENNANT HILLS,"11 Albion Street, Pennant Hills",5,h,House,1530000.0,Private Treaty,The Agency North,18/05/2018,2120,7286,19.0,0,4,0,-33.7365723,151.077042
+460,PENNANT HILLS,"11 Albion Street, Pennant Hills",5,h,House,1530000.0,Private Treaty,The Agency North,18/05/2018,2120,7286,19.0,0,4,0,-33.7365723,151.077042
+461,POTTS POINT,"32/1 McDonald Street, Potts Point",1,u,Apartment / Unit / Flat,775000.0,Private Treaty,Ray White Elizabeth Bay,18/05/2018,2011,9425,1.7,0,2,0,-33.86823,151.224472
+462,POTTS POINT,"32/1 McDonald Street, Potts Point",1,u,Apartment / Unit / Flat,775000.0,Private Treaty,Ray White Elizabeth Bay,18/05/2018,2011,9425,1.7,0,2,0,-33.86823,151.224472
+463,QUEENS PARK,"42 Edmund Street, Queens Park",3,h,House,2455000.0,others,Richardson & Wrench Bondi Junction,18/05/2018,2022,3066,5.5,0,0,0,-33.90177,151.252625
+464,QUEENSCLIFF,"315/168 Queenscliff Road, Queenscliff",1,u,Apartment / Unit / Flat,780100.0,Private Treaty,Stone Real Estate Manly,18/05/2018,2096,3377,11.8,0,0,0,-33.7822227,151.28009
+465,RANDWICK,"1 Farnham Avenue, Randwick",5,h,House,3310000.0,Auction,McGrath Coogee,18/05/2018,2031,29990,6.0,3,13,0,-33.91403579999999,151.246979
+466,RANDWICK,"89 Market Street, Randwick",3,h,House,2100000.0,others,Phillips Pantzer Donnelley,18/05/2018,2031,29990,6.0,3,13,0,-33.9076843,151.24478100000002
+467,REDFERN,"501/1 Marian Street, Redfern",2,u,Apartment / Unit / Flat,1180000.0,Private Treaty,BresicWhitney Darlinghurst,18/05/2018,2016,13213,2.9,0,3,0,-33.89317,151.198288
+468,RODD POINT,"1 Howley Street, Rodd Point",4,h,House,1680000.0,Private Treaty,Cobden & Hayson Drummoyne,18/05/2018,2046,1381,6.0,0,0,0,-33.86588,151.140274
+469,ROSE BAY,"4/24 Spencer Street, Rose Bay",3,u,Apartment / Unit / Flat,1800000.0,others,JT Allen Real Estate,18/05/2018,2029,10051,5.7,0,6,0,-33.87014,151.274155
+470,ROSEBERY,"19/1 Primrose  Avenue, Rosebery",2,u,Apartment / Unit / Flat,1073277.0,others,MGM MARTIN,18/05/2018,2018,10116,5.9,0,2,0,-33.914772,151.205841
+471,ROSEBERY,"15/37 Morley Avenue, Rosebery",2,u,Apartment / Unit / Flat,971000.0,Auction,McGrath Maroubra,18/05/2018,2018,10116,5.9,0,2,0,-33.9147453,151.20126299999998
+472,ROSEBERY,"801/97 Dalmeny Avenue, Rosebery",3,u,Apartment / Unit / Flat,1300000.0,Private Treaty,MGM MARTIN,18/05/2018,2018,10116,5.9,0,2,0,-33.9134636,151.2095
+473,ROSEBERY,"112 Tweedmouth Avenue, Rosebery",3,h,House,1480000.0,Private Treaty,Laing Real Estate,18/05/2018,2018,10116,5.9,0,2,0,-33.9221954,151.21086100000002
+474,ROSEVILLE CHASE,"9 Malga Avenue, Roseville Chase",4,h,House,1900000.0,Private Treaty,McGrath Castle Cove,18/05/2018,2069,1615,9.9,0,0,0,-33.7787857,151.200684
+475,RYDALMERE,"12/502 Victoria Road, Rydalmere",3,t,Townhouse,750000.0,Private Treaty,McGrath Castle Hill,18/05/2018,2116,6640,16.4,0,2,0,-33.813340000000004,151.050873
+476,RYDE,"21 John Miller Street, Ryde",2,h,House,1300000.0,Auction,McGrath Ryde,18/05/2018,2112,26501,11.2,1,9,0,-33.8094521,151.125381
+477,RYDE,"21 John Miller Street, Ryde",2,h,House,1300000.0,Auction,McGrath Ryde,18/05/2018,2112,26501,11.2,1,9,0,-33.8094521,151.125381
+478,ST IVES,"4 Aronia Avenue, St Ives",3,h,House,1900000.0,Auction,Richardson & Wrench St Ives,18/05/2018,2075,17301,15.8,0,10,0,-33.7222061,151.177109
+479,TAMARAMA,"11/49-51 Fletcher Street, Tamarama",4,Penthouse,Penthouse,3875000.0,others,LJ Hooker Double Bay Group,18/05/2018,2026,1622,6.9,0,0,0,-33.8976479,151.2712
+480,TURRAMURRA,"2/1316 Pacific Highway, Turramurra",2,u,Apartment / Unit / Flat,662000.0,Private Treaty,McGrath Wahroonga,18/05/2018,2074,11922,16.5,0,3,0,-33.7342453,151.13147
+481,WAITARA,"2702/32 Orara Street, Waitara",1,u,Apartment / Unit / Flat,512000.0,Private Treaty,McGrath Hornsby,18/05/2018,2077,5939,19.9,0,2,0,-33.70695,151.1052
+482,WARRAWEE,"54/1-3 Cherry Street, Warrawee",2,u,Apartment / Unit / Flat,797000.0,Private Treaty,Chadwick Real Estate Turramurra,18/05/2018,2074,2998,17.7,0,0,0,-33.7307625,151.125229
+483,WATERLOO,"C20/356 George  Street, Waterloo",2,u,Apartment / Unit / Flat,960000.0,Private Treaty,Richardson & Wrench Alexandria | Waterloo,18/05/2018,2017,14621,3.7,0,0,0,-33.902626,151.203171
+484,WAVERTON,"3/25 King Street, Waverton",2,u,Apartment / Unit / Flat,1200000.0,Private Treaty,Belle Property Neutral Bay,18/05/2018,2060,3026,3.2,0,0,0,-33.8358536,151.197067
+485,WERRINGTON COUNTY,"91 Rugby Street, Werrington County",4,h,House,725000.0,Private Treaty,Jim Aitken & Partners Penrith,18/05/2018,2747,3646,44.2,0,0,0,-33.748290000000004,150.741333
+486,WESTLEIGH,"19 The Sanctuary, Westleigh",4,h,House,1600000.0,others,DiJones Real Estate,18/05/2018,2120,4457,21.3,0,0,0,-33.71966,151.074432
+487,WESTLEIGH,"15 Euroka Road, Westleigh",5,h,House,1300000.0,Private Treaty,Ray White Pennant Hills,18/05/2018,2120,4457,21.3,0,0,0,-33.7221756,151.0687
+488,WESTLEIGH,"19 The Sanctuary, Westleigh",4,h,House,1600000.0,others,DiJones Real Estate,18/05/2018,2120,4457,21.3,0,0,0,-33.71966,151.074432
+489,WESTLEIGH,"15 Euroka Road, Westleigh",5,h,House,1300000.0,Private Treaty,Ray White Pennant Hills,18/05/2018,2120,4457,21.3,0,0,0,-33.7221756,151.0687
+490,WOLLSTONECRAFT,"Unit 2/1 Christie St, Wollstonecraft",2,u,Apartment / Unit / Flat,1500000.0,Private Treaty,Northside Realtors,18/05/2018,2065,8323,4.4,0,0,0,-33.82734,151.19725
+491,ABBOTSBURY,"24 Heysen Street, Abbotsbury",5,h,House,1062500.0,Auction,Ozway Realty,19/05/2018,2176,4251,31.3,0,0,0,-33.86683,150.869186
+492,ABBOTSFORD,"1/182 Hampden Road, Abbotsford",2,t,Townhouse,1100000.0,Private Treaty,Cobden & Hayson ,19/05/2018,2046,5377,7.4,0,1,0,-33.855117799999995,151.1317
+493,ABBOTSFORD,"1/182 Hampden Road, Abbotsford",2,t,Townhouse,1100000.0,Private Treaty,Cobden & Hayson ,19/05/2018,2046,5377,7.4,0,1,0,-33.855117799999995,151.1317
+494,ARTARMON,"2 Drake Street, Artarmon",3,h,House,1900000.0,others,Laing+Simmons Artarmon,19/05/2018,2064,9525,6.7,0,1,0,-33.8056068,151.183289
+495,ARTARMON,"2 Drake Street, Artarmon",3,h,House,1900000.0,others,Laing+Simmons Artarmon,19/05/2018,2064,9525,6.7,0,1,0,-33.8056068,151.183289
+496,ASHFIELD,"3/155 Norton Street, Ashfield",2,u,Apartment / Unit / Flat,860000.0,Auction,Belle Property Ashfield,19/05/2018,2131,23839,7.9,0,6,0,-33.8890648,151.120422
+497,ASHFIELD,"76 Norton Street, Ashfield",3,h,House,1590000.0,Auction,Rich & Oliva,19/05/2018,2131,23839,7.9,0,6,0,-33.89002,151.123688
+498,ASHFIELD,"7 Margaret Street, Ashfield",4,h,House,1870000.0,Auction,Belle Property Annandale,19/05/2018,2131,23839,7.9,0,6,0,-33.8818054,151.123886
+499,ASQUITH,"Lot 17/325 PEATS FERRY ROAD, Asquith",2,u,Apartment / Unit / Flat,685000.0,Private Treaty,A Plus Realty,19/05/2018,2077,3378,21.9,0,3,0,-33.690059999999995,151.104828
