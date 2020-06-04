@@ -213,6 +213,3 @@ function f(arr, annotation, value, label) {
     }
     return config
 }
-
-
-

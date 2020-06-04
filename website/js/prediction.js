@@ -124,10 +124,10 @@ var app = new Vue({
     },
     computed: {
         graph() {
-            this.gets('svm', 'svm_rbf')
+            this.gets('svm', 'sv')
         },
         xg() {
-            this.gets('xg', 'log')
+            this.gets('xg', 'sv')
         },
 
 
@@ -149,16 +149,16 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 data: recession_in_6,
             }, {
                 label: 'Recession in 12 month probability(%)',
-                backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
-                borderColor: window.chartColors.orange,
+                backgroundColor: color(window.chartColors.purple).alpha(0).rgbString(),
+                borderColor: window.chartColors.green,
                 borderWidth: 1,
                 fill: false,
                 data: recession_in_12,
 
             }, {
                 label: 'Recession in 24 month probability(%)',
-                backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
-                borderColor: window.chartColors.orange,
+                backgroundColor: color(window.chartColors.green).alpha(0).rgbString(),
+                borderColor: window.chartColors.red,
                 borderWidth: 1,
                 fill: false,
                 data: recession_in_24,
