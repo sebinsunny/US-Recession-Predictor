@@ -8,7 +8,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+
 # setting up our figure size
 plt.rcParams['figure.figsize']=(20,10) 
  # using a theme for better visualization

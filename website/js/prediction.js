@@ -1,3 +1,7 @@
+Chart.defaults.global.showScale = false;
+Chart.defaults.global.legend.display = false;
+
+
 window.chartColors = {
     red: 'rgb(255,120,149)',
     orange: 'rgb(255, 159, 64)',
@@ -86,32 +90,32 @@ var app = new Vue({
                         id: model
                     }
                 }).then(response => {
-                    res = response.data
-                    var ctx = document.getElementById(element);
-                    var dates = res.Date.map(list => {
-                        return moment(list, 'YYYY-MM-DD').toDate()
-                    });
-                    var recession_in_12 = res.Recession_in_12mo_probability
-                    var recession_in_6 = res.Recession_in_6mo_probability
-                    var recession_in_24 = res.Recession_in_24mo_probability
-                    var annotations = recession_data.map((date, index) => {
-                        return {
-                            type: 'box',
-                            xScaleID: 'x-axis-0',
-                            yScaleID: 'y-axis-0',
-                            xMin: date.start_date,
-                            xMax: date.end_date,
-                            yMin: 0,
-                            yMax: 1,
-                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
-                                borderColor: 'rgb(101, 33, 171)',
+                        res = response.data
+                        var ctx = document.getElementById(element);
+                        var dates = res.Date.map(list => {
+                            return moment(list, 'YYYY-MM-DD').toDate()
+                        });
+                        var recession_in_12 = res.Recession_in_12mo_probability
+                        var recession_in_6 = res.Recession_in_6mo_probability
+                        var recession_in_24 = res.Recession_in_24mo_probability
+                        var annotations = recession_data.map((date, index) => {
+                            return {
+                                type: 'box',
+                                xScaleID: 'x-axis-0',
+                                yScaleID: 'y-axis-0',
+                                xMin: date.start_date,
+                                xMax: date.end_date,
+                                yMin: 0,
+                                yMax: 1,
+                                backgroundColor: 'rgba(47,21,85,0.18)',
+                                borderColor: 'rgba(50,51,26,0.42)',
                                 borderWidth: 1,
 
 
                             }
 
                         });
-                    this.chart = new Chart(ctx, f(dates, annotations, recession_in_6, recession_in_12, recession_in_24));
+                        this.chart = new Chart(ctx, f(dates, annotations, recession_in_6, recession_in_12, recession_in_24));
                     }
                 ).catch(error => {
                     console.log(error);
@@ -127,7 +131,7 @@ var app = new Vue({
             this.gets('svm', 'sv')
         },
         xg() {
-            this.gets('xg', 'sv')
+            this.gets('xg', 'lg')
         },
 
 
@@ -142,31 +146,41 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
             labels: arr,
             datasets: [{
                 label: 'Recession in 6 month probability(%)',
-                backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
-                borderColor: window.chartColors.blue,
-                borderWidth: 1,
-                fill: false,
+                backgroundColor: "rgba(50,50,50,0.7)",
+                borderColor: "#4d1718",
+                borderWidth: 1.3,
+                pointBackgroundColor: "#4d1718",
+                pointBorderWidth: 0,
+                tension: 0,
                 data: recession_in_6,
+                fill: false,
+                radius: 0
+
+
             }, {
                 label: 'Recession in 12 month probability(%)',
-                backgroundColor: color(window.chartColors.purple).alpha(0).rgbString(),
-                borderColor: window.chartColors.green,
-                borderWidth: 1,
+                backgroundColor: "rgba(12,3,139,0.7)",
+                borderColor: "#1616a6",
+                borderWidth: 1.3,
                 fill: false,
                 data: recession_in_12,
+                radius: 0
+
 
             }, {
                 label: 'Recession in 24 month probability(%)',
-                backgroundColor: color(window.chartColors.green).alpha(0).rgbString(),
-                borderColor: window.chartColors.red,
-                borderWidth: 1,
+                backgroundColor: "rgba(0,77,60,0.7)",
+                borderColor: "#004d3c",
+                borderWidth: 1.3,
                 fill: false,
                 data: recession_in_24,
+                radius: 0,
 
-            }
-            ]
+
+            }]
         },
         options: {
+
             title: {
                 text: 'Recession Prediction'
             },
@@ -192,6 +206,7 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                         labelString: 'SVM Prediction Probability in %'
                     }
                 }]
+
             },
             annotation: {
                 drawTime: 'afterDatasetsDraw',

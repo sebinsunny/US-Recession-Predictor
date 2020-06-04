@@ -1,3 +1,7 @@
+Chart.defaults.global.showScale = false;
+Chart.defaults.global.legend.display = false;
+
+
 window.chartColors = {
     red: 'rgb(255,120,149)',
     orange: 'rgb(255, 159, 64)',
@@ -79,7 +83,9 @@ var app = new Vue({
         gets: function (name, label, element, type) {
             {
                 this.loading = true
-                axios.get("https://api.companyandngo.xyz/graph", {
+                url = 'http://localhost:5000/graph'
+                //  url ='https://api.companyandngo.xyz/model'
+                axios.get(url, {
                     params: {
                         id: name
                     }
@@ -97,7 +103,7 @@ var app = new Vue({
                                 yScaleID: 'y-axis-0',
                                 xMin: date.start_date,
                                 xMax: date.end_date,
-                                yMin: 0,
+                                yMin: type,
                                 yMax: Math.max.apply(Math, value),
                                 backgroundColor: 'rgba(101, 33, 171, 0.5)',
                                 borderColor: 'rgb(101, 33, 171)',
@@ -120,41 +126,41 @@ var app = new Vue({
     },
     computed: {
         graph() {
-            this.gets('Fed_Funds', 'Effective Fed Funds', 'myChart')
+            this.gets('Fed_Funds', 'Effective Fed Funds', 'myChart', 0)
         },
         consumer() {
-            this.gets('Consumer_Price_Index', 'Consumer Price Index', 'con')
+            this.gets('Consumer_Price_Index', 'Consumer Price Index', 'con', 0)
         },
 
         treasury() {
-            this.gets('10Y_Treasury_Rate', '10-Year Treasury Constant Maturity', 'te')
+            this.gets('10Y_Treasury_Rate', '10-Year Treasury Constant Maturity', 'te', 0)
         },
 
         five_year() {
-            this.gets('5Y_Treasury_Rate', '5-Year Treasury Constant Maturity', 'five')
+            this.gets('5Y_Treasury_Rate', '5-Year Treasury Constant Maturity', 'five', 0)
         },
 
         month_bill() {
 
-            this.gets('3_Month_Bill_Rate', '3-Month Treasury Constant Maturity', 'mont')
+            this.gets('3_Month_Bill_Rate', '3-Month Treasury Constant Maturity', 'mont', 0)
         },
 
         spread() {
 
-            this.gets('spread', '(10-Year Treasury Constant Maturity - 3-Month Treasury Constant Maturity)%', 'spd')
+            this.gets('spread', '(10-Year Treasury Constant Maturity - 3-Month Treasury Constant Maturity)%', 'spd', -1)
         },
         product() {
 
-            this.gets('IPI', 'Industrial Production Index', 'pd')
+            this.gets('IPI', 'Industrial Production Index', 'pd', 0)
         },
         house() {
-            this.gets('House_price_index', 'Home Price Index', 'id')
+            this.gets('House_price_index', 'Home Price Index', 'id', 0)
         },
         yahoo() {
-            this.gets('yahoo', 'Closing Price($)', 'yahoo')
+            this.gets('yahoo', 'Closing Price($)', 'yahoo', 0)
         },
         spread_year() {
-            this.gets('twoyear', '(10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity)%', 'id')
+            this.gets('twoyear', '(10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity)%', 'id', -2)
         },
 
 
@@ -169,11 +175,12 @@ function f(arr, annotation, value, label) {
             labels: arr,
             datasets: [{
                 label: label,
-                backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
-                borderColor: window.chartColors.blue,
-                borderWidth: 1,
+                backgroundColor: "rgba(166,17,47,0.7)",
+                borderColor: "#a60e1a",
+                borderWidth: 1.3,
                 fill: false,
                 data: value,
+                radius: 0
             }]
         },
         options: {
