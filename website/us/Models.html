@@ -91,8 +91,10 @@
         table.minimalistBlack thead th {
             font-size: 15px;
             font-weight: bold;
-            color: #000000;
+            color: white;
             text-align: center;
+            background: #162e66;
+
         }
 
         table.minimalistBlack tfoot {
@@ -182,7 +184,7 @@
                 <div class="col-md-12">
                     <div class="project-details-content">
                         <br><br>
-                        <h3>Data Preprocessing</h3>
+                        <h3>Data Selection</h3>
 
 
                     </div>
@@ -206,7 +208,49 @@
                 <div class="col-md-12">
                     <div class="project-details-content">
                         <h3> 6 month Recession models</h3>
-                        <div id="one"></div>
+                        <table border="1" class="minimalistBlack">
+                            <thead>
+                            <tr style="text-align: right;">
+                                <th>Classifier Name</th>
+                                <th>Best Tuning Parameter</th>
+                                <th>Train ROC_AUC</th>
+                                <th>Test ROC_AUC</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+
+                                <td>XGBClassifier
+                                </td>
+                                <td>{colsample_bytree: 0.9, gamma: 0.0, max_depth: 8, reg_alpha: 0.005}</td>
+                                <td>0.960555</td>
+                                <td>0.436709</td>
+                            </tr>
+                            <tr>
+
+                                <td>KNeighbors Classifier</td>
+                                <td>{n_neighbors: 2}</td>
+                                <td>0.939149</td>
+                                <td>0.412904</td>
+                            </tr>
+                            <tr>
+
+                                <td>Logistic Regression</td>
+                                <td>{C: 1000.0, penalty: l2}</td>
+                                <td>0.880414</td>
+                                <td>0.420584</td>
+                            </tr>
+                            <tr>
+
+                                <td>Support Vector Machine
+                                </td>
+                                <td>{C: 1000, gamma: 0.001, kernel: rbf}</td>
+                                <td>0.875987</td>
+                                <td>0.412149</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>
@@ -231,6 +275,48 @@
                     <div class="project-details-content">
                         <h3> 12 month Recession models</h3>
                         <div id="two"></div>
+                        <table border="1" class="minimalistBlack">
+                            <thead>
+                            <tr style="text-align: right;">
+                                <th>Classifier Name</th>
+                                <th>Best Tuning Parameter</th>
+                                <th>Train ROC_AUC</th>
+                                <th>Test ROC_AUC</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+
+                                <td>XGBClassifier
+                                </td>
+                                <td>{colsample_bytree: 0.9, gamma: 0.2, max_depth: 9, reg_alpha: 0}</td>
+                                <td>0.953282</td>
+                                <td>0.617096</td>
+                            </tr>
+                            <tr>
+
+                                <td>KNeighborsClassifier(n_neighbors=4)</td>
+                                <td>{n_neighbors: 4}</td>
+                                <td>0.942960</td>
+                                <td>0.584423</td>
+                            </tr>
+                            <tr>
+
+                                <td>Logistic Regression</td>
+                                <td>{C: 1000.0, penalty: l2}</td>
+                                <td>0.844857</td>
+                                <td>0.609935</td>
+                            </tr>
+                            <tr>
+
+                                <td>Support Vector Machine
+                                </td>
+                                <td>{C: 1000, gamma: 0.001, kernel: rbf}</td>
+                                <td>0.833734</td>
+                                <td>0.603888</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -256,6 +342,49 @@
                     <div class="project-details-content">
                         <h3>24 month Recession models</h3>
                         <div id="three"></div>
+                        <table border="1" class="minimalistBlack">
+                            <thead>
+                            <tr style="text-align: right;">
+
+                                <th>Classifier Name</th>
+                                <th>Best Tuning Parameter</th>
+                                <th>Train ROC_AUC</th>
+                                <th>Test ROC_AUC</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+
+                                <td>XGBClassifier
+                                </td>
+                                <td>{colsample_bytree: 0.7, gamma: 0.0, max_depth: 9, reg_alpha: 0.05}</td>
+                                <td>0.942987</td>
+                                <td>0.571329</td>
+                            </tr>
+                            <tr>
+
+                                <td>KNeighbors Classifier</td>
+                                <td>{n_neighbors: 3}</td>
+                                <td>0.919971</td>
+                                <td>0.505878</td>
+                            </tr>
+                            <tr>
+
+                                <td>Support Vector Machine
+                                </td>
+                                <td>{C: 1000, gamma: 0.001, kernel: rbf}</td>
+                                <td>0.740931</td>
+                                <td>0.602535</td>
+                            </tr>
+                            <tr>
+
+                                <td>Logistic Regression</td>
+                                <td>{C: 1000.0, penalty: l2}</td>
+                                <td>0.718052</td>
+                                <td>0.628138</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -345,70 +474,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 <script src="../js/prediction.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<script type='text/javascript' src='../js/csv.js'></script>
-<script>
-    var tabulate = function (data, columns, id) {
-        var table = d3.select('#' + id).append('table').attr('class', 'minimalistBlack')
-        var thead = table.append('thead')
-        var tbody = table.append('tbody')
 
-        thead.append('tr')
-            .selectAll('th')
-            .data(columns)
-            .enter()
-            .append('th')
-            .text(function (d) {
-                return d
-            })
-
-        var rows = tbody.selectAll('tr')
-            .data(data)
-            .enter()
-            .append('tr')
-
-        var cells = rows.selectAll('td')
-            .data(function (row) {
-                return columns.map(function (column) {
-                    return {column: column, value: row[column]}
-                })
-            })
-            .enter()
-            .append('td')
-            .text(function (d) {
-                return d.value
-            })
-
-        return table;
-    }
-
-
-    d3.csv("Recession_in_6mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'one')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-
-    d3.csv("Recession_in_12mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'two')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-    d3.csv("Recession_in_24mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'three')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-
-
-</script>
 </body>
 </html>
