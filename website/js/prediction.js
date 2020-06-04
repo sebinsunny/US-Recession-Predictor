@@ -76,10 +76,16 @@ var app = new Vue({
         loading: false,
     },
     methods: {
-        gets: function (element) {
+        gets: function (element, model) {
             {
                 this.loading = true
-                axios.get("https://api.companyandngo.xyz/svm").then(response => {
+                url = 'http://localhost:5000/model'
+                //  url ='https://api.companyandngo.xyz/model'
+                axios.get(url, {
+                    params: {
+                        id: model
+                    }
+                }).then(response => {
                     res = response.data
                     var ctx = document.getElementById(element);
                     var dates = res.Date.map(list => {
@@ -87,16 +93,17 @@ var app = new Vue({
                     });
                     var recession_in_12 = res.Recession_in_12mo_probability
                     var recession_in_6 = res.Recession_in_6mo_probability
+                    var recession_in_24 = res.Recession_in_24mo_probability
                     var annotations = recession_data.map((date, index) => {
                         return {
                             type: 'box',
-                                xScaleID: 'x-axis-0',
-                                yScaleID: 'y-axis-0',
-                                xMin: date.start_date,
-                                xMax: date.end_date,
-                                yMin: 0,
-                                yMax: 1,
-                                backgroundColor: 'rgba(101, 33, 171, 0.5)',
+                            xScaleID: 'x-axis-0',
+                            yScaleID: 'y-axis-0',
+                            xMin: date.start_date,
+                            xMax: date.end_date,
+                            yMin: 0,
+                            yMax: 1,
+                            backgroundColor: 'rgba(101, 33, 171, 0.5)',
                                 borderColor: 'rgb(101, 33, 171)',
                                 borderWidth: 1,
 
@@ -104,7 +111,7 @@ var app = new Vue({
                             }
 
                         });
-                        this.chart = new Chart(ctx, f(dates, annotations, recession_in_6, recession_in_12));
+                    this.chart = new Chart(ctx, f(dates, annotations, recession_in_6, recession_in_12, recession_in_24));
                     }
                 ).catch(error => {
                     console.log(error);
@@ -117,14 +124,17 @@ var app = new Vue({
     },
     computed: {
         graph() {
-            this.gets('svm')
+            this.gets('svm', 'svm_rbf')
+        },
+        xg() {
+            this.gets('xg', 'log')
         },
 
 
     }
 });
 
-function f(arr, annotation, recession_in_6, recession_in_12) {
+function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
     var color = Chart.helpers.color;
     var config = {
         type: 'line',
@@ -145,7 +155,16 @@ function f(arr, annotation, recession_in_6, recession_in_12) {
                 fill: false,
                 data: recession_in_12,
 
-            }]
+            }, {
+                label: 'Recession in 24 month probability(%)',
+                backgroundColor: color(window.chartColors.blue).alpha(0).rgbString(),
+                borderColor: window.chartColors.orange,
+                borderWidth: 1,
+                fill: false,
+                data: recession_in_24,
+
+            }
+            ]
         },
         options: {
             title: {

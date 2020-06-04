@@ -19,7 +19,5 @@ function initViz(id, url) {
 }
 
 
-initViz('graph1', 'https://public.tableau.com/views/FinalVisualisation_15899601798510/Dashboard5')
-initViz('graph2', 'https://public.tableau.com/shared/GQ69JMJ9H?:display_count=y&:origin=viz_share_link')
-initViz('graph3', 'https://public.tableau.com/views/houseprice_15911559588360/Dashboard1?:display_count=y&:origin=viz_share_link')
+
 

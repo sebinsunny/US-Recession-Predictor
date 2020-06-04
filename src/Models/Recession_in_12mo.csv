@@ -1,0 +1,25 @@
+ ,classifier_name,classifier                                                                     ,best_params                                                              ,ROC_AUC
+7,xg             ,"XGBClassifier(alpha=10, base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0.1, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.1, max_delta_step=0, max_depth=8,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=10, n_jobs=0, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)","{'colsample_bytree': 0.7, 'gamma': 0.1, 'max_depth': 8, 'reg_alpha': 0}",0.9612258356724072
+2,xg             ,"XGBClassifier(alpha=10, base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=0.7, gamma=0.1, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.1, max_delta_step=0, max_depth=8,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=10, n_jobs=0, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)","{'colsample_bytree': 0.7, 'gamma': 0.1, 'max_depth': 8, 'reg_alpha': 0}",0.9578916270666538
+6,knn            ,KNeighborsClassifier(n_neighbors=4)                                            ,{'n_neighbors': 4}                                                       ,0.945093010793505
+1,knn            ,KNeighborsClassifier(n_neighbors=4)                                            ,{'n_neighbors': 4}                                                       ,0.943690038755931
+3,dt             ,"DecisionTreeClassifier(max_depth=5, random_state=88)"                         ,{'max_depth': 5}                                                         ,0.9150589600192524
+0,lg             ,"LogisticRegression(C=1000.0, random_state=88)"                                ,"{'C': 1000.0, 'penalty': 'l2'}"                                         ,0.8982502361633424
+4,sv             ,"SVC(C=1000, gamma=0.001, random_state=88)"                                    ,"{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}"                           ,0.8923346587215212
+8,dt             ,"DecisionTreeClassifier(max_depth=7, random_state=88)"                         ,{'max_depth': 7}                                                         ,0.8773548494711297
+5,lg             ,"LogisticRegression(C=1000.0, random_state=88)"                                ,"{'C': 1000.0, 'penalty': 'l2'}"                                         ,0.8484407075184606
+9,sv             ,"SVC(C=1000, gamma=0.001, random_state=88)"                                    ,"{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}"                           ,0.8385454373168745

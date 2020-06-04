@@ -58,6 +58,11 @@
             color: white;
         }
 
+        p {
+            color: black;
+            font-size: 1.2em;
+        }
+
 
     </style>
 
@@ -96,6 +101,7 @@
                         <ul class="sub-menu">
                             <li><a href="https://companyandngo.xyz/melbourne.html">Melbourne House Price Calculator</a>
                             </li>
+                            <li><a href="https://companyandngo.xyz/sydney.html">Sydney House Price Calculator</a></li>
                             <li><a href="https://companyandngo.xyz/us_recession.html">US Recession Prediction</a></li>
                             <li><a href="https://companyandngo.xyz/au_recession.html">Australia Recession Prediction</a>
                             </li>
@@ -151,7 +157,39 @@
 
         </div>
     </section>
+    <section class="project-details-section">
+        <div class="container">
 
+            <div class="row justify-content-between">
+                <div class="col-md-12 col-lg-8">
+                    <div class="img-wrap mb-md-4 mb-lg-0">
+
+                    </div>
+                </div>
+            </div>
+            <!--project details row start-->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="project-details-content">
+                        <br><br>
+                        <h3 align="center">Recession Prediction Using SVM</h3>
+                        <div class="alert alert-info" v-show="loading">
+                            Loading...
+                        </div>
+                        <div v-show="chart != null">
+                            <canvas id="svm"></canvas>
+
+                        </div>
+                        <div>{{ xg }} </div>
+                        <p>Shaded region is Recession Period</p>
+                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
+                            .
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 </div>
 <!--body content wrap end-->

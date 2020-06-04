@@ -25,7 +25,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 
 
-# In[103]:
+# In[149]:
 
 
 # loading the cleaned and finalized dataset for US Recession Prediction
@@ -33,17 +33,18 @@ df_us =pd.read_csv('final_features.csv', skiprows=range(1, 6))#taking data until
 df_us
 
 
-# In[104]:
+# In[150]:
 
 
 #setting up our input and output
-X = df_us[["Civilian_Unemployment_Rate","3M_10Y_Treasury_Spread"]]
+X = df_us[["Civilian_Unemployment_Rate",'Payrolls_3mo_vs_12mo', 'Effective_Fed_Funds_12_chg', 'CPI_All_Items_3_mo_annualised',
+            '10Y_Treasury_Rate_12_chg', 'S&P_500_Index_12_chg']]
 Y = df_us["Recession_in_6mo"]
 # train, test split on variables we are considering for recession prediction
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[105]:
+# In[151]:
 
 
 #fitting a logistic regression model on our train dataset
@@ -53,7 +54,7 @@ lr = lrm.fit()
 print(lr.summary())
 
 
-# In[106]:
+# In[152]:
 
 
 #fitting a regularized logistic regression on train datsaet to reduce effects of multicollinearity and ofcourse overfitting.
@@ -62,21 +63,21 @@ LR.fit(X_train,Y_train)
 LR_pred = cross_val_predict(LR,X_train,Y_train,cv=5 )
 
 
-# In[107]:
+# In[153]:
 
 
 #confusion matrix will show our correct and incorrect predictions
 confusion_matrix(Y_train,LR_pred)
 
 
-# In[108]:
+# In[154]:
 
 
 # checking the model accuracy
 print("Model Accuracy :", LR.score(X_train, Y_train))
 
 
-# In[109]:
+# In[155]:
 
 
 #Logistic Regression ROC curve
@@ -85,15 +86,29 @@ LR_rocauc.score(X_train, Y_train)
 LR_r=LR_rocauc.poof()
 
 
-# In[110]:
+# In[156]:
 
 
 predicted_probs = pd.DataFrame(LR.predict_proba(X_test)[:,1])
 
+predicted_probs.columns = ['Recession probability in 6 months']
 predicted_probs
 
 
-# In[111]:
+# In[161]:
+
+
+predicted_probs.to_csv('F:\companyandngo\Prediction models\Logistic Regression Model/lr_model_6mo.csv',index=False)
+
+
+# In[162]:
+
+
+import pickle
+pickle.dump(LR, open('F:\companyandngo\Prediction models\Logistic Regression Model/Recession_in_6mo.lr', 'wb'))
+
+
+# In[157]:
 
 
 #Fine Tuning
@@ -107,7 +122,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
           verbose=0, warm_start=False)
 
 
-# In[112]:
+# In[158]:
 
 
 #setting the parameters
@@ -117,7 +132,7 @@ C = [1.0,1.5,2.0,2.5,3.0,3.5,4.0]
 param_grid = dict(dual=dual,max_iter=max_iter,C=C)
 
 
-# In[114]:
+# In[159]:
 
 
 #implementing a Grid search on our defined hyperparameters
@@ -132,7 +147,7 @@ print("Best accuracy: %f gained by using this set of parameters%s" % (G_search_r
 print("time of execution: " + str((time.time() - starting_time)) + ' ms')
 
 
-# In[115]:
+# In[160]:
 
 
 #implementing a Random search on our defined hyperparameters

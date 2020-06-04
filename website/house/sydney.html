@@ -1,0 +1,577 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta description -->
+    <meta name="description"
+          content="Company and Ngo">
+    <meta name="author" content="Sebin Sunny">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content=""/> <!-- website name -->
+    <meta property="og:site" content=""/> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""/> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article"/>
+
+    <!--title-->
+    <title>Sydney house price data visualization</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap"
+          rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <!--Themify icon css-->
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <!--Fontawesome icon css-->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!--animated css-->
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <!--ytplayer css-->
+    <link rel="stylesheet" href="../css/jquery.mb.YTPlayer.min.css">
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <style>
+        h4 {
+            text-align: center;
+        }
+
+        .menu li a {
+            color: white;
+        }
+
+        p {
+            color: black;
+            font-size: 1.2em;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<!--loader start-->
+<div id="preloader">
+    <div class="loader1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<!--loader end-->
+
+<!--header section start-->
+<header class="header">
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="https://companyandngo.xyz">
+                <img src="../img/log.png" alt="logo" class="img-fluid" style="height: 50px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu">
+                    <li><a href="https://companyandngo.xyz"> Home</a></li>
+                    <li><a href="https://companyandngo.xyz/about-us.html">About Us</a></li>
+                    <li><a href="#" class="dropdown-toggle">Project</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://companyandngo.xyz/melbourne.html">Melbourne House Price Calculator</a>
+                            </li>
+                            <li><a href="https://companyandngo.xyz/us_recession.html">US Recession Prediction</a></li>
+                            <li><a href="https://companyandngo.xyz/au_recession.html">Australia Recession Prediction</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--header section end-->
+
+<!--body content wrap start-->
+
+
+<!--header section start-->
+
+<!--header section end-->
+
+<!--project details section start-->
+
+<section class="project-details-section">
+    <div class="container">
+        <h4 align="center">Data Collection</h4>
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph1" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        From the above graph, we could observe that the Point Piper suburb has the highest median house
+                        price
+                        from top 10, according to the house type. Which is highest for the Unit ($50,471,000) compared
+                        to the
+                        House ($36,800,000). And Suburb Greendale has the lowest of the top 10 median house price which
+                        is
+                        $18,285,000 of type – house
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--project details section start-->
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph2" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        From the above graph, we could observe the top 10 suburbs having the highest median price of
+                        houses
+                        in Sydney. Out of all Collaroy Beach suburb has the highest median price which is $8,250,000.
+                        And
+                        Point Pier, Greendale, PalmBeach, Bilgola Beach and Vaucluse seems to have similar range of
+                        median
+                        house price approximately around $3,500,000. In general, the house prices on the beach side
+                        suburbs
+                        are higher compared to the other suburbs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph3" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        According to the above graph, Median price of houses based to number of rooms in Sydney. We
+                        could
+                        observe that based on the data, house which has 15 rooms has highest median price ($6,800,000)
+                        and
+                        house which is only of 1 room has the lowest median price ($675,000). There are many limitations
+                        to
+                        this data which cannot be applied to the future purposes as the economic factors and distance
+                        further
+                        from the city may vary the median price of the house based on no of rooms.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph4" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        According to the above graph, we can see that the minimum house price for the top 10 highly
+                        populated
+                        suburbs in Sydney. Suburb Castle Hill has the highest Min Price ($1,257,500) among the highly
+                        populated suburbs and Auburn has the least Min Price ($660,000).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph10" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        According to the above graph, it depicts which seller has the height median price and it is seen
+                        that “My
+                        Reality NSW” seller has the height median price, meaning the seller “My Reality NSW” has sold
+                        the
+                        prices with highest prices averaging to $39,000,000 compared to the other sellers which is
+                        followed up
+                        by “Richs Double Bay” with median price of 20,000,000 and the lowest being “International
+                        Reality”
+                        of $736,263,000.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph5" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        The graph shows the median house price of top 10 sellers in Sydney. It shows that for the top
+                        sellers
+                        having highest median price, what is the type of house they are selling (Acreage, House, Unit,
+                        Townhouse, new apartments). “My reality NSW” has the highest median price and mostly all the
+                        houses
+                        he sells are “UNITS”. “Richs Double Bay” sells mostly the “House”. The seller “Sydney Sotheby’s”
+                        sells a different type of houses (House, New Apartments, Acreage and unit)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph6" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        In the graph above, we evaluated the number of house sales in Sydney from 2018-2020. From the
+                        results
+                        shown in the graph above, we can conclude that the number of house sales in November 2018 is at
+                        a
+                        maximum of around 3700. The number of sales decreased from 2018 to 19. However, it decreased to
+                        the lowest in 2020 as compared to previous three years. The number of sales in May 2020 is the
+                        lowest
+                        of nearly 500
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph7" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        The main aim of the graph above is to display the variation in prices of homes in Sydney from
+                        2018-
+                        2020. In 2018 to 19 house prices the median house price is raised, but there is a persistent
+                        drop in the
+                        median price in 2019 to 2020. In November 2019, the average house prices were at a high of about
+                        1300
+                        thousand. The median house price fell to the lowest point in January 2019 and 2020.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph8" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        In the graph above, we displayed the suburbs in a radius of 3 km to the city at a median price
+                        with the
+                        highest amenities, such as supermarkets, hospitals, etc. From the above graph evaluation, we can
+                        infer
+                        that the main city of Sydney has the highest facilities about 11 compared to the other suburbs
+                        with a
+                        median price of 114 thousand. Following that Surrey Hills is second best to have full services
+                        at a
+                        median price of 99 thousand. At last, Chippendale and Balmain Street have the lowest services.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="project-details-section">
+    <div class="container">
+
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
+
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+
+            <div id="graph9" style=""></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content text-justify">
+
+                    <p>
+                        The graph above displays a map view of the Sydney suburbs. Each suburb has details about it,
+                        such as
+                        their postcode, name of the suburb, facilities, median bedroom and price. To get acquainted with
+                        any
+                        area it's very quick, we just need to click on it and get all the details about that suburb.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--body content wrap end-->
+
+<!--footer section start-->
+<footer class="footer-section">
+    <!--footer top start-->
+    <!--footer top end-->
+
+    <!--footer copyright start-->
+    <div class="footer-bottom gray-light-bg py-2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-5 col-lg-5">
+                    <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                        rights reserved by
+                        <a href="https://companyandngo.xyz" target="_blank">companyandngo.xyz</a></p>
+                </div>
+                <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+                    <div class="social-nav text-right">
+                        <ul class="list-unstyled social-list mb-0">
+                            <li class="list-inline-item tooltip-hover">
+                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                <div class="tooltip-item">Facebook</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-twitter"></span></a>
+                                <div class="tooltip-item">Twitter</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-linkedin"></span></a>
+                                <div class="tooltip-item">Linkedin</div>
+                            </li>
+                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                    class="ti-dribbble"></span></a>
+                                <div class="tooltip-item">Dribbble</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer copyright end-->
+</footer>
+<!--footer section end-->
+
+
+<!--bottom to top button start-->
+<button class="scroll-top scroll-to-target" data-target="html">
+    <span class="ti-angle-up"></span>
+</button>
+<!--bottom to top button end-->
+
+<!--jQuery-->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<!--Popper js-->
+<script src="../js/popper.min.js"></script>
+<!--Bootstrap js-->
+<script src="../js/bootstrap.min.js"></script>
+<!--Magnific popup js-->
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<!--jquery easing js-->
+<script src="../js/jquery.easing.min.js"></script>
+<!--jquery ytplayer js-->
+<script src="../js/jquery.mb.YTPlayer.min.js"></script>
+<!--Isotope filter js-->
+<script src="../js/mixitup.min.js"></script>
+<!--wow js-->
+<script src="../js/wow.min.js"></script>
+<!--owl carousel js-->
+<script src="../js/owl.carousel.min.js"></script>
+<!--countdown js-->
+<script src="../js/jquery.countdown.min.js"></script>
+<!--custom js-->
+<script src="../js/scripts.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="../js/chartjs-plugin-annotation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="../js/tableau.js"></script>
+
+<script>
+
+    initViz('graph1', 'https://public.tableau.com/views/HousePriceVisualizationsSydney/Dashboard1?:display_count=y&:origin=viz_share_link')
+    initViz('graph2', 'https://public.tableau.com/views/HousePriceVisualizationsSydney/Dashboard2?:display_count=y&:origin=viz_share_link')
+    initViz('graph3', 'https://public.tableau.com/views/HousePriceVisualizationsSydney/Dashboard3?:display_count=y&:origin=viz_share_link')
+    initViz('graph4', 'https://public.tableau.com/views/HousePriceVisualizationsSydney/Dashboard4?:display_count=y&:origin=viz_share_link')
+
+    initViz('graph5', 'https://public.tableau.com/views/Housepricevisualizationsydney/Dashboard1?:display_count=y&:origin=viz_share_link')
+    initViz('graph6', 'https://public.tableau.com/views/Timevisualisationssydney/Dashboard2?:display_count=y&:origin=viz_share_link')
+    initViz('graph10', 'https://public.tableau.com/views/Housepricevisualizationsydney/Dashboard2?:display_count=y&:origin=viz_share_link')
+
+    initViz('graph7', 'https://public.tableau.com/views/Timevisualisationssydney/Dashboard1?:display_count=y&:origin=viz_share_link')
+    initViz('graph8', 'https://public.tableau.com/views/Visualisationssydney/Dashboard2?:display_count=y&:origin=viz_share_link')
+    initViz('graph9', 'https://public.tableau.com/shared/5Q394SJ9H?:display_count=y&:origin=viz_share_link')
+
+</script>
+
+</body>
+</html>
