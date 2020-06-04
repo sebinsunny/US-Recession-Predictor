@@ -60,7 +60,8 @@
 
         p {
             color: black;
-            font-size: 1.4em;
+            font-size: 1.3em;
+             text-align: justify;
         }
 
         table.minimalistBlack {
@@ -381,33 +382,5 @@
     }
 
 
-    d3.csv("Recession_in_6mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'one')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-
-    d3.csv("Recession_in_12mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'two')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-    d3.csv("Recession_in_24mo.csv").then(function (data) {
-        console.log(data)
-        var columns = ['classifier_name', 'classifier', 'best_params', 'ROC_AUC',
-            'test_ROC_AUC']
-        tabulate(data, columns, 'three')
-    }).catch((err) => {
-        console.log(err.message)
-    });
-
-
-</script>
 </body>
 </html>
