@@ -1,0 +1,1000 @@
+,Suburb,Address,Rooms,Type,Price,Method,SellerG,Date,Postcode,Regionname,Distance,Council Area,Population,Schools,Hospitals,Sports facilities,Woolies,Coles
+1,Craigieburn,67 Gateshead St,3,h,428000.0,S,Ray,28-01-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+2,Craigieburn,13 Pearl Dr,4,h,531000.0,S,Ray,28-01-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+3,Craigieburn,51 Willmott Dr,5,h,460000.0,PI,RE,28-01-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+4,Glen Waverley,8 Lincoln Av,3,h,925000.0,S,Harcourts,28-01-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+5,Mitcham,2/28 Heatherdale Rd,3,t,825000.0,S,Noel,28-01-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+6,Mount Waverley,2 Rainbow Ct,4,h,1455000.0,S,Barry,28-01-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+7,St Albans,45 Harmon Av,4,h,600000.0,SP,Ray,28-01-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+8,Surrey Hills,1/10 Florence Rd,2,u,813000.0,S,Fletchers,28-01-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+9,Surrey Hills,999A Riversdale Rd,3,h,1205000.0,S,Fletchers,28-01-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+10,Abbotsford,25 Bloomburg St,2,h,1035000.0,S,Biggin,04-02-2016,3067,Northern Metropolitan,3.0,Yarra City Council,8184,3,0,11,0,0
+11,Albion,7 Dalworth St,2,h,765000.0,SA,Barry,04-02-2016,3020,Western Metropolitan,10.5,Brimbank City Council,4731,18,1,45,0,0
+12,Altona,1/123 Blyth St,2,t,720000.0,S,hockingstuart,04-02-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,10762,4,1,25,1,1
+13,Ascot Vale,42 Archer Av,3,h,895000.0,S,Nelson,04-02-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+14,Balwyn,120/188 Whitehorse Rd,1,u,450000.0,VB,MICM,04-02-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+15,Bentleigh,11A Mortimore St,3,h,1222500.0,S,Ray,04-02-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+16,Bentleigh East,1/9 Francesco St,3,t,775000.0,S,Stockdale,04-02-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+17,Berwick,5 Holder Pl,4,h,743000.0,S,Eview,04-02-2016,3806,Eastern Victoria,35.2,Casey City Council,47674,12,7,23,0,0
+18,Black Rock,1/527 Balcombe Rd,2,u,700000.0,PI,Buxton/Buxton,04-02-2016,3193,Southern Metropolitan,17.3,Bayside City Council,6159,6,0,26,0,0
+19,Blackburn,1/13 Glen Ebor Av,3,t,900000.0,S,Barry,04-02-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+20,Blackburn South,2/7 Harrow St,4,h,1065000.0,S,Ray,04-02-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+21,Blackburn South,4 Horkings St,3,h,1230000.0,S,Fletchers,04-02-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+22,Broadmeadows,14 Waranga Cr,3,h,395000.0,S,Raine,04-02-2016,3047,Northern Metropolitan,14.0,Hume City Council,11970,13,1,31,0,0
+23,Burwood,163 Highbury Rd,3,h,1151000.0,S,Buxton,04-02-2016,3125,Southern Metropolitan,10.4,Monash City Council,15019,5,0,22,0,0
+24,Burwood,30 Station St,3,h,1755000.0,S,Buxton,04-02-2016,3125,Southern Metropolitan,10.4,Monash City Council,15019,5,0,22,0,0
+25,Cairnlea,122 Cairnlea Dr,4,t,571000.0,S,YPA,04-02-2016,3023,Western Metropolitan,14.8,Brimbank City Council,9657,16,0,47,1,1
+26,Carrum Downs,16 Charleville Ct,3,h,450000.0,SP,Harcourts,04-02-2016,3201,South-Eastern Metropolitan,34.9,Frankston City Council,20711,5,0,14,1,1
+27,Chadstone,8B Moorong St,4,h,890000.0,VB,Purplebricks,04-02-2016,3148,Southern Metropolitan,11.7,Monash City Council,8641,2,0,7,1,2
+28,Cheltenham,2/126 Centre Dandenong Rd,2,u,520000.0,SP,O'Brien,04-02-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+29,Cheltenham,1/25 Judd Pde,3,u,756500.0,S,Eview,04-02-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+30,Clayton South,20 Glenmorgan Cl,3,h,782000.0,S,LJ,04-02-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+31,Coburg,8 Watchtower Rd,3,h,675000.0,PI,Walshe,04-02-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+32,Cranbourne East,82 Bradford Dr,4,h,530500.0,S,Munn,04-02-2016,3977,South-Eastern Metropolitan,34.7,Casey City Council,16195,19,1,61,0,0
+33,Croydon,14 James Rd,3,h,841000.0,S,Barry,04-02-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+34,Dandenong,13 Hopetoun St,3,h,565000.0,S,O'Brien,04-02-2016,3175,South-Eastern Metropolitan,24.7,Greater Dandenong City Council,29906,15,5,47,1,2
+35,Dandenong North,16 First Av,3,h,670000.0,S,LJ,04-02-2016,3175,South-Eastern Metropolitan,24.7,Greater Dandenong City Council,22451,15,5,47,0,0
+36,Deer Park,914 Ballarat Rd,3,h,466000.0,S,HAR,04-02-2016,3023,Western Metropolitan,14.8,Brimbank City Council,18126,16,0,47,1,1
+37,Deer Park,91 Pioneer Dr,3,h,466000.0,SP,FN,04-02-2016,3023,Western Metropolitan,14.8,Brimbank City Council,18126,16,0,47,1,1
+38,Doncaster,1/3 Katrina St,4,t,1320000.0,PI,Ray,04-02-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+39,Doreen,15 Lexington Av,4,h,460000.0,SP,Harcourts,04-02-2016,3754,Northern Victoria,25.9,Nillumbik Shire Council,21298,10,0,9,0,0
+40,Doreen,5 Turnstone St,3,h,442500.0,S,Ray,04-02-2016,3754,Northern Victoria,25.9,Nillumbik Shire Council,21298,10,0,9,0,0
+41,Doveton,75 Chestnut Rd,3,h,415000.0,SP,REMAX,04-02-2016,3177,South-Eastern Metropolitan,28.8,Casey City Council,9358,2,0,9,0,0
+42,Edithvale,72 Lochiel Av,3,h,1039000.0,SA,O'Brien,04-02-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+43,Elwood,4 Wilton Gr,3,t,1395000.0,S,Pride,04-02-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+44,Epping,1/9 Elaine Cl,3,u,414000.0,S,Harcourts,04-02-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+45,Epping,2/9 Elaine Cl,3,u,407000.0,S,Harcourts,04-02-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+46,Epping,15 Henry Ct,3,h,498000.0,S,Iconek,04-02-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+47,Epping,89 Lyndarum Dr,3,h,436500.0,SP,Harcourts,04-02-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+48,Epping,2 McFarlane Cr,3,h,544000.0,S,Harcourts,04-02-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+49,Essendon,2/96 Cooper St,3,h,911000.0,S,Rendina,04-02-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+50,Eynesbury,4 Belgrave Av,4,h,398500.0,S,PRDNationwide,04-02-2016,3338,Western Victoria,29.8,Melton City Council,2577,6,0,14,0,0
+51,Fawkner,220 McBryde St,3,h,645000.0,SP,YPA,04-02-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+52,Ferntree Gully,17 Hancock Dr,4,h,837000.0,S,Ray,04-02-2016,3156,Eastern Metropolitan,24.8,Knox City Council,26428,11,1,45,1,1
+53,Footscray,2/3 Eldridge St,1,u,216000.0,S,Sweeney,04-02-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+54,Gisborne South,28 Fielding Dr,3,h,700000.0,S,Daniel,04-02-2016,3437,Northern Victoria,45.9,Macedon Ranges Shire Council,799,4,0,23,0,0
+55,Glen Waverley,9 Kawana Cr,4,h,1250000.0,SP,JRW,04-02-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+56,Hillside,13 Galli Ct,3,h,625000.0,S,Barry,04-02-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+57,Hillside,17 Queens Pde,4,h,735000.0,S,Ray,04-02-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+58,Hoppers Crossing,6 Merrett Av,3,h,475000.0,S,hockingstuart,04-02-2016,3029,Western Metropolitan,18.4,Wyndham City Council,38701,19,0,47,1,1
+59,Jacana,69 Lorraine Cr,2,h,461000.0,S,RE,04-02-2016,3047,Northern Metropolitan,14.0,Hume City Council,2128,13,1,31,0,0
+60,Keilor Lodge,15 Laguna Cl,3,h,680000.0,PI,YPA,04-02-2016,3038,Western Metropolitan,15.5,Brimbank City Council,1752,7,0,13,0,0
+61,Keysborough,24 Tulip Wy,3,h,737500.0,S,Area,04-02-2016,3173,South-Eastern Metropolitan,25.2,Greater Dandenong City Council,25785,6,0,33,1,1
+62,Kilsyth,74 Alpine Wy,4,h,850000.0,S,Barry,04-02-2016,3137,Eastern Metropolitan,26.0,Maroondah City Council,10891,4,0,18,1,1
+63,Laverton,40 Cropley Cr,4,h,482000.0,SP,hockingstuart,04-02-2016,3028,Western Metropolitan,15.5,Hobsons Bay City Council,4915,8,0,25,1,1
+64,Maidstone,26 Inkerman St,3,h,1200000.0,SP,Biggin,04-02-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,9032,6,0,29,0,0
+65,Maidstone,12 Lindenow St,2,h,927000.0,S,Purplebricks,04-02-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,9032,6,0,29,0,0
+66,Malvern East,32/997 Dandenong Rd,2,u,350000.0,VB,Ray,04-02-2016,3145,Southern Metropolitan,8.4,Stonnington City Council,21707,6,1,31,0,0
+67,Maribyrnong,6 Kynoch La,3,t,560000.0,VB,Biggin,04-02-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+68,Maribyrnong,53 Wests Rd,3,t,560000.0,VB,Biggin,04-02-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+69,Meadow Heights,12 Ellam Ct,3,h,290000.0,S,Raine,04-02-2016,3048,Northern Metropolitan,17.4,Hume City Council,14842,2,0,0,0,0
+70,Meadow Heights,130 Rokewood Cr,1,h,257500.0,S,Raine,04-02-2016,3048,Northern Metropolitan,17.4,Hume City Council,14842,2,0,0,0,0
+71,Melbourne,709/480 St Kilda Rd,2,u,520000.0,VB,Lucas,04-02-2016,3000,Northern Metropolitan,0.0,Melbourne City Council,47285,3,2,5,0,0
+72,Mentone,4/12 Collins St,1,u,245000.0,PI,C21,04-02-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+73,Mitcham,1/32 Alwyn St,3,u,812000.0,S,Fletchers,04-02-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+74,Mont Albert,50/781 Whitehorse Rd,2,u,750000.0,S,RW,04-02-2016,3127,Eastern Metropolitan,10.2,Boroondara City Council,4840,5,0,15,0,0
+75,Moorabbin,52 Bulli St,3,h,1417250.0,S,Buxton,04-02-2016,3189,Southern Metropolitan,14.3,Kingston City Council,5895,8,1,9,0,0
+76,Nunawading,117 Rooks Rd,3,h,835000.0,S,Noel,04-02-2016,3131,Eastern Metropolitan,15.4,Manningham City Council,11876,4,2,20,0,0
+77,Oakleigh South,4 Montrose St,4,h,876000.0,S,Buxton,04-02-2016,3167,South-Eastern Metropolitan,15.5,Kingston City Council,9261,3,0,2,0,0
+78,Ormond,7/30 Walsh St,1,u,250000.0,VB,Ray,04-02-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,8417,9,2,28,0,0
+79,Port Melbourne,404/101 Bay St,2,u,550000.0,S,Buxton,04-02-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+80,Richmond,234 Coppin St,3,h,1102000.0,S,Dingle,04-02-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+81,Ringwood,111 New St,3,h,595000.0,SA,Noel,04-02-2016,3134,Eastern Metropolitan,19.9,Maroondah City Council,17471,12,1,46,1,1
+82,Ringwood East,6 Rotherwood Av,4,h,1010000.0,S,Ray,04-02-2016,3135,Eastern Metropolitan,21.3,Maroondah City Council,10265,6,3,20,0,0
+83,Roxburgh Park,16 Harvey Ct,3,h,424500.0,S,Raine,04-02-2016,3064,Northern Metropolitan,20.6,Hume City Council,21817,17,1,43,1,1
+84,Roxburgh Park,5 Shepherd Av,4,h,457000.0,S,YPA,04-02-2016,3064,Northern Metropolitan,20.6,Hume City Council,21817,17,1,43,1,1
+85,St Albans,23 Glyndon Av,3,h,600000.0,SP,Ray,04-02-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+86,St Albans,22 Grace St,3,h,550000.0,SP,Sweeney,04-02-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+87,St Albans,71 Oleander Dr,3,h,580000.0,SP,Ray,04-02-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+88,Strathmore,24 Balmoral Av,4,h,1500000.0,SP,Rendina,04-02-2016,3041,Western Metropolitan,8.2,Moonee Valley City Council,8419,5,0,18,0,0
+89,Surrey Hills,2/247 Elgar Rd,3,u,930000.0,S,Fletchers,04-02-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+90,Sydenham,30 Carrington St,3,h,639000.0,S,Bells,04-02-2016,3037,Western Metropolitan,18.0,Brimbank City Council,10838,8,1,17,0,0
+91,Taylors Hill,4 Woronora Wy,3,h,540500.0,S,Prof.,04-02-2016,3037,Western Metropolitan,18.0,Melton City Council,14921,8,1,17,1,1
+92,Templestowe,3 Stanley Pl,5,h,1450000.0,S,Fletchers,04-02-2016,3106,Eastern Metropolitan,15.5,Manningham City Council,16618,4,0,21,0,0
+93,Thomastown,6 Milford St,3,h,580000.0,S,Ray,04-02-2016,3074,Northern Metropolitan,15.3,Whittlesea City Council,20523,7,0,22,0,0
+94,Thornbury,3/125 Fyffe St,2,t,805000.0,S,Nelson,04-02-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+95,Thornbury,9 Normanby Av,5,h,1645000.0,S,Nelson,04-02-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+96,West Footscray,742 Barkly St,3,h,1415000.0,PI,Biggin,04-02-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,11450,6,0,29,0,0
+97,Williams Landing,35 Moorhen Bvd,4,h,600500.0,S,hockingstuart,04-02-2016,3027,Western Metropolitan,17.6,Wyndham City Council,6646,0,0,0,0,0
+98,Yarraville,29 Newcastle St,2,h,890000.0,S,hockingstuart,04-02-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+99,Airport West,180 Parer Rd,3,h,830000.0,S,Barry,16-04-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,7564,6,0,22,1,1
+100,Albert Park,86 Mills St,3,h,2000000.0,VB,RT,16-04-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,6215,4,0,33,0,0
+101,Alphington,44 Naroon Rd,3,h,1540000.0,S,Nelson,16-04-2016,3078,Northern Metropolitan,5.7,Darebin City Council,5080,4,1,15,0,0
+102,Altona,1/57 Blyth St,3,u,730000.0,SP,Barlow,16-04-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,10762,4,1,25,1,1
+103,Altona,22 Fenfield St,3,h,678000.0,S,hockingstuart,16-04-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,10762,4,1,25,1,1
+104,Altona Meadows,315 Victoria St,3,h,514000.0,S,Greg,16-04-2016,3028,Western Metropolitan,15.5,Hobsons Bay City Council,19160,8,0,25,0,0
+105,Armadale,8/569 Orrong Rd,1,u,324000.0,S,Jellis,16-04-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+106,Ascot Vale,7 Angler Pde,4,h,1640000.0,S,Raine,16-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+107,Ascot Vale,26 Ayr St,6,h,1430000.0,S,Nelson,16-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+108,Ascot Vale,2/127 Epsom Rd,2,u,610000.0,SP,Brad,16-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+109,Ascot Vale,57 The Parade,3,h,940000.0,S,Nelson,16-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+110,Ashburton,95 Nicholas St,2,h,1445000.0,S,Jellis,16-04-2016,3147,Southern Metropolitan,10.2,Boroondara City Council,7751,7,1,34,0,0
+111,Ashwood,2/21 Electra Av,2,t,690000.0,S,Buxton,16-04-2016,3147,Southern Metropolitan,10.2,Monash City Council,6886,7,1,34,0,0
+112,Attwood,3 Mitchell Ct,4,h,660000.0,SP,Barry,16-04-2016,3049,Northern Metropolitan,16.5,Hume City Council,3419,1,0,7,0,0
+113,Avondale Heights,16a Arbor Tce,3,u,665000.0,S,Brad,16-04-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+114,Avondale Heights,40a Herbert St,3,h,560500.0,S,Nelson,16-04-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+115,Balwyn,7 Power St,5,h,2020000.0,S,Marshall,16-04-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+116,Balwyn,6/29 Weir St,2,u,460000.0,VB,Jellis,16-04-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+117,Balwyn North,3 Alpha St,4,h,2170000.0,SP,Fletchers,16-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+118,Balwyn North,237a Balwyn Rd,5,h,1310000.0,PI,Appleby,16-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+119,Balwyn North,48 Hosken St,4,h,2525000.0,PI,Jellis,16-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+120,Balwyn North,17 Stephens St,4,h,3360000.0,S,Assisi,16-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+121,Balwyn North,7 Sunburst Av,3,h,1845000.0,S,hockingstuart,16-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+122,Beaumaris,458 Balcombe Rd,3,h,1050000.0,VB,Hodges,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+123,Beaumaris,2 Banksia Av,4,h,3000000.0,VB,Kay,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+124,Beaumaris,4 Church St,4,h,1250000.0,SP,Buxton,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+125,Beaumaris,21 Lang St,4,h,1927500.0,S,Hodges,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+126,Beaumaris,6 Martin St,4,h,1330000.0,PI,OBrien,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+127,Bellfield,8 Erica Ct,3,h,770000.0,S,Haughton,16-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,1793,2,2,19,0,0
+128,Bentleigh,4 Leckie St,3,h,1327500.0,S,hockingstuart,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+129,Bentleigh,9b Marquis Rd,4,t,1435000.0,S,hockingstuart,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+130,Bentleigh,10 Osborne Av,5,h,1960000.0,S,Buxton,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+131,Bentleigh,43 Wavell St,4,h,1560000.0,PI,Buxton,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+132,Bentleigh East,32a Argyle St,3,t,920000.0,S,Buxton,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+133,Bentleigh East,12 Barrani St,3,h,1050000.0,S,Woodards,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+134,Bentleigh East,45 Browns Rd,3,h,1560000.0,S,Woodards,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+135,Bentleigh East,69a Deakin St,3,h,1000000.0,VB,Woodards,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+136,Bentleigh East,25 Glover St,4,h,800000.0,PI,Hodges,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+137,Bentleigh East,21 Highview Rd,2,h,722000.0,S,Buxton,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+138,Bentleigh East,18 Normanby Rd,3,h,930000.0,SP,Buxton,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+139,Bentleigh East,6/48 Pasadena Cr,3,h,780000.0,S,Buxton,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+140,Bentleigh East,93 Tudor St,3,h,921000.0,S,Buxton,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+141,Bentleigh East,23 York St,4,h,1035000.0,PI,First,16-04-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+142,Black Rock,16 Cullinane St,2,h,1370000.0,S,Thomson,16-04-2016,3193,Southern Metropolitan,17.3,Bayside City Council,6159,6,0,26,0,0
+143,Blackburn,2/7 Doulton Rd,2,u,745500.0,S,Barry,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+144,Blackburn,11 Halley St,4,h,950000.0,PI,Noel,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+145,Blackburn,356 Middleborough Rd,3,h,899000.0,PI,Noel,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+146,Blackburn,3/180 Surrey Rd,2,u,487000.0,S,Fletchers,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+147,Blackburn North,17 Merle St,2,h,1205000.0,S,Noel,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,7436,11,1,24,0,0
+148,Blackburn North,2/10 Middlefield Dr,3,h,600000.0,S,Ray,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,7436,11,1,24,0,0
+149,Blackburn North,1 Shafer Rd,3,h,1075000.0,S,Fletchers,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,7436,11,1,24,0,0
+150,Blackburn South,3 Ashcroft Gr,5,h,1330000.0,S,Jellis,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+151,Blackburn South,40 Indra Rd,4,h,911000.0,S,Philip,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+152,Blackburn South,9 Sandgate Rd,3,h,850000.0,PI,Allens,16-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+153,Bonbeach,18 Cannes Av,4,h,1110000.0,SP,Hodges,16-04-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,6416,5,1,31,0,0
+154,Box Hill,55 Albion Rd,4,h,1600000.0,S,Fletchers,16-04-2016,3128,Eastern Metropolitan,10.9,Whitehorse City Council,11395,4,3,28,1,1
+155,Briar Hill,97 Fernside Av,3,h,795000.0,SA,Morrison,16-04-2016,3088,Eastern Metropolitan,16.1,Banyule City Council,3152,11,1,30,0,0
+156,Brighton,2/61 Black St,2,u,800000.0,VB,hockingstuart,16-04-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+157,Brighton,34 Middle Cr,4,h,4375000.0,S,hockingstuart,16-04-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+158,Brighton,48 Montclair Av,2,h,1036000.0,S,Buxton,16-04-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+159,Brighton,31 Orchard St,5,h,2100000.0,PI,Hodges,16-04-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+160,Brighton East,6 Balfour St,3,h,1620000.0,S,Marshall,16-04-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+161,Brighton East,11 Burwah Av,4,h,2127000.0,S,hockingstuart,16-04-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+162,Brighton East,2/111 Thomas St,3,t,940000.0,S,hockingstuart,16-04-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+163,Broadmeadows,108 Waranga Cr,4,h,402500.0,S,YPA,16-04-2016,3047,Northern Metropolitan,14.0,Hume City Council,11970,13,1,31,0,0
+164,Brunswick,311 Albion St,3,h,825000.0,S,Nelson,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+165,Brunswick,46 Cassels Rd,2,h,860000.0,S,Nelson,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+166,Brunswick,50 Davies St,2,h,830000.0,S,Nelson,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+167,Brunswick,58 Donald St,2,h,936000.0,S,Nelson,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+168,Brunswick,175 Edward St,3,h,1261000.0,S,Nelson,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+169,Brunswick,84 Stewart St,3,h,1045000.0,S,Jellis,16-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+170,Brunswick East,2/146 Blyth St,2,u,510000.0,S,Nelson,16-04-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+171,Brunswick East,89a Hickford St,3,h,1574000.0,S,Woodards,16-04-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+172,Brunswick West,201 Hope St,2,h,711000.0,S,Nelson,16-04-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+173,Brunswick West,7 Zeal St,2,h,910000.0,S,Raine,16-04-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+174,Bulleen,7 Ronald Av,4,h,1298000.0,S,Barry,16-04-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+175,Bulleen,71 Summit Dr,4,h,1000000.0,VB,hockingstuart,16-04-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+176,Bundoora,9 Bendoran Cr,4,h,630000.0,SP,Barry,16-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+177,Bundoora,40 David Cr,3,h,575000.0,S,Barry,16-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+178,Bundoora,26 Noorong Av,3,h,630000.0,S,Ray,16-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+179,Burnley,92 Madden Gr,2,h,881000.0,SP,Jellis,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,769,9,2,47,0,0
+180,Burwood,29 Meldan St,2,h,1350000.0,S,Fletchers,16-04-2016,3125,Southern Metropolitan,10.4,Monash City Council,15019,5,0,22,0,0
+181,Camberwell,4 Ada St,3,h,2250000.0,S,O'Donoghues,16-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+182,Camberwell,591 Camberwell Rd,2,h,895000.0,PI,O'Donoghues,16-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+183,Camberwell,5 Cooloongatta Rd,3,h,1800000.0,SP,Marshall,16-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+184,Camberwell,5 Nicholsdale Rd,4,h,1400000.0,PI,Jellis,16-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+185,Camberwell,110 Rowell Av,3,h,2200000.0,PI,Noel,16-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+186,Carlton North,1018 Drummond St,4,h,2520000.0,S,Nelson,16-04-2016,3054,Northern Metropolitan,3.5,Melbourne City Council,6300,3,0,1,0,0
+187,Carlton North,354 Station St,3,h,1214000.0,S,Nelson,16-04-2016,3054,Northern Metropolitan,3.5,Melbourne City Council,6300,3,0,1,0,0
+188,Carnegie,25 Arawatta St,2,h,817500.0,S,Jellis,16-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+189,Carnegie,48 Lyons St,4,h,1450000.0,PI,Ray,16-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+190,Carnegie,51 Mimosa Rd,3,h,1000000.0,PI,Ray,16-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+191,Carnegie,2/79 Mimosa Rd,2,t,855000.0,S,Gary,16-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+192,Carnegie,2/61 Moonya Rd,2,h,675000.0,S,Gary,16-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+193,Carrum Downs,1 Blossom Wy,3,h,390000.0,S,Munn,16-04-2016,3201,South-Eastern Metropolitan,34.9,Frankston City Council,20711,5,0,14,1,1
+194,Caulfield,40 Snowdon Av,4,h,1220000.0,S,Gary,16-04-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,5595,5,4,33,1,1
+195,Caulfield South,28 Ellington St,4,h,1960000.0,PI,hockingstuart,16-04-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+196,Caulfield South,23 Lygon St,2,h,825000.0,S,Gary,16-04-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+197,Caulfield South,136 Sycamore St,2,h,1262000.0,S,hockingstuart,16-04-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+198,Cheltenham,1/92 Devon St,3,t,805000.0,S,OBrien,16-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+199,Cheltenham,1/24 Jean St,3,t,850000.0,PI,hockingstuart,16-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+200,Cheltenham,21 Paul St,3,h,1280000.0,S,Buxton,16-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+201,Cheltenham,3/8 Stuart Av,2,u,665000.0,S,J,16-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+202,Cheltenham,10 Ward St,3,h,795000.0,S,Ray,16-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+203,Clarinda,54 Viney St,3,h,730000.0,S,Century,16-04-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,7481,6,0,13,0,0
+204,Clayton,2/1416 North Rd,4,t,725000.0,S,Buxton,16-04-2016,3168,South-Eastern Metropolitan,16.7,Monash City Council,19358,2,6,26,1,2
+205,Clayton South,1/30 Bevan Av,4,t,599999.0,PI,Fletchers,16-04-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+206,Clayton South,43 Ester Cr,3,h,635000.0,S,Century,16-04-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+207,Clayton South,49 Glenmorgan Cl,3,h,710000.0,S,LJ,16-04-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+208,Coburg,12 Gordon St,4,h,865000.0,S,Brad,16-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+209,Coburg,11/5 Industry La,2,u,485000.0,VB,Nelson,16-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+210,Coburg,12 Lascelles St,3,h,765000.0,S,Nelson,16-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+211,Coburg North,31 Camera Wk,2,t,460000.0,PI,Stockdale,16-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,7601,12,2,33,1,1
+212,Collingwood,84 Budd St,3,h,1075000.0,S,hockingstuart,16-04-2016,3066,Northern Metropolitan,2.0,Yarra City Council,8513,2,0,3,1,1
+213,Collingwood,38/99 Oxford St,3,u,1470000.0,S,Nelson,16-04-2016,3066,Northern Metropolitan,2.0,Yarra City Council,8513,2,0,3,1,1
+214,Craigieburn,3 Distinction Av,4,h,520000.0,VB,Ray,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+215,Craigieburn,9 Emerald Cct,4,h,445000.0,S,hockingstuart,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+216,Craigieburn,6 Gunning La,3,h,341000.0,S,Ray,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+217,Craigieburn,30 Jonesfield St,3,h,415000.0,SP,LJ,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+218,Craigieburn,36 Mallacoota Wy,4,h,510000.0,SP,LJ,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+219,Craigieburn,17 Mittagong Ri,3,h,463000.0,S,Ray,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+220,Croydon,6 Boyana Cr,5,h,760000.0,PI,Fletchers,16-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+221,Croydon North,5 Moss Ct,4,h,705000.0,S,Carter,16-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,7860,12,1,56,1,1
+222,Dandenong North,197 Outlook Dr,3,h,600000.0,S,Hodges,16-04-2016,3175,South-Eastern Metropolitan,24.7,Greater Dandenong City Council,22451,15,5,47,0,0
+223,Diamond Creek,9 Dover Ct,3,h,550000.0,SP,Mason,16-04-2016,3089,Northern Victoria,21.8,Nillumbik Shire Council,11733,5,0,22,1,1
+224,Dingley Village,18 Greenwoods Cl,4,h,691000.0,SP,Ray,16-04-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+225,Dingley Village,2 Wheatland Cr,4,h,912000.0,S,Ray,16-04-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+226,Doncaster,19 Gilmore Rd,3,h,1485000.0,S,Barry,16-04-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+227,Doncaster,22 Menarra St,3,h,1190000.0,S,Ray,16-04-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+228,Doncaster East,8 Balinga Ct,5,h,1150000.0,VB,Jellis,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+229,Doncaster East,39 Brindy Cr,3,h,720000.0,PI,hockingstuart,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+230,Doncaster East,4 Kent Ct,4,h,1100000.0,PI,Barry,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+231,Doncaster East,1/5 Maude Av,2,u,645000.0,S,Fletchers,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+232,Doncaster East,62 Morna Rd,3,h,945000.0,S,Jellis,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+233,Doncaster East,56 Owens St,4,h,1060000.0,PI,Barry,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+234,Doncaster East,15 Tidcombe Cr,4,h,880000.0,PI,Fletchers,16-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+235,Donvale,70 Carbine St,4,h,1075000.0,PI,Ray,16-04-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+236,Donvale,1/4 Craileen St,3,u,662500.0,S,Jellis,16-04-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+237,Donvale,2/45 Leslie St,2,u,585000.0,PI,Barry,16-04-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+238,Donvale,1/201 Mitcham Rd,2,u,568000.0,S,Barry,16-04-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+239,Edithvale,105 Berry Av,3,h,958000.0,S,Biggin,16-04-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+240,Edithvale,24 Hughes Av,3,h,890000.0,S,Mitchell,16-04-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+241,Edithvale,2/33 Lochiel Av,2,u,580000.0,S,hockingstuart,16-04-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+242,Edithvale,28 Tudor Ct,3,u,580000.0,S,hockingstuart/hockingstuart,16-04-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+243,Elsternwick,3/477 Kooyong Rd,3,t,1071000.0,S,Biggin,16-04-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+244,Elsternwick,21 Liscard St,3,h,1800000.0,S,Biggin,16-04-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+245,Elsternwick,5/16 St Georges Rd,2,u,741000.0,S,Biggin,16-04-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+246,Eltham,181 Pitt St,3,h,950000.0,SP,Fletchers,16-04-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,18314,11,0,32,1,1
+247,Elwood,17 Addison St,3,h,1700000.0,S,Chisholm,16-04-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+248,Elwood,5/15 Dickens St,2,u,686000.0,S,hockingstuart,16-04-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+249,Elwood,2/21 Milton St,2,u,560000.0,PI,Jellis,16-04-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+250,Elwood,4/41 Shelley St,2,u,765000.0,S,Marshall,16-04-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+251,Epping,11 Lancia Ct,4,h,480000.0,PI,C21,16-04-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+252,Epping,1/18 Wynnette Ct,3,u,382000.0,S,Harcourts,16-04-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+253,Essendon,9a Ballater St,2,u,800000.0,S,Paul,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+254,Essendon,2 Cooke St,5,h,1575000.0,PI,Brad,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+255,Essendon,9/160 Napier St,1,u,280000.0,SP,Pagan,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+256,Essendon,211 Napier St,4,h,1467000.0,S,Brad,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+257,Essendon,11 Raleigh St,3,h,770000.0,S,Brad,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+258,Essendon,15/18 Raleigh St,2,u,446000.0,S,Nelson,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+259,Essendon,20 Warner St,2,h,890000.0,PI,Nelson,16-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+260,Fawkner,62 Dowding Cl,4,h,615000.0,S,Stockdale,16-04-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+261,Fitzroy,258 Napier St,3,h,2200000.0,VB,Nelson,16-04-2016,3065,Northern Metropolitan,2.1,Yarra City Council,10445,4,3,29,1,1
+262,Fitzroy North,111 Best St,3,h,1275000.0,SP,Nelson,16-04-2016,3068,Northern Metropolitan,3.6,Moreland City Council,12339,8,0,14,0,0
+263,Fitzroy North,282 Glenlyon Rd,3,h,1141000.0,S,Nelson,16-04-2016,3068,Northern Metropolitan,3.6,Moreland City Council,12339,8,0,14,0,0
+264,Flemington,250 Pinoak Cr,3,h,815000.0,S,Nelson,16-04-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,7719,7,0,3,1,1
+265,Footscray,105/72 Cross St,1,u,375000.0,S,Biggin,16-04-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+266,Footscray,6/63 Everard St,2,u,615000.0,S,Sweeney,16-04-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+267,Frankston,11 Barwon Av,5,h,680000.0,SP,LJ,16-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+268,Frankston,25 Franciscan Av,4,h,461000.0,SP,U,16-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+269,Frankston,256 Heatherhill Rd,3,h,435000.0,S,Community,16-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+270,Gladstone Park,55 Snaefell Cr,4,h,605000.0,S,YPA,16-04-2016,3043,Western Metropolitan,12.9,Hume City Council,8338,5,0,30,0,0
+271,Glen Waverley,34 Angus Dr,4,h,1325000.0,S,Barry,16-04-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+272,Glen Waverley,2/32 Wilson Rd,3,u,846000.0,S,Ray,16-04-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+273,Glen Waverley,123 Windella Cr,3,h,920000.0,S,Barry,16-04-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+274,Glenroy,20 Tarana Av,3,t,545000.0,SP,Brad,16-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+275,Glenroy,64 Valley Cr,3,h,570000.0,PI,Barry,16-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+276,Gowanbrae,3 Gowanbrae Dr,3,h,700000.0,SP,Nelson,16-04-2016,3043,Western Metropolitan,12.9,Moreland City Council,2773,5,0,30,0,0
+277,Gowanbrae,42 Seggan Cir,3,h,485000.0,S,Nelson,16-04-2016,3043,Western Metropolitan,12.9,Moreland City Council,2773,5,0,30,0,0
+278,Greensborough,9 Beewar St,3,h,780000.0,S,Coventry,16-04-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+279,Greensborough,19 Hamlet St,3,h,760000.0,S,Buckingham,16-04-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+280,Greensborough,8 Phillip Ct,4,h,820000.0,S,Buckingham,16-04-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+281,Greenvale,17 Bridlington Dr,5,h,751500.0,S,Jason,16-04-2016,3059,Northern Metropolitan,20.4,Hume City Council,15466,3,0,12,1,1
+282,Greenvale,32 Buttercup Dr,4,h,563000.0,S,YPA,16-04-2016,3059,Northern Metropolitan,20.4,Hume City Council,15466,3,0,12,1,1
+283,Greenvale,2/6 Wallace Dr,3,h,450000.0,S,Evolve,16-04-2016,3059,Northern Metropolitan,20.4,Hume City Council,15466,3,0,12,1,1
+284,Hadfield,1/22 Volga St,3,t,510000.0,PI,Raine,16-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,5610,12,0,26,0,0
+285,Hampton East,33 Widdop Cr,3,h,1225000.0,S,Buxton,16-04-2016,3188,Southern Metropolitan,13.8,Bayside City Council,4689,2,1,19,0,0
+286,Hawthorn,4 Ardene Ct,5,h,3950000.0,S,Jellis,16-04-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+287,Hawthorn East,16/36 Anderson Rd,3,u,735000.0,S,Noel,16-04-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+288,Hawthorn East,5 Nicholson St,4,h,2920000.0,S,Marshall,16-04-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+289,Heidelberg,13 Edgar St,3,h,750000.0,VB,Nelson,16-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,6225,9,3,20,0,0
+290,Heidelberg,50 Manton St,4,h,1115000.0,S,Miles,16-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,6225,9,3,20,0,0
+291,Heidelberg Heights,8 Leonard St,5,h,890000.0,S,hockingstuart,16-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,6087,2,2,19,0,0
+292,Heidelberg West,23 Catalina St,2,h,620000.0,PI,Ray,16-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,5545,2,2,19,0,0
+293,Heidelberg West,2 Pandanus Ct,2,h,497500.0,SP,Miles,16-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,5545,2,2,19,0,0
+294,Heidelberg West,15/459 Waterdale Rd,2,u,360000.0,SP,Miles,16-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,5545,2,2,19,0,0
+295,Highett,34a Gilarth St,4,h,1206000.0,S,Woodards,16-04-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+296,Highett,21 Jackson Rd,3,h,921000.0,S,Hodges,16-04-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+297,Highett,39a Miller St,3,t,705000.0,S,Buxton,16-04-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+298,Highett,24a Tibrockney St,3,t,1235000.0,S,Buxton,16-04-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+299,Hillside,18 Castlewellan Bvd,7,h,850000.0,PI,Barry,16-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+300,Hillside,6 Queens Pde,5,h,685000.0,S,Ray,16-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+301,Hillside,12 Tormorvey Av,4,h,460000.0,SP,Barry,16-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+302,Hughesdale,3/14 Rugby Rd,2,u,455000.0,S,Fletchers,16-04-2016,3166,Southern Metropolitan,12.3,Monash City Council,7556,7,0,43,0,0
+303,Huntingdale,47 Greville St,3,h,936000.0,S,Hodges,16-04-2016,3166,Southern Metropolitan,12.3,Monash City Council,1862,7,0,43,0,0
+304,Ivanhoe,3/16 Elphin St,1,u,420000.0,SP,Miles,16-04-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+305,Ivanhoe,3/24 Green St,3,t,750000.0,S,Barry,16-04-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+306,Ivanhoe,5/125 Locksley Rd,2,u,460000.0,VB,Fletchers,16-04-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+307,Jacana,11/1051 Pascoe Vale Rd,2,u,280000.0,PI,Raine,16-04-2016,3047,Northern Metropolitan,14.0,Hume City Council,2128,13,1,31,0,0
+308,Jacana,108 Sunset Bvd,3,h,425000.0,S,Barry,16-04-2016,3047,Northern Metropolitan,14.0,Hume City Council,2128,13,1,31,0,0
+309,Keilor,21 Barwon Av,3,h,530000.0,SP,Brad,16-04-2016,3036,Western Metropolitan,14.5,Brimbank City Council,5853,3,1,12,1,1
+310,Keilor Downs,50 Dongola Rd,4,h,470000.0,S,Brad,16-04-2016,3038,Western Metropolitan,15.5,Brimbank City Council,9995,7,0,13,0,0
+311,Keilor East,1/19 Berembong Dr,3,t,570000.0,VB,Nelson,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+312,Keilor East,564 Buckley St,3,h,630000.0,S,Nelson,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+313,Keilor East,48 Fawkner Cr,3,h,780000.0,S,Brad,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+314,Keilor East,26 Heather Av,5,h,762000.0,SP,Nelson,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+315,Keilor East,13 Pennington St,4,h,835000.0,S,Nelson,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+316,Keilor East,1/31 Surrey Dr,3,t,705000.0,S,Barry,16-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+317,Kensington,14 Altona St,2,t,812000.0,SP,Rendina,16-04-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+318,Kew,178 Peel St,5,h,2650000.0,VB,Marshall,16-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+319,Kew,11/6 Swinton Av,2,u,950000.0,S,Marshall,16-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+320,Kew,2/147 Willsmere Rd,3,h,972500.0,S,Jellis,16-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+321,Kew East,62 Munro St,4,h,2081000.0,S,Nelson,16-04-2016,3102,Southern Metropolitan,7.3,Boroondara City Council,6635,3,1,13,0,0
+322,Keysborough,7 Silvercrest Ct,5,h,1080000.0,S,Ray,16-04-2016,3173,South-Eastern Metropolitan,25.2,Greater Dandenong City Council,25785,6,0,33,1,1
+323,Kilsyth,33 Glendale Ct,3,h,592000.0,S,Stockdale,16-04-2016,3137,Eastern Metropolitan,26.0,Maroondah City Council,10891,4,0,18,1,1
+324,Lalor,9 Childs Rd,3,h,510000.0,S,Love,16-04-2016,3075,Northern Metropolitan,16.3,Whittlesea City Council,22594,8,0,14,1,1
+325,Lalor,93 Cyprus St,3,h,540000.0,S,Barry,16-04-2016,3075,Northern Metropolitan,16.3,Whittlesea City Council,22594,8,0,14,1,1
+326,Lalor,11 Donovan St,4,h,550000.0,S,Love,16-04-2016,3075,Northern Metropolitan,16.3,Whittlesea City Council,22594,8,0,14,1,1
+327,Lower Plenty,5 Edwards St,4,h,910000.0,S,Fletchers,16-04-2016,3093,Eastern Metropolitan,14.6,Banyule City Council,3891,1,0,5,0,0
+328,Lower Plenty,11 Rangeview Rd,4,h,900000.0,S,Buckingham,16-04-2016,3093,Eastern Metropolitan,14.6,Banyule City Council,3891,1,0,5,0,0
+329,MacLeod,5 Wungan St,3,h,555000.0,SP,Miles,16-04-2016,3085,Northern Metropolitan,12.7,Banyule City Council,9769,3,0,22,0,0
+330,Maidstone,48/48 Eucalyptus Dr,2,u,349000.0,PI,hockingstuart,16-04-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,9032,6,0,29,0,0
+331,Malvern,14 Woodmason St,3,h,1437000.0,S,hockingstuart,16-04-2016,3144,Southern Metropolitan,5.9,Stonnington City Council,10066,4,5,27,1,1
+332,Malvern East,102 Manning Rd,4,h,1690000.0,S,Marshall,16-04-2016,3145,Southern Metropolitan,8.4,Stonnington City Council,21707,6,1,31,0,0
+333,Malvern East,6 Ramona Av,3,h,1320000.0,PI,Fletchers,16-04-2016,3145,Southern Metropolitan,8.4,Stonnington City Council,21707,6,1,31,0,0
+334,Maribyrnong,112 Edgewater Bvd,3,t,865000.0,PI,Clairmont,16-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+335,Maribyrnong,42/2 Horizon Dr,2,u,488000.0,S,Barry,16-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+336,Maribyrnong,5 Lyric St,4,h,940000.0,S,GL,16-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+337,Maribyrnong,3/26 Middle Rd,2,t,570000.0,S,Jas,16-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+338,Melbourne,1104/582 St Kilda Rd,2,u,750000.0,PI,Kay,16-04-2016,3000,Northern Metropolitan,0.0,Melbourne City Council,47285,3,2,5,0,0
+339,Mentone,12/78 Beach Rd,2,t,680000.0,S,hockingstuart,16-04-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+340,Mentone,5/35 Como Pde E,2,u,520000.0,VB,RT,16-04-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+341,Mentone,24 Teague Av,3,t,861000.0,S,hockingstuart,16-04-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+342,Middle Park,6/82 Patterson St,2,u,700000.0,SP,Greg,16-04-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,4143,4,0,33,0,0
+343,Mill Park,43 Madigan Cr,3,h,520000.0,S,Harcourts,16-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+344,Mill Park,6 Septimus Cl,4,h,610000.0,S,Love,16-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+345,Mill Park,7 Woodvale Ct,3,h,501000.0,SP,Barry,16-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+346,Mitcham,12 Mountfield Rd,4,h,1040000.0,S,Noel,16-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+347,Mitcham,9 Newbury St,3,h,814000.0,S,Allens,16-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+348,Montmorency,16 Station Rd,3,h,710000.0,S,Buckingham,16-04-2016,3094,Eastern Metropolitan,16.2,Banyule City Council,8960,4,0,12,0,0
+349,Moonee Ponds,2 Addison St,3,h,1370000.0,S,Nelson,16-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+350,Moonee Ponds,61 Athol St,3,h,1400000.0,SP,Brad,16-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+351,Moonee Ponds,22 McPherson St,4,h,1310000.0,S,Jellis,16-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+352,Moonee Ponds,4 Milverton St,4,h,1833000.0,SP,Jellis,16-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+353,Moorabbin,10a Narooma St,3,u,1035000.0,S,C21,16-04-2016,3189,Southern Metropolitan,14.3,Kingston City Council,5895,8,1,9,0,0
+354,Moorabbin,2/1 Perry St,3,t,785000.0,S,Ray,16-04-2016,3189,Southern Metropolitan,14.3,Kingston City Council,5895,8,1,9,0,0
+355,Mordialloc,135c McDonald St,4,h,740000.0,SP,Buxton,16-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,8166,11,1,30,0,0
+356,Mount Waverley,39 Hansen St,2,h,1030000.0,S,Barry,16-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+357,Mount Waverley,496 Highbury Rd,3,h,1055000.0,S,Buxton,16-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+358,Mount Waverley,428 Huntingdale Rd,4,h,1200000.0,S,Buxton,16-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+359,Mount Waverley,2 Lynden Gr,3,h,910000.0,PI,Barry,16-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+360,Mount Waverley,489 Waverley Rd,4,h,950000.0,S,Barry,16-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+361,Mulgrave,7 Police Rd,4,h,776000.0,S,Ray,16-04-2016,3170,South-Eastern Metropolitan,18.8,Monash City Council,19368,6,1,11,0,0
+362,Mulgrave,11 Seaview Cr,3,h,585000.0,S,Ray,16-04-2016,3170,South-Eastern Metropolitan,18.8,Monash City Council,19368,6,1,11,0,0
+363,Mulgrave,8 Sunrise Dr,4,h,877000.0,S,Ray,16-04-2016,3170,South-Eastern Metropolitan,18.8,Monash City Council,19368,6,1,11,0,0
+364,Newport,5 Croker St,3,h,716000.0,S,Williams,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+365,Newport,1 Durkin St,2,h,740000.0,S,RT,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+366,Newport,91 High St,4,h,970000.0,S,Greg,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+367,Newport,2/29 Maddox Rd,3,t,735000.0,S,Williams,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+368,Niddrie,26 Nolan St,3,h,1076000.0,S,Barry,16-04-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,5479,6,0,22,0,0
+369,Niddrie,11 Spring St,4,h,850000.0,S,Barry,16-04-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,5479,6,0,22,0,0
+370,Noble Park,3/30 Ambrie Cr,3,h,515000.0,SP,RW,16-04-2016,3174,South-Eastern Metropolitan,22.7,Greater Dandenong City Council,30998,11,3,25,1,1
+371,Noble Park,3/61 Kelvinside Rd,3,u,320000.0,VB,hockingstuart,16-04-2016,3174,South-Eastern Metropolitan,22.7,Greater Dandenong City Council,30998,11,3,25,1,1
+372,North Melbourne,2/150 Arden St,2,u,440000.0,PI,hockingstuart,16-04-2016,3051,Northern Metropolitan,1.8,Melbourne City Council,14940,5,1,0,0,0
+373,North Melbourne,12/700 Queensberry St,2,u,606000.0,S,Nelson,16-04-2016,3051,Northern Metropolitan,1.8,Melbourne City Council,14940,5,1,0,0,0
+374,Northcote,13 Andrew St,3,h,1900000.0,SP,hockingstuart,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+375,Northcote,121 Bent St,2,h,888000.0,SP,hockingstuart,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+376,Northcote,45 Emmaline St,2,h,1020000.0,S,Nelson,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+377,Northcote,34 Oamaru St,3,h,1160000.0,S,hockingstuart,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+378,Northcote,2/13 Spencer St,2,h,844000.0,S,Barry,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+379,Northcote,64 Union St,3,h,1860000.0,S,Nelson,16-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+380,Oak Park,14 Summit Av,4,t,715750.0,SP,Stockdale,16-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,6205,12,0,26,0,0
+381,Oak Park,18 Summit Av,3,h,862500.0,S,Brad,16-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,6205,12,0,26,0,0
+382,Ormond,245 Grange Rd,4,h,1500000.0,VB,Ray,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,8417,9,2,28,0,0
+383,Ormond,4/4 Ormond Rd,1,u,260000.0,SP,Thomson,16-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,8417,9,2,28,0,0
+384,Parkdale,2/5 Greenways Ct,4,t,1520000.0,SP,Buxton,16-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,11746,11,1,30,0,0
+385,Parkdale,29 Stewart Av,3,h,1211000.0,S,Hodges,16-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,11746,11,1,30,0,0
+386,Parkville,84 Flemington Rd,10,h,2800000.0,VB,Nelson,16-04-2016,3052,Northern Metropolitan,1.8,Melbourne City Council,7409,2,6,0,0,0
+387,Pascoe Vale,109 Derby St,4,h,970000.0,S,Nelson,16-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+388,Pascoe Vale,2/7 Hazel Gr,3,u,515000.0,SP,hockingstuart,16-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+389,Pascoe Vale,75 Landells Rd,3,h,985000.0,S,D'Aprano,16-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+390,Pascoe Vale,3/31 Pardy St,2,t,515000.0,SP,Brad,16-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+391,Port Melbourne,139 Cruikshank St,3,t,1565000.0,S,Cayzer,16-04-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+392,Port Melbourne,7/174 Esplanade Pl,2,u,730000.0,SP,RT,16-04-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+393,Port Melbourne,7/174 Esplanade East,2,u,730000.0,SP,RT,16-04-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+394,Port Melbourne,59 Heath St,3,h,1670000.0,S,Greg,16-04-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+395,Prahran,12/67 High St,2,u,530000.0,VB,Jellis,16-04-2016,3181,Southern Metropolitan,4.6,Stonnington City Council,12982,4,4,17,1,1
+396,Prahran,43 Highbury Gr,3,h,1651000.0,S,Marshall,16-04-2016,3181,Southern Metropolitan,4.6,Stonnington City Council,12982,4,4,17,1,1
+397,Prahran,6/20 Wynnstay Rd,2,u,615000.0,SA,Biggin,16-04-2016,3181,Southern Metropolitan,4.6,Stonnington City Council,12982,4,4,17,1,1
+398,Preston,37 Bailey Av,5,h,1615000.0,S,Harcourts,16-04-2016,3072,Northern Metropolitan,8.4,Darebin City Council,32851,11,1,31,0,0
+399,Preston,13 Garnet St,2,h,700000.0,PI,Barry,16-04-2016,3072,Northern Metropolitan,8.4,Darebin City Council,32851,11,1,31,0,0
+400,Preston,7 Hope St,3,h,930000.0,S,Barry,16-04-2016,3072,Northern Metropolitan,8.4,Darebin City Council,32851,11,1,31,0,0
+401,Preston,178 Raglan St,2,h,920000.0,SP,hockingstuart,16-04-2016,3072,Northern Metropolitan,8.4,Darebin City Council,32851,11,1,31,0,0
+402,Princes Hill,206 Richardson St,2,h,1100000.0,S,Nelson,16-04-2016,3054,Northern Metropolitan,3.5,Yarra City Council,2126,3,0,1,0,0
+403,Reservoir,9 Ayr St,4,h,670000.0,SP,Ray,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+404,Reservoir,1/18 Duffy St,2,u,376000.0,S,Ray,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+405,Reservoir,2/963 High St,2,u,323000.0,S,Nelson,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+406,Reservoir,119 Hughes Pde,3,h,680000.0,S,Ray,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+407,Reservoir,2/27 Kenilworth St,2,t,530000.0,S,Nelson,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+408,Reservoir,14 Leichardt Cr,3,h,567000.0,SP,hockingstuart,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+409,Reservoir,2/6 Lucille Av,3,t,480000.0,PI,Ray,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+410,Reservoir,39 Mason St,4,h,786000.0,S,Nelson,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+411,Reservoir,4/7 Pershing St,2,u,390000.0,VB,Nelson,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+412,Reservoir,8 Willoughby St,3,h,650000.0,S,hockingstuart,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+413,Reservoir,5 Zinnia St,3,h,540000.0,S,Nelson,16-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+414,Richmond,11 Barkly Av,4,h,1540000.0,S,Jellis,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+415,Richmond,29 Bennett St,3,h,1088000.0,S,Jellis,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+416,Richmond,2/310 Burnley St,3,t,911000.0,S,Biggin,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+417,Richmond,30 Highett St,4,h,3001000.0,S,Biggin,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+418,Richmond,9/63 Stawell St,2,u,638000.0,S,Biggin,16-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+419,Ringwood East,1/1 Alexandra Rd,3,h,590000.0,S,Kay,16-04-2016,3135,Eastern Metropolitan,21.3,Maroondah City Council,10265,6,3,20,0,0
+420,Rosanna,180 Grandview Gr,6,h,1245000.0,S,Nelson,16-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,8498,9,3,20,0,0
+421,Rosanna,11/77 McCrae Rd,2,h,430000.0,S,hockingstuart,16-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,8498,9,3,20,0,0
+422,Rowville,5 Hermitage Pl,4,h,1210000.0,S,Barry,16-04-2016,3178,South-Eastern Metropolitan,23.5,Knox City Council,33672,6,0,39,1,1
+423,Rowville,133 Turramurra Dr,5,h,1240000.0,S,Barry,16-04-2016,3178,South-Eastern Metropolitan,23.5,Knox City Council,33672,6,0,39,1,1
+424,Rowville,7 Vue Ct,4,h,705000.0,PI,Schroeder,16-04-2016,3178,South-Eastern Metropolitan,23.5,Knox City Council,33672,6,0,39,1,1
+425,Roxburgh Park,5 Wrigley Cr,4,h,495000.0,S,Raine,16-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,21817,17,1,43,1,1
+426,Sandhurst,50 Warrego Cct,4,h,555000.0,SP,U,16-04-2016,3977,South-Eastern Metropolitan,34.7,Frankston City Council,4981,19,1,61,0,0
+427,Sandringham,108 Abbott St,4,h,1500000.0,VB,Buxton,16-04-2016,3191,Southern Metropolitan,15.2,Bayside City Council,10241,4,2,20,1,1
+428,Sandringham,5/76 Bay Rd,2,u,576500.0,S,hockingstuart,16-04-2016,3191,Southern Metropolitan,15.2,Bayside City Council,10241,4,2,20,1,1
+429,Sandringham,3/10 Heath St,2,u,735000.0,S,Hodges,16-04-2016,3191,Southern Metropolitan,15.2,Bayside City Council,10241,4,2,20,1,1
+430,Sandringham,3/11 Waltham St,2,u,640000.0,VB,hockingstuart,16-04-2016,3191,Southern Metropolitan,15.2,Bayside City Council,10241,4,2,20,1,1
+431,Seddon,38 Alfred St,3,h,920000.0,PI,Jas,16-04-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,5123,5,8,28,0,0
+432,Seddon,11 Hotham St,3,h,1395000.0,SP,Jas,16-04-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,5123,5,8,28,0,0
+433,South Kingsville,58 Kernot St,4,t,915000.0,SP,Sweeney,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,1947,5,0,27,0,0
+434,South Melbourne,14/182 Albert Rd,2,u,1500000.0,VB,Greg,16-04-2016,3205,Southern Metropolitan,1.9,Port Phillip City Council,10920,3,0,2,1,1
+435,South Melbourne,50 Bridport St,2,h,2000000.0,PI,Greg,16-04-2016,3205,Southern Metropolitan,1.9,Port Phillip City Council,10920,3,0,2,1,1
+436,South Melbourne,40a Napier St,2,u,692000.0,S,Greg,16-04-2016,3205,Southern Metropolitan,1.9,Port Phillip City Council,10920,3,0,2,1,1
+437,South Morang,21 Jezwing Av,3,h,495000.0,S,Millership,16-04-2016,3752,Northern Metropolitan,20.5,Whittlesea City Council,24060,3,0,5,1,1
+438,South Yarra,608/20 Garden St,2,u,515000.0,VB,Harrington,16-04-2016,3141,Southern Metropolitan,2.7,Melbourne City Council,25147,5,0,18,0,0
+439,Southbank,125/173 City Rd,1,u,425000.0,VB,Greg,16-04-2016,3006,Southern Metropolitan,0.7,Melbourne City Council,18709,2,0,1,0,0
+440,Spotswood,13 Robb St,3,h,831000.0,S,Biggin,16-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,2604,5,0,27,0,0
+441,Springvale,2/45 Whitworth Av,3,t,736000.0,S,Leyton,16-04-2016,3171,South-Eastern Metropolitan,20.8,Greater Dandenong City Council,21714,6,2,27,1,1
+442,St Albans,20 Fox St,3,h,526000.0,S,Douglas,16-04-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+443,St Albans,91 Oleander Dr,3,h,500000.0,S,Ray,16-04-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+444,St Kilda,3/38 Barkly St,2,u,503500.0,S,Buxton,16-04-2016,3182,Southern Metropolitan,5.0,Port Phillip City Council,20230,5,0,12,1,1
+445,St Kilda,4/50 Dalgety St,1,u,511000.0,S,McGrath,16-04-2016,3182,Southern Metropolitan,5.0,Port Phillip City Council,20230,5,0,12,1,1
+446,St Kilda,4/58 Grey St,2,u,580000.0,PI,McGrath,16-04-2016,3182,Southern Metropolitan,5.0,Port Phillip City Council,20230,5,0,12,1,1
+447,Strathmore,43 Henshall Rd,4,h,1430000.0,S,Nelson,16-04-2016,3041,Western Metropolitan,8.2,Moonee Valley City Council,8419,5,0,18,0,0
+448,Strathmore,10 Roslyn St,5,h,915000.0,S,Brad,16-04-2016,3041,Western Metropolitan,8.2,Moonee Valley City Council,8419,5,0,18,0,0
+449,Sunbury,82 MacEdon St,2,h,385000.0,SP,Barry,16-04-2016,3429,Western Metropolitan,31.7,Hume City Council,36084,14,2,43,1,1
+450,Sunshine,1 Boreham St,3,h,610000.0,S,Barry,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,9768,18,1,45,1,1
+451,Sunshine,14 Staughton St,3,h,600000.0,S,Sweeney,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,9768,18,1,45,1,1
+452,Sunshine North,6 Gresford St,4,h,735000.0,S,Douglas,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,11700,18,1,45,0,0
+453,Sunshine North,20 Mills St,3,h,635800.0,SP,Douglas,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,11700,18,1,45,0,0
+454,Sunshine West,17 Fern St,3,h,480000.0,PI,Barry,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,18580,18,1,45,0,0
+455,Sunshine West,68 Lachlan Rd,3,h,540000.0,PI,Barry,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,18580,18,1,45,0,0
+456,Sunshine West,1 Larool Cr,3,h,555000.0,S,Barry,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,18580,18,1,45,0,0
+457,Sunshine West,20 Norton St,3,h,544500.0,S,Melbourne,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,18580,18,1,45,0,0
+458,Sunshine West,2/66 Talintyre Rd,2,u,345000.0,PI,Douglas,16-04-2016,3020,Western Metropolitan,10.5,Brimbank City Council,18580,18,1,45,0,0
+459,Surrey Hills,53 Broughton Rd,5,h,1350000.0,S,Fletchers,16-04-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+460,Surrey Hills,5/26 Florence Rd,2,u,550000.0,SP,Jellis,16-04-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+461,Surrey Hills,3 Olyve Ct,4,h,1850000.0,VB,Marshall,16-04-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+462,Surrey Hills,212 Union Rd,4,h,2050000.0,VB,Jellis,16-04-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+463,Sydenham,12 Sambuco Ct,3,h,388000.0,S,Barry,16-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,10838,8,1,17,0,0
+464,Taylors Lakes,5 Lyrebird Ct,4,h,595000.0,PI,Barry,16-04-2016,3038,Western Metropolitan,15.5,Brimbank City Council,15519,7,0,13,0,0
+465,Templestowe,7 Selwyn Ct,5,h,1165000.0,S,Jellis,16-04-2016,3106,Eastern Metropolitan,15.5,Manningham City Council,16618,4,0,21,0,0
+466,Templestowe Lower,17 Gidgee Av,4,h,1210000.0,S,Ray,16-04-2016,3107,Eastern Metropolitan,12.4,Manningham City Council,13429,2,1,6,0,0
+467,Templestowe Lower,13 Tasker St,3,h,1010000.0,S,Barry,16-04-2016,3107,Eastern Metropolitan,12.4,Manningham City Council,13429,2,1,6,0,0
+468,Thornbury,22 Gooch St,3,h,1235000.0,S,Jellis,16-04-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+469,Thornbury,52a Leinster Gr,3,t,910500.0,SP,hockingstuart,16-04-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+470,Thornbury,84 Raleigh St,2,h,760000.0,S,Nelson,16-04-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+471,Thornbury,4/305 Rossmoyne St,2,u,505000.0,S,Jellis,16-04-2016,3071,Northern Metropolitan,7.0,Darebin City Council,18568,7,0,19,0,0
+472,Toorak,719a Malvern Rd,3,h,1300000.0,SP,Biggin,16-04-2016,3142,Southern Metropolitan,4.1,Stonnington City Council,12909,4,1,11,0,0
+473,Tullamarine,8 Streetly Cl,4,h,530000.0,S,Jason,16-04-2016,3043,Western Metropolitan,12.9,Brimbank City Council,6605,5,0,30,0,0
+474,Vermont,60 Boronia Rd,3,h,858000.0,S,Noel,16-04-2016,3133,Eastern Metropolitan,17.2,Maroondah City Council,10442,10,1,20,0,0
+475,Vermont,80 Boronia Rd,4,h,880000.0,S,Barry,16-04-2016,3133,Eastern Metropolitan,17.2,Maroondah City Council,10442,10,1,20,0,0
+476,Vermont South,3 Bracknell Ct,4,h,1100000.0,S,Jellis,16-04-2016,3133,Eastern Metropolitan,17.2,Whitehorse City Council,11678,10,1,20,1,1
+477,Vermont South,16 Donbirn Wy,4,h,957500.0,S,M.J,16-04-2016,3133,Eastern Metropolitan,17.2,Whitehorse City Council,11678,10,1,20,1,1
+478,Vermont South,6/335 Hawthorn Rd,3,t,768000.0,S,Noel,16-04-2016,3133,Eastern Metropolitan,17.2,Whitehorse City Council,11678,10,1,20,1,1
+479,Viewbank,15 Christine St,3,h,775000.0,SP,Miles,16-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,6923,9,3,20,0,0
+480,Wantirna,38 Cavendish Av,4,h,890000.0,SP,Professionals,16-04-2016,3152,Eastern Metropolitan,14.7,Knox City Council,13818,11,2,49,0,0
+481,Wantirna South,12 Arthur St,4,h,878000.0,S,Justin,16-04-2016,3152,Eastern Metropolitan,14.7,Knox City Council,19271,11,2,49,0,0
+482,Wantirna South,1/22 Moonah Rd,3,u,575000.0,S,Ray,16-04-2016,3152,Eastern Metropolitan,14.7,Knox City Council,19271,11,2,49,0,0
+483,Watsonia,3 Tennyson St,3,h,1040000.0,PI,Buckingham,16-04-2016,3087,Northern Metropolitan,14.5,Banyule City Council,5214,4,0,9,0,0
+484,Westmeadows,29 Kenny St,3,h,430000.0,PI,Jason,16-04-2016,3049,Northern Metropolitan,16.5,Hume City Council,5848,1,0,7,0,0
+485,Wheelers Hill,5 Eaton Pl,4,h,1385000.0,S,Ray,16-04-2016,3150,South-Eastern Metropolitan,16.7,Monash City Council,19753,21,2,51,0,0
+486,Williamstown,22 Burbidge Dr,3,h,906000.0,SP,Compton,16-04-2016,3016,Western Metropolitan,6.8,Hobsons Bay City Council,13969,5,1,31,1,1
+487,Williamstown,71 Hannan St,4,h,1805000.0,S,Greg,16-04-2016,3016,Western Metropolitan,6.8,Hobsons Bay City Council,13969,5,1,31,1,1
+488,Williamstown,16 Princes St,4,h,1126000.0,SP,Raine&Horne,16-04-2016,3016,Western Metropolitan,6.8,Hobsons Bay City Council,13969,5,1,31,1,1
+489,Williamstown,21a Station Rd,3,t,935000.0,SP,Sweeney,16-04-2016,3016,Western Metropolitan,6.8,Hobsons Bay City Council,13969,5,1,31,1,1
+490,Williamstown North,42 Park Cr,2,h,600000.0,SA,Barlow,16-04-2016,3016,Western Metropolitan,6.8,Hobsons Bay City Council,1593,5,1,31,0,0
+491,Wyndham Vale,17 Akoona Wy,4,h,605000.0,S,Ray,16-04-2016,3024,Western Metropolitan,27.2,Wyndham City Council,23273,1,0,10,0,0
+492,Yarraville,64 Bishop St,3,h,1055000.0,S,hockingstuart,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+493,Yarraville,4/16 Dean St,3,t,620000.0,VB,iOne,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+494,Yarraville,117 Francis St,4,h,660000.0,PI,Sweeney,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+495,Yarraville,342 Francis St,3,h,681000.0,S,Sweeney,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+496,Yarraville,5/69 Hamilton St,1,u,345000.0,S,hockingstuart/Village,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+497,Yarraville,3/1 Jepson St,2,t,705000.0,SP,Sweeney,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+498,Yarraville,9 Pearce St,3,h,955000.0,S,Jellis,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+499,Yarraville,11 Sanderson St,2,h,822000.0,S,Sweeney,16-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+500,Abbotsford,49/84 Trenerry Cr,2,h,700000.0,S,Biggin,23-04-2016,3067,Northern Metropolitan,3.0,Yarra City Council,8184,3,0,11,0,0
+501,Airport West,117 Marshall Rd,3,h,662000.0,S,Brad,23-04-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,7564,6,0,22,1,1
+502,Albert Park,55 Merton St,3,h,2100000.0,SP,Marshall,23-04-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,6215,4,0,33,0,0
+503,Altona,3/20 Mulga St,3,u,577000.0,S,Williams,23-04-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,10762,4,1,25,1,1
+504,Altona Meadows,37 Powlett St,3,h,485000.0,S,Sweeney,23-04-2016,3028,Western Metropolitan,15.5,Hobsons Bay City Council,19160,8,0,25,0,0
+505,Altona North,1/21 Freemans Rd,3,h,590000.0,SP,RT,23-04-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+506,Altona North,122 McIntosh Rd,3,h,590000.0,S,Village,23-04-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+507,Ardeer,101 Suspension St,3,h,480000.0,SP,Biggin,23-04-2016,3022,Western Metropolitan,12.8,Brimbank City Council,3103,2,0,1,1,1
+508,Armadale,48 Barkly Av,3,h,1992000.0,S,Jellis,23-04-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+509,Ascot Vale,45 Bloomfield Rd,3,h,1291000.0,S,Brad,23-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+510,Ascot Vale,21 Middle St,3,h,1130000.0,S,Nelson,23-04-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+511,Ashburton,3/4 Annetta Av,3,h,1430000.0,S,Jellis,23-04-2016,3147,Southern Metropolitan,10.2,Boroondara City Council,7751,7,1,34,0,0
+512,Ashwood,31a Shaw St,3,t,880000.0,PI,Fletchers,23-04-2016,3147,Southern Metropolitan,10.2,Monash City Council,6886,7,1,34,0,0
+513,Avondale Heights,17 Lacy St,3,h,790000.0,S,HAR,23-04-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+514,Avondale Heights,8 Moffat St,3,h,695000.0,S,HAR,23-04-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+515,Avondale Heights,1 Templewood Cr,4,h,855000.0,PI,Nelson,23-04-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+516,Balwyn North,10 Citron Av,5,h,1650000.0,VB,Owen,23-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+517,Balwyn North,11 Highview Rd,5,h,1500000.0,VB,hockingstuart,23-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+518,Balwyn North,3/52 Maud St,2,u,735000.0,S,Christopher,23-04-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+519,Bayswater,19 Orange Gr,3,h,588000.0,SP,Appleby,23-04-2016,3153,Eastern Metropolitan,23.2,Knox City Council,11758,7,1,32,1,1
+520,Bayswater North,2/6 Dunlop Av,2,u,400000.0,S,Fletchers,23-04-2016,3153,Eastern Metropolitan,23.2,Maroondah City Council,8789,7,1,32,0,0
+521,Blackburn,39 Larch St,3,h,1170000.0,S,hockingstuart,23-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,13940,11,1,24,0,0
+522,Blackburn North,3 Shafer Rd,3,h,998800.0,SP,Fletchers,23-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,7436,11,1,24,0,0
+523,Blackburn South,7 Paulette Ct,3,h,950000.0,S,Noel,23-04-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+524,Boronia,30 Owen St,3,h,511000.0,S,iTRAK,23-04-2016,3155,Eastern Metropolitan,25.0,Knox City Council,22195,6,1,25,1,1
+525,Box Hill,3/5 Kent Rd,2,u,400000.0,VB,Ray,23-04-2016,3128,Eastern Metropolitan,10.9,Whitehorse City Council,11395,4,3,28,1,1
+526,Box Hill,5 Patricia St,3,h,1170000.0,S,Ray,23-04-2016,3128,Eastern Metropolitan,10.9,Whitehorse City Council,11395,4,3,28,1,1
+527,Brighton,5/9 Collington Av,2,u,650000.0,VB,Hodges,23-04-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+528,Broadmeadows,20 Gosford Cr,5,h,400000.0,PI,YPA,23-04-2016,3047,Northern Metropolitan,14.0,Hume City Council,11970,13,1,31,0,0
+529,Brunswick,24 Amelia St,3,t,795000.0,S,RT,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+530,Brunswick,20 Luscombe St,2,t,815000.0,S,Nelson,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+531,Brunswick,4 McPherson St,3,h,835000.0,PI,Jellis,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+532,Brunswick,35 Percy St,2,h,705000.0,S,Chambers,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+533,Brunswick,30 Thistle St,3,h,1050000.0,PI,Collins,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+534,Brunswick,94 Wilson St,2,h,800000.0,S,Biggin,23-04-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+535,Brunswick East,14 Hutchinson St,3,h,998000.0,S,Nelson,23-04-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+536,Brunswick East,1/10 Linden St,3,t,1010000.0,S,Nelson,23-04-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+537,Brunswick West,1 Culloden St,3,h,995000.0,S,Brad,23-04-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+538,Brunswick West,117 Pearson St,3,h,901000.0,S,Rendina,23-04-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+539,Bulleen,24 Alison Av,3,h,1060000.0,S,Ray,23-04-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+540,Bulleen,4 Graeme Ct,4,h,1244000.0,PI,Fletchers,23-04-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+541,Bundoora,27 Botanica Bvd,4,h,870000.0,S,Ray,23-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+542,Bundoora,104/11 Copernicus Cr,1,u,290000.0,VB,Ray,23-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+543,Bundoora,12 Neilsen Cr,3,h,476000.0,S,Stockdale,23-04-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+544,Camberwell,2/32 Bringa Av,2,h,840000.0,S,Jellis,23-04-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+545,Canterbury,2/20 Margaret St,2,u,690500.0,SP,Fletchers,23-04-2016,3126,Southern Metropolitan,8.4,Boroondara City Council,8056,5,2,2,0,0
+546,Carlton,32 Dorrit St,4,h,2033000.0,S,Nelson,23-04-2016,3053,Northern Metropolitan,1.6,Melbourne City Council,18535,2,2,3,0,0
+547,Carnegie,33b Emily St,3,h,990000.0,S,Ray,23-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+548,Carnegie,1/52 Neville St,4,t,1100000.0,S,hockingstuart,23-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+549,Carnegie,76 Oakleigh Rd,3,h,1125000.0,PI,Ray,23-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+550,Caroline Springs,6 Strathvea La,2,h,340000.0,S,YPA,23-04-2016,3023,Western Metropolitan,14.8,Melton City Council,24205,16,0,47,0,0
+551,Carrum,1/50 Kalimna St,3,t,560000.0,PI,hockingstuart,23-04-2016,3197,South-Eastern Metropolitan,31.2,Kingston City Council,3980,1,0,11,0,0
+552,Carrum,531 Station St,2,h,440500.0,SP,Hodges,23-04-2016,3197,South-Eastern Metropolitan,31.2,Kingston City Council,3980,1,0,11,0,0
+553,Chadstone,1/19 Binalong Av,2,u,627000.0,S,Buxton,23-04-2016,3148,Southern Metropolitan,11.7,Monash City Council,8641,2,0,7,1,2
+554,Chadstone,40 Mawarra Cr,5,h,1206000.0,S,McGrath,23-04-2016,3148,Southern Metropolitan,11.7,Monash City Council,8641,2,0,7,1,2
+555,Cheltenham,70 Devon St,5,h,1285000.0,S,Greg,23-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+556,Cheltenham,24 Lincoln Dr,3,h,720000.0,S,Ray,23-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+557,Cheltenham,3/8 Norma Av,2,u,430000.0,VB,Hodges,23-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+558,Cheltenham,3c Wedd St,2,t,685000.0,S,Hodges,23-04-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+559,Clayton South,24 Wordsworth Av,3,h,1075000.0,S,Nexus,23-04-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+560,Coburg,27a Bruce St,3,h,670000.0,PI,Raine,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+561,Coburg,185 Moreland Rd,1,h,482500.0,S,Raine,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+562,Coburg,155 Nicholson St,3,h,825000.0,S,Ray,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+563,Coburg,11 Station St,3,h,725000.0,S,Brad,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+564,Coburg,144 The Avenue,4,h,1250000.0,VB,Nelson,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+565,Coburg North,203b Elizabeth St,2,t,570000.0,S,Ray,23-04-2016,3058,Northern Metropolitan,6.7,Darebin City Council,7601,12,2,33,1,1
+566,Craigieburn,38 Cimberwood Dr,3,h,347000.0,SA,Real,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+567,Craigieburn,59 Creekwood Dr,4,h,516000.0,S,YPA,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+568,Craigieburn,11 Gillingham Cr,3,h,333100.0,S,YPA,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+569,Craigieburn,34 Montpellier Cr,4,h,450000.0,SP,Ray,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+570,Craigieburn,4 Pinehurst Ri,4,h,440000.0,S,LJ,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+571,Croydon,34 Binbrook Dr,3,h,716000.0,S,Century,23-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+572,Croydon,1a Gallipoli Pde,3,h,699000.0,S,Stockdale,23-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+573,Croydon,48a Hull Rd,3,t,550000.0,VB,Nelson,23-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+574,Croydon,11 Kitchener Rd,3,h,590000.0,SP,Barry,23-04-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,26946,12,1,56,1,1
+575,Dandenong North,220 Gladstone Rd,3,h,576000.0,S,Ray,23-04-2016,3175,South-Eastern Metropolitan,24.7,Greater Dandenong City Council,22451,15,5,47,0,0
+576,Delahey,15 Lacebark Rd,3,h,399500.0,S,Barry,23-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,8339,8,1,17,0,0
+577,Delahey,4 Young Ct,4,h,650000.0,S,Barry,23-04-2016,3037,Western Metropolitan,18.0,Brimbank City Council,8339,8,1,17,0,0
+578,Diamond Creek,14 Egan St,3,h,523000.0,S,Mason,23-04-2016,3089,Northern Victoria,21.8,Nillumbik Shire Council,11733,5,0,22,1,1
+579,Dingley Village,35 Jolimont Pl,5,h,900000.0,S,Ray,23-04-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+580,Doncaster,741 Elgar Rd,3,h,1391000.0,S,Ray,23-04-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+581,Doncaster,4/20 Wetherby Rd,2,u,452000.0,S,Parkes,23-04-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+582,Doncaster East,62 George St,4,h,990000.0,S,Barry,23-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+583,Doncaster East,1/76 Russell Cr,3,u,715000.0,SP,hockingstuart,23-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+584,Doncaster East,11 Wimbledon Ct,5,h,1100000.0,PI,Barry,23-04-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+585,Donvale,1/124 Mitcham Rd,2,u,546000.0,S,Barry,23-04-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+586,Elsternwick,22 Ross St,2,h,895000.0,S,Owen,23-04-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+587,Eltham,5/17 Batman Rd,2,u,440000.0,S,Buckingham,23-04-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,18314,11,0,32,1,1
+588,Eltham,118 Bridge St,4,h,850000.0,S,Barry,23-04-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,18314,11,0,32,1,1
+589,Eltham,39 Nerreman Gwy,4,h,1000000.0,PI,Buckingham,23-04-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,18314,11,0,32,1,1
+590,Epping,12 Dunolly St,4,h,525000.0,S,Harcourts,23-04-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+591,Epping,21 Supply Dr,3,h,527500.0,S,Barry,23-04-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+592,Essendon,1/15 Gilbertson St,2,u,736000.0,S,Nelson,23-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+593,Essendon West,2/25 Emerald St,2,t,638500.0,S,Frank,23-04-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,1439,10,1,28,0,0
+594,Fairfield,231 Station St,3,h,1065000.0,S,Nelson,23-04-2016,3078,Northern Metropolitan,5.7,Darebin City Council,6558,4,1,15,0,0
+595,Fawkner,10 Patricia Dr,3,h,617000.0,SP,hockingstuart,23-04-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+596,Fitzroy,306/96 charles St,2,u,660000.0,SP,hockingstuart,23-04-2016,3065,Northern Metropolitan,2.1,Yarra City Council,10445,4,3,29,1,1
+597,Fitzroy North,179 Barkly St,3,h,2300000.0,S,Nelson,23-04-2016,3068,Northern Metropolitan,3.6,Moreland City Council,12339,8,0,14,0,0
+598,Fitzroy North,181 Rae St,2,h,937500.0,S,Jellis,23-04-2016,3068,Northern Metropolitan,3.6,Moreland City Council,12339,8,0,14,0,0
+599,Flemington,20 Glance St,3,h,991000.0,S,Rendina,23-04-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,7719,7,0,3,1,1
+600,Forest Hill,5 Hylton Cr,3,h,853000.0,SP,hockingstuart,23-04-2016,3131,Eastern Metropolitan,15.4,Whitehorse City Council,10626,4,2,20,1,1
+601,Forest Hill,79 Vicki St,4,h,820000.0,VB,Noel,23-04-2016,3131,Eastern Metropolitan,15.4,Whitehorse City Council,10626,4,2,20,1,1
+602,Frankston,9 Dalkeith Ct,4,h,587000.0,S,Ray,23-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+603,Frankston,2/90 High St,2,u,285000.0,PI,U,23-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+604,Frankston,3 Tralea Pl,3,h,425000.0,S,U,23-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+605,Frankston South,16 Barmah Ct,7,h,834750.0,SP,U,23-04-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,18199,19,7,79,0,0
+606,Gisborne,88 Howey St,5,h,575000.0,S,RT,23-04-2016,3437,Northern Victoria,45.9,Macedon Ranges Shire Council,8999,4,0,23,1,1
+607,Gladstone Park,21 Hall Rd,4,h,490000.0,S,Brad,23-04-2016,3043,Western Metropolitan,12.9,Hume City Council,8338,5,0,30,0,0
+608,Glen Waverley,1 Arianne Rd,4,t,1160000.0,S,Ray,23-04-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+609,Glen Waverley,59 Remington Dr,4,h,1128000.0,SP,Jellis,23-04-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+610,Glenroy,46 Moonee Bvd,4,h,600000.0,SP,Stockdale,23-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+611,Glenroy,3/42 Pecham St,3,u,400000.0,VB,Nelson,23-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+612,Gowanbrae,24 Balerno Cir,3,h,390000.0,PI,Nelson,23-04-2016,3043,Western Metropolitan,12.9,Moreland City Council,2773,5,0,30,0,0
+613,Greensborough,7 Auriol Ct,4,h,580000.0,PI,Nelson,23-04-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+614,Greensborough,115 Elder St,3,h,615000.0,S,Coventry,23-04-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+615,Greenvale,12 McGuire Ct,4,h,607000.0,S,Nelson,23-04-2016,3059,Northern Metropolitan,20.4,Hume City Council,15466,3,0,12,1,1
+616,Hadfield,13 Gish Ct,5,h,800000.0,VB,YPA,23-04-2016,3046,Northern Metropolitan,11.2,Moreland City Council,5610,12,0,26,0,0
+617,Hampton,50 Holyrood St,4,h,2200000.0,PI,Hodges,23-04-2016,3188,Southern Metropolitan,13.8,Bayside City Council,13391,2,1,19,1,1
+618,Hawthorn,1/4 Hill St,2,u,665000.0,S,Jellis,23-04-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+619,Hawthorn East,5/107 Victoria Rd,2,u,655250.0,SP,Marshall,23-04-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+620,Heidelberg,7/106 Brown St,2,t,600000.0,S,Miles,23-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,6225,9,3,20,0,0
+621,Heidelberg,2/172 Cape St,3,h,655000.0,PI,hockingstuart,23-04-2016,3084,Eastern Metropolitan,8.9,Banyule City Council,6225,9,3,20,0,0
+622,Heidelberg Heights,1/97 Bamfield Rd,2,u,450000.0,SP,Miles,23-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,6087,2,2,19,0,0
+623,Heidelberg Heights,4/28 Myrtle St,3,t,620000.0,PI,Barry,23-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,6087,2,2,19,0,0
+624,Heidelberg West,16 Achilles St,3,h,1375000.0,PI,Ray,23-04-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,5545,2,2,19,0,0
+625,Highett,20 Sydenham St,2,h,1100000.0,S,Hodges,23-04-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+626,Ivanhoe,103 Waterdale Rd,3,h,1225000.0,SP,Miles,23-04-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+627,Keilor East,20 Keith Gr,3,h,825000.0,S,Nelson,23-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+628,Keilor East,89 Sterling Dr,4,h,680000.0,S,Barry,23-04-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+629,Kensington,208/465 MacAulay Rd,2,u,460000.0,SP,Rendina,23-04-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+630,Kew,5/13 Hope Ct,2,u,551000.0,S,Jellis,23-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+631,Kew,91 Princess St,4,h,2800000.0,VB,Kay,23-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+632,Kew,15 Rimington Av,3,h,2215000.0,S,Christopher,23-04-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+633,Keysborough,16 Narellan Dr,3,h,695000.0,S,iSell,23-04-2016,3173,South-Eastern Metropolitan,25.2,Greater Dandenong City Council,25785,6,0,33,1,1
+634,Maidstone,191 Ballarat Rd,3,h,750000.0,VB,C21,23-04-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,9032,6,0,29,0,0
+635,Maidstone,4/6 Crefden St,2,u,360000.0,PI,Pagan,23-04-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,9032,6,0,29,0,0
+636,Malvern East,3/907 Dandenong Rd,1,u,300000.0,PI,Anderson,23-04-2016,3145,Southern Metropolitan,8.4,Stonnington City Council,21707,6,1,31,0,0
+637,Maribyrnong,16 Amarco Cr,4,h,880000.0,SP,Biggin,23-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+638,Maribyrnong,2 Murnong St,4,h,1048700.0,SP,Brad,23-04-2016,3032,Western Metropolitan,4.3,Maribyrnong City Council,12216,6,1,25,0,0
+639,Meadow Heights,1/7 Eldorado Cr,3,u,221000.0,S,Raine,23-04-2016,3048,Northern Metropolitan,17.4,Hume City Council,14842,2,0,0,0,0
+640,Melbourne,43/1 Exhibition St,1,u,436000.0,S,RT,23-04-2016,3000,Northern Metropolitan,0.0,Melbourne City Council,47285,3,2,5,0,0
+641,Melbourne,101/55 Queens Rd,2,u,595000.0,S,Biggin,23-04-2016,3000,Northern Metropolitan,0.0,Melbourne City Council,47285,3,2,5,0,0
+642,Melbourne,12/73 Queens Rd,2,u,620000.0,S,Kay,23-04-2016,3000,Northern Metropolitan,0.0,Melbourne City Council,47285,3,2,5,0,0
+643,Mentone,5/57 Collins St,2,u,440000.0,VB,Hodges,23-04-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+644,Mentone,2/3 Stawell St,2,t,721000.0,S,Buxton,23-04-2016,3194,South-Eastern Metropolitan,20.0,Kingston City Council,12965,8,0,20,1,1
+645,Middle Park,15 Fraser St,2,h,1025000.0,S,Marshall,23-04-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,4143,4,0,33,0,0
+646,Mill Park,28 Dunlop Cr,3,h,400000.0,PI,Love,23-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+647,Mill Park,7 Hinkler Dr,4,h,605000.0,S,Ray,23-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+648,Mill Park,29 Romano Av,3,h,420000.0,SP,Barry,23-04-2016,3082,Northern Metropolitan,17.9,Whittlesea City Council,29710,6,0,21,0,0
+649,Mitcham,1/32 Brunswick Rd,3,t,650000.0,PI,Ray,23-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+650,Mitcham,56 Churinga Av,3,h,786000.0,S,Philip,23-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+651,Mitcham,8 Dampier Gr,3,h,728000.0,S,Ray,23-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+652,Mitcham,2 Rothwell Ct,5,h,1034000.0,S,Ray,23-04-2016,3132,Eastern Metropolitan,17.2,Whitehorse City Council,16148,5,2,11,1,1
+653,Moonee Ponds,1a Ardmillan Rd,3,h,1250000.0,S,Raine,23-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+654,Moonee Ponds,2/102 Bent St,3,t,870000.0,S,Nelson,23-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+655,Moonee Ponds,9 Newton Pde,2,h,801000.0,S,Brad,23-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+656,Moonee Ponds,77a Scott St,3,h,1390000.0,S,Brad,23-04-2016,3039,Western Metropolitan,6.2,Moonee Valley City Council,14250,3,1,26,1,1
+657,Mooroolbark,7 Carawa St,3,h,420000.0,S,iTRAK,23-04-2016,3138,Eastern Victoria,26.5,Yarra Ranges Shire Council,21967,10,0,7,1,1
+658,Mordialloc,3/397 Nepean Hwy,1,u,300000.0,VB,Hodges,23-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,8166,11,1,30,0,0
+659,Mordialloc,7a Steedman St,3,t,842500.0,S,Charlton,23-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,8166,11,1,30,0,0
+660,Mount Waverley,1/40 Kemp Av,2,u,988000.0,SP,Jellis,23-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+661,Mount Waverley,4 Melissa St,4,h,993000.0,S,Ray,23-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+662,Mount Waverley,10 Russell Cr,3,h,985000.0,S,Buxton,23-04-2016,3149,Eastern Metropolitan,14.2,Monash City Council,33611,10,2,20,0,0
+663,Murrumbeena,1/178 Murrumbeena Rd,2,t,720000.0,S,hockingstuart,23-04-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,9926,5,0,28,0,0
+664,Newport,1/31 Elizabeth St,2,u,560000.0,SP,Williams,23-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+665,Newport,63 Mason St,3,h,805000.0,S,RT,23-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+666,Newport,5/67 Oxford St,2,h,680000.0,SP,RT,23-04-2016,3015,Western Metropolitan,6.2,Hobsons Bay City Council,12916,5,0,27,0,0
+667,Noble Park,27 Rich St,3,h,640000.0,S,RW,23-04-2016,3174,South-Eastern Metropolitan,22.7,Greater Dandenong City Council,30998,11,3,25,1,1
+668,Northcote,1/54 Emmaline St,1,u,370000.0,PI,hockingstuart,23-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+669,Northcote,12 Stott St,3,h,1225000.0,SP,Barry,23-04-2016,3070,Northern Metropolitan,5.3,Darebin City Council,24561,6,0,16,1,1
+670,Notting Hill,1/6 Chandor Ct,2,u,605000.0,S,hockingstuart,23-04-2016,3168,Southern Metropolitan,16.7,Monash City Council,3050,2,6,26,0,0
+671,Oakleigh East,11 Elysium Cr,3,h,859000.0,S,Buxton,23-04-2016,3166,Southern Metropolitan,12.3,Monash City Council,6444,7,0,43,0,0
+672,Ormond,2/26 Wicklow St,3,u,940000.0,PI,Buxton,23-04-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,8417,9,2,28,0,0
+673,Pascoe Vale,1 Dorset Rd,2,h,630000.0,S,YPA,23-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+674,Pascoe Vale,2 Karadoc Av,3,h,805000.0,S,hockingstuart,23-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+675,Pascoe Vale,3/191 Sussex St,2,t,410000.0,VB,Brad,23-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+676,Pascoe Vale,5 Virginia St,3,h,600000.0,PI,Re,23-04-2016,3044,Northern Metropolitan,8.5,Moreland City Council,17051,6,1,17,0,0
+677,Port Melbourne,216 Esplanade Pl,2,h,1532000.0,S,Cayzer,23-04-2016,3207,Southern Metropolitan,3.5,Melbourne City Council,16175,2,0,21,1,1
+678,Prahran,35 Chomley St,2,h,1180000.0,S,Jellis,23-04-2016,3181,Southern Metropolitan,4.6,Stonnington City Council,12982,4,4,17,1,1
+679,Prahran,210/10 Hillingdon Pl,2,u,510000.0,PI,hockingstuart,23-04-2016,3181,Southern Metropolitan,4.6,Stonnington City Council,12982,4,4,17,1,1
+680,Preston,209 High St,4,h,600000.0,VB,Nelson,23-04-2016,3072,Northern Metropolitan,8.4,Darebin City Council,32851,11,1,31,0,0
+681,Reservoir,14 Beenak St,3,h,572000.0,S,Ray,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+682,Reservoir,173 Broadhurst Av,3,h,581000.0,S,Ray,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+683,Reservoir,1/15 Delaware St,3,h,600000.0,S,Ray,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+684,Reservoir,2/15 Delaware St,3,h,450000.0,VB,Ray,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+685,Reservoir,2/6 Eisenhower St,2,t,360000.0,VB,Nelson,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+686,Reservoir,2/2 Elsey Rd,2,u,525000.0,S,Harcourts,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+687,Reservoir,22b Glasgow Av,3,t,585000.0,S,Nelson,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+688,Reservoir,46 Oakhill Av,3,h,1115000.0,S,Barry,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+689,Reservoir,17 Ramleh Rd,3,h,692500.0,S,Love,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+690,Reservoir,163 Spring St,4,h,790000.0,S,Ray,23-04-2016,3073,Northern Metropolitan,12.0,Darebin City Council,50474,13,1,43,1,1
+691,Richmond,57 Neptune St,3,h,1650000.0,S,hockingstuart,23-04-2016,3121,Northern Metropolitan,2.4,Yarra City Council,27705,9,2,47,0,0
+692,Ringwood East,21a Carcoola Rd,3,h,640000.0,VB,Noel,23-04-2016,3135,Eastern Metropolitan,21.3,Maroondah City Council,10265,6,3,20,0,0
+693,Ringwood North,55 Aurum Cr,3,h,960000.0,S,RT,23-04-2016,3134,Eastern Metropolitan,19.9,Manningham City Council,9832,12,1,46,0,0
+694,Roxburgh Park,21 Cashmore Pl,3,h,385000.0,S,Ray,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,21817,17,1,43,1,1
+695,Roxburgh Park,96 Hayfield Rd,3,h,340000.0,S,Raine,23-04-2016,3064,Northern Metropolitan,20.6,Hume City Council,21817,17,1,43,1,1
+696,Seaford,20 Duncan Av,3,h,550000.0,SP,hockingstuart,23-04-2016,3198,South-Eastern Metropolitan,35.4,Frankston City Council,16463,10,0,30,0,0
+697,Seaholme,5 Parkside Cr,3,h,1050000.0,S,hockingstuart,23-04-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,1928,4,1,25,0,0
+698,Seddon,32 Walter St,4,h,970000.0,VB,Jas,23-04-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,5123,5,8,28,0,0
+699,South Melbourne,5/182 Albert Rd,1,u,480000.0,S,hockingstuart,23-04-2016,3205,Southern Metropolitan,1.9,Port Phillip City Council,10920,3,0,2,1,1
+700,South Melbourne,10 Coote St,3,t,1185000.0,S,Parkinson,23-04-2016,3205,Southern Metropolitan,1.9,Port Phillip City Council,10920,3,0,2,1,1
+701,South Morang,31 Buttress Cr,4,h,470000.0,S,Ray,23-04-2016,3752,Northern Metropolitan,20.5,Whittlesea City Council,24060,3,0,5,1,1
+702,South Morang,3 Featherpark Tce,4,h,552250.0,S,Harcourts,23-04-2016,3752,Northern Metropolitan,20.5,Whittlesea City Council,24060,3,0,5,1,1
+703,South Morang,9 Lamour Av,4,h,480000.0,SP,Barry,23-04-2016,3752,Northern Metropolitan,20.5,Whittlesea City Council,24060,3,0,5,1,1
+704,South Morang,23 Lazar Gr,5,h,660000.0,S,Ray,23-04-2016,3752,Northern Metropolitan,20.5,Whittlesea City Council,24060,3,0,5,1,1
+705,South Yarra,1 Davis Av,4,h,2300000.0,VB,Kay,23-04-2016,3141,Southern Metropolitan,2.7,Melbourne City Council,25147,5,0,18,0,0
+706,South Yarra,1/949 Punt Rd,1,u,310000.0,SP,hockingstuart,23-04-2016,3141,Southern Metropolitan,2.7,Melbourne City Council,25147,5,0,18,0,0
+707,Southbank,2005/39 Coventry St,2,u,690000.0,S,Greg,23-04-2016,3006,Southern Metropolitan,0.7,Melbourne City Council,18709,2,0,1,0,0
+708,Springvale South,19 Amersham Av,3,h,650000.0,S,iSell,23-04-2016,3172,South-Eastern Metropolitan,22.2,Greater Dandenong City Council,12768,7,0,15,0,0
+709,St Albans,79 Moonstone Cct,3,h,498000.0,SP,Ray,23-04-2016,3021,Western Metropolitan,14.0,Brimbank City Council,37309,18,4,32,0,0
+710,St Kilda,5/42 Grey St,2,u,535000.0,S,Greg,23-04-2016,3182,Southern Metropolitan,5.0,Port Phillip City Council,20230,5,0,12,1,1
+711,Strathmore,59 Glenview Rd,3,h,1205000.0,SP,Nelson,23-04-2016,3041,Western Metropolitan,8.2,Moonee Valley City Council,8419,5,0,18,0,0
+712,Strathmore,11/2 Mascoma St,2,h,535000.0,S,Considine,23-04-2016,3041,Western Metropolitan,8.2,Moonee Valley City Council,8419,5,0,18,0,0
+713,Surrey Hills,29 Boisdale St,5,h,1518000.0,S,Fletchers,23-04-2016,3127,Southern Metropolitan,10.2,Boroondara City Council,13605,5,0,15,0,0
+714,Taylors Hill,26 Cardinia Cr,4,h,570000.0,S,Barry,23-04-2016,3037,Western Metropolitan,18.0,Melton City Council,14921,8,1,17,1,1
+715,Taylors Hill,22 Treasury Pl,4,h,750000.0,S,Barry,23-04-2016,3037,Western Metropolitan,18.0,Melton City Council,14921,8,1,17,1,1
+716,Taylors Lakes,8 Solent Cr,3,h,482000.0,PI,Brad,23-04-2016,3038,Western Metropolitan,15.5,Brimbank City Council,15519,7,0,13,0,0
+717,Templestowe,44 Tuckers Rd,4,h,1050000.0,VB,Jellis,23-04-2016,3106,Eastern Metropolitan,15.5,Manningham City Council,16618,4,0,21,0,0
+718,Templestowe Lower,30 Waratah Dr,3,h,940000.0,S,Jellis,23-04-2016,3107,Eastern Metropolitan,12.4,Manningham City Council,13429,2,1,6,0,0
+719,Thomastown,80 Cedar St,2,h,605000.0,S,Harcourts,23-04-2016,3074,Northern Metropolitan,15.3,Whittlesea City Council,20523,7,0,22,0,0
+720,Thomastown,20 Waratah St,3,h,532000.0,S,Barry,23-04-2016,3074,Northern Metropolitan,15.3,Whittlesea City Council,20523,7,0,22,0,0
+721,Toorak,6 Leighton Ct,3,h,4200000.0,S,Melbourne,23-04-2016,3142,Southern Metropolitan,4.1,Stonnington City Council,12909,4,1,11,0,0
+722,Vermont,23 Holyrood Dr,4,h,890000.0,S,Barry,23-04-2016,3133,Eastern Metropolitan,17.2,Maroondah City Council,10442,10,1,20,0,0
+723,Wantirna,52 Brentwood Dr,4,h,780000.0,PI,Fletchers,23-04-2016,3152,Eastern Metropolitan,14.7,Knox City Council,13818,11,2,49,0,0
+724,Warranwood,4 Warrangum Pl,3,h,780000.0,SP,Jellis,23-04-2016,3134,Eastern Metropolitan,19.9,Maroondah City Council,4807,12,1,46,0,0
+725,Warranwood,5/45 Warranwood Rd,3,u,570000.0,PI,Philip,23-04-2016,3134,Eastern Metropolitan,19.9,Maroondah City Council,4807,12,1,46,0,0
+726,Waterways,1 Paragon Wy,4,h,785000.0,SP,RW,23-04-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,2461,11,1,30,0,0
+727,Watsonia,3/8 Herbert St,2,t,485000.0,S,Stockdale,23-04-2016,3087,Northern Metropolitan,14.5,Banyule City Council,5214,4,0,9,0,0
+728,Wheelers Hill,7 Bronwyn Ct,5,h,1385000.0,S,Barry,23-04-2016,3150,South-Eastern Metropolitan,16.7,Monash City Council,19753,21,2,51,0,0
+729,Yarraville,18 Frederick St,3,h,745000.0,S,hockingstuart,23-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+730,Yarraville,2 Hood St,4,h,1158000.0,S,Jas,23-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+731,Yarraville,51 Sussex St,3,h,867000.0,S,RT,23-04-2016,3013,Western Metropolitan,6.3,Maribyrnong City Council,14965,4,0,20,1,1
+732,Abbotsford,129 Charles St,2,h,941000.0,S,Jellis,07-05-2016,3067,Northern Metropolitan,3.0,Yarra City Council,8184,3,0,11,0,0
+733,Abbotsford,124 Yarra St,3,h,1876000.0,S,Nelson,07-05-2016,3067,Northern Metropolitan,3.0,Yarra City Council,8184,3,0,11,0,0
+734,Aberfeldie,6/8 Arthur St,2,u,442000.0,S,Nelson,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,3897,10,1,28,0,0
+735,Aberfeldie,8/257 Buckley St,2,u,470000.0,S,Brad,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,3897,10,1,28,0,0
+736,Airport West,11 Harrington Rd,6,h,725000.0,SP,Barry,07-05-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,7564,6,0,22,1,1
+737,Airport West,2/252 Parer Rd,2,t,450000.0,S,Barry,07-05-2016,3042,Western Metropolitan,10.4,Moonee Valley City Council,7564,6,0,22,1,1
+738,Albert Park,54 Brooke St,2,h,1550000.0,S,Sotheby's,07-05-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,6215,4,0,33,0,0
+739,Albert Park,104 Richardson St,4,h,2300000.0,S,Marshall,07-05-2016,3206,Southern Metropolitan,3.0,Port Phillip City Council,6215,4,0,33,0,0
+740,Alphington,1/9 Roemer Cr,2,u,480000.0,PI,Miles,07-05-2016,3078,Northern Metropolitan,5.7,Darebin City Council,5080,4,1,15,0,0
+741,Altona,156 Maidstone St,3,h,660000.0,VB,Greg,07-05-2016,3018,Western Metropolitan,11.0,Hobsons Bay City Council,10762,4,1,25,1,1
+742,Altona North,58a Clematis Av,4,t,780000.0,S,hockingstuart,07-05-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+743,Altona North,1/77 Hansen St,3,u,720000.0,S,hockingstuart,07-05-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+744,Altona North,21 Joel Av,3,h,705000.0,SP,Village,07-05-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+745,Altona North,1/95 Mills St,3,h,588000.0,S,Williams,07-05-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+746,Altona North,2/5 Stapley Cr,4,h,720000.0,VB,hockingstuart,07-05-2016,3025,Western Metropolitan,9.4,Hobsons Bay City Council,12152,6,0,27,0,0
+747,Ardeer,3/67 Suspension St,2,h,345000.0,S,Barry,07-05-2016,3022,Western Metropolitan,12.8,Brimbank City Council,3103,2,0,1,1,1
+748,Armadale,553 Dandenong Rd,5,h,1525000.0,PI,Jellis,07-05-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+749,Armadale,9/19 Mercer Rd,3,u,735000.0,PI,Marshall,07-05-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+750,Armadale,6/26 Mercer Rd,2,u,825000.0,S,Jellis,07-05-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+751,Armadale,538a Orrong Rd,3,t,1586000.0,S,RT,07-05-2016,3143,Southern Metropolitan,6.3,Stonnington City Council,9054,2,0,7,0,0
+752,Ascot Vale,120 Epsom Rd,3,h,970000.0,S,Brad,07-05-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+753,Ascot Vale,47 Hurtle St,2,h,940000.0,S,Nelson,07-05-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+754,Ascot Vale,63 Kent St,2,h,751000.0,PI,Nelson,07-05-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+755,Ascot Vale,4 The Parade,2,h,950000.0,SP,Raine,07-05-2016,3032,Western Metropolitan,4.3,Moonee Valley City Council,14750,6,1,25,0,0
+756,Ashburton,60 Munro Av,5,h,1850000.0,S,Fletchers,07-05-2016,3147,Southern Metropolitan,10.2,Boroondara City Council,7751,7,1,34,0,0
+757,Ashwood,8 Rocklands Rd,3,h,1120000.0,S,Tim,07-05-2016,3147,Southern Metropolitan,10.2,Monash City Council,6886,7,1,34,0,0
+758,Aspendale,17 Nepean Hwy,3,h,890000.0,S,Biggin,07-05-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,6940,11,1,30,0,0
+759,Aspendale,5 Wanda Ct,3,h,695000.0,S,Greg,07-05-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,6940,11,1,30,0,0
+760,Aspendale Gardens,1 Oriflamme Ct,4,h,690000.0,PI,Barry,07-05-2016,3195,South-Eastern Metropolitan,21.5,Kingston City Council,6530,11,1,30,0,0
+761,Attwood,26 Trinity Bvd,4,h,746000.0,S,Stockdale,07-05-2016,3049,Northern Metropolitan,16.5,Hume City Council,3419,1,0,7,0,0
+762,Avondale Heights,14 Lovett Dr,4,h,1160000.0,S,Moonee,07-05-2016,3034,Western Metropolitan,9.5,Moonee Valley City Council,11633,2,0,6,1,1
+763,Balaclava,3/88 Grosvenor St,1,u,280000.0,VB,hockingstuart,07-05-2016,3183,Southern Metropolitan,6.4,Port Phillip City Council,5396,4,2,0,1,1
+764,Balwyn,24 Bennett St,4,h,2000000.0,PI,RT,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+765,Balwyn,4/3 King St,3,h,700000.0,VB,Marshall,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+766,Balwyn,27 Nungerner St,4,h,2130000.0,PI,Jellis,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+767,Balwyn,3/18 Weir St,2,h,500000.0,S,Marshall,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+768,Balwyn,3 Westminster St,3,h,2125000.0,SP,Jellis,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+769,Balwyn,89 Yarrbat Av,5,h,4350000.0,VB,Jellis,07-05-2016,3103,Southern Metropolitan,7.9,Boroondara City Council,13312,7,0,9,1,1
+770,Balwyn North,6 Abassia St,6,h,1505000.0,S,hockingstuart,07-05-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+771,Balwyn North,1/9 Citron Av,3,h,920000.0,PI,Fletchers,07-05-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+772,Balwyn North,30 Clifton St,4,h,1572000.0,S,hockingstuart,07-05-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+773,Balwyn North,10 Seattle St,4,h,1500000.0,VB,Jellis,07-05-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+774,Balwyn North,3/54 Severn St,4,t,1400000.0,S,Jellis,07-05-2016,3104,Southern Metropolitan,9.7,Boroondara City Council,20406,7,0,35,1,1
+775,Beaumaris,447a Balcombe Rd,4,t,1310000.0,SP,Buxton,07-05-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+776,Beaumaris,22 Coreen Av,5,h,1400000.0,S,Buxton,07-05-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+777,Beaumaris,7b Spicer St,2,t,767000.0,S,Buxton,07-05-2016,3193,Southern Metropolitan,17.3,Bayside City Council,13349,6,0,26,0,0
+778,Bentleigh,16a Marquis Rd,5,t,1375000.0,VB,C21,07-05-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+779,Bentleigh,23 Yawla St,3,h,1500000.0,PI,hockingstuart,07-05-2016,3204,Southern Metropolitan,11.4,Glen Eira City Council,16153,9,2,28,1,1
+780,Bentleigh East,24 Barrani St,3,h,1215000.0,S,Woodards,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+781,Bentleigh East,71 Bignell Rd,4,h,1200000.0,S,hockingstuart,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+782,Bentleigh East,96 Brady Rd,3,h,1050000.0,S,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+783,Bentleigh East,25 Connie St,5,h,950000.0,VB,Woodards,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+784,Bentleigh East,9/7 Derry St,2,u,380000.0,PI,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+785,Bentleigh East,3/32 Elizabeth St,2,h,689000.0,S,hockingstuart,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+786,Bentleigh East,33 Molden St,3,h,1400000.0,PI,hockingstuart,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+787,Bentleigh East,20 Normdale Rd,3,h,965000.0,S,hockingstuart,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+788,Bentleigh East,38 Northam Rd,3,h,1338000.0,S,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+789,Bentleigh East,102b Parkmore Rd,4,t,1200000.0,S,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+790,Bentleigh East,48a Purtell St,3,t,800000.0,S,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+791,Bentleigh East,1/6 Richard St,2,u,651000.0,S,Gary,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+792,Bentleigh East,12 Rudyard St,3,h,920000.0,PI,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+793,Bentleigh East,3 Veronica St,3,h,1390000.0,S,Buxton,07-05-2016,3165,Southern Metropolitan,13.8,Glen Eira City Council,27635,6,1,29,0,0
+794,Berwick,65 Earlsfield Dr,4,h,545000.0,SP,Harcourts,07-05-2016,3806,Eastern Victoria,35.2,Casey City Council,47674,12,7,23,0,0
+795,Berwick,78 Whistler Dr,4,h,870000.0,SP,Harcourts,07-05-2016,3806,Eastern Victoria,35.2,Casey City Council,47674,12,7,23,0,0
+796,Black Rock,25 Cheltenham Rd,3,t,850000.0,S,Buxton,07-05-2016,3193,Southern Metropolitan,17.3,Bayside City Council,6159,6,0,26,0,0
+797,Blackburn South,82 Middleborough Rd,3,h,958000.0,SP,Ray,07-05-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+798,Blackburn South,14 Mira St,3,h,852000.0,S,Woodards,07-05-2016,3130,Eastern Metropolitan,13.4,Whitehorse City Council,10793,11,1,24,0,0
+799,Briar Hill,14 Parklands Av,4,h,1115000.0,S,Fletchers,07-05-2016,3088,Eastern Metropolitan,16.1,Banyule City Council,3152,11,1,30,0,0
+800,Brighton,74 Carpenter St,5,h,2750000.0,VB,Buxton,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+801,Brighton,4/149 Church St,2,u,892500.0,S,Nick,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+802,Brighton,120 Cole St,4,h,2145000.0,S,Buxton,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+803,Brighton,15 Hanby St,5,h,3171000.0,S,Biggin,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+804,Brighton,25 Lindsay St,4,t,2800000.0,VB,Buxton,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+805,Brighton,2 View Ct,2,h,1910000.0,S,Hodges,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+806,Brighton,36a Warleigh Gr,3,t,1850000.0,SP,Buxton,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+807,Brighton,1/5 Webb St,3,t,1067000.0,S,Kay,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+808,Brighton,72 William St,3,h,1865000.0,VB,hockingstuart,07-05-2016,3186,Southern Metropolitan,10.5,Bayside City Council,23253,8,4,34,1,2
+809,Brighton East,16 Alford St,4,h,2000000.0,PI,Buxton,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+810,Brighton East,11 Billson St,3,h,1400000.0,VB,Marshall,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+811,Brighton East,60 Cummins Rd,3,h,1300000.0,VB,Marshall,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+812,Brighton East,15 Hodder St,5,h,1600000.0,PI,RT,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+813,Brighton East,5 Margaret St,2,h,1780000.0,SP,Buxton,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+814,Brighton East,375 South Rd,5,h,1200000.0,VB,hockingstuart,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+815,Brighton East,2/377 South Rd,2,t,770000.0,SP,Buxton,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+816,Brighton East,14a Stone St,4,t,1425000.0,S,Buxton,07-05-2016,3187,Southern Metropolitan,10.3,Bayside City Council,15998,4,0,2,0,0
+817,Brooklyn,3/53 Stenhouse Av,3,t,495000.0,SP,Jas,07-05-2016,3012,Western Metropolitan,6.4,Brimbank City Council,1856,6,0,29,0,0
+818,Brunswick,314 Barkly St,3,h,1310000.0,PI,Nelson,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+819,Brunswick,5/185 Brunswick Rd,4,t,860000.0,PI,Nelson,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+820,Brunswick,141 Gold St,2,h,845500.0,S,Nelson,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+821,Brunswick,143 Gold St,2,h,860000.0,S,Nelson,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+822,Brunswick,3/4 Mitchell St,2,t,605000.0,PI,Jellis,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+823,Brunswick,13 Percy St,3,h,1055000.0,S,Nelson,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+824,Brunswick,9/33 Staley St,2,u,445000.0,S,Walshe,07-05-2016,3056,Northern Metropolitan,5.2,Moreland City Council,24473,3,1,24,1,1
+825,Brunswick East,12 Bladen Av,2,h,905500.0,SP,Woodards,07-05-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+826,Brunswick East,9 John St,4,h,1625000.0,S,Nelson,07-05-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+827,Brunswick East,21 Roberts St,3,t,899000.0,SP,Jellis,07-05-2016,3057,Northern Metropolitan,4.0,Moreland City Council,11504,3,0,8,1,1
+828,Brunswick West,1/455 Albion St,1,u,265000.0,PI,Walshe,07-05-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+829,Brunswick West,64 Pearson St,3,h,955000.0,S,hockingstuart,07-05-2016,3055,Northern Metropolitan,5.2,Moreland City Council,14159,4,0,8,0,0
+830,Bulleen,28 Dale St,3,h,1340000.0,S,Barry,07-05-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+831,Bulleen,206 Manningham Rd,4,h,1225000.0,S,Ray,07-05-2016,3105,Eastern Metropolitan,10.8,Manningham City Council,10873,4,0,19,1,1
+832,Bundoora,15/121 Grange Bvd,3,t,380000.0,S,Ray,07-05-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+833,Bundoora,41 Josef Av,3,h,580000.0,SP,Barry,07-05-2016,3083,Northern Metropolitan,12.1,Banyule City Council,28653,9,5,47,1,1
+834,Burwood,7 Wattlebird Ct,4,h,2000000.0,S,Fletchers,07-05-2016,3125,Southern Metropolitan,10.4,Monash City Council,15019,5,0,22,0,0
+835,Camberwell,68 Hunter Rd,4,h,2950000.0,VB,Fletchers,07-05-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+836,Camberwell,18 Russell St,4,h,2600000.0,VB,Jellis,07-05-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+837,Camberwell,19 Thomas St,3,h,2325000.0,PI,Marshall,07-05-2016,3124,Southern Metropolitan,7.7,Boroondara City Council,22081,4,1,19,1,1
+838,Canterbury,2 McGregor St,4,h,2375000.0,S,Jellis,07-05-2016,3126,Southern Metropolitan,8.4,Boroondara City Council,8056,5,2,2,0,0
+839,Canterbury,31 Rubens Gr,5,h,2900000.0,PI,Jellis,07-05-2016,3126,Southern Metropolitan,8.4,Boroondara City Council,8056,5,2,2,0,0
+840,Canterbury,42 Warburton Rd,3,h,2200000.0,VB,Noel,07-05-2016,3126,Southern Metropolitan,8.4,Boroondara City Council,8056,5,2,2,0,0
+841,Carlton,40 Carlton St,3,h,1662000.0,S,Nelson,07-05-2016,3053,Northern Metropolitan,1.6,Melbourne City Council,18535,2,2,3,0,0
+842,Carlton,254 Faraday St,3,h,1590000.0,SP,Woodards,07-05-2016,3053,Northern Metropolitan,1.6,Melbourne City Council,18535,2,2,3,0,0
+843,Carlton,111/101 Grattan St,2,u,610250.0,S,Nelson,07-05-2016,3053,Northern Metropolitan,1.6,Melbourne City Council,18535,2,2,3,0,0
+844,Carlton,83 Princes St,2,h,720000.0,PI,hockingstuart,07-05-2016,3053,Northern Metropolitan,1.6,Melbourne City Council,18535,2,2,3,0,0
+845,Carlton North,989 Drummond St,3,h,2950000.0,SP,Chambers,07-05-2016,3054,Northern Metropolitan,3.5,Melbourne City Council,6300,3,0,1,0,0
+846,Carlton North,700 Rathdowne St,4,h,2175000.0,S,Woodards,07-05-2016,3054,Northern Metropolitan,3.5,Melbourne City Council,6300,3,0,1,0,0
+847,Carlton North,86 Wilson St,3,h,1555000.0,S,Woodards,07-05-2016,3054,Northern Metropolitan,3.5,Melbourne City Council,6300,3,0,1,0,0
+848,Carnegie,1 Frogmore Rd,3,h,1600000.0,S,Woodards,07-05-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+849,Carnegie,63 Oakleigh Rd,3,h,1170000.0,S,hockingstuart,07-05-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+850,Carnegie,10/68 Woornack Rd,1,u,260000.0,VB,Gary,07-05-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,17388,5,0,28,0,0
+851,Caroline Springs,17 Etheridge Ri,3,h,500000.0,S,Barry,07-05-2016,3023,Western Metropolitan,14.8,Melton City Council,24205,16,0,47,0,0
+852,Caroline Springs,18/11 Monckton Pl,2,u,325000.0,PI,Ray,07-05-2016,3023,Western Metropolitan,14.8,Melton City Council,24205,16,0,47,0,0
+853,Carrum,4/85 Whatley St,2,u,372500.0,S,hockingstuart,07-05-2016,3197,South-Eastern Metropolitan,31.2,Kingston City Council,3980,1,0,11,0,0
+854,Carrum Downs,18 Bawden St,4,h,535000.0,S,Harcourts,07-05-2016,3201,South-Eastern Metropolitan,34.9,Frankston City Council,20711,5,0,14,1,1
+855,Carrum Downs,50 Herbert Rd,3,h,440000.0,S,Harcourts,07-05-2016,3201,South-Eastern Metropolitan,34.9,Frankston City Council,20711,5,0,14,1,1
+856,Caulfield North,25 Malvern Gr,3,h,2005000.0,PI,Jellis,07-05-2016,3161,Southern Metropolitan,7.8,Glen Eira City Council,15269,3,2,8,0,0
+857,Caulfield South,9 Filbert St,3,h,1470000.0,S,Gary,07-05-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+858,Caulfield South,6/305 Hawthorn Rd,2,u,670000.0,S,hockingstuart,07-05-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+859,Caulfield South,1 Rotorua St,2,h,1012000.0,S,Gary,07-05-2016,3162,Southern Metropolitan,8.7,Glen Eira City Council,11854,5,4,33,0,0
+860,Chelsea,4/488 Nepean Hwy,2,u,475000.0,SP,hockingstuart,07-05-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,7773,5,1,31,0,0
+861,Chelsea Heights,5 Nariel Ct,3,h,615000.0,SP,RW,07-05-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5335,5,1,31,0,0
+862,Cheltenham,14a Brownfield St,3,t,830000.0,S,OBrien,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+863,Cheltenham,3/120 Centre Dandenong Rd,2,u,580000.0,S,OBrien,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+864,Cheltenham,2/12 Crawford St,2,h,780501.0,SP,Ray,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+865,Cheltenham,10 Eden St,4,h,940000.0,S,Ray,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+866,Cheltenham,4/11 Hannah St,2,u,510000.0,VB,Greg,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+867,Cheltenham,1b Norma Av,3,t,792000.0,S,Buxton,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+868,Cheltenham,17 Tintern Mw,3,h,620000.0,PI,Buxton,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+869,Cheltenham,243 Warrigal Rd,3,h,696000.0,SP,OBrien,07-05-2016,3192,Southern Metropolitan,17.9,Bayside City Council,22291,5,1,23,0,0
+870,Clayton,3/30 Bettina St,5,t,753500.0,S,LJ,07-05-2016,3168,South-Eastern Metropolitan,16.7,Monash City Council,19358,2,6,26,1,2
+871,Clayton,106 Clayton Rd,7,h,1200000.0,S,Harcourts,07-05-2016,3168,South-Eastern Metropolitan,16.7,Monash City Council,19358,2,6,26,1,2
+872,Clayton,261 Clayton Rd,2,h,1820000.0,S,Harcourts,07-05-2016,3168,South-Eastern Metropolitan,16.7,Monash City Council,19358,2,6,26,1,2
+873,Clayton,1/364 Haughton Rd,3,t,685000.0,S,Buxton,07-05-2016,3168,South-Eastern Metropolitan,16.7,Monash City Council,19358,2,6,26,1,2
+874,Clayton South,7 Beswick St,3,h,650000.0,S,Woodards,07-05-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+875,Clayton South,23 Crimson Gr,3,h,732000.0,S,Ray,07-05-2016,3169,South-Eastern Metropolitan,17.5,Kingston City Council,12642,6,0,13,0,0
+876,Coburg,15/1 Manna Gum Ct,3,t,550000.0,PI,Brace,07-05-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+877,Coburg,20A Queen St,2,t,790000.0,S,Raine,07-05-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+878,Coburg,56 Rose St,3,h,1100000.0,VB,Nelson,07-05-2016,3058,Northern Metropolitan,6.7,Darebin City Council,26185,12,2,33,1,2
+879,Coburg North,7 Manly Ct,3,h,700000.0,S,Nelson,07-05-2016,3058,Northern Metropolitan,6.7,Darebin City Council,7601,12,2,33,1,1
+880,Craigieburn,8 Berrima Cl,4,h,440000.0,S,Ray,07-05-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+881,Craigieburn,16 Grinstead Ct,3,h,397000.0,S,Ray,07-05-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+882,Craigieburn,18 Milburn Pl,3,h,438000.0,S,Ray,07-05-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+883,Craigieburn,3 Whitley Cr,3,h,337500.0,S,Ray,07-05-2016,3064,Northern Metropolitan,20.6,Hume City Council,50347,17,1,43,1,1
+884,Cranbourne East,52 Thunderbolt Dr,4,h,603000.0,S,O'Brien,07-05-2016,3977,South-Eastern Metropolitan,34.7,Casey City Council,16195,19,1,61,0,0
+885,Croydon Hills,36 Lemongrove Cr,4,h,660000.0,S,Max,07-05-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,4992,12,1,56,0,0
+886,Croydon South,3a King St,3,h,630000.0,S,Harcourts,07-05-2016,3136,Eastern Metropolitan,23.0,Maroondah City Council,4572,12,1,56,0,0
+887,Dandenong,29 Oswald St,3,h,606500.0,S,LJ,07-05-2016,3175,South-Eastern Metropolitan,24.7,Greater Dandenong City Council,29906,15,5,47,1,2
+888,Dingley Village,6 Fredman Ct,4,h,925500.0,S,Ray,07-05-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+889,Dingley Village,6 Glenelg Ct,4,h,672000.0,S,Buxton,07-05-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+890,Dingley Village,42 Kingswood Dr,4,h,740000.0,S,Ray,07-05-2016,3172,South-Eastern Metropolitan,22.2,Kingston City Council,10320,7,0,15,0,0
+891,Doncaster,5 Arnold Gr,4,h,1868000.0,S,hockingstuart,07-05-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+892,Doncaster,72 Board St,3,h,920000.0,PI,Ray,07-05-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+893,Doncaster,22 Saxon St,4,h,1050000.0,PI,Barry,07-05-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+894,Doncaster,37 Tullamore Av,5,h,1550000.0,PI,Barry,07-05-2016,3108,Eastern Metropolitan,12.4,Manningham City Council,20946,4,0,18,1,2
+895,Doncaster East,106 Beverley St,3,h,1215000.0,S,Jellis,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+896,Doncaster East,2/50 Devon Dr,2,u,689990.0,S,Barry,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+897,Doncaster East,41 Fernlea Cr,5,h,1364100.0,S,Barry,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+898,Doncaster East,11 Leura St,2,h,1461000.0,S,Jellis,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+899,Doncaster East,12 McCubbin Tce,4,h,1345000.0,S,Barry,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+900,Doncaster East,54 Newlands Cr,4,h,1250000.0,PI,Barry,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+901,Doncaster East,31a Roger St,3,t,980000.0,S,Fletchers,07-05-2016,3109,Eastern Metropolitan,14.3,Manningham City Council,28360,7,1,17,0,0
+902,Donvale,1 Greenview Cl,4,h,1080000.0,S,Barry,07-05-2016,3111,Eastern Metropolitan,16.1,Manningham City Council,12347,4,0,16,1,1
+903,Edithvale,1/13 French Av,3,h,675500.0,S,Hodges,07-05-2016,3196,South-Eastern Metropolitan,27.0,Kingston City Council,5806,5,1,31,0,0
+904,Elsternwick,4 Buxton St,3,h,1755000.0,S,Gary,07-05-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+905,Elsternwick,44 Hartington St,4,h,1400000.0,SP,Biggin,07-05-2016,3185,Southern Metropolitan,7.2,Glen Eira City Council,10349,5,2,7,1,1
+906,Eltham,27 Onkara Ct,3,h,725000.0,SA,Fletchers,07-05-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,18314,11,0,32,1,1
+907,Eltham North,23 Dunbarton Dr,4,h,670000.0,S,Barry,07-05-2016,3095,Eastern Metropolitan,18.0,Banyule City Council,6805,11,0,32,0,0
+908,Elwood,7/8 John St,1,u,357000.0,S,Chisholm,07-05-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+909,Elwood,29 Mason Av,2,h,1110000.0,S,hockingstuart,07-05-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+910,Elwood,103/115 Tennyson St,2,u,685000.0,PI,Marshall,07-05-2016,3184,Southern Metropolitan,7.2,Port Phillip City Council,15543,4,1,9,0,0
+911,Epping,57 Carlisle Dr,3,h,431000.0,SP,Ray,07-05-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+912,Epping,4 Edgware Ct,3,h,480000.0,S,Harcourts,07-05-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+913,Epping,5 Fulham Wy,5,h,730000.0,S,Harcourts,07-05-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+914,Epping,13 Memorial Av,3,h,635000.0,S,Iconek,07-05-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+915,Epping,18 Wigan Cl,4,h,570000.0,SP,Iconek,07-05-2016,3076,Northern Metropolitan,19.6,Whittlesea City Council,32395,11,2,30,1,1
+916,Essendon,17 Cooper St,3,h,1365000.0,S,Nelson,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+917,Essendon,45 Ogilvie St,2,h,1130000.0,SP,Barry,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,20596,10,1,28,1,1
+918,Essendon West,10 Beryl St,3,h,1245000.0,S,Brad,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,1439,10,1,28,0,0
+919,Essendon West,24a Emerald St,4,t,1120000.0,SP,Nelson,07-05-2016,3040,Western Metropolitan,7.5,Moonee Valley City Council,1439,10,1,28,0,0
+920,Fairfield,17 Langridge St,3,h,1330000.0,S,Barry,07-05-2016,3078,Northern Metropolitan,5.7,Darebin City Council,6558,4,1,15,0,0
+921,Fairfield,229 Rathmines St,2,h,1220000.0,S,Jellis,07-05-2016,3078,Northern Metropolitan,5.7,Darebin City Council,6558,4,1,15,0,0
+922,Fairfield,197 Station St,4,h,1160000.0,PI,Nelson,07-05-2016,3078,Northern Metropolitan,5.7,Darebin City Council,6558,4,1,15,0,0
+923,Fawkner,7 Alec Cr,3,h,585000.0,S,Ray,07-05-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+924,Fawkner,20 Penn Ct,3,h,662000.0,SP,Alexkarbon,07-05-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+925,Fawkner,46 Percy St,3,h,615000.0,S,Ray,07-05-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+926,Fawkner,1/14 Preston St,3,t,500000.0,VB,Stockdale,07-05-2016,3060,Northern Metropolitan,13.1,Hume City Council,14043,6,0,12,0,0
+927,Fitzroy,502/69 Victoria St,2,u,692000.0,S,Nelson,07-05-2016,3065,Northern Metropolitan,2.1,Yarra City Council,10445,4,3,29,1,1
+928,Footscray,6/114 Commercial Rd,1,u,291000.0,PI,Sweeney,07-05-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+929,Footscray,3/8 Eleanor St,2,h,375000.0,S,Sweeney,07-05-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+930,Footscray,2 Jerrold St,2,h,736000.0,S,hockingstuart,07-05-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+931,Footscray,8 Jerrold St,2,h,752000.0,SP,Jas,07-05-2016,3011,Western Metropolitan,5.1,Maribyrnong City Council,16345,5,8,28,1,1
+932,Frankston,40 Fingal Dr,4,h,450000.0,SP,U,07-05-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,36097,19,7,79,1,1
+933,Frankston South,20 Alicudi Av,5,h,1020000.0,S,Ray,07-05-2016,3199,South-Eastern Metropolitan,38.0,Frankston City Council,18199,19,7,79,0,0
+934,Gladstone Park,3 Burgess Cl,3,h,510000.0,SP,Barry,07-05-2016,3043,Western Metropolitan,12.9,Hume City Council,8338,5,0,30,0,0
+935,Glen Huntly,4/12 Park Av,3,u,650000.0,PI,hockingstuart,07-05-2016,3163,Southern Metropolitan,10.1,Glen Eira City Council,5040,5,0,28,0,0
+936,Glen Iris,1/23 Aintree Rd,2,u,550000.0,SP,Jellis,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+937,Glen Iris,7 Flowerdale Rd,3,h,2100000.0,VB,Marshall,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+938,Glen Iris,12 Grandview Av,3,h,1520000.0,PI,Marshall,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+939,Glen Iris,48 Martin Rd,3,h,2115000.0,S,Jellis,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+940,Glen Iris,73 Pascoe St,3,h,1700000.0,S,Jellis,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+941,Glen Iris,16 Vincent St,4,h,3500000.0,S,Kay,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+942,Glen Iris,12 Walerna Rd,3,h,1750000.0,S,Jellis,07-05-2016,3146,Southern Metropolitan,7.3,Boroondara City Council,25268,6,2,21,0,0
+943,Glen Waverley,29 Grantley Dr,4,h,1135000.0,PI,Barry,07-05-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+944,Glen Waverley,25 Kincumber Dr,5,h,1100000.0,SP,HAR,07-05-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+945,Glen Waverley,22 Lincoln Av,3,h,1650000.0,SA,Barry,07-05-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+946,Glen Waverley,7 Matthew St,3,h,1730000.0,PI,Barry,07-05-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+947,Glen Waverley,8 Tanner St,4,h,1000000.0,VB,Barry,07-05-2016,3150,Eastern Metropolitan,16.7,Monash City Council,40327,21,2,51,0,0
+948,Glenroy,1c Barwon St,2,h,540000.0,VB,Nelson,07-05-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+949,Glenroy,1/23 Gordon Ct,3,t,500000.0,SP,Stockdale,07-05-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+950,Glenroy,23 Tarana Av,3,h,625000.0,S,Barry,07-05-2016,3046,Northern Metropolitan,11.2,Moreland City Council,22245,12,0,26,1,1
+951,Gowanbrae,39 Balerno Cir,3,t,468000.0,S,Nelson,07-05-2016,3043,Western Metropolitan,12.9,Moreland City Council,2773,5,0,30,0,0
+952,Greensborough,6/50 Hume St,2,u,446000.0,SP,Buckingham,07-05-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+953,Greensborough,14 Liat Wy,3,h,620000.0,S,Buckingham,07-05-2016,3088,Northern Metropolitan,16.1,Banyule City Council,20821,11,1,30,1,1
+954,Hadfield,2/32 David St,4,u,581000.0,S,Barry,07-05-2016,3046,Northern Metropolitan,11.2,Moreland City Council,5610,12,0,26,0,0
+955,Hampton,72b David St,2,t,890000.0,S,Hodges,07-05-2016,3188,Southern Metropolitan,13.8,Bayside City Council,13391,2,1,19,1,1
+956,Hampton,66a Thomas St,3,h,1120000.0,S,hockingstuart,07-05-2016,3188,Southern Metropolitan,13.8,Bayside City Council,13391,2,1,19,1,1
+957,Hampton Park,32 Lesley Dr,5,h,455000.0,PI,O'Brien,07-05-2016,3976,South-Eastern Metropolitan,33.3,Casey City Council,25530,6,1,12,1,1
+958,Hawthorn,302/157 Burwood Rd,1,u,350000.0,VB,Marshall,07-05-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+959,Hawthorn,13/5 Denham St,2,u,753000.0,S,Marshall,07-05-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+960,Hawthorn,7/21 Elphin Gr,1,u,330000.0,PI,RT,07-05-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+961,Hawthorn,14 Malmsbury St,3,h,1420000.0,S,Marshall,07-05-2016,3122,Southern Metropolitan,5.3,Boroondara City Council,23511,8,2,27,0,0
+962,Hawthorn East,1051 Burke Rd,3,h,1615000.0,S,Jellis,07-05-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+963,Hawthorn East,2/2 Myrniong Gr,3,h,1600000.0,VB,Marshall,07-05-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+964,Hawthorn East,310 Riversdale Rd,3,h,1450000.0,PI,hockingstuart,07-05-2016,3123,Southern Metropolitan,6.2,Boroondara City Council,14321,5,1,17,0,0
+965,Heidelberg Heights,1/8 Lawson Pde,3,h,495000.0,S,Barry,07-05-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,6087,2,2,19,0,0
+966,Heidelberg Heights,39 Marie Av,3,h,660000.0,SP,Miles,07-05-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,6087,2,2,19,0,0
+967,Heidelberg West,2/287 Liberty Pde,2,t,370000.0,VB,Miles,07-05-2016,3081,Eastern Metropolitan,8.8,Banyule City Council,5545,2,2,19,0,0
+968,Highett,107/3 Remington Dr,1,u,380000.0,PI,Ray,07-05-2016,3190,Southern Metropolitan,16.0,Bayside City Council,10454,1,0,15,0,0
+969,Hillside,93 Allenby Rd,4,h,420000.0,S,Ray,07-05-2016,3037,Western Metropolitan,18.0,Brimbank City Council,193,8,1,17,0,0
+970,Hoppers Crossing,591 Tarneit Rd,4,h,1301000.0,S,RW,07-05-2016,3029,Western Metropolitan,18.4,Wyndham City Council,38701,19,0,47,1,1
+971,Hughesdale,2/19 Swindon Rd,3,t,828000.0,S,Ray,07-05-2016,3166,Southern Metropolitan,12.3,Monash City Council,7556,7,0,43,0,0
+972,Ivanhoe,6/105 Locksley Rd,2,u,490000.0,S,Miles,07-05-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+973,Ivanhoe,5/52 Locksley Rd,2,u,739000.0,S,Miles,07-05-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+974,Ivanhoe,7 Robbins St,3,h,1340000.0,S,Miles,07-05-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,12171,6,2,24,1,1
+975,Ivanhoe East,11 Warncliffe Rd,3,h,2150000.0,S,Miles,07-05-2016,3079,Eastern Metropolitan,7.8,Banyule City Council,3815,6,2,24,0,0
+976,Jacana,147 Sunset Bvd,3,h,350000.0,PI,Barry,07-05-2016,3047,Northern Metropolitan,14.0,Hume City Council,2128,13,1,31,0,0
+977,Kealba,3 McGrath Cl,3,h,365000.0,SP,Brad,07-05-2016,3021,Western Metropolitan,14.0,Brimbank City Council,3194,18,4,32,0,0
+978,Keilor,1 Tarwin Ct,3,h,637000.0,S,Brad,07-05-2016,3036,Western Metropolitan,14.5,Brimbank City Council,5853,3,1,12,1,1
+979,Keilor East,27 Judith St,3,h,772000.0,S,Nelson,07-05-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+980,Keilor East,9a The Crossway,3,h,650000.0,SP,Nelson,07-05-2016,3033,Western Metropolitan,11.7,Brimbank City Council,14514,2,0,17,0,0
+981,Kensington,47 Barnett St,3,h,961000.0,S,Jellis,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+982,Kensington,72 Bayswater Rd,3,h,1271000.0,S,Edward,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+983,Kensington,67 Collett St,3,h,1010000.0,PI,Edward,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+984,Kensington,4/130 Kensington Rd,2,t,750000.0,S,Rendina,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+985,Kensington,15 Ormond St,4,h,1675000.0,S,Rendina,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+986,Kensington,103/70 Speakmen St,2,u,450000.0,S,Rendina,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+987,Kensington,1 Watsons Wk,3,t,798000.0,S,Rendina,07-05-2016,3031,Northern Metropolitan,3.4,Melbourne City Council,10812,7,0,3,0,0
+988,Kew,36 Belmont Av,3,h,1800000.0,S,Jellis,07-05-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+989,Kew,71 Cecil St,4,h,2200000.0,S,Marshall,07-05-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+990,Kew,14 Studley Av,4,h,3700000.0,VB,Nelson,07-05-2016,3101,Southern Metropolitan,5.4,Boroondara City Council,24605,11,5,13,1,1
+991,Kew East,2/37 Strathalbyn St,2,u,605000.0,S,Nelson,07-05-2016,3102,Southern Metropolitan,7.3,Boroondara City Council,6635,3,1,13,0,0
+992,Keysborough,13 Blanchard Av,4,h,735000.0,S,Branon,07-05-2016,3173,South-Eastern Metropolitan,25.2,Greater Dandenong City Council,25785,6,0,33,1,1
+993,Keysborough,2 Luton Ct,3,h,570000.0,S,RW,07-05-2016,3173,South-Eastern Metropolitan,25.2,Greater Dandenong City Council,25785,6,0,33,1,1
+994,Kings Park,22 Wattle Av,3,h,403500.0,S,Nelson,07-05-2016,3021,Western Metropolitan,14.0,Brimbank City Council,8198,18,4,32,0,0
+995,Kingsville,4 Kingsville St,2,h,816000.0,S,Village,07-05-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,3946,6,0,29,0,0
+996,Kingsville,104 Williamstown Rd,2,h,677500.0,S,Jas,07-05-2016,3012,Western Metropolitan,6.4,Maribyrnong City Council,3946,6,0,29,0,0
+997,Kurunjang,67 Smoult Dr,4,h,388000.0,S,Ray,07-05-2016,3337,Northern Victoria,31.7,Melton City Council,10070,14,1,55,0,0
+998,Lalor,39 Kingsway Dr,3,h,451500.0,S,Harcourts,07-05-2016,3075,Northern Metropolitan,16.3,Whittlesea City Council,22594,8,0,14,1,1
+999,Lower Plenty,85 Bolton St,4,h,800100.0,SP,Buckingham,07-05-2016,3093,Eastern Metropolitan,14.6,Banyule City Council,3891,1,0,5,0,0
