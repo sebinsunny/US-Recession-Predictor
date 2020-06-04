@@ -15,6 +15,7 @@ import pandas as pd
 import xgboost as xgb
 import pickle
 import os
+import numpy as np
 
 
 class recession_models:
@@ -29,6 +30,8 @@ class recession_models:
         self.recession_data = self.df[self.features]
         self.file = ['Recession_in_6mo', 'Recession_in_12mo', 'Recession_in_24mo']
         self.recession = {'Date': self.recession_data['Date'].tolist()}
+        self.price={}
+
 
     def models(self, id):
         for i in self.file:
@@ -36,3 +39,13 @@ class recession_models:
             svmc = pickle.load(open(path, 'rb'))
             self.recession[i + '_probability'] = svmc.predict_proba(self.recession_data.iloc[:, 1:7])[:, 1].tolist()
         return self.recession
+
+    def house_price(self, market,sports_facility,population,school,hospital,distance,room):
+        for i in self.file:
+            path = f'{self.path}/melbourne_house_price.rf'
+            svmc = pickle.load(open(path, 'rb'))
+            house_price = pd.DataFrame({'bedroom_count':[room] , 'Population':[population] , 'Distance from CBD': [distance], 'Hospital':[hospital] , 'School':[school] , 'Super Market':[market],'sports':[sports_facility]},dtype='int32')
+            svmc.predict(house_price)
+            self.price['melbourne_price']=np.round(svmc.predict(house_price).tolist(),2).tolist()
+
+        return self.price

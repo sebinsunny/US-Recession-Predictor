@@ -61,7 +61,7 @@
         p {
             color: black;
             font-size: 1.3em;
-             text-align: justify;
+            text-align: justify;
         }
 
         table.minimalistBlack {
@@ -184,11 +184,16 @@
                     <div class="project-details-content">
                         <br><br>
                         <h4>Accuracy of Machine learning Models on Melbourne House Price Data</h4><br>
-<div class="text-center">
-  <img src="../graph/ss.png" style="height: 500px;width: 70%">
-</div>
-</br>
-  <p>Datasets for Sydney and Melbourne were used in predicting prices by applying machine learning models. Linear regression, XGBoost and Randomforest Classifier was used in modelling and prediction. Random Forest and XGBoost produced better results with higher accuracy and low error compared to linear regression. Random Forest with higher accuracy was further used in prediction purpose. Comparison of Accuracy for each models on Melboune and Sydney datasets is depicted below.
+                        <div class="text-center">
+                            <img src="../graph/ss.png" style="height: 500px;width: 70%">
+                        </div>
+                        </br>
+                        <p>Datasets for Sydney and Melbourne were used in predicting prices by applying machine learning
+                            models. Linear regression, XGBoost and Randomforest Classifier was used in modelling and
+                            prediction. Random Forest and XGBoost produced better results with higher accuracy and low
+                            error compared to linear regression. Random Forest with higher accuracy was further used in
+                            prediction purpose. Comparison of Accuracy for each models on Melbourne and Sydney datasets
+                            is depicted below.
 
 
                     </div>
@@ -284,39 +289,39 @@
 <script type='text/javascript' src='../js/csv.js'></script>
 <script>
     var tabulate = function (data, columns, id) {
-        var table = d3.select('#' + id).append('table').attr('class', 'minimalistBlack')
-        var thead = table.append('thead')
-        var tbody = table.append('tbody')
+            var table = d3.select('#' + id).append('table').attr('class', 'minimalistBlack')
+            var thead = table.append('thead')
+            var tbody = table.append('tbody')
 
-        thead.append('tr')
-            .selectAll('th')
-            .data(columns)
-            .enter()
-            .append('th')
-            .text(function (d) {
-                return d
-            })
-
-        var rows = tbody.selectAll('tr')
-            .data(data)
-            .enter()
-            .append('tr')
-
-        var cells = rows.selectAll('td')
-            .data(function (row) {
-                return columns.map(function (column) {
-                    return {column: column, value: row[column]}
+            thead.append('tr')
+                .selectAll('th')
+                .data(columns)
+                .enter()
+                .append('th')
+                .text(function (d) {
+                    return d
                 })
-            })
-            .enter()
-            .append('td')
-            .text(function (d) {
-                return d.value
-            })
 
-        return table;
-    }
+            var rows = tbody.selectAll('tr')
+                .data(data)
+                .enter()
+                .append('tr')
+
+            var cells = rows.selectAll('td')
+                .data(function (row) {
+                    return columns.map(function (column) {
+                        return {column: column, value: row[column]}
+                    })
+                })
+                .enter()
+                .append('td')
+                .text(function (d) {
+                    return d.value
+                })
+
+            return table;
+        }
 
 
-</body>
-</html>
+        < /body>
+        < /html>
