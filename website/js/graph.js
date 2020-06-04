@@ -83,8 +83,8 @@ var app = new Vue({
         gets: function (name, label, element, type) {
             {
                 this.loading = true
-                url = 'http://localhost:5000/graph'
-                //  url ='https://api.companyandngo.xyz/model'
+                //url = 'http://localhost:5000/graph'
+                 url ='https://api.companyandngo.xyz/model'
                 axios.get(url, {
                     params: {
                         id: name

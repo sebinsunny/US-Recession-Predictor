@@ -761,7 +761,11 @@ var price
                 let hospital = details[0].hospital
                 let distance = details[0].distance
 
- axios.get('http://localhost:5000/house_price',{
+
+              //url = 'http://localhost:5000/house_price'
+                 url ='https://api.companyandngo.xyz/house_price'
+
+ axios.get(url,{
 params: {
   m: market,
     sp:sport,
