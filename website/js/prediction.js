@@ -107,8 +107,8 @@ var app = new Vue({
                                 xMax: date.end_date,
                                 yMin: 0,
                                 yMax: 1,
-                                backgroundColor: 'rgba(47,21,85,0.18)',
-                                borderColor: 'rgba(50,51,26,0.42)',
+                                backgroundColor: 'rgba(7,8,31,0.51)',
+                                borderColor: 'rgba(166,17,47,0.42)',
                                 borderWidth: 1,
 
 
@@ -147,9 +147,9 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
             datasets: [{
                 label: 'Recession in 6 month probability(%)',
                 backgroundColor: "rgba(50,50,50,0.7)",
-                borderColor: "#4d1718",
+                borderColor: "#a60e1a",
                 borderWidth: 1.3,
-                pointBackgroundColor: "#4d1718",
+                pointBackgroundColor: "#a60e1a",
                 pointBorderWidth: 0,
                 tension: 0,
                 data: recession_in_6,
@@ -157,14 +157,16 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 radius: 0
 
 
+
             }, {
                 label: 'Recession in 12 month probability(%)',
-                backgroundColor: "rgba(12,3,139,0.7)",
+                backgroundColor: "rgba(22,22,166,0.7)",
                 borderColor: "#1616a6",
                 borderWidth: 1.3,
                 fill: false,
                 data: recession_in_12,
-                radius: 0
+                radius: 0,
+                hidden:true
 
 
             }, {
@@ -175,6 +177,7 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 fill: false,
                 data: recession_in_24,
                 radius: 0,
+                hidden:true
 
 
             }]

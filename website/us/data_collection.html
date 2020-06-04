@@ -60,7 +60,7 @@
 
         p {
             color: black;
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
 
 
@@ -151,20 +151,11 @@
                         <div>{{ spread }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The yield curve is the difference (or spread) between the yield on the 10-year Treasury bond
-                            and the yield on a shorter-term Treasury bond—for example, the 3-month or the 1-year. The
-                            yield curve is flattening if short-term rates are increasing relative to long-term rates,
-                            which is what’s been happening lately. The yield curve is inverted if short-term rates
-                            exceed long-term rates, making the spread negative. Inverted yield curves have historically
-                            been reliable predictors of impending recessions, which is why people are paying so much
-                            attention to the yield curve own. In December 2013, the spread between long and short rates
-                            was very close to 3 percent. In
-                            October 2018, 0.86 percent for the 10-year and 3-month yields. If the yield curve were to
-                            continue its downward trend from its previous high in December 2013, the yield curve would
-                            invert in August 2019 (using the 10-year and 3-month yields). Historically, this would
-                            predict a recession sometime in 2020. As the yield curve flattens, we can expect economists
-                            and financial markets will closely monitor its level and make many predictions about whether
-                            and when a recession will follow
+                            From the graph, it can be viewed that the 10year – 3 year …treasure constant maturity,
+                            follows a cyclic pattern with repeated increase and decrease pattern. Just before recession
+                            ,the factor reaches the lowest and tends to increase during the recession period. The same
+                            cycle has been observed to repeat every recession.
+
                     </div>
                 </div>
             </div>
@@ -199,13 +190,13 @@
                         <div>{{ graph }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The effective federal funds rate is the interest rate banks charge each other for overnight
-                            loans to meet their reserve requirements. Also known as the federal funds rate. The federal
-                            funds market consists of domestic unsecured borrowings in U.S. dollars by depository
-                            institutions from other depository institutions and certain other entities, primarily
-                            government-sponsored enterprises. Additionally, the federal funds rate indirectly influences
-                            longer- term interest rates such as mortgages, loans, and savings, all of which are very
-                            important to consumer wealth and confidence</p>
+                            Effective fund rate, as observed takes a dip during recession and tends to increase later on
+                            .The only difference followed in this pattern is the effective fund rate after the 2008
+                            recession where the factor stayed low , almost close to zero till 2015 and then began to
+                            rise and is now decreasing. The close to zero fund rate is a policy adopted by the
+                            governments to stimulate growth , but many economists have suggested it may have a bad
+                            economic impact down the line due to liquidity traps.
+                        </p>
 
 
                     </div>
@@ -238,12 +229,12 @@
                         <div>{{ consumer }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The Consumer Price Index for All Urban Consumers: All Items is a measure of the average
-                            monthly change in the price for goods and services paid by urban consumers between any two
-                            time periods. It can also represent the buying habits of urban consumers. This particular
-                            index includes roughly 88 percent of the total population, accounting for wage earners,
-                            clerical workers, technical workers, self-employed, short-term workers, unemployed,
-                            retirees, and those not in the labor force.
+                            The consumer price index which is a measure of inflation have followed a pattern of
+                            constantly increasing and this trend is always followed except during the 2008 recession,
+                            where it fell by 4 % after July 2008 . After December 2018, the consumer price index began
+                            to rise again . Its interesting to note that the only time the factor went down was during
+                            the 2008 recession. The house prices are back on the rise now.
+                            .
                         </p>
 
 
@@ -279,148 +270,18 @@
                         <div>{{ treasury }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The yield, or return on purchasing a bond, depends on its face value, price, and time to
-                            maturity. Because the bond's maturity and its face value are fixed, the price and yield and
-                            inversely related. When demand for bonds is high the price rises and the yield falls. Bonds
-                            issued by the U.S. Treasury are considered to be "default-free" and tend to attract
-                            risk-averse investors. In the graph, the yield on the actively traded,
-                            non-inflation-indexed, 10-year Treasury bonds issues is adjusted to constant maturities.
-                            . Historically, the 10 Year treasury rate reached 15.15% in
-                            1981 as the Fed raised benchmark rates in an effort to contain inflation.</p>
+                            Treasury rates shows the debt obligations provided by the government, having a maturity for
+                            a time period. These graphs provide the treasury rates for 10 year duration and these both
+                            can be seen to have similar pattern in 10year – 3month treasury maturity. After recession,
+                            the treasury rates tend to decrease.
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--call to action section end-->
-    <section class="project-details-section">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-12 col-lg-8">
-                    <div class="img-wrap mb-md-4 mb-lg-0">
 
-                    </div>
-                </div>
-            </div>
-            <!--project details row start-->
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="project-details-content text-justify">
-                        <h4>5 Year Treasury Rate</h4>
-                        <div class="alert alert-info" v-show="loading">
-                            Loading...
-                        </div>
-                        <div v-show="chart != null">
-                            <canvas id="five"></canvas>
-
-                        </div>
-                        <div>{{ five_year }} </div>
-                        <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            5 Year Treasury Rate is at 0.36%, compared to 0.36% the previous market day and 2.33% last
-                            year. This is lower than the long term average of 3.93%.
-
-                            The 5 Year Treasury Rate is the yield received for investing in a US government issued
-                            treasury security that has a maturity of 5 years. The 5 Year treasury yield is used as a
-                            reference point in valuing other securities, such as corporate bonds. The 5 year treasury
-                            yield is included on the longer end of the yield curve. Historically, the 5 Year treasury
-                            yield reached as high as 15.93% in 1981, as the Federal Reserve was aggressively raising
-                            benchmark rates in an effort to contain inflation.
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="project-details-section">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-12 col-lg-8">
-                    <div class="img-wrap mb-md-4 mb-lg-0">
-
-                    </div>
-                </div>
-            </div>
-            <!--project details row start-->
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="project-details-content text-justify">
-                        <h4>3 Month Treasury Bill
-                        </h4>
-                        <div class="alert alert-info" v-show="loading">
-                            Loading...
-                        </div>
-                        <div v-show="chart != null">
-                            <canvas id="mont"></canvas>
-
-                        </div>
-                        <div>{{ month_bill }} </div>
-                        <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            5 Year Treasury Rate is at 0.36%, compared to 0.36% the previous market day and 2.33% last
-                            year. This is lower than the long term average of 3.93%.
-
-                            The 5 Year Treasury Rate is the yield received for investing in a US government issued
-                            treasury security that has a maturity of 5 years. The 5 Year treasury yield is used as a
-                            reference point in valuing other securities, such as corporate bonds. The 5 year treasury
-                            yield is included on the longer end of the yield curve. Historically, the 5 Year treasury
-                            yield reached as high as 15.93% in 1981, as the Federal Reserve was aggressively raising
-                            benchmark rates in an effort to contain inflation.
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="project-details-section">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-12 col-lg-8">
-                    <div class="img-wrap mb-md-4 mb-lg-0">
-
-                    </div>
-                </div>
-            </div>
-            <!--project details row start-->
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="project-details-content text-justify">
-                        <h4>Industrial Production Index
-                        </h4>
-                        <div class="alert alert-info" v-show="loading">
-                            Loading...
-                        </div>
-                        <div v-show="chart != null">
-                            <canvas id="pd"></canvas>
-
-                        </div>
-                        <div>{{ product }} </div>
-                        <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The Industrial Production Index is an economic indicator that measures real output
-                            for all facilities located in the United States manufacturing, mining, and electric, and gas
-                            utilities (excluding those in U.S. territories). While the industrial activity plunged in
-                            March because of the economic effects stemming from social-distancing orders in response to
-                            the COVID-19
-                            pandemic. Millions of businesses have closed or been disrupted, and mass layoffs have
-                            occurred. But the March IP index of 103.66 is still far higher than the level registered
-                            during the depth of the recession and financial crisis, which was 87.07 in June 2009. The IP
-                            index is one of the nation’s longest continuously produced economic indicators, starting in
-                            January 1919. It measures production (real output) of manufacturers, mining (e.g., oil and
-                            natural gas), and electric and gas utilities and steadily increases over time; but it is
-                            highly sensitive to the state of the economy and falls during recessions, generally
-                            proportionate to the depth and duration of the recession. The 2007-2009 recession and
-                            financial crisis is a prime example.
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
     <section class="project-details-section">
         <div class="container">
             <div class="row justify-content-between">
@@ -446,10 +307,10 @@
                         <div>{{ house }} </div>
                         <p>Shaded region is Recession Period</p>
                         <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            The graph shows the year-to-year growth rate of average home prices in the United States.
-                            Home Price Indices are the leading measures of U.S. residential real estate prices, tracking
-                            changes in the value of residential real estate nationally.
-
+                            The national house price index which can be seen to have been increasing took a hit on 2008
+                            recession and fell by almost 24%. As one of the primary reason for the 2008 recession was
+                            the decrease in house price due to the bulk house – real estate acquisition as bank offered
+                            loans at reduced amount and while demanding less security.
 
                     </div>
                 </div>

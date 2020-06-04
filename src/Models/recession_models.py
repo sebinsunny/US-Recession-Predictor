@@ -32,6 +32,7 @@ class recession_models:
 
     def models(self, id):
         for i in self.file:
-            svmc = pickle.load(open(self.path + '/' + i + '.' + id, 'rb'))
+            path = f'{self.path}/{i}.{id}'
+            svmc = pickle.load(open(path, 'rb'))
             self.recession[i + '_probability'] = svmc.predict_proba(self.recession_data.iloc[:, 1:7])[:, 1].tolist()
         return self.recession
