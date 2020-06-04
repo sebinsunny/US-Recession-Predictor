@@ -20,7 +20,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>Recession DataSet</title>
+    <title>Feature Selection</title>
 
     <!--favicon icon-->
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
@@ -50,21 +50,23 @@
     <link rel="stylesheet" href="../css/responsive.css">
 
     <style>
-        h4 {
-            text-align: center;
-        }
+
 
         .menu li a {
             color: white;
         }
 
+         p {
+            color: black;
+            font-size: 1.3em;
+             text-align: justify;
+        }
 
 
     </style>
 
 </head>
 <body>
-
 
 
 <!--header section start-->
@@ -113,9 +115,92 @@
 
 
 <section class="project-details-section">
-    <h1>..</h1>
+    <div class="container">
+        <h3>Feature Selection</h3>
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-lg-8">
+                <div class="img-wrap mb-md-4 mb-lg-0">
 
-    <div class="" id="id"></div>
+                </div>
+            </div>
+        </div>
+        <!--project details row start-->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="project-details-content">
+                    <br><br>
+                    <h4>Payrolls 3 month vs 12 month</h4>
+
+                    <p>Total Nonfarm Payroll is a measure of the total number of U.S. workers in the economy,
+                        responsible for roughly 80 per cent of workforce that make a significant contribution to a
+                        nations GDP. This provides important view of a nation’s economic situation as it may show the
+                        number of jobs added or lost in the economy. For instance, increase in employment may indicate
+                        that firms are recruiting, that also indicates growth in business. For prediction, we've taken
+                        difference between 3 months and 12 months in non-payroll. This is an indicator of whether the
+                        employment has been going up or down
+                    </p>
+
+                    <h4>Effective Fed Funds 12 month change</h4>
+
+                    <p>The effective rate of the federal funds is that interest rate banks charge each other for
+                        overnight loans to meet their reserve ratio. The setting of Fed Funds Rate limits is one of the
+                        Federal Reserve 's key monetary tools. Its values are decided by government economic strategies
+                        and the change of fed funds over a duration of 12 months is a strong indicator of if the economy
+                        is performing well.
+
+                    </p>
+                    <h4>Consumer Price Index for all Items 3 month annualised</h4>
+
+                    <p>All items are a measure of the average monthly variation in the cost of goods and services
+                        charged urban consumers between any two periods. The CPI can be used to detect inflation and
+                        deflation cycles. Massive increases in the CPI over a short period of time may clearly indicate
+                        a period of inflation, and a significant decrease in the CPI over a short period of time may
+                        imply a period of deflation.
+                    </p>
+
+                    <h4>3month 10 Year Treasury Spread</h4>
+
+                    <p>This is also known as the yield curve , and is the difference (or spread) between the yield on
+                        the 10-year Treasury bond and 3 months. Treasury rates are a class of "risk-free" assets perform
+                        a significant role in the global framework for asset allocation. Treasury rate shifts can
+                        indicate changing expectations regarding economic advancement and market risk. The US treasury
+                        yield curve compares the short term treasury bills yield to long term treasury bill and bonds.
+                        All treasury securities are often referred to as notes or treasuries for shorts. We have taken 3
+                        months and 10 years Treasury spread because the yield curve trend has good history of
+                        forecasting recessions in anticipation. One of these reasons is that if investors see hard time
+                        on the horizon, they move capital away from volatile assets and lock in a risk free return for a
+                        longer time period into longer-term treasuries.
+
+                    </p>
+                    <h4>10 Year Treasury Rate 12 month change</h4>
+
+                    <p>After selecting 3 months and 10 years Treasury spread as first bond feature .As a second feature
+                        we have considered  12 months changes in 3-month treasury rate and the 10-year treasury rates
+                        and the 12-month change in the 10-year vs. 3-month treasury spread. While comparing correlations
+                        with monetary and employment rate, the 12 months changes in 3 months treasury rate and 10 year
+                        vs. 3 months are extremely correlated. So we decided to choose the 12 months changes in 10-year
+                        treasury rate as my second Bond Market feature, as it can be a measure of long-term growth
+                        expectations.
+
+
+                    </p>
+                    <h4>S&P_500 Index 12 month chg</h4>
+
+                    <p>The S&P500 is an indicator of the stock market performance of 500 largest companies listed in the
+                        Unites states stock exchange. Stock market always has been an indicator of how well the economy
+                        is performing. The 12 moth change in S&P index is used in this research to predict recession
+                        probabilities.
+
+
+
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 
@@ -174,27 +259,6 @@
 <!--jQuery-->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script type='text/javascript' src='../js/csv.js'></script>
-<script>
-    d3.csv("recession_data.csv").then(function (data) {
-        console.log(data)
-        var columns = ['Date', 'Non-farm_Payrolls', 'Civilian_Unemployment_Rate',
-            'Effective_Fed_Funds', 'CPI_All_Items', '10Y_Treasury_Rate',
-            '5Y_Treasury_Rate', '3_Month_T-Bill_Rate', 'IPI', 'S&P_500_Index',
-            'Non-farm_Payrolls_3_mo_annualised', 'CPI_All_Items_3_mo_annualised',
-            'IPI_3_mo_annualised', 'Non-farm_Payrolls_3_month_pchg',
-            'Non-farm_Payrolls_12_month_pchg',
-            'Civilian_Unemployment_Rate_12_month_pchg',
-            'CPI_All_Items_3_month_pchg', 'CPI_All_Items_12_month_pchg',
-            'IPI_3_month_pchg', 'IPI_12_month_pchg', 'Effective_Fed_Funds_12_chg',
-            '10Y_Treasury_Rate_12_chg', 'S&P_500_Index_12_chg',
-            '3M_10Y_Treasury_Spread', 'Payrolls_3mo_vs_12mo', 'IPI_3mo_vs_12mo',
-            'CPI_3mo_vs_12mo', 'Recession', 'Recession_in_6mo', 'Recession_in_12mo',
-            'Recession_in_24mo']
-        tabulate(data, columns)
-    }).catch((err) => {
-        console.log(err.message)
-    });
-</script>
 
 
 </body>
