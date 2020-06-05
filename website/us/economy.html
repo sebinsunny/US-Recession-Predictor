@@ -150,10 +150,10 @@
                         </div>
                         <div>{{ yahoo }} </div>
                         <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
+                        <p v-show="chart!=null">
                             The S&P 500, or simply the S&P, is a stock market index that measures the stock performance
                             of 500 large companies listed on stock exchanges in the United States. The graph shows the
-                            adjusted closing of stock.
+                            live adjusted closing of stock and how the market value changing due to pandemic.
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-md-12">
 
-                    <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
+                    <p v-show="chart!=null">
                         In the graphs above, you can see the correlation between the inverted yield curve and the
                         onset of economic recessions in the United States. Specifically, the first graph
                         shows the difference in yields between U.S. government bonds maturing in 10 years and U.S.
