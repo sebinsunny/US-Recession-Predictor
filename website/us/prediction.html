@@ -64,6 +64,51 @@
              text-align: justify;
         }
 
+        table.minimalistBlack {
+            border: 3px solid #000000;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        table.minimalistBlack td, table.minimalistBlack th {
+            border: 3px solid #000000;
+            padding: 5px 4px;
+        }
+
+        table.minimalistBlack tbody td {
+            font-size: 1em;
+            color: black;
+        }
+
+        table.minimalistBlack thead {
+            background: #CFCFCF;
+            background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            border-bottom: 3px solid #000000;
+        }
+
+        table.minimalistBlack thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            background: #162e66;
+
+        }
+
+        table.minimalistBlack tfoot {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            border-top: 3px solid #000000;
+        }
+
+        table.minimalistBlack tfoot td {
+            font-size: 14px;
+        }
+
 
     </style>
 
@@ -140,55 +185,62 @@
                 <div class="col-md-12">
                     <div class="project-details-content">
                         <br><br>
-                        <h3 align="center">Recession Prediction Using SVM</h3>
+                        <h4>Recession Prediction</h4>
                         <div class="alert alert-info" v-show="loading">
                             Loading...
                         </div>
                         <div v-show="chart != null">
-                            <canvas id="svm"></canvas>
-
-                        </div>
-                        <div>{{ graph }} </div>
-                        <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            .
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="project-details-section">
-        <div class="container">
-
-            <div class="row justify-content-between">
-                <div class="col-md-12 col-lg-8">
-                    <div class="img-wrap mb-md-4 mb-lg-0">
-
-                    </div>
-                </div>
-            </div>
-            <!--project details row start-->
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="project-details-content">
-                        <br><br>
-                        <h3 align="center">Recession Prediction Using SVM</h3>
-                        <div class="alert alert-info" v-show="loading">
-                            Loading...
-                        </div>
-                        <div v-show="chart != null">
-                            <canvas id="svm"></canvas>
+                            <canvas id="lg"></canvas>
 
                         </div>
                         <div>{{ xg }} </div>
-                        <p>Shaded region is Recession Period</p>
-                        <p style="color: #0b0b0b; font-size: 1em" v-show="chart!=null">
-                            .
+
+                        <div v-show="chart!=null">
+                           <p>
+                               The graph visualises the  recession probabilities from 1960 to 2020 . An increase in recession probabilities is followed by a recession, which is highlighted in the shaded area.
+                            A point to be noted is that, the recession probabilities as predicted by the model are increasing now and this can be considered as an indicator for a recession.
+                          Using the model built, the recession probabilities as of April 2020 are
+                            <table border="1" class="minimalistBlack">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Date</th>
+      <th>Recession in 6month probability</th>
+      <th>Recession in 12month probability</th>
+      <th>Recession in 24month probability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020-04-01</td>
+      <td>0.999973</td>
+      <td>0.843050</td>
+      <td>0.000421</td>
+    </tr>
+    <tr>
+      <td>2020-03-01</td>
+      <td>0.939977</td>
+      <td>0.120969</td>
+      <td>0.106055</td>
+    </tr>
+    <tr>
+      <td>2020-02-01</td>
+      <td>0.819899</td>
+      <td>0.393791</td>
+      <td>0.380028</td>
+    </tr>
+  </tbody>
+</table>
+
+                           </p>
+
                     </div>
+
+
+
+
                 </div>
             </div>
-
+            </div>
         </div>
     </section>
 
@@ -213,7 +265,7 @@
                     <div class="social-nav text-right">
                         <ul class="list-unstyled social-list mb-0">
                             <li class="list-inline-item tooltip-hover">
-                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                 <a href="#" class="rounded"><span class="ti-facebook"></span></a>
                                 <div class="tooltip-item">Facebook</div>
                             </li>
                             <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span

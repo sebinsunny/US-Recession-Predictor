@@ -1,5 +1,4 @@
-Chart.defaults.global.showScale = false;
-Chart.defaults.global.legend.display = false;
+
 
 
 window.chartColors = {
@@ -83,8 +82,8 @@ var app = new Vue({
         gets: function (element, model) {
             {
                 this.loading = true
-                //url = 'http://localhost:5000/model'
-                url ='https://api.companyandngo.xyz/model'
+                url = 'http://localhost:5000/model'
+                //url ='https://api.companyandngo.xyz/model'
                 axios.get(url, {
                     params: {
                         id: model
@@ -127,11 +126,8 @@ var app = new Vue({
         }
     },
     computed: {
-        graph() {
-            this.gets('svm', 'sv')
-        },
         xg() {
-            this.gets('xg', 'lg')
+            this.gets('lg', 'lg')
         },
 
 
@@ -154,7 +150,7 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 tension: 0,
                 data: recession_in_6,
                 fill: false,
-                radius: 0
+
 
 
 
@@ -165,7 +161,7 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 borderWidth: 1.3,
                 fill: false,
                 data: recession_in_12,
-                radius: 0,
+
                 hidden:true
 
 
@@ -176,7 +172,7 @@ function f(arr, annotation, recession_in_6, recession_in_12, recession_in_24) {
                 borderWidth: 1.3,
                 fill: false,
                 data: recession_in_24,
-                radius: 0,
+
                 hidden:true
 
 

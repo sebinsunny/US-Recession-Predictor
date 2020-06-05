@@ -27,6 +27,7 @@ class recession_models:
                          'Recession_in_6mo',
                          'Recession_in_12mo', 'Recession_in_24mo']
         self.df = pd.read_csv("Data/final_features.csv")[::-1]
+        self.df = self.df[self.df['Date'] >= '1969-04-01']
         self.recession_data = self.df[self.features]
         self.file = ['Recession_in_6mo', 'Recession_in_12mo', 'Recession_in_24mo']
         self.recession = {'Date': self.recession_data['Date'].tolist()}
