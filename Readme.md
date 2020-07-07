@@ -1,4 +1,5 @@
-#Predicting Recession in US 
+# Predicting Recession in US 
+
 The overview of the project is to build a data analytic and predictive platform to visualize the inference and recession in US for 6month,
 12month and 24month based on the economic and market data. The main economic features are used in the project are:
 * **Total Nonfarm Payrolls**: - The measure of the number of US workers in the economy. When Businesses
@@ -13,14 +14,14 @@ triggers Recession.
 * **Treasury Rate**: It is the current interest rate investors earn on government bonds and bills issued by the
 US treasury. The yield curve is calculated by the spread between 3 month and 10-year treasury bills.
 The inverted yield curve is a consistent indicator of recession ([Winck 2019](https://www.businessinsider.com.au/yield-curve-inversion-explained-what-it-is-what-it-means-2019-8?r=US&IR=T))
-* Market Data: The last feature is the stock market data of 500 large companies listed on the US stock
+* **Market Data**: The last feature is the stock market data of 500 large companies listed on the US stock
 exchanges. I have used yahoo finance to collected the S&P500 data.
-####**Use of the Project**
+#### **Use of the Project**
 * It helps the policymakers to take countermeasures to decrease the impact of the Recession. The
 prediction helps to stimulate the economic conditions.
 * Tackling the problems helps the investors to save money by implementing defensive investment
 strategies
-####**Architecture**
+#### **Architecture**
 The data analytic and predictive platform built using Flask API and a static web dashboard. The Flask web API used for data collection and real-time data visualization. The real-time data collected using [FRED API](https://fred.stlouisfed.org/docs/api/fred/) further undergo exploratory data analysis and feed into the machine learning pipeline. The real-time visualization rendered using chartjs and vuejs. 
 
 * Developed a website dashboard using bootstrap, Vuejs, and CSS. The website is hosted on a Ubuntu server, secured the request using lets-encrypt SSL certificate. Created an apache configuration for routing the flask web server. 
@@ -71,7 +72,7 @@ function chart (name, label, element, type){
 ![Yahoo stock](https://i.ibb.co/0fJdXJb/image.png)
  * The graph shows the live adjusted closing of stock and how the market value changing due to pandemic.
 
-####**Model Selection**
+#### **Model Selection**
 ![](https://i.ibb.co/LzKHt32/j.png)
 * Data split and Adaptive Synthetic Method to perform minority class oversampling
 
@@ -97,7 +98,7 @@ function chart (name, label, element, type){
 |Classifier Name|Best Tuning Parameter|Train ROC_AUC|Test ROC_AUC|
 |--- |--- |--- |--- |
 |XGBClassifier|{colsample_bytree: 0.9, gamma: 0.2, max_depth: 9, reg_alpha: 0}|0.953282|0.607096|
-|KNeighborsClassifier(n_neighbors=4)|{n_neighbors: 4}|0.942960|0.584423|
+|KNeighborsClassifier|{n_neighbors: 4}|0.942960|0.584423|
 |Logistic Regression|{C: 1000.0, penalty: l2}|0.844857|0.619935|
 |Support Vector Machine|{C: 1000, gamma: 0.001, kernel: rbf}|0.833734|0.603888|
 
@@ -110,7 +111,7 @@ function chart (name, label, element, type){
 | Support Vector Machine                                  | {C: 1000, gamma: 0.001, kernel: rbf}                               | 0.740931      | 0.602535     |
 | Logistic Regression                                     | {C: 1000.0, penalty: l2}                                           | 0.718052      | 0.628138     |
 
-####Prediction
+#### Prediction
 
 ![](https://i.ibb.co/s3H2gdD/image.png)
 * The graph visualises the recession probabilities from 1960 to 2020. An increase in recession probabilities is followed by a recession, which is highlighted in the shaded area. A point to be noted is that, the recession probabilities as predicted by the model are increasing now and this can be considered as an indicator for a recession. Using the model built, the recession probabilities as of April 2020 are
