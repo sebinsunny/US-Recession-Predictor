@@ -10,7 +10,6 @@ import pandas as pd
 
 class feature_graph:
     api_key = 'f8e0e7a07dd220164976147cee128f16'
-    common_dates = []
     url = 'https://api.stlouisfed.org/fred/series/observations'
 
     # https://api.stlouisfed.org/fred/series/observations?api_key=f8e0e7a07dd220164976147cee128f16&series_id=T10Y3M&sort_order=desc&frequency=m
