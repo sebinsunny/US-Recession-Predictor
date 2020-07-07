@@ -68,7 +68,7 @@ function chart (name, label, element, type){
                     this.loading = false
                 })}
 ```
-*The economic impact of the COVID-19 on stock market 
+* The economic impact of the COVID-19 on stock market 
 ![Yahoo stock](https://i.ibb.co/0fJdXJb/image.png)
  * The graph shows the live adjusted closing of stock and how the market value changing due to pandemic.
 
@@ -82,9 +82,9 @@ function chart (name, label, element, type){
 ![](https://i.ibb.co/0YY56GQ/image.png)
 * Selecting the best model based on ROC validation score so Logistic regression to predict recession probabilities
 
-**Recession Models**
+#### **Recession Models**
 
-* 6 month Recession
+6 month Recession
 
 |Classifier Name|Best Tuning Parameter|Train ROC_AUC|Test ROC_AUC|
 |--- |--- |--- |--- |
@@ -93,7 +93,7 @@ function chart (name, label, element, type){
 |Logistic Regression|{C: 1000.0, penalty: l2}|0.880414|0.430584|
 |Support Vector Machine|{C: 1000, gamma: 0.001, kernel: rbf}|0.875987|0.412149|
 
-* 12 month Recession
+12 month Recession
 
 |Classifier Name|Best Tuning Parameter|Train ROC_AUC|Test ROC_AUC|
 |--- |--- |--- |--- |
@@ -102,7 +102,7 @@ function chart (name, label, element, type){
 |Logistic Regression|{C: 1000.0, penalty: l2}|0.844857|0.619935|
 |Support Vector Machine|{C: 1000, gamma: 0.001, kernel: rbf}|0.833734|0.603888|
 
-* 24 month Recession
+24 month Recession
 
 | Classifier Name                                         | Best Tuning Parameter                                              | Train ROC_AUC | Test ROC_AUC |
 |---------------------------------------------------------|--------------------------------------------------------------------|---------------|--------------|
@@ -111,7 +111,7 @@ function chart (name, label, element, type){
 | Support Vector Machine                                  | {C: 1000, gamma: 0.001, kernel: rbf}                               | 0.740931      | 0.602535     |
 | Logistic Regression                                     | {C: 1000.0, penalty: l2}                                           | 0.718052      | 0.628138     |
 
-#### Prediction
+### Prediction
 
 ![](https://i.ibb.co/s3H2gdD/image.png)
 * The graph visualises the recession probabilities from 1960 to 2020. An increase in recession probabilities is followed by a recession, which is highlighted in the shaded area. A point to be noted is that, the recession probabilities as predicted by the model are increasing now and this can be considered as an indicator for a recession. Using the model built, the recession probabilities as of April 2020 are
